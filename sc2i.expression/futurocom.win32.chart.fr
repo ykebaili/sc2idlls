@@ -1,0 +1,10 @@
+﻿1;OK
+2;Annuler
+
+20000;Sources de graphique
+20001;Source de graphique formule
+20002;Nom de la source
+20003;Paramètres du graphe
+20004;Données du graphe
+20005;Séries
+20006;Nom série

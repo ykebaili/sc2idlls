@@ -1,0 +1,252 @@
+100;Fréquente
+101;Chaque @1 @2
+
+200;dd/MM/yyyy HH:mm
+201;dd/MM/yyyy HH:mm:ss
+202;dd/MM/yyyy
+
+10000;Inférieur
+10001;Supérieur
+10002;Proche ou inférieur
+10003;Proche ou supérieur
+10004;Interpolation
+10005;Exact ou Valeur défaut
+
+20000;La requête doit connaitre une source pour fournir des données
+20001;La table n'est pas spécifiée
+20002;Erreur dans la table @1
+20003;Filtre par formule
+20004;Table depuis la source
+20005;Jointure
+20006;Pas de source @1
+20007;Erreur dans les données de la table @1
+20008;Impossible de sérialiser la valeur du champ @1
+20009;Impossible d'allouer la table pour le type @1	
+20010;Dates
+20011;Heures
+20012;Jours
+20013;Et
+20014;Ou
+20015;Du @1 au @2
+20016;Unité inconnue : @1
+20017;Conversion impossible entre @1 et @2
+20018;Distance
+20019;Mètre
+20020;Décimètre
+20021;Centimètre
+20022;Millimètre
+20023;Décamètre
+20024;Hectomètre
+20025;Kilomètre
+20026;Yard
+20027;Pied
+20028;Pouce
+20029;Micromètre
+20030;Nanomètre
+20031;Picomètre
+20032;Femtomètre
+20033;Temps
+20034;Heure
+20035;Minute
+20036;Seconde
+20037;Jour
+20038;Semaine
+20039;Année
+20040;Siècle
+20041;Jr
+20042;Sem
+20043;An
+20044;Siec
+20045;Volume
+20046;Litre
+20047;Décilitre
+20048;Centilitre
+20049;Millilitre
+20050;Décalitre
+20051;Héctolitre
+20052;Poids
+20053;Gramme
+20054;Décigramme
+20055;Centigramme
+20056;Milligramme
+20057;Décagramme
+20058;Hectogramme
+20059;Kilogramme
+20060;Quintal
+20161;Tonne
+20162;Microgramme
+20163;Nanogramme
+20164;Microgramme
+20165;Femtogramme
+20166;Angle
+20167;Degré
+20168;Minute
+20169;Seconde
+20170;Unité
+20171;u
+20172;Automatique
+20173;Vertical
+20174;Horizontal
+20175;Droit
+20176;Entier
+20177;Décimal
+20178;Texte
+20179;Date
+20180;Booléen
+20181;arrow
+20182;blue
+20183;blue_small
+20184;blue_dot
+20185;blue_pushpin
+20186;brown_small
+20187;gray_small
+20188;green
+20189;green_small
+20190;green_dot
+20191;green_pushpin
+20192;green_big_go
+20193;yellow
+20194;yellow_small
+20195;yellow_dot
+20196;yellow_big_pause
+20197;yellow_pushpin
+20198;lightblue
+20199;lightblue_dot
+20200;lightblue_pushpin
+20201;orange
+20202;orange_small
+20203;orange_dot
+20204;pink
+20205;pink_dot
+20206;pink_pushpin
+20207;purple
+20208;purple_small
+20209;purple_dot
+20210;purple_pushpin
+20211;red
+20212;red_small
+20213;red_dot
+20214;red_pushpin
+20215;red_big_stop
+20216;black_small
+20217;white_small
+20218;Personnalisé
+
+
+
+30000;Jamais
+30001;Tous les @1
+30002;du mois
+30003;Tous les @1 mois
+30004;premiers
+30005;deuxièmes
+30006;troisièmes
+30007;quatrièmes
+30008;derniers
+30009;jours
+30010;Erreur lecture données persistantes : Numéro de version incompatible
+30011;Format de chaine de connexion invalide
+30012;Erreur dans la chaine de connexion vers '@1'
+30013;Erreur vers '@1'
+30014;Erreur dans la formule
+30015;Erreur dans la syntaxe objet
+30016;Erreur dans les paramètres de @1
+30017;Erreur dans la constante de date '@1'
+30018;Erreur dans la constante
+30019;Erreur dans la constante '@1'
+30020;Erreur dans les paramètres de @1
+30021;Crochet fermant @1 non trouvé
+30022;Erreur dans l'indexeur
+30023;] non trouvé pour l'indexeur
+30024;Erreur dans les paramètres ou le tableau
+30025;L'argument ne peut pas être à droite d'un '.'
+30026;Erreur dans la source de l'expression objet
+30027;Erreur dans l'expression objet
+30028;Erreur dans l'index de l'indexeur
+30029;Erreur dans le champ de l'indexeur
+30030;Impossible de crée l'indexeur
+30031;Erreur dans l'indexeur
+30032;Erreur dans le champ '@1'
+30033;Erreur dans la liste
+30034;Impossible d'allouer une liste
+30035;Erreur à la variable '@1'
+30036;Erreur lors de l'allocation de la fonction '@1'
+30037;Nombre de paramètres incorrects pour la fonction '@1'
+30038;Erreur dans les paramètres ou la liste
+30039;Impossible de trouver la méthode @1
+30040;Erreur autoexecclass : fonction '@1' inexistante dans la classe '@2'"
+30041;Erreur autoexec : classe @1
+30042;Erreur autoexec : Assembly @1
+30043;Erreur copie serialisable @1
+30044;Erreur inconnue
+30045;Erreur d'exception
+30046;Au moins un élément n'est pas du type attendu pour les entetes de lignes
+30047;Le tableau doit contenir au moins une ligne
+30048;Le tableau doit contenir au moins une colonne
+30049;Le tableau de valeurs possède une taille incorrecte
+30050;Au moins une valeur d'entête de ligne n'est pas correcte
+30051;Au moins une valeur d'entête de ligne n'est pas unique
+30052;Au moins une valeur d'entête de colonne n'est pas correcte
+30053;Au moins une valeur d'entête de colonne n'est pas unique
+30054;La méthode de résolution de lignes n'est pas compatible avec les lignes de type texte
+30055;La méthode de résolution de colonnes n'est pas compatible avec les colonnes de type texte
+30056;La méthode de résolution @1 impose une progression régulière (croissante ou décroissante) des valeurs
+30057;Conversion romaine impossible
+30058;Erreur de conversion the caractère @1 n'est pas valide pour un chiffre romain
+30059;Nombre romain incorrect
+30060;Erreur lors de l'ouverture du fichier
+30061;Le fichier ne contient pas une structure valide
+30062;Erreur lors de la lecture du fichier
+30063;Erreur lors de l'écriture du fichier
+30064;Erreur lors du transfert de données
+30065;Erreur de décompression
+30066;La semaine doit être supérieure à Int32.MinValue
+30067;Erreur de conversion d'une date depuis Universal string
+30068;Dim
+30069;Dimanche
+30070;Lun
+30071;lundi
+30072;Mar
+30073;Mardi
+30074;Mer
+30075;Mercredi
+30076;Jeu
+30077;Jeudi
+30078;Ven
+30079;Vendredi
+30080;Sam
+30081;Samedi
+30082;Jan
+30083;Janvier
+30084;Fev
+30085;Février
+30086;Mar
+30087;Mars
+30088;Avr
+30089;Avril
+30090;Mai
+30091;Mai
+30092;Juin
+30093;Juin
+30094;Juil
+30095;Juillet
+30096;Aoû
+30097;Août
+30098;Sep
+30099;Septembre
+30100;Oct
+30101;Octobre
+30102;Nov
+30103;Novembre
+30104;Dec
+30105;Decembre
+30106;December
+30107;Type inconnu pour ToUniversalString
+30108;Erreur au chargement du type
+30109;Méthode non trouvée :@1
+30110;Impossible d'allouer le type @1 dans C2iSerializer.TraiteType
+30111;Impossible de sérialiser le type non simple @1
+30112;Impossible d'allouer un objet du type @1
+30113;Numéro de version incorrect
+30114;Erreur dans les entêtes de ligne
+30115;Erreur dans les entêtes de colonne

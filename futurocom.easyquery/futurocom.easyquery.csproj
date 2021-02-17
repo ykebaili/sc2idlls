@@ -1,0 +1,263 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6EA1E23F-7E62-41C6-AFA1-C317777F3D94}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>futurocom.easyquery</RootNamespace>
+    <AssemblyName>futurocom.easyquery</AssemblyName>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkProfile />
+    <PublishUrl>publier\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CAML\CCAMLQuery.cs" />
+    <Compile Include="CColumnEQFromSource.cs" />
+    <Compile Include="CColumnEQCalculee.cs" />
+    <Compile Include="CEasyQueryAvecSource.cs" />
+    <Compile Include="CODEQTableauCroise.cs" />
+    <Compile Include="CColumnEQSimple.cs" />
+    <Compile Include="CODEQFiltreCAML.cs" />
+    <Compile Include="postFillter\CAllocateurPostFilter.cs" />
+    <Compile Include="postFillter\CPostFilterFromQueryTable.cs" />
+    <Compile Include="postFillter\IPostFilter.cs" />
+    <Compile Include="staticDataSet\CODEQTableManuelle.cs" />
+    <Compile Include="CParametreEasyQueryConnexion.cs" />
+    <Compile Include="IColumnDeEasyQuery.cs" />
+    <Compile Include="CColumnDefinitionBase.cs" />
+    <Compile Include="CColumnDefinitionSimple.cs" />
+    <Compile Include="CDefinitionProprieteDynamiqueRunnableEasyQuery.cs" />
+    <Compile Include="CEasyQuery.cs" />
+    <Compile Include="CEasyQueryFromEasyQueryASourceSpecifique.cs" />
+    <Compile Include="CEasyQuerySource.cs" />
+    <Compile Include="CEasyQueryResult.cs" />
+    <Compile Include="CEasyQuerySourceFolder.cs" />
+    <Compile Include="CODEQFiltre.cs" />
+    <Compile Include="CODEQFromObjetsSource.cs" />
+    <Compile Include="CODEQTableFromBase.cs" />
+    <Compile Include="CODEQBase.cs" />
+    <Compile Include="CODEQJointure.cs" />
+    <Compile Include="CParametreJointure.cs" />
+    <Compile Include="CTableDefinitionBase.cs" />
+    <Compile Include="CTableDefinitionBaseDonneesFixes.cs" />
+    <Compile Include="CTableDefinitionSimple.cs" />
+    <Compile Include="CTableDefinitionDonneesFixes.cs" />
+    <Compile Include="CValeurExtendedProperiteFolder.cs" />
+    <Compile Include="IColumnDefinition.cs" />
+    <Compile Include="IControlOptionTableDefinition.cs" />
+    <Compile Include="IObjetDeEasyQuery.cs" />
+    <Compile Include="IRunnableEasyQuery.cs" />
+    <Compile Include="ITableDefinition.cs" />
+    <Compile Include="ITableDefinitionRequetableCAML.cs" />
+    <Compile Include="IEasyQueryConnexion.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resource1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource1.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\sc2i.common\SC2ICommon.csproj">
+      <Project>{500A5948-86F8-4331-8529-BB1109C4E966}</Project>
+      <Name>SC2ICommon</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\sc2i.expression\sc2i.expression.csproj">
+      <Project>{BCFA4027-E5DB-40D7-B05B-623E8CAC0CA4}</Project>
+      <Name>sc2i.expression</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="futurocom.easyquery.fr" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resource1.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource1.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\filtre.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Jointure.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Folder16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\number16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\table16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Resources\Column16.png" />
+    <None Include="Web References\Sharepoint30\Lists.wsdl" />
+    <None Include="Web References\Sharepoint30\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CAllocateurEasyQueryConnexions.cs" />
+    <Compile Include="CAML\CCAMLItem.cs" />
+    <Compile Include="CAML\CCAMLItemComparaison.cs" />
+    <Compile Include="CAML\CCAMLItemField.cs" />
+    <Compile Include="CAML\CCAMLItemLogical.cs" />
+    <Compile Include="CAML\CCAMLItemNull.cs" />
+    <Compile Include="CDataRowForChampCalculeODEQ.cs" />
+    <Compile Include="CListeQuerySource.cs" />
+    <Compile Include="CODEQCalcul.cs" />
+    <Compile Include="CODEQSort.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="sharepoint\CColonneDefinitionSharepoint.cs" />
+    <Compile Include="sharepoint\CSharepointConnexion.cs" />
+    <Compile Include="sharepoint\CTableDefinitionSharepoint.cs" />
+    <Compile Include="staticDataSet\CColonneTableStaticDataset.cs" />
+    <Compile Include="staticDataSet\CStaticDataSetConnexion.cs" />
+    <Compile Include="staticDataSet\CTableDefinitionManualTable.cs" />
+    <Compile Include="staticDataSet\CTableDefinitionStaticDataSet.cs" />
+    <Compile Include="Web References\Sharepoint30\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="http://futur-win2008/_vti_bin/Lists.asmx%3fWSDL">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\Sharepoint30\</RelPath>
+      <UpdateFromURL>http://futur-win2008/_vti_bin/Lists.asmx%3fWSDL</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>futurocom_easyquery_Sharepoint30_Lists</CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TableCalculee.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\down_blue.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\up_blue.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

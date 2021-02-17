@@ -1,0 +1,704 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="12.0">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{557DBF3C-58CA-45D7-867D-162608670072}</ProjectGuid>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>sc2i.data.dynamic</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>sc2i.data.dynamic</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>bin\Debug\sc2i.data.dynamic.XML</DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'debug structure pda|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE;PDA_DATA</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'debug PDA DATA|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE;PDA_DATA</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'debug avec documentation|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>bin\Debug\sc2i.data.dynamic.XML</DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <Optimize>true</Optimize>
+    <DebugType>
+    </DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'debug structure pda|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\debug structure pda\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;PDA_DATA</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'debug PDA DATA|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\debug PDA DATA\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;PDA_DATA</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'debug avec documentation|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\debug avec documentation\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CarlosAg.ExcelXmlWriter, Version=1.0.0.6, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\dep\CarlosAg.ExcelXmlWriter.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+    <ProjectReference Include="..\futurocom.easyquery\futurocom.easyquery.csproj">
+      <Project>{6EA1E23F-7E62-41C6-AFA1-C317777F3D94}</Project>
+      <Name>futurocom.easyquery</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\sc2i.common\SC2ICommon.csproj">
+      <Name>SC2ICommon</Name>
+      <Project>{500A5948-86F8-4331-8529-BB1109C4E966}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+    </ProjectReference>
+    <ProjectReference Include="..\sc2i.data.client\sc2i.data.client.csproj">
+      <Name>sc2i.data.client</Name>
+      <Project>{6BB133A5-2330-4D0F-AB31-C1F585CD10D7}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+    </ProjectReference>
+    <ProjectReference Include="..\sc2i.expression\sc2i.expression.csproj">
+      <Name>sc2i.expression</Name>
+      <Project>{BCFA4027-E5DB-40D7-B05B-623E8CAC0CA4}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+    </ProjectReference>
+    <ProjectReference Include="..\sc2i.formulaire\sc2i.formulaire.csproj">
+      <Name>sc2i.formulaire</Name>
+      <Project>{979C5166-D0F2-4F00-8F6B-A39331A8AF61}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+    </ProjectReference>
+    <ProjectReference Include="..\sc2i.multitiers.client\sc2i.multitiers.client.csproj">
+      <Name>sc2i.multitiers.client</Name>
+      <Project>{022AC2FA-0300-4662-BEE5-1C637FECBBB1}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="C2iTypeDonnee.cs" />
+    <Compile Include="C2iWnd\C2iWndFormProvider.cs" />
+    <Compile Include="C2iWnd\C2iWndSelectionValeurChamp.cs" />
+    <Compile Include="C2iWnd\C2iWndTextBoxFiltreRapide.cs" />
+    <Compile Include="C2iWnd\C2iWndListeSpeedStandard.cs" />
+    <Compile Include="C2iWnd\C2iWndVariableFiltreDynamique.cs" />
+    <Compile Include="C2iWnd\CColumnsPropertyEditor.cs" />
+    <Compile Include="C2iWnd\CProprieteFiltreDynamiqueEditor.cs" />
+    <Compile Include="Caracteristiques\CCaracteristiqueEntite.cs" />
+    <Compile Include="Caracteristiques\CMethodeSupplementaireGetCaracteristiques.cs" />
+    <Compile Include="Caracteristiques\CRelationCaracteristiqueEntite_ChampCustom.cs" />
+    <Compile Include="Caracteristiques\CRelationTypeCaracteristiqueEntite_ChampCustom.cs" />
+    <Compile Include="Caracteristiques\CRelationTypeCaracteristiqueEntite_Formulaire.cs" />
+    <Compile Include="Caracteristiques\CTypeCaracteristiqueEntite.cs" />
+    <Compile Include="Caracteristiques\IElementACaracteristique.cs" />
+    <Compile Include="C2iWnd\CDefinitionFiltreDynamiqueEditor.cs" />
+    <Compile Include="CComposantFiltreDynamiqueSousFiltre.cs" />
+    <Compile Include="CDefinisseurChampsPourTypeSansDefinisseur.cs" />
+    <Compile Include="CElementAVariablesDynamiquesAvecContexteFromIElementAVariablesDynamiques.cs" />
+    <Compile Include="CInterpreteurOldProprieteDynamique.cs" />
+    <Compile Include="CDefinitionProprieteDynamiqueRelationTypeIdToParent.cs" />
+    <Compile Include="CDefinitionProprieteDynamiqueChampCustomDisplayValue.cs" />
+    <Compile Include="CFonctionDynamiqueInDb.cs" />
+    <Compile Include="CFournisseurFonctionsDynamiquesInDb.cs" />
+    <Compile Include="COptionClonageEntite.cs" />
+    <Compile Include="CPrefrenceFiltreRapide.cs" />
+    <Compile Include="CProxyElementAVariables.cs" />
+    <Compile Include="CSerializerValeursVariables.cs" />
+    <Compile Include="CVariableDynamiqueSaisie.cs" />
+    <Compile Include="DependanceObjetDonneeAttribute.cs" />
+    <Compile Include="EasyQuery\CColumnDeEasyQueryChampDeRequete.cs" />
+    <Compile Include="EasyQuery\CColumnDefinitionChampCustom.cs" />
+    <Compile Include="EasyQuery\CColumnDefinitionChampDeTable.cs" />
+    <Compile Include="EasyQuery\CColumnDefintionProprieteDynamique.cs" />
+    <Compile Include="EasyQuery\CDefinitionJeuDonneesEasyQuery.cs" />
+    <Compile Include="EasyQuery\CEasyQueryInDb.cs" />
+    <Compile Include="EasyQuery\CFrameworkConnexionForEasyQuery.cs" />
+    <Compile Include="EasyQuery\CODEQTableFilleFromFramework.cs" />
+    <Compile Include="EasyQuery\CODEQTableFromFramework.cs" />
+    <Compile Include="EasyQuery\CTableDefinitionFramework.cs" />
+    <Compile Include="EasyQuery\IODEQTableFromFramework.cs" />
+    <Compile Include="Expressions\C2iExpressionEntiteNommee.cs" />
+    <Compile Include="Expressions\C2iExpressionGetModificationContextId.cs" />
+    <Compile Include="Expressions\C2iExpressionSetModificationContextId.cs" />
+    <Compile Include="Expressions\C2iExpressionGetDonneeCumuleeDate.cs" />
+    <Compile Include="Expressions\C2iExpressionGetDonneeCumuleeTexte.cs" />
+    <Compile Include="IElementAVariablesDynamiquesAvecContexteDonnee.cs" />
+    <Compile Include="inspiration\CFournisseurInspirationObjetDonnee.cs" />
+    <Compile Include="Inventaire\CFournisseurInventaireObjetDonneeLieChampCustom.cs" />
+    <Compile Include="Inventaire\CFournisseurInventaireObjetDonneeLieRelationTypeId.cs" />
+    <Compile Include="IValeurVariable.cs" />
+    <Compile Include="ModuleParametrage\CModuleParametrage.cs" />
+    <Compile Include="ModuleParametrage\CRelationElement_ModuleParametrage.cs" />
+    <Compile Include="NommageEntite\CNommageEntite.cs" />
+    <Compile Include="recherche\CChercheurInChampsCalcules.cs" />
+    <Compile Include="recherche\CChercheurInChampsFormulaires.cs" />
+    <Compile Include="recherche\CNoeudRechercheObjet_ObjetDonnee.cs" />
+    <Compile Include="Resource.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SmartField\CDefinitionProprieteDynamiqueSmartField.cs" />
+    <Compile Include="SmartField\CSmartField.cs" />
+    <Compile Include="StructureExport\C2iChampExport.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="StructureExport\C2iChampFusion.cs" />
+    <Compile Include="StructureExport\C2iOrigineChampExport.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="C2iRequete.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="StructureExport\C2iStructureExport.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="C2iStructureExportInDB.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="StructureExport\C2iTableExport.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="StructureExport\C2iTableExportATableFille.cs" />
+    <Compile Include="StructureExport\C2iTableExportCalculee.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="StructureExport\C2iTableExportCumulee.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="StructureExport\C2iTableExportUnion.cs" />
+    <Compile Include="C2iWnd\C2iWndChampCustom.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="C2iWnd\C2iWndProprieteDynamique.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="C2iWnd\C2iWndVariable.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CCasteurValeurString.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CChampCalcule.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CChampCustom.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CComposantFiltreDynamique.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CComposantFiltreDynamiqueEt.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CComposantFiltreDynamiqueOperateurLogique.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CComposantFiltreDynamiqueOu.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CComposantFiltreDynamiqueRechercheAvancee.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CComposantFiltreDynamiqueSelectionStatique.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CComposantFiltreDynamiqueTestNull.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CComposantFiltreDynamiqueValeurChamp.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CDefinitionProprieteDynamiqueChampCalcule.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CDefinitionProprieteDynamiqueChampCustom.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CDefinitionProprieteDynamiqueDonneeCumulee.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CDefinitionProprieteDynamiqueRelation.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CDefinitionProprieteDynamiqueRelationTypeId.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CDonneeCumulee.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CElementAChamp.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CElementAVariablesDynamiques.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CExporteurDatasetAccess.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CExporteurDatasetExcelXml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CFiltreDynamique.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CFiltreDynamiqueFromEntite.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CFiltreDynamiqueInDb.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CFiltresDynamiquesForTables.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CFiltreSynchronisation.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CFormulaire.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CFournisseurPropDynStd.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CFournisseurProprietesDynamiquesForStructureExportSimple.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CFournisseurProprietesForFiltreDynamique.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CGestionnaireValeursChamps.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CGroupeUtilisateursSynchronisation.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="StructureExport\C2iTableExportVue.cs" />
+    <Compile Include="StructureExport\C2iTableExportTableauCroise.cs" />
+    <Compile Include="StructureExport\CChampDeTableToutSimple.cs" />
+    <Compile Include="StructureExport\ITableExport.cs" />
+    <Compile Include="StructureImport\CValeursImportFixe.cs" />
+    <Compile Include="StructureImport\SmartImport\CContexteImportDonnee.cs" />
+    <Compile Include="StructureImport\SmartImport\CInfoImportLigne.cs" />
+    <Compile Include="StructureImport\SmartImport\CLigneLogImport.cs" />
+    <Compile Include="StructureImport\SmartImport\CMappageEntiteFille.cs" />
+    <Compile Include="StructureImport\SmartImport\CMappageEntitesFilles.cs" />
+    <Compile Include="StructureImport\SmartImport\CConfigMappagesSmartImport.cs" />
+    <Compile Include="StructureImport\SmartImport\CMappageChampSimple.cs" />
+    <Compile Include="StructureImport\SmartImport\CMappageEntiteParente.cs" />
+    <Compile Include="StructureImport\SmartImport\COptionCreationElementImport.cs" />
+    <Compile Include="StructureImport\SmartImport\COptionExecutionSmartImport.cs" />
+    <Compile Include="StructureImport\SmartImport\COptionImport.cs" />
+    <Compile Include="StructureImport\SmartImport\COptionsValeursNulles.cs" />
+    <Compile Include="StructureImport\SmartImport\CSessionImport.cs" />
+    <Compile Include="StructureImport\SmartImport\CSourceSmartImport.cs" />
+    <Compile Include="StructureImport\SmartImport\CValeurParDefautObjetDonnee.cs" />
+    <Compile Include="StructureImport\SmartImport\CValeursProprietes.cs" />
+    <Compile Include="StructureImport\C2iOrigineChampImport.cs" />
+    <Compile Include="StructureImport\C2iStructureImport.cs" />
+    <Compile Include="StructureImport\CMappageChampImport.cs" />
+    <Compile Include="StructureImport\SmartImport\SpecificImportSetAttribute.cs" />
+    <Compile Include="unite\CClasseUniteInDb.cs" />
+    <Compile Include="unite\CDonneeNotificationModificationSystemeUnites.cs" />
+    <Compile Include="unite\CUniteInDb.cs" />
+    <Compile Include="version\CJournaliseurValeursChampsCustom.cs" />
+    <Compile Include="CListeEntites.cs" />
+    <Compile Include="CMultiStructureExport.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CNettoyeurValeursChamps.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CObjetForTestValeurChampCustom.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CDefinitionProprieteDynamiqueChampCustomFils.cs" />
+    <Compile Include="CDefinitionProprieteDynamiqueListeEntite.cs" />
+    <Compile Include="CDefinitionProprieteDynamiqueFormule.cs" />
+    <Compile Include="CParametreDonneeCumulee.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CParametreSynchronisation.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CParametreSynchronisationInDb.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CProprieteChampCustomEditor.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CProprieteVariableFiltreDynamiqueEditor.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CRelationDefinisseurChamp_ChampCustom.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CRelationDefinisseurChamp_Formulaire.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CRelationElementAChamp_ChampCustom.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CRelationFormulaireChampCustom.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CRelationGroupeUtilisateursSynchro_Utilisateurs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CRelationListeEntites_Entite.cs" />
+    <Compile Include="CRoleChampCustom.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CTypeDonneeCumulee.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CUtilElementAChamps.cs" />
+    <Compile Include="CValeurChampCustom.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CValeurVariableSurObjet.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CVariableDynamiqueCalculee.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CVariableDynamiqueListeObjets.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CVariableDynamiqueListeTypeSimple.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CVariableDynamiqueSelectionObjetDonnee.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CVariableDynamiqueStatique.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CVariableFiltreDynamique.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CVariableSurObjet.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Expressions\C2iExpressionBaseSql.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Expressions\C2iExpressionCalculSql.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Expressions\C2iExpressionForcerModification.cs" />
+    <Compile Include="Expressions\C2iExpressionGetDonneeCumulee.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Expressions\C2iExpressionGetEntite.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Expressions\C2iExpressionGetValeurAffichee.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Expressions\C2iExpressionListeObjets.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Expressions\C2iExpressionReadRegistre.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Expressions\C2iExpressionSelectSql.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Expressions\C2iExpressionValeurOrigine.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IDefinisseurChampCustom.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IDefinitionJeuDonnees.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IElementAChamps.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IExporteurDataset.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="version\CJournaliseurValeurChampCustom.cs" />
+    <Compile Include="version\CChampCustomPourVersion.cs" />
+    <Compile Include="VisuDonneeCumulee\C2iWndDonneePrecalculee.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="VisuDonneeCumulee\CFiltreDonneePrecalculee.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="VisuDonneeCumulee\CFormatChampTableauCroise.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="VisuDonneeCumulee\CParametreVisuChampTableauCroise.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="VisuDonneeCumulee\CParametreVisuDonneePrecalculee.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <None Include="Resources\Import_Object_ref.png" />
+    <None Include="Resources\Import_Object.png" />
+    <None Include="Resources\Import_Object1.png" />
+    <None Include="Resources\Import_No.png" />
+    <None Include="Resources\Import_Formula.png" />
+    <None Include="Resources\Import_Field.png" />
+    <None Include="Resources\Import_Default.png" />
+    <None Include="Resources\Questioncreate.png" />
+    <None Include="Resources\NoCreate.png" />
+    <None Include="Resources\Autocreate.png" />
+    <EmbeddedResource Include="BASEVIDE2000.MDB" />
+    <EmbeddedResource Include="BASEVIDE2003.MDB" />
+    <EmbeddedResource Include="C2iWndListeSpeedStandard.bmp" />
+    <EmbeddedResource Include="C2iWndSelectionValeurChamp.bmp" />
+    <Content Include="PDA.txt" />
+    <None Include="Resources\gros cube.png" />
+    <EmbeddedResource Include="C2iWndDonneePrecalculee.bmp" />
+    <EmbeddedResource Include="Resource.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ClassDiagram2.cd" />
+    <None Include="sc2i.data.dynamic.fr" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Macro\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

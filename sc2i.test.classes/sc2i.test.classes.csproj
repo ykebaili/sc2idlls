@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{CF9A2A39-725F-4C15-8810-501CE2BB16FA}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>sc2i.test.classes</RootNamespace>
+    <AssemblyName>sc2i.test.classes</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CFournisseurInventaireObjetGeneriqueTest.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AuthoringTests.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\sc2i.common\SC2ICommon.csproj">
+      <Project>{500A5948-86F8-4331-8529-BB1109C4E966}</Project>
+      <Name>SC2ICommon</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\sc2i.data.client\sc2i.data.client.csproj">
+      <Project>{6BB133A5-2330-4D0F-AB31-C1F585CD10D7}</Project>
+      <Name>sc2i.data.client</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\sc2i.data.dynamic\sc2i.data.dynamic.csproj">
+      <Project>{557DBF3C-58CA-45D7-867D-162608670072}</Project>
+      <Name>sc2i.data.dynamic</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\sc2i.expression\sc2i.expression.csproj">
+      <Project>{BCFA4027-E5DB-40D7-B05B-623E8CAC0CA4}</Project>
+      <Name>sc2i.expression</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\sc2i.formulaire.win32.editor\sc2i.formulaire.win32.editor.csproj">
+      <Project>{EADFA9F5-2C30-44F6-B8DD-A428FEDC8789}</Project>
+      <Name>sc2i.formulaire.win32.editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\sc2i.formulaire\sc2i.formulaire.csproj">
+      <Project>{979C5166-D0F2-4F00-8F6B-A39331A8AF61}</Project>
+      <Name>sc2i.formulaire</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\sc2i.multitiers.client\sc2i.multitiers.client.csproj">
+      <Project>{022AC2FA-0300-4662-BEE5-1C637FECBBB1}</Project>
+      <Name>sc2i.multitiers.client</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\sc2i.process\sc2i.process.csproj">
+      <Project>{D7D70DEB-BFC7-4C89-86D1-8854D3B297DE}</Project>
+      <Name>sc2i.process</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

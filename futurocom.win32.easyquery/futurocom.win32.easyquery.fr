@@ -1,0 +1,83 @@
+1;Ok
+2;Annuler
+
+20000;Proprietés
+20001;Propriétés de la table
+20002;Nom de la table
+20003;Table origine
+20004;Indiquez un nom de table
+20005;Colonnes
+20006;Parcourir
+20007;Nom
+20008;Source
+20009;Ajouter
+20010;Filtre par formule
+20011;Erreur dans la formule
+20012;Erreur dans la formule 1
+20013;Erreur dans la formule 2
+20014;Jointure
+20015;Paramètres de jointure
+20016;Tous les éléments communs
+20017;Tous les éléments de la table 1
+20018;Tous les éléments de la table 2
+20019;Mode
+20020;Tous les éléments des deux tables
+20021;Expand
+20021;Commentaires
+20022;Colonnes calculées
+20023;Options
+20024;Filtre CAML
+20025;Ajouter
+20026;Et
+20027;Ou
+20028;Condition simple
+20029;Test nullité
+20030;Inserer
+20031;Supprimer
+20032;L'élement et ses fils
+20033;Décaller les fils vers le haut
+20034;Propriétés
+20035;Comparaison
+20036;Champ
+20037;Opérateur
+20038;Valeur
+20039;Condition
+20040;Sélectionnez un opérateur de comparaison
+20041;Sélectionner un champ
+20042;Formule de condition invalide
+20043;Formule de valeur invalide
+20044;Est null
+20045;Est non null
+20046;Test nullité
+20047;Filtre
+20048;Ajouter
+20049;Propriétés
+20050;Recharger
+20051;Connexions
+20052;Libellé
+20053;Variables
+20054;Supprimer la variable @1
+20055;Inclure toutes les colonnes de la table source
+20056;Contenu de table
+20057;@1 enregistrements
+20058;Tri des données
+20059;Ordre des colonnes
+20060;Croissant
+20061;Décroissant
+20062;Supprimer ?
+20063;Utiliser un cache de données
+20064;Propriétés de la connexion
+20065;Nom de la connexion
+20066;Type de connexion
+20067;Sauvegarder avec les sources
+20068;Sauvegarder sans les sources
+20069;Table manuelle
+20070;Colonnes
+20071;Type de filtre
+20072;Aucun filtre
+20073;Table source
+20074;Post Filtre
+20075;Remplacer la source
+20076;Options
+20077;Activer la compatiblité 4.0.1.3
+20078;Lorsque la compatiblité est activée, les tableaux croisées sont nommés "Table1", "Table2", ... au lieu de leur nom réel.

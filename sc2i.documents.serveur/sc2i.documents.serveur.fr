@@ -1,0 +1,29 @@
+101;Le libellé de la catégorie rapport ne peut être vide
+102;Une catégorie de rapport ayant ce libellé existe déjà.
+103;Le libellé du rapport ne peut être vide
+104;Un rapport ayant ce libellé existe déjà.
+105;Le libellé de la catégorie ne peut être vide
+106;Une catégorie ayant ce libellé existe déjà.
+107;Impossible de lire le fichier
+108;Type de document @1 non pris en charge
+109;Source de document de type @1 non prise en charge
+110;Type de référence de fichier non prise en compte : @1
+111;Erreur lors de la sauvegarde dans la GED
+112;Erreur lors de la suppression du document
+113;Le document n'est plus disponible dans la GED (délai dépassé)
+114;Un document possédant ce libellé existe déjà.
+115;Erreur lors de la validation/suppression des documents de la GED
+116;Le document lié ne doit pas être null
+117;L'élement lié ne doit pas être null
+
+10000;Service de réception de Mails démarré
+10001;SERVICE DE COMPTES MAIL
+10002;Erreur d'ouverture de session pour le Service de gestion de Comptes Mails
+10004;SERVICE DE RECEPTION DE MAILS
+10005;Erreur d'ouverture de session de travail pour le Service de réception de Mails
+10006;Erreur lors de la réception de Mails: @1
+10007;La Libellé du Compte Mail ne peut être vide
+
+20000;Le fichier @1 ne peut pas être stocké en GED, il est innacessible depuis le serveur
+
+30001;Erreur lors de la suppression/validation des documents GED

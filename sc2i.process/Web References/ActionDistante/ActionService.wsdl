@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:s0="http://tempuri.org/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" targetNamespace="http://tempuri.org/" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:import namespace="http://www.w3.org/2001/XMLSchema" />
+      <s:element name="GetVersion">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetVersionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetVersionResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetActions">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetActionsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetActionsResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ExecuteActionSansParametres">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="nIdAction" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ExecuteActionSansParametresResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ExecuteActionSansParametresResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ExecuteAction">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="nIdAction" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="strParametres" type="s0:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfString">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="string" nillable="true" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="ExecuteActionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ExecuteActionResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetNomTableActions">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetNomTableActionsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetNomTableActionsResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetNomChampIdAction">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetNomChampIdActionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetNomChampIdActionResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetNomChampLibelleAction">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetNomChampLibelleActionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetNomChampLibelleActionResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetNomChampDescAction">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetNomChampDescActionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetNomChampDescActionResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetNomChampTypeAction">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetNomChampTypeActionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetNomChampTypeActionResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetNomTableVariables">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetNomTableVariablesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetNomTableVariablesResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetNomChampIdVariable">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetNomChampIdVariableResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetNomChampIdVariableResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetNomChampNomVariable">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetNomChampNomVariableResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetNomChampNomVariableResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetNomChampTypeVariable">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetNomChampTypeVariableResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetNomChampTypeVariableResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetNomTableErreurs">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetNomTableErreursResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetNomTableErreursResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </types>
+  <message name="GetVersionSoapIn">
+    <part name="parameters" element="s0:GetVersion" />
+  </message>
+  <message name="GetVersionSoapOut">
+    <part name="parameters" element="s0:GetVersionResponse" />
+  </message>
+  <message name="GetActionsSoapIn">
+    <part name="parameters" element="s0:GetActions" />
+  </message>
+  <message name="GetActionsSoapOut">
+    <part name="parameters" element="s0:GetActionsResponse" />
+  </message>
+  <message name="ExecuteActionSansParametresSoapIn">
+    <part name="parameters" element="s0:ExecuteActionSansParametres" />
+  </message>
+  <message name="ExecuteActionSansParametresSoapOut">
+    <part name="parameters" element="s0:ExecuteActionSansParametresResponse" />
+  </message>
+  <message name="ExecuteActionSoapIn">
+    <part name="parameters" element="s0:ExecuteAction" />
+  </message>
+  <message name="ExecuteActionSoapOut">
+    <part name="parameters" element="s0:ExecuteActionResponse" />
+  </message>
+  <message name="GetNomTableActionsSoapIn">
+    <part name="parameters" element="s0:GetNomTableActions" />
+  </message>
+  <message name="GetNomTableActionsSoapOut">
+    <part name="parameters" element="s0:GetNomTableActionsResponse" />
+  </message>
+  <message name="GetNomChampIdActionSoapIn">
+    <part name="parameters" element="s0:GetNomChampIdAction" />
+  </message>
+  <message name="GetNomChampIdActionSoapOut">
+    <part name="parameters" element="s0:GetNomChampIdActionResponse" />
+  </message>
+  <message name="GetNomChampLibelleActionSoapIn">
+    <part name="parameters" element="s0:GetNomChampLibelleAction" />
+  </message>
+  <message name="GetNomChampLibelleActionSoapOut">
+    <part name="parameters" element="s0:GetNomChampLibelleActionResponse" />
+  </message>
+  <message name="GetNomChampDescActionSoapIn">
+    <part name="parameters" element="s0:GetNomChampDescAction" />
+  </message>
+  <message name="GetNomChampDescActionSoapOut">
+    <part name="parameters" element="s0:GetNomChampDescActionResponse" />
+  </message>
+  <message name="GetNomChampTypeActionSoapIn">
+    <part name="parameters" element="s0:GetNomChampTypeAction" />
+  </message>
+  <message name="GetNomChampTypeActionSoapOut">
+    <part name="parameters" element="s0:GetNomChampTypeActionResponse" />
+  </message>
+  <message name="GetNomTableVariablesSoapIn">
+    <part name="parameters" element="s0:GetNomTableVariables" />
+  </message>
+  <message name="GetNomTableVariablesSoapOut">
+    <part name="parameters" element="s0:GetNomTableVariablesResponse" />
+  </message>
+  <message name="GetNomChampIdVariableSoapIn">
+    <part name="parameters" element="s0:GetNomChampIdVariable" />
+  </message>
+  <message name="GetNomChampIdVariableSoapOut">
+    <part name="parameters" element="s0:GetNomChampIdVariableResponse" />
+  </message>
+  <message name="GetNomChampNomVariableSoapIn">
+    <part name="parameters" element="s0:GetNomChampNomVariable" />
+  </message>
+  <message name="GetNomChampNomVariableSoapOut">
+    <part name="parameters" element="s0:GetNomChampNomVariableResponse" />
+  </message>
+  <message name="GetNomChampTypeVariableSoapIn">
+    <part name="parameters" element="s0:GetNomChampTypeVariable" />
+  </message>
+  <message name="GetNomChampTypeVariableSoapOut">
+    <part name="parameters" element="s0:GetNomChampTypeVariableResponse" />
+  </message>
+  <message name="GetNomTableErreursSoapIn">
+    <part name="parameters" element="s0:GetNomTableErreurs" />
+  </message>
+  <message name="GetNomTableErreursSoapOut">
+    <part name="parameters" element="s0:GetNomTableErreursResponse" />
+  </message>
+  <portType name="ActionServiceSoap">
+    <operation name="GetVersion">
+      <input message="s0:GetVersionSoapIn" />
+      <output message="s0:GetVersionSoapOut" />
+    </operation>
+    <operation name="GetActions">
+      <input message="s0:GetActionsSoapIn" />
+      <output message="s0:GetActionsSoapOut" />
+    </operation>
+    <operation name="ExecuteActionSansParametres">
+      <input message="s0:ExecuteActionSansParametresSoapIn" />
+      <output message="s0:ExecuteActionSansParametresSoapOut" />
+    </operation>
+    <operation name="ExecuteAction">
+      <input message="s0:ExecuteActionSoapIn" />
+      <output message="s0:ExecuteActionSoapOut" />
+    </operation>
+    <operation name="GetNomTableActions">
+      <input message="s0:GetNomTableActionsSoapIn" />
+      <output message="s0:GetNomTableActionsSoapOut" />
+    </operation>
+    <operation name="GetNomChampIdAction">
+      <input message="s0:GetNomChampIdActionSoapIn" />
+      <output message="s0:GetNomChampIdActionSoapOut" />
+    </operation>
+    <operation name="GetNomChampLibelleAction">
+      <input message="s0:GetNomChampLibelleActionSoapIn" />
+      <output message="s0:GetNomChampLibelleActionSoapOut" />
+    </operation>
+    <operation name="GetNomChampDescAction">
+      <input message="s0:GetNomChampDescActionSoapIn" />
+      <output message="s0:GetNomChampDescActionSoapOut" />
+    </operation>
+    <operation name="GetNomChampTypeAction">
+      <input message="s0:GetNomChampTypeActionSoapIn" />
+      <output message="s0:GetNomChampTypeActionSoapOut" />
+    </operation>
+    <operation name="GetNomTableVariables">
+      <input message="s0:GetNomTableVariablesSoapIn" />
+      <output message="s0:GetNomTableVariablesSoapOut" />
+    </operation>
+    <operation name="GetNomChampIdVariable">
+      <input message="s0:GetNomChampIdVariableSoapIn" />
+      <output message="s0:GetNomChampIdVariableSoapOut" />
+    </operation>
+    <operation name="GetNomChampNomVariable">
+      <input message="s0:GetNomChampNomVariableSoapIn" />
+      <output message="s0:GetNomChampNomVariableSoapOut" />
+    </operation>
+    <operation name="GetNomChampTypeVariable">
+      <input message="s0:GetNomChampTypeVariableSoapIn" />
+      <output message="s0:GetNomChampTypeVariableSoapOut" />
+    </operation>
+    <operation name="GetNomTableErreurs">
+      <input message="s0:GetNomTableErreursSoapIn" />
+      <output message="s0:GetNomTableErreursSoapOut" />
+    </operation>
+  </portType>
+  <binding name="ActionServiceSoap" type="s0:ActionServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="document" />
+    <operation name="GetVersion">
+      <soap:operation soapAction="http://tempuri.org/GetVersion" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="GetActions">
+      <soap:operation soapAction="http://tempuri.org/GetActions" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="ExecuteActionSansParametres">
+      <soap:operation soapAction="http://tempuri.org/ExecuteActionSansParametres" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="ExecuteAction">
+      <soap:operation soapAction="http://tempuri.org/ExecuteAction" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="GetNomTableActions">
+      <soap:operation soapAction="http://tempuri.org/GetNomTableActions" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="GetNomChampIdAction">
+      <soap:operation soapAction="http://tempuri.org/GetNomChampIdAction" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="GetNomChampLibelleAction">
+      <soap:operation soapAction="http://tempuri.org/GetNomChampLibelleAction" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="GetNomChampDescAction">
+      <soap:operation soapAction="http://tempuri.org/GetNomChampDescAction" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="GetNomChampTypeAction">
+      <soap:operation soapAction="http://tempuri.org/GetNomChampTypeAction" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="GetNomTableVariables">
+      <soap:operation soapAction="http://tempuri.org/GetNomTableVariables" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="GetNomChampIdVariable">
+      <soap:operation soapAction="http://tempuri.org/GetNomChampIdVariable" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="GetNomChampNomVariable">
+      <soap:operation soapAction="http://tempuri.org/GetNomChampNomVariable" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="GetNomChampTypeVariable">
+      <soap:operation soapAction="http://tempuri.org/GetNomChampTypeVariable" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="GetNomTableErreurs">
+      <soap:operation soapAction="http://tempuri.org/GetNomTableErreurs" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+  </binding>
+  <service name="ActionService">
+    <port name="ActionServiceSoap" binding="s0:ActionServiceSoap">
+      <soap:address location="http://localhost/PingServices/ActionService.asmx" />
+    </port>
+  </service>
+</definitions>

@@ -1,0 +1,84 @@
+
+101;Erreur lors de la désérialisation de la liste source
+102;Erreur dans la requête '@1'
+103;Le libellé de la structure ne peut être vide
+104;Une structure ayant ce libellé existe déjà.
+105;Le nom du champ calculé ne peut être vide
+106;Un champ calculé avec ce nom existe déjà
+107;Le type des objets associé au champ calculé est incorrect
+108;Le nom du champ personnalisé ne peut être vide
+109;Un champ personnalisé avec ce nom existe déjà
+110;L'utilisation du champ ne doit pas être vide
+111;La valeur '@1' apparait plusieurs fois dans la liste des valeurs
+112;La valeur affichée '@1' apparait plusieurs fois dans la liste des valeurs affichées
+113;La valeur '@1' n'est pas du type @2
+114;La valeur par défaut '@1' n'est pas du type @2
+115;La valeur par défaut ne fait pas partie de la liste des valeurs possibles
+116;Indiquez un libellé pour le champ vu de l'objet parent
+117;Le nom du filtre ne doit pas être vide
+118;Ce nom de filtre est déjà utilisé
+119;Le nom du formulaire ne doit pas être vide
+120;Ce nom de formulaire '@1' est déjà utilisé
+121;Le groupe '@1' n'existe pas
+122;Un autre groupe avec le même code existe déjà
+123;Le code du groupe ne doit pas être vide
+124;Le nom du groupe ne doit pas être vide
+125;Indiquez un nom pour cette liste
+126;La liste d'entités doit être associée à un type d'entité
+127;Une autre liste possède le même libellé
+128;Une autre liste possède déjà le même code
+129;Le nom du paramètres ne doit pas être vide
+130;Le code du paramètre ne doit pas être vide
+131;Un autre parmètre avec le même code existe déjà
+132;Le champ lié ne doit pas être null
+133;Le définisseur de champ ne doit pas être null
+134;Le formulaire lié ne doit pas être null
+135;Le définisseur de champ ne doit pas être null
+136;Le champ ne doit pas être null
+137;La valeur du champ '@1' est incorrecte
+138;Le formulaire ne doit pas être null
+139;Le champ ne doit pas être null
+140;L'id d'utilisateur de la relation est incorrect
+141;Le libellé de la donnée ne doit pas être vide
+142;Un type de donnée avec le même code existe déjà
+143;Un recalcul pour ce type de donnée cumulée est déjà en cours
+144;Erreur session
+145;Recalcul données @1
+146;Erreur d'ouverture de session
+147;Le type de donnée cumulée @1 n'existe pas
+148;Récupération des données existantes
+149;Execution de la requête
+150;Erreur dans la requête
+151;Stockage du résultat
+152;Suppression des anciennes valeurs
+153;Sauvegarde des données
+154;Calcul terminé
+155;Le nom de la variable ne peut être vide
+156;L'élement lié ne doit pas être null
+157;Une variable avec ce nom existe déjà
+
+158;Le libellé de la caracteristique ne doit pas être vide
+159;La caractéristique doit être associée à un type
+160;Erreur dans les données de la caracteristique
+161;Le libellé du type de caractéristique ne doit pas être vide
+162;Erreur dans les données du type de caractéristique
+
+10000;Le libellé du Module de Paramétrage ne peut être vide
+10001;Chaine vide non autorisée pour le Nom Fort de l'entité: @1 Id: @2
+10002;Le Type d'entité ne peut être vide
+10003;L'Id de l'entité n'est pas valide
+
+20000;Le type de donnée doit être affecté pour un préférence de filtre rapide
+20001;Un autre filtre preferé existe pour ce type de donnée
+20002;Indiquez un libellé pour cette classe d'unité
+20003;Indiquez un ID global pour cette classe d'unité
+20004;Indiquez un libellé pour l'unité
+20005;La classe d'unité @1 n'existe pas
+20006;Le libellé du SmartField ne doit pas être vide
+20007;La définition du smart field est incomplète
+20008;Une autre requête @1 existe déjà
+20009;Le nom de la requête ne doit pas être vide
+20010;Le nom de la fonction dynamique ne doit pas être vide
+20011;Le type associé à la fonction dynamique ne doit pas être vide
+20012;Sauvegarde...
+20013;Import de données @1

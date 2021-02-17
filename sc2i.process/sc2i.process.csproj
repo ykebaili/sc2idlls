@@ -1,0 +1,687 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="12.0">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D7D70DEB-BFC7-4C89-86D1-8854D3B297DE}</ProjectGuid>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>sc2i.process</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>sc2i.process</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>
+    </StartupObject>
+    <WebReference_EnableProperties>true</WebReference_EnableProperties>
+    <WebReference_EnableSQLTypes>false</WebReference_EnableSQLTypes>
+    <WebReference_EnableLegacyEventingModel>true</WebReference_EnableLegacyEventingModel>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>bin\Debug\sc2i.process.XML</DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'debug structure pda|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE;PDA_DATA</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'debug PDA DATA|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE;PDA_DATA</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'debug avec documentation|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <Optimize>true</Optimize>
+    <DebugType>
+    </DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'debug structure pda|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\debug structure pda\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;PDA_DATA</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'debug PDA DATA|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\debug PDA DATA\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;PDA_DATA</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'debug avec documentation|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\debug avec documentation\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ICSharpCode.SharpZipLib, Version=0.86.0.518, Culture=neutral, PublicKeyToken=1b03e6acf1164f73, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\dep\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenPop, Version=2.0.4.369, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\dep\OpenPop.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services">
+      <Name>System.Web.Services</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+    <ProjectReference Include="..\sc2i.common\SC2ICommon.csproj">
+      <Name>SC2ICommon</Name>
+      <Project>{500A5948-86F8-4331-8529-BB1109C4E966}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+    </ProjectReference>
+    <ProjectReference Include="..\sc2i.data.client\sc2i.data.client.csproj">
+      <Name>sc2i.data.client</Name>
+      <Project>{6BB133A5-2330-4D0F-AB31-C1F585CD10D7}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+    </ProjectReference>
+    <ProjectReference Include="..\sc2i.data.dynamic\sc2i.data.dynamic.csproj">
+      <Name>sc2i.data.dynamic</Name>
+      <Project>{557DBF3C-58CA-45D7-867D-162608670072}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+    </ProjectReference>
+    <ProjectReference Include="..\sc2i.documents\sc2i.documents.csproj">
+      <Project>{ED1D5107-458A-4CCA-A161-EA1860692FFE}</Project>
+      <Name>sc2i.documents</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\sc2i.expression\sc2i.expression.csproj">
+      <Name>sc2i.expression</Name>
+      <Project>{BCFA4027-E5DB-40D7-B05B-623E8CAC0CA4}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+    </ProjectReference>
+    <ProjectReference Include="..\sc2i.formulaire\sc2i.formulaire.csproj">
+      <Name>sc2i.formulaire</Name>
+      <Project>{979C5166-D0F2-4F00-8F6B-A39331A8AF61}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+    </ProjectReference>
+    <ProjectReference Include="..\sc2i.multitiers.client\sc2i.multitiers.client.csproj">
+      <Name>sc2i.multitiers.client</Name>
+      <Project>{022AC2FA-0300-4662-BEE5-1C637FECBBB1}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CAction.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CActionAfficherEtapeWorkflow.cs" />
+    <Compile Include="CActionAssocierComportement.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CActionAttente.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CActionAttenteUtilisateur.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CActionChangerOptionsImpression.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CActionCondition.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CActionCreerEntite.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CActionCreerHandlerEvenement.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CActionCreerListeObjetsDonnee.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CActionDebut.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CActionDeclencherEvenementStatiques.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CActionDissocierComportement.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CActionErreur.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CActionFonction.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CActionForEach.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CActionCopierLocalDansGed.cs" />
+    <Compile Include="CActionJonction.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CActionLancerActionServeur.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CActionLancerProcess.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CActionLancerProcessDistant.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CActionLienSortantSimple.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CActionMessageBox.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CActionModeAssynchrone.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CActionModifierPropriete.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CActionModifierRegistre.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CActionModifierVariable.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CActionModifierVariableSurObjet.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CActionOuvrirFichier.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CActionSauvegarderDonnees.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CActionSupprimerEntite.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CActionSupprimerHandlerEvenement.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CActionSynchronisme.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CAuthentificationSessionProcess.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CBesoinInterventionProcess.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CBrancheProcess.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CChercheurObjetDansProcess.cs" />
+    <Compile Include="CComportementGenerique.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CContexteExecutionAction.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CDefinitionProprieteCibleDeProcess.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CDonneeNotificationBesoinIntervention.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CEvenement.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CGestionnaireActionsDisponibles.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CGroupeParametrage.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CHandlerEvenement.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CInfoDeclencheurProcess.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CInfoServiceClientOuvrirFichier.cs" />
+    <Compile Include="CLienAction.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CLienAsynchrone.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CLienBoucle.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CLienErreur.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CLienEvenement.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CLienFinBoucle.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CLienFormDialog.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CLienFromCondition.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CLienUtilisateurAbsent.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CListeElementsAEvenement.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CMetteurDeProcessEnPause.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CActionAnnulerAttenteUtilisateur.cs" />
+    <Compile Include="CActionCopierEntite.cs" />
+    <Compile Include="CActionChangerVersionDonnees.cs" />
+    <Compile Include="CActionEtiquetterBase.cs" />
+    <Compile Include="CActionPurgeHistoriqueProcess.cs" />
+    <Compile Include="CActionPurgeJournalisation.cs" />
+    <Compile Include="CActionPointEntree.cs" />
+    <Compile Include="CActionSelectionFichierClient.cs" />
+    <Compile Include="CActionSetModificationContextuelle.cs" />
+    <Compile Include="CActionProcessFils.cs" />
+    <Compile Include="CActionClonerEntite.cs" />
+    <Compile Include="CActionZipGedDansGed.cs" />
+    <Compile Include="CActionCopierMultiLocalDansGed.cs" />
+    <Compile Include="CParametreDeclencheurEvenement.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CProcess.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CProcessEnExecutionInDb.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CProcessInDb.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CRecuperateurDeclencheursActions.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CRelationDefinisseurComportementInduit.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CRelationElementComportement.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CSynchronismeDonnees.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CVariableProcessTypeComplexe.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="expression\C2iExpressionStartProcess.cs" />
+    <Compile Include="expression\C2iExpressionGetListeSessionsActives.cs" />
+    <Compile Include="IDeclencheurAction.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IDefinisseurEvenements.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IDonneeAction.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IElementAEvenementsDefinis.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ILanceurProcessCommandLine.cs" />
+    <Compile Include="IObjetDeProcess.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IParametreDeclenchementEvenement.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Mail\C2iMail.cs" />
+    <Compile Include="Mail\CCompteMail.cs" />
+    <Compile Include="Mail\CDossierMail.cs" />
+    <Compile Include="Mail\CParametreCompteMail.cs" />
+    <Compile Include="Mail\CRegleMail.cs" />
+    <Compile Include="Mail\CTracabiliteMail.cs" />
+    <Compile Include="Mail\I2iMailServeur.cs" />
+    <Compile Include="Mail\ICompteMailServeur.cs" />
+    <Compile Include="recherche\CNoeudRecherche_ProcessInDb.cs" />
+    <Compile Include="recherche\CNoeudRecherche_Evenement.cs" />
+    <Compile Include="recherche\CNoeudRecherche_Action.cs" />
+    <Compile Include="Resource1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource1.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\ActionDistante\Reference.cs">
+      <DependentUpon>Reference.map</DependentUpon>
+      <SubType>code</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="workflow\blocs\CBlocWorkflow.cs" />
+    <Compile Include="workflow\blocs\CBlocWorkflowFormulaire.cs" />
+    <Compile Include="workflow\blocs\CBlocWorkflowChoix.cs" />
+    <Compile Include="workflow\blocs\CBlocWorkflowEt.cs" />
+    <Compile Include="workflow\blocs\CBlocWorkflowProcess.cs" />
+    <Compile Include="workflow\blocs\CBlocWorkflowPoint.cs" />
+    <Compile Include="workflow\blocs\CBlocWorkflowWorkflow.cs" />
+    <Compile Include="workflow\blocs\CBlocWorkflowAttente.cs" />
+    <Compile Include="workflow\blocs\CBlowWorkflowStopStep.cs" />
+    <Compile Include="workflow\CAffectationsEtapeWorkflow.cs" />
+    <Compile Include="workflow\CDonneeNotificationWorkflow.cs" />
+    <Compile Include="workflow\CEtapeWorkflowHistorique.cs" />
+    <Compile Include="workflow\CEtatEtapeWorkflow.cs" />
+    <Compile Include="workflow\CModeGestionErreurEtapeWorkflow.cs" />
+    <Compile Include="workflow\CModeleAffectationUtilisateurs.cs" />
+    <Compile Include="workflow\CDefinisseurEvenementEditor.cs" />
+    <Compile Include="workflow\CPArametresInitialisationEtape.cs" />
+    <Compile Include="workflow\CParametresAffectationEtape.cs" />
+    <Compile Include="workflow\CParametresInitialisationEtapeEditor.cs" />
+    <Compile Include="workflow\CRelationTypeEtapeWorkflow_ChampCustom.cs" />
+    <Compile Include="workflow\CRelationTypeEtapeWorkflow_ChampCustomValeur.cs" />
+    <Compile Include="workflow\CRelationTypeEtapeWorkflow_Formulaire.cs" />
+    <Compile Include="workflow\CRelationEtapeWorkflow_ChampCustom.cs" />
+    <Compile Include="workflow\CTypeActionExterneOnWorkflow.cs" />
+    <Compile Include="workflow\CTypeEtapeWorkflow.cs" />
+    <Compile Include="workflow\CLienEtapesWorkflow.cs" />
+    <Compile Include="workflow\CRelationWorkflow_ChampCustom.cs" />
+    <Compile Include="workflow\CRelationTypeWorkflow_ChampCustom.cs" />
+    <Compile Include="workflow\CRelationTypeWorkflow_Formulaire.cs" />
+    <Compile Include="workflow\CEtapeWorkflow.cs" />
+    <Compile Include="workflow\CWorkflow.cs" />
+    <Compile Include="workflow\CTypeWorkflow.cs" />
+    <Compile Include="workflow\dessin\CWorkflowEtapeDessin.cs" />
+    <Compile Include="workflow\dessin\CWorkflowLienDessin.cs" />
+    <Compile Include="workflow\dessin\CWorkflowDessin.cs" />
+    <Compile Include="workflow\dessin\IWorflowDessin.cs" />
+    <Compile Include="workflow\gels\CCauseGel.cs" />
+    <Compile Include="workflow\gels\CGelEtapeWorkflow.cs" />
+    <Compile Include="workflow\gels\IElementGelable.cs" />
+    <EmbeddedResource Include="CActionAssocierComportement.bmp" />
+    <EmbeddedResource Include="CActionAttente.bmp" />
+    <EmbeddedResource Include="CActionAttenteUtilisateur.bmp" />
+    <EmbeddedResource Include="CActionCreerHandlerEvenement.bmp" />
+    <EmbeddedResource Include="CActionCreerListeObjetsDonnee.bmp" />
+    <EmbeddedResource Include="CActionDeclencherEvenementStatiques.bmp" />
+    <EmbeddedResource Include="CActionDissocierComportement.bmp" />
+    <EmbeddedResource Include="CActionErreur.bmp" />
+    <EmbeddedResource Include="CActionForEach.bmp" />
+    <EmbeddedResource Include="CActionLancerProcess.bmp" />
+    <EmbeddedResource Include="CActionLancerProcessDistant.bmp" />
+    <EmbeddedResource Include="CActionMessageBox.bmp" />
+    <EmbeddedResource Include="CActionModeAssynchrone.bmp" />
+    <EmbeddedResource Include="CActionModifierPropriete.bmp" />
+    <EmbeddedResource Include="CActionModifierRegistre.bmp" />
+    <EmbeddedResource Include="CActionModifierVariable.bmp" />
+    <EmbeddedResource Include="CActionModifierVariableSurObjet.bmp" />
+    <EmbeddedResource Include="CActionOuvrirFichier.bmp" />
+    <EmbeddedResource Include="CActionSauvegarderDonnees.bmp" />
+    <EmbeddedResource Include="CActionSupprimerEntite.bmp" />
+    <EmbeddedResource Include="CActionSupprimerHandlerEvenement.bmp" />
+    <EmbeddedResource Include="CActionSynchronisme.bmp" />
+    <EmbeddedResource Include="CLienAssynchrone.bmp" />
+    <EmbeddedResource Include="CLienBoucle.bmp" />
+    <EmbeddedResource Include="CLienErreur.bmp" />
+    <EmbeddedResource Include="ClienEvenement.bmp" />
+    <EmbeddedResource Include="CLienFinBoucle.bmp" />
+    <EmbeddedResource Include="CLienUtilisateurAbsent.bmp" />
+    <Content Include="CActionChangerOptionsImpression.bmp" />
+    <Content Include="CActionAfficherEtapeWorkflow.bmp" />
+    <None Include="Resources\1366599972_Stop sign.png" />
+    <None Include="Resources\BlocAttente.png" />
+    <None Include="Resources\1346459174_group.png" />
+    <None Include="Resources\1346459174_group alerte.png" />
+    <None Include="Resources\Start.png" />
+    <None Include="Resources\1345618093_start.png" />
+    <None Include="Resources\1345561540_alliance.png" />
+    <None Include="Resources\1345538971_kservices.png" />
+    <None Include="Resources\1345539572_Gnome-Dialog-Question-64.png" />
+    <None Include="Resources\1345538464_application_form_edit.png" />
+    <EmbeddedResource Include="CActionZipGedDansGed.bmp" />
+    <EmbeddedResource Include="CActionClonerEntite.bmp" />
+    <EmbeddedResource Include="CActionProcessFils.bmp" />
+    <EmbeddedResource Include="CActionCopierLocalDansGed.bmp" />
+    <EmbeddedResource Include="CActionSelectionFichierClient.bmp" />
+    <EmbeddedResource Include="CActionPurgeJournalisation.bmp" />
+    <EmbeddedResource Include="CActionPurgeHistoriqueProcess.bmp" />
+    <EmbeddedResource Include="CActionEtiquetterBase.bmp" />
+    <EmbeddedResource Include="CActionChangerVersionDonnees.bmp" />
+    <EmbeddedResource Include="CActionAnnulerAttenteUtilisateur.bmp" />
+    <EmbeddedResource Include="Resource1.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource1.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="sc2i.process.fr" />
+    <None Include="Web References\ActionDistante\ActionService.disco" />
+    <None Include="Web References\ActionDistante\ActionService.wsdl" />
+    <None Include="Web References\ActionDistante\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <WebReferenceUrl Include="http://localhost/PingServices/ActionService.asmx">
+      <RelPath>Web References\ActionDistante\</RelPath>
+      <UrlBehavior>Static</UrlBehavior>
+    </WebReferenceUrl>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FAB17A43-9CFC-467F-A7B3-39E5BA285741}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>data.hotel.easyquery.win32</RootNamespace>
+    <AssemblyName>data.hotel.easyquery.win32</AssemblyName>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MagicLibrary">
+      <HintPath>..\sc2i.win32.common\bin\Debug\MagicLibrary.DLL</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="calcul\CAllocateurEditeurCalculDataHotel.cs" />
+    <Compile Include="calcul\CEditeurCalculHotelDuration.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="calcul\CEditeurCalculHotelDuration.Designer.cs">
+      <DependentUpon>CEditeurCalculHotelDuration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="calcul\CFormEditeColonneCalculeeDataHotel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="calcul\CFormEditeColonneCalculeeDataHotel.Designer.cs">
+      <DependentUpon>CFormEditeColonneCalculeeDataHotel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CControleOptionsTableEntitesFromDataHotel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CControleOptionsTableEntitesFromDataHotel.Designer.cs">
+      <DependentUpon>CControleOptionsTableEntitesFromDataHotel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CControleOptionsTableFromDataHotel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CControleOptionsTableFromDataHotel.Designer.cs">
+      <DependentUpon>CControleOptionsTableFromDataHotel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CFormEditeProprietesTableEntitiesFromDataHotel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CFormEditeProprietesTableEntitiesFromDataHotel.Designer.cs">
+      <DependentUpon>CFormEditeProprietesTableEntitiesFromDataHotel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CFormEditeProprietesTableFromDataHotel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CFormEditeProprietesTableFromDataHotel.Designer.cs">
+      <DependentUpon>CFormEditeProprietesTableFromDataHotel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="entitysource\CEditeurSourceChampDeTable.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="entitysource\CEditeurSourceChampDeTable.Designer.cs">
+      <DependentUpon>CEditeurSourceChampDeTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="entitysource\CEditeurSourceFormule.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="entitysource\CEditeurSourceFormule.Designer.cs">
+      <DependentUpon>CEditeurSourceFormule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="entitysource\CPanelEditSourceEntites.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="entitysource\CPanelEditSourceEntites.Designer.cs">
+      <DependentUpon>CPanelEditSourceEntites.cs</DependentUpon>
+    </Compile>
+    <Compile Include="entitysource\IEditeurSourceEntite.cs" />
+    <Compile Include="filtre\CFormEditeComposantDHComparaison.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="filtre\CFormEditeComposantDHComparaison.Designer.cs">
+      <DependentUpon>CFormEditeComposantDHComparaison.cs</DependentUpon>
+    </Compile>
+    <Compile Include="filtre\CPanelFiltreDataHotel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="filtre\CPanelFiltreDataHotel.Designer.cs">
+      <DependentUpon>CPanelFiltreDataHotel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Service Include="{94E38DFF-614B-4cbd-B67C-F211BB35CE8B}" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="calcul\CEditeurCalculHotelDuration.resx">
+      <DependentUpon>CEditeurCalculHotelDuration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="calcul\CFormEditeColonneCalculeeDataHotel.resx">
+      <DependentUpon>CFormEditeColonneCalculeeDataHotel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CControleOptionsTableEntitesFromDataHotel.resx">
+      <DependentUpon>CControleOptionsTableEntitesFromDataHotel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CControleOptionsTableFromDataHotel.resx">
+      <DependentUpon>CControleOptionsTableFromDataHotel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CFormEditeProprietesTableEntitiesFromDataHotel.resx">
+      <DependentUpon>CFormEditeProprietesTableEntitiesFromDataHotel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CFormEditeProprietesTableFromDataHotel.resx">
+      <DependentUpon>CFormEditeProprietesTableFromDataHotel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="entitysource\CEditeurSourceChampDeTable.resx">
+      <DependentUpon>CEditeurSourceChampDeTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="entitysource\CEditeurSourceFormule.resx">
+      <DependentUpon>CEditeurSourceFormule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="entitysource\CPanelEditSourceEntites.resx">
+      <DependentUpon>CPanelEditSourceEntites.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="filtre\CFormEditeComposantDHComparaison.resx">
+      <DependentUpon>CFormEditeComposantDHComparaison.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="filtre\CPanelFiltreDataHotel.resx">
+      <DependentUpon>CPanelFiltreDataHotel.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\data.hotel.client\data.hotel.client.csproj">
+      <Project>{032a3907-6d1d-4483-9908-cc9809d89d8f}</Project>
+      <Name>data.hotel.client</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\data.hotel.easyquery\data.hotel.easyquery.csproj">
+      <Project>{cf184a3c-fdb3-472a-8249-0bcaed59cf8d}</Project>
+      <Name>data.hotel.easyquery</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\sc2i.expression\sc2i.expression.csproj">
+      <Project>{bcfa4027-e5db-40d7-b05b-623e8cac0ca4}</Project>
+      <Name>sc2i.expression</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\futurocom.easyquery\futurocom.easyquery.csproj">
+      <Project>{6ea1e23f-7e62-41c6-afa1-c317777f3d94}</Project>
+      <Name>futurocom.easyquery</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\futurocom.win32.easyquery\futurocom.win32.easyquery.csproj">
+      <Project>{2443cd6c-33cc-4fe9-ad09-da4f27f02a69}</Project>
+      <Name>futurocom.win32.easyquery</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\sc2i.common\SC2ICommon.csproj">
+      <Project>{500a5948-86f8-4331-8529-bb1109c4e966}</Project>
+      <Name>SC2ICommon</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\sc2i.win32.common\sc2i.win32.common.csproj">
+      <Project>{ecbc5d80-26bd-41d1-90ff-7b2a84f73339}</Project>
+      <Name>sc2i.win32.common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\sc2i.win32.expression\sc2i.win32.expression.csproj">
+      <Project>{2363929c-9c42-4450-a347-f8f0fbe989f1}</Project>
+      <Name>sc2i.win32.expression</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="data.hotel.easyquery.win32" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

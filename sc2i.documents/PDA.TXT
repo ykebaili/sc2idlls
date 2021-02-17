@@ -1,0 +1,14 @@
+C2iCategorieRapportCrystal : Suppression
+
+C2iRapportCrystal : Suppression
+
+CDocumentGED : Suppression
+
+CProxyGed : Suppression
+
+CReferenceDocument : Suppression
+
+CSourceDocument : Suppression
+
+CSourceDocumentStream : Suppression
+

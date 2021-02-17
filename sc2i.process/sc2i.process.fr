@@ -1,0 +1,349 @@
+10;Ok
+11;Oui
+12;Non
+13;Annuler
+14;Abandon
+15;Réessayer
+16;Ignorer
+17;Aucun
+20;Complexe
+101;Erreur execution action @1
+102;Annulation Attente utilisateur
+103;Annuler une attente d'utilisateur
+104;Annule une attente d'utilisateur préalablement créée (grâce à son code d'attente)
+105;Associer un comportement
+106;Permet d'associer un comportement à un élément
+107;La formule d'élément à associer est incorrecte
+108;La formule d'élément à associer doit retourner une entité métier
+109;Le comportement à associer est incorrect
+110;Aucun élément à associer
+111;Erreur dans la formule d'élément à associer
+112;La formule d'élément à associer ne retourne pas une entité métier
+113;Le comportement @1 n'existe pas
+114;Waiting
+115;Mise en attente
+116;Met le process en attente
+117;La formule de date de reprise doit retourner une date
+118;Formule de date de reprise incorrecte
+119;Erreur lors de l'évaluation de la date de reprise
+120;Attente Utilisateur
+121;Attends la présence de l'utilisateur
+122;Indique à l'utilisateur que l'action a besoin de lui et met l'action en attente
+123;Changer les options d'impression
+124;Permet de sélectionner l'imprimante serveur et l'imprimante cliente qui sera utilisée par le process en cours
+125;La formule d'imprimante client doit retourner un texte
+126;La formule d'imprimante serveur doit retourner un texte
+127;Erreur lors de l'évaluation de l'imprimante client
+128;Erreur lors de l'évaluation de l'imprimante serveur
+129;Condition
+130;Condition booléenne
+131;Permet de créer un branchement conditionnel
+132;Erreur sérialisation de la formule de condition
+133;La formule de condition est incorrecte
+134;La formule de condition doit retourner un booléen (OUI/NON)
+135;Erreur lors de l'évaluation de la formule de condition
+136;La formule de condition ne retourne pas un booléen
+137;Créer une entité
+138;Permet la création d'une entité
+139;Le type d'entité à créer ne doit pas être null
+140;Erreur lors de l'évaluation de la valeur de @1
+141;Erreur lors de l'affectation de la propriété @1
+142;Evenement
+143;Permet de surveiller la survenance d'un évenement sur un élément
+144;La variable contenant l'élément sur lequel l'évenement sera déclenché n'est pas définie ou n'existe pas
+145;La variable contenant l'élément sur lequel l'évenement sera déclenché est incorrecte
+146;Indiquez un libellé
+147;L'élément à surveiller par l'évenement @1 n'est pas correct
+148;Valeur de date incorrecte
+149;Impossible d'évaluer la formule de date pour le déclencheur @1
+150;Formule de date incorrecte dans le déclencheur @1
+151;Créer Liste
+152;Créer une liste d'objets
+153;Permet de créer une liste d'objets métiers à partir d'un filtre dynamique
+154;Erreur sérialisation filtre
+155;Le type des objets de l'action de création de liste n'est pas défini
+156;Le type des objets de la liste n'est pas défini
+157;Erreur lors du calcul du filtre
+158;Démarrage
+159;Declencher evenements statiques
+160;Déclenche les évenements de création non déclenchés et les évenements sur modification sans valeur initiale et non déclenchés
+161;La variable contenant l'élément pour lequel les évenements sont déclenchés ne peut être null
+162;La variable contenant l'élément pour lequel les évenements sont déclenchés est incorrecte
+163;L'élément pour lequel déclencher les actions n'est pas correct
+164;Dissocier un comportement
+165;Permet de dissocier un comportement d'un élément
+166;La formule d'élément à Dissocier est incorrecte
+167;La formule d'élément à Dissocier doit retourner une entité métier
+168;Le comportement à Dissocier est incorrect
+169;Aucun élément à Dissocier
+170;Erreur dans la formule d'élément à Dissocier
+171;Generer une Erreur
+172;Interrompt l'execution de l'action en générant une erreur
+173;La variable n°@1 de l'action @2 n'existe pas
+174;L'action @1 retourne son résultat dans la variable @2 qui n'est pas du bon type
+175;Parcours
+176;Parcours une liste
+177;Execute des actions sur tous les éléments d'une liste
+178;La variable indiquant l'élément en cours dans la liste n'est pas définie ou n'existe pas
+179;La variable contenant la liste à parcourir n'est pas définie ou n'existe pas
+180;La variable de liste @1 n'est pas une liste
+181;La variable contenant les éléments n'est pas du bon type
+182;Annulation utilisateur
+183;Joint
+184;Démarrer une action serveur
+185;Execute une action connue du serveur ( plugin par exemple )
+186;Aucune action avec le code '@1'
+187;Impossible d'allouer le déclencheur d'action sur serveur
+188;Erreur lors de l'évaluation de la valeur de @1
+189;Sous process
+190;Execution d'action
+191;Démarre une action
+192;Action à lancer invalide
+193;La formule pour la valeur de la variable '@1' doit retourner un type @2
+194;L'action @1 n'existe pas
+195;Erreur lors de l'éxecution d'une action à partir d'une action
+196;Erreur variable @1
+197;Erreur lors de l'affectation des variables de la sous-action
+198;Process @1
+199;Action distante
+200;Execution d'action distante
+201;Démarre une action distante (via le WEB)
+202;Action distante invalide
+203;Erreur execution action @1
+204;Boite de message
+205;Affichage d'une boite de message
+206;Affiche un message à l'écran de l'utilisateur, possibilité de confirmation
+207;Passer en mode asynchrone
+208;Traitement asynchrone
+209;Permet de rendre la main à l'utilisateur et de réaliser le reste du traitement en mode asynchrone
+210;Echec du passage en mode asynchrone
+211;Modifer propriété
+212;Permet de modifier une propriété d'un élément
+213;La formule de valeur n'est pas du type attendu par la propriété
+214;Impossible d'affecter la valeur nulle à cette propriété
+215;La variable à modifier n'est pas définie ou n'existe pas
+216;Erreur lors de l'évaluation de la formule @1
+217;@1 : Champ personnalisé incorrect ou cible invalide
+218;Impossible de trouver la propriété @1
+219;La propriété @1 est en lecture seule
+220;Registre
+221;Ecrire dans le registre
+222;Permet de stocker une valeur dans le registre de l'application
+223;Indiquez la clé de registre à modifier
+224;Affecter variable
+225;Permet d'affecter une valeur à une variable
+226;La valeur doit être un @1 ou un entier étant l'id d'un @2
+227;La formule de valeur n'est pas du type attendu par la variable (@1)
+228;Type de valeur incompatible
+229;Modifer variable sur element
+230;Permet de modifier une variable sur un un élément
+231;La variable à modifier ne contient pas un élément de type correct
+232;La variable sur objet n'existe pas!
+233;La variable n'existe pas
+234;Ouvrir un fichier ou un URL
+235;Ouvre sur le poste client un fichier ou une URL
+236;Erreur lors de l'évaluation du nom du fichier ou de l'url
+237;Sauvegarde des données
+238;Sauvegarde les modifications faites dans la base de données
+239;Supprimer une entité
+240;Permet de supprimer une entité métier
+241;Indiquez l'élément à supprimer
+242;La formule indiquant l'élément à supprimer retourne plusieurs éléments
+243;La formule indiquant l'élément à supprimer doit retourner une entité métier
+244;Suppression évenement
+245;Supprime un évenement sur un élément
+246;Indiquez le code de l'évenement à supprimer
+247;Ajouter un synchronisme
+248;Permet de synchroniser une propriété d'un élément sur une propriété d'un autre
+249;La formule d'objet source est incorrecte;
+250;la formule d'objet source doit retourner une entité métier
+251;Le champ @1 n'est pas un champ date. Seuls les champs date peuvent être synchronisés
+252;Le champ @1 n'appartient pas au type @2
+253;La formule d'objet destination est incorrecte
+254;La formule d'objet destination doit retourner une entité métier
+255;Erreur dans la formule d'objet source
+256;Erreur dans la formule d'objet destination
+257;La formule d'objet source doit retourner une entité métier
+258;La demande d'intervention sur process @1
+259;Erreur action @1
+260;Notification d'erreur
+261;Le comportement @1
+262;Evenements liés
+263;L'évenement @1
+264;La formule de date est incorrecte
+265;La formule de date ne semble pas retourner un type Date
+266;Impossible de relire les données de l'action
+267;Evt @1
+268;Le groupe de paramétrage @1
+269;Handlers
+270;Le handler @1
+271;Erreur handler @1
+272;Impossible d'executer sur des éléments multiples
+273;Lien simple
+274;Traitement asynchrone
+275;Boucle
+276;sur erreur
+277;sur évenement
+278;Fin de boucle
+279;Utilisateur absent
+280;A implémenter : Récup valeur cible de process
+281;Le process en execution @1
+282;Impossible de relire les données de l'action
+283;Reprise annulée par @1 le @2 à @3
+284;L'action @1
+285;Relations comportements induits
+286;La relation entre le définisseur et le comportement induit
+287;Relations comportements
+288;La relation entre l'élément et le comportement
+289;Le synchronisme @1
+290;Relation avec le synchronisme
+291;Copie une entité
+292;Créer une nouvelle entité et initialise toutes ses propriétés avec les valeurs des propriétés de l'entité source
+293;Le Type d'entité à copier ne doit pas être null
+294;Indiquer la formule l'entité source
+295;La formule indiquant l'entité source retourne plusieurs entités
+296;La formule indiquant l'entité source doit retourner une entité métier
+297;Le type de l'objet destination ne correspond pas au type de l'objet source
+298;Champ customm invalide de l'objet source
+299;Champ customm invalide de l'objet destination
+300;Propriété @1 : Echec d'affectation de la valeur (@2)
+301;Indiquer la formule de l'entité destination
+302;La formule indiquant l'entité destination retourne plusieurs entités
+303;La formule indiquant l'entité destination doit retourner une entité métier
+304;Changer de version
+305;Change la version de travail du process
+306;La formule de version doit retourner une version, un identifiant de version ou null
+307;Erreur lors de l'évaluation de la formule de version
+308;Erreur dans l'évaluation des arguments
+
+10000;Relevé des Mails terminé
+10001;Message: @1
+10002;Type Etape Workflow
+10003;Cause de Gel @1
+10004;Impossible de geler une Etape déjà gelée
+10005;Impossible de dégeler une Etape non gelée
+
+20000;Etiqueter la base de données
+20001;Crée une étiquette sur la base de données en cours
+20002;Erreur lors de l'évaluation de la formule de libellé
+20003;Fin de process
+20004;Impossible de démarrer cette action en mode client
+20005;L'action 'Ouvrir un fichier' retourne un entier. Type de variable incorrect
+20006;Impossible de stocker le résultat sans l'option 'Attendre la fin de l'application'
+20007;Purger l'historique des process
+20008;Vous devez spécifier une date limite
+20009;Date incorrecte
+20010;Purger la journalisation
+20011;Erreur dans la ligne de commande @1 @2
+20012;StartProcess(Id, TargetElement)\nDémarre un process, Id est l'identifiant du process,target element (optionnel) est l'élement cible du process
+20013;Impossible de trouver un contexte pour executer le process
+20014;Le premier paramètre de StartProcess doit être un entier
+20015;Le process @1 n'existe pas
+20016;Erreur lors de l'évaluation de StartProcess
+20017;Point d'entrée alternatif
+20018;Point d'entrée introuvable
+20019;Créer un document de GED
+20020;Erreur lors de la récupération du fichier @1
+20021;Sélection de fichier local
+20022;Permet à l'utilisateur de sélectionner un fichier sur le poste client
+20023;Définir la modification contextuelle
+20024;Change le contexte de modification du système
+20025;Process @1
+20026;Action @1
+20027;Action de l'évenement
+20028;Paramètres de l'évenement
+20029;Recherche action '@1'
+20030;Impossible de supprimer un élément de ce type
+20031;Impossible de supprimer une liste d'éléments étérogènes
+20032;Erreur appel asynchrone @1s
+20033;Groupe d'actions
+20034;Groupe plusieurs actions dans une seule brique d'action
+20035;Impossible de créer un group d'actions à partir d'une selection vide
+20036;La sélection ne doit contenir qu'un seul lien entrant
+20037;La sélection ne doit posséder que des liens de sortie simples
+20038;Une erreur est survenue durant le processus de regroupement
+20039;Impossible de grouper un groupe contenant des variables
+20040;Impossible de dégrouper un groupe contenant des variables
+20041;Une erreur est survenue durant le processus de dégroupage
+20042;Automatique
+20043;Vertical
+20044;Horizontal
+20045;Droite
+20046;Cloner une entité
+20047;Clone une entité et ces dépendances
+20048;La formule de l'élément à clone doit retourner une entité
+20049;Erreur lors du clonage d'un objet : la source est nulle
+20050;Compression de documents GED
+20051;La formule de liste de documents est nulle
+20052;La formule de liste de documents retourne une valeur incorrecte
+20053;Erreur dans la liste de documents
+20054;Fichier
+20055;GetActiveSessions()\nRetourne la liste des sessions actives
+20056;Erreur lors de la récupération des sessions actives
+20057;Type de workflow @1
+20058;Le nom du type de workflow doit être unique
+20059;Etape type de workflow @1
+20060;Le nom de l'étape type de workflow doit être unique
+20061;Workflow @1
+20062;Etape de workflow @1
+20063;Une relation existe déjà entre le type de workflow et le formulaire
+20064;Une relation existe déjà entre le type d'étape de workflow et le formulaire
+20065;Formulaire
+20066;Workflow
+20067;Etape de workflow
+20068;Choix
+20069;Et
+20070;Process
+20071;Point libre
+20072;Workflow
+20073;Le workflow a déjà été démarré.
+20074;Le type de workflow @1 n'a pas d'étape de démarrage
+20075;Le type de workflow @1 a plusieurs étapes de démarrage, sélectionnez une étape
+20076;La création d'un étape nécéssite un un type d'étape
+20077;Le type de workflow doit être définit avant de démarrer
+20078;Historique de l'étape @1
+20079;En attente
+20080;Démarrée
+20081;Terminée
+20082;Erreur dans la formule "@1" de l'étape @2
+20083;Impossible de terminer l'étape @1 car elle n'est pas en cours
+20084;Le modèle d'affectation @1
+20085;Démarrage
+20086;Afficher une étape de workflow
+20087;Affiche une étape de workflow sur le poste client
+20088;Formule d'étape à afficher incorrecte
+20089;Erreur
+20090;Attente d'un évenement
+20091;Paramètre d'attente invalide dans l'étape @1
+20092;Impossible de démarrer l'étape d'attente @1 sur un élément @2
+20093;Annulée
+20094;Terminer l'étape
+20095;Annuler l'étape
+20096;Stocker l'erreur
+20097;Ne rien faire
+20098;Stop
+20099;Stop d'arrêt
+20100;Utiliser un handler d'arrêt
+20101;Sélectionnez l'étape à stopper
+20102;Etape
+20103;Terminer
+20104;Annuler
+20105;Ajouter plusieurs fichiers dans la GED
+20106;Paramètre invalide pour la méthode 'StartWorkflowsMultiSteps' : Le paramètre doit être un tableau de chemins d'étapes (séparés par des points)
+20107;Erreur dans la méthode 'StartWorkflowsMultiSteps'. Le type d'étape @1 n'a pas pu être trouvé
+20108;Erreur au lancement du sous workflow @1
+20109;Etape @1
+
+30001;Le comportement @1
+30002;Données
+30003;Déroulement du process
+30004;Interface utilisateur
+30005;Comportement
+30006;Métier
+30007;Erreur dans les paramètres
+30008;Le process @1 n'existe pas
+30050;La clé du document ne peut être calculée
+30051;Le libellé du document ne peut être calculé
+30052;La description du document ne peut être caluclée
+
+50000;Déclenchement sur client non disponibles pour les handlers

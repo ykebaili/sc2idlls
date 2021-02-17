@@ -1,0 +1,61 @@
+1;Ok
+2;Annuler
+101;Simulation PDA
+
+10000;Dernière page
+10001;Première page
+10002;Page suivante
+10003;Page précédente
+10004;Copier
+10005;Coller
+
+20000;Affectation
+20001;Sous formulaire
+20002;Erreur durant la suppression
+20003;Erreur durant la création de l'élément
+20004;Certaines valeurs par défaut n'ont pas pu être assignées
+20005;Supprimer l'élément ?
+20006;Propriétés
+20007;Evenements
+20008;Fonction indisponible
+20009;Fonctions
+20010;Editer le Sous Formulaire
+20011;Condition
+20012;Condition incorrecte
+20013;Libellé
+20014;Indiquez un libellé pour ce jeu d'affectations
+20015;Affectation @1
+20016;Structure
+20017;Formulaire|*.form|Tous fichiers|*.*
+20018;Non disponible
+20019;Le filtre a été annulé
+20020;Tout sélectionner
+20021;Copier
+20022;Navigue vers l'URL spécifiée
+20023;URL
+20024;Navigue vers la page précédente
+20025;Navigue vers la page suivante
+20026;Navigue vers la home page
+20027;Paramètres d'inspiration
+20028;Paramètres multi-select
+20029;Formule élément coché
+20030;Colonnes
+20031;(Sélectionner tout)
+20032;Filtre
+20033;Rechercher
+20034;Filtre textuel
+20035;Filtre numérique
+20036;Aucun filtre
+20037;Filtre date
+20038;Et
+20039;Supprimer la (les) variable(s) @1
+20040;Sélection d'un formulaire
+20041;Chercher
+20042;Formule globale
+
+30000;Valeur numérique incorrecte
+30001;Sélection
+30002;Zoom
+30003;La méthode d'éxécution n'est pas spécifiée
+30004;Méthode '@1' non trouvée
+

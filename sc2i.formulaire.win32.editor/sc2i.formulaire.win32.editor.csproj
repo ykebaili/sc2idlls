@@ -1,0 +1,729 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="12.0">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{EADFA9F5-2C30-44F6-B8DD-A428FEDC8789}</ProjectGuid>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>sc2i.formulaire.win32.editor</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>sc2i.formulaire.win32</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'debug structure pda|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'debug avec documentation|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <Optimize>true</Optimize>
+    <DebugType>
+    </DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'debug structure pda|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\debug structure pda\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'debug avec documentation|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\debug avec documentation\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MagicLibrary, Version=1.7.4.0, Culture=neutral, PublicKeyToken=3a6eb82f876a49bc">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\sc2i.win32.common\bin\Debug\MagicLibrary.DLL</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+    <ProjectReference Include="..\sc2i.common\SC2ICommon.csproj">
+      <Name>SC2ICommon</Name>
+      <Project>{500A5948-86F8-4331-8529-BB1109C4E966}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+    </ProjectReference>
+    <ProjectReference Include="..\sc2i.expression\sc2i.expression.csproj">
+      <Project>{BCFA4027-E5DB-40D7-B05B-623E8CAC0CA4}</Project>
+      <Name>sc2i.expression</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\sc2i.formulaire\sc2i.formulaire.csproj">
+      <Name>sc2i.formulaire</Name>
+      <Project>{979C5166-D0F2-4F00-8F6B-A39331A8AF61}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+    </ProjectReference>
+    <ProjectReference Include="..\sc2i.win32.common\sc2i.win32.common.csproj">
+      <Name>sc2i.win32.common</Name>
+      <Project>{ECBC5D80-26BD-41D1-90FF-7B2A84F73339}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+    </ProjectReference>
+    <ProjectReference Include="..\sc2i.win32.expression\sc2i.win32.expression.csproj">
+      <Project>{2363929C-9C42-4450-A347-F8F0FBE989F1}</Project>
+      <Name>sc2i.win32.expression</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CContorlEditionHandlersEvenements.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CContorlEditionHandlersEvenements.Designer.cs">
+      <DependentUpon>CContorlEditionHandlersEvenements.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CControleEditionHandlerEvenement.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CControleEditionHandlerEvenement.Designer.cs">
+      <DependentUpon>CControleEditionHandlerEvenement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CControleStructureFormulaire.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CControleStructureFormulaire.Designer.cs">
+      <DependentUpon>CControleStructureFormulaire.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CDelayedButton.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CDelayedButton.Designer.cs">
+      <DependentUpon>CDelayedButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CEncapsuleurControleToControleFormulaireExterne.cs" />
+    <Compile Include="CCreateur2iFormulaireV2.cs" />
+    <Compile Include="CDonneeDragDropControl.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CElementListeWnd.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CExecuteurActionSur2iLink.cs" />
+    <Compile Include="CFormEditConfigMultiSelect.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CFormEditConfigMultiSelect.Designer.cs">
+      <DependentUpon>CFormEditConfigMultiSelect.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CFormEditeListeFormulesNommees.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CFormEditeListeFormulesNommees.Designer.cs">
+      <DependentUpon>CFormEditeListeFormulesNommees.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CFormEditionZoneMultiple.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CFormEditionZoneMultiple.Designer.cs">
+      <DependentUpon>CFormEditionZoneMultiple.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CFormEditProprieteAffectationsProprietes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CFormEditProprieteAffectationsProprietes.Designer.cs">
+      <DependentUpon>CFormEditProprieteAffectationsProprietes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CFormEditProprieteExpression.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CFormFormulairePopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CFormSelect2iWndReference.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CFormSelect2iWndReference.Designer.cs">
+      <DependentUpon>CFormSelect2iWndReference.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CFormSelectChampPopupBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CFormVisuFormulairePDA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="controles2iWnd\CControlWndFor2iWnd.cs" />
+    <Compile Include="controles2iWnd\CWndFor2iMultiSelect.cs" />
+    <Compile Include="controles2iWnd\CPanelChildElementCustomList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="controles2iWnd\CPanelChildElementCustomList.Designer.cs">
+      <DependentUpon>CPanelChildElementCustomList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="controles2iWnd\CWndFor2iZoneMultipleCustomList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="controles2iWnd\CWndFor2iZoneMultipleCustomList.Designer.cs">
+      <DependentUpon>CWndFor2iZoneMultipleCustomList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="controles2iWnd\CWndFor2WebBrowser.cs" />
+    <Compile Include="controles2iWnd\CWndAllocateurForZoneMultiple.cs" />
+    <Compile Include="CFormEditeListeFormules.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CFormEditeListeFormules.Designer.cs">
+      <DependentUpon>CFormEditeListeFormules.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CPanelEditColonneMultiSelect.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CPanelEditColonneMultiSelect.Designer.cs">
+      <DependentUpon>CPanelEditColonneMultiSelect.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CPanelFormulaireSurElement.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="datagrid\CControlEncapsuleWndControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="datagrid\CControlEncapsuleWndControl.Designer.cs">
+      <DependentUpon>CControlEncapsuleWndControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="datagrid\CCreateurDataGrid.cs" />
+    <Compile Include="datagrid\CDataGridForFormulaire.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="datagrid\CDataGridForFormulaire.Designer.cs">
+      <DependentUpon>CDataGridForFormulaire.cs</DependentUpon>
+    </Compile>
+    <Compile Include="datagrid\CDataGridViewCustomCellFor2iWnd.cs" />
+    <Compile Include="datagrid\CFormFiltreDataGrid.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="datagrid\CFormFiltreDataGrid.Designer.cs">
+      <DependentUpon>CFormFiltreDataGrid.cs</DependentUpon>
+    </Compile>
+    <Compile Include="datagrid\CGridDataCache.cs" />
+    <Compile Include="datagrid\CGridValueSelector.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="datagrid\CGridValueSelector.Designer.cs">
+      <DependentUpon>CGridValueSelector.cs</DependentUpon>
+    </Compile>
+    <Compile Include="datagrid\CToolStripSelectValues.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="datagrid\CWndFor2iDataGrid.cs" />
+    <Compile Include="controles2iWnd\CWndFor2iControleExterne.cs" />
+    <Compile Include="controles2iWnd\CWndFor2iConteneurSousFormulaire.cs" />
+    <Compile Include="controles2iWnd\CWndFor2iSplitter.cs" />
+    <Compile Include="controles2iWnd\CPanelEllipse.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="controles2iWnd\CWndFor2iListe.cs" />
+    <Compile Include="controles2iWnd\CWndFor2iTimer.cs" />
+    <Compile Include="controles2iWnd\CWndFor2iWndFormulaireEnSurimpression.cs" />
+    <Compile Include="controles2iWnd\CWndForTabControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="controles2iWnd\CControleListePourFormulaires.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="controles2iWnd\CControleListePourFormulaires.Designer.cs">
+      <DependentUpon>CControleListePourFormulaires.cs</DependentUpon>
+    </Compile>
+    <Compile Include="controles2iWnd\CWndFor2iTabPage.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="controles2iWnd\CWndFor2iButton.cs">
+    </Compile>
+    <Compile Include="controles2iWnd\CUtilControlesWnd.cs" />
+    <Compile Include="controles2iWnd\CWndFor2iCheckBox.cs">
+    </Compile>
+    <Compile Include="controles2iWnd\CWndFor2iDateTime.cs">
+    </Compile>
+    <Compile Include="controles2iWnd\CWndFor2iPanelEllipse.cs">
+    </Compile>
+    <Compile Include="controles2iWnd\CWndFor2iSousFormulaire.cs">
+    </Compile>
+    <Compile Include="controles2iWnd\CWndFor2iSlidingPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="controles2iWnd\CPanelChildElement.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="controles2iWnd\CPanelChildElement.Designer.cs">
+      <DependentUpon>CPanelChildElement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="controles2iWnd\CPanelSousFormulaire.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="controles2iWnd\CWndFor2iExpression.cs">
+    </Compile>
+    <Compile Include="controles2iWnd\CWndFor2iLink.cs">
+    </Compile>
+    <Compile Include="controles2iWnd\CWndFor2iFenetre.cs">
+    </Compile>
+    <Compile Include="controles2iWnd\CWndFor2iLabel.cs">
+    </Compile>
+    <Compile Include="controles2iWnd\CWndFor2Image.cs">
+    </Compile>
+    <Compile Include="controles2iWnd\CWndFor2iPanel.cs" />
+    <Compile Include="controles2iWnd\CWndFor2iTextBox.cs">
+    </Compile>
+    <Compile Include="controles2iWnd\CWndFor2iTextBoxDecimal.cs">
+    </Compile>
+    <Compile Include="controles2iWnd\CWndFor2iTextBoxEntier.cs">
+    </Compile>
+    <Compile Include="controles2iWnd\CWndFor2iZoneMultiple.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="controles2iWnd\CWndFor2iZoneMultiple.Designer.cs">
+      <DependentUpon>CWndFor2iZoneMultiple.cs</DependentUpon>
+    </Compile>
+    <Compile Include="controles2iWnd\IWndErrorProvider.cs" />
+    <Compile Include="CPanelAffectationPropriete.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CPanelAffectationPropriete.Designer.cs">
+      <DependentUpon>CPanelAffectationPropriete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CPanelAffectationsProprietes.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CPanelAffectationsProprietes.Designer.cs">
+      <DependentUpon>CPanelAffectationsProprietes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CPanelEditionFormulaire.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CPanelEditionFullFormulaire.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CPanelEditionFullFormulaire.designer.cs">
+      <DependentUpon>CPanelEditionFullFormulaire.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CPanelListe2iWnd.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CPoignee.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CRemplisseurArbreStructureDynamique.cs" />
+    <Compile Include="CSelectionElementsFormulaire.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CSelectionneurProprieteDynamique.cs" />
+    <Compile Include="datagrid\Filtre\CFormEditFiltreTexte.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="datagrid\Filtre\CFormEditFiltreTexte.Designer.cs">
+      <DependentUpon>CFormEditFiltreTexte.cs</DependentUpon>
+    </Compile>
+    <Compile Include="datagrid\Filtre\CGestionnaireEditeurFiltres.cs" />
+    <Compile Include="datagrid\Filtre\CFormEditFiltreNumerique.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="datagrid\Filtre\CFormEditFiltreNumerique.Designer.cs">
+      <DependentUpon>CFormEditFiltreNumerique.cs</DependentUpon>
+    </Compile>
+    <Compile Include="datagrid\Filtre\CFormEditFiltreDate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="datagrid\Filtre\CFormEditFiltreDate.Designer.cs">
+      <DependentUpon>CFormEditFiltreDate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="datagrid\IControlIncluableDansDataGrid.cs" />
+    <Compile Include="IControleWndFor2iWnd.cs" />
+    <Compile Include="inspiration\CFormEditParametresInspiration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="inspiration\CFormEditParametresInspiration.Designer.cs">
+      <DependentUpon>CFormEditParametresInspiration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="inspiration\CPanelEditPArametreInspiration.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="inspiration\CPanelEditPArametreInspiration.Designer.cs">
+      <DependentUpon>CPanelEditPArametreInspiration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="inspiration\CPanelEditParametresInspiration.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ISelectionObjetsGraphique.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="CContorlEditionHandlersEvenements.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CContorlEditionHandlersEvenements.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CControleEditionHandlerEvenement.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CControleEditionHandlerEvenement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CControleStructureFormulaire.resx">
+      <DependentUpon>CControleStructureFormulaire.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CDelayedButton.resx">
+      <DependentUpon>CDelayedButton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CElementListeWnd.resx">
+      <DependentUpon>CElementListeWnd.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CFormEditConfigMultiSelect.resx">
+      <DependentUpon>CFormEditConfigMultiSelect.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CFormEditeListeFormulesNommees.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CFormEditeListeFormulesNommees.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CFormEditionZoneMultiple.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CFormEditionZoneMultiple.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CFormEditProprieteAffectationsProprietes.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CFormEditProprieteAffectationsProprietes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CFormEditProprieteExpression.resx">
+      <DependentUpon>CFormEditProprieteExpression.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CFormFormulairePopup.resx">
+      <DependentUpon>CFormFormulairePopup.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CFormSelect2iWndReference.resx">
+      <DependentUpon>CFormSelect2iWndReference.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CFormSelectChampPopupBase.resx">
+      <DependentUpon>CFormSelectChampPopupBase.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CFormVisuFormulairePDA.resx">
+      <DependentUpon>CFormVisuFormulairePDA.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="controles2iWnd\CControleListePourFormulaires.resx">
+      <DependentUpon>CControleListePourFormulaires.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="controles2iWnd\CPanelChildElementCustomList.resx">
+      <DependentUpon>CPanelChildElementCustomList.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="controles2iWnd\CWndFor2iZoneMultipleCustomList.resx">
+      <DependentUpon>CWndFor2iZoneMultipleCustomList.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="controles2iWnd\CPanelChildElement.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CPanelChildElement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="controles2iWnd\CWndFor2iSlidingPanel.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CWndFor2iSlidingPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="controles2iWnd\CWndFor2iTextBoxEntier.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CWndFor2iTextBoxEntier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="controles2iWnd\CWndFor2iZoneMultiple.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CWndFor2iZoneMultiple.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CFormEditeListeFormules.resx">
+      <DependentUpon>CFormEditeListeFormules.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CPanelEditColonneMultiSelect.resx">
+      <DependentUpon>CPanelEditColonneMultiSelect.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CPanelFormulaireSurElement.resx">
+      <DependentUpon>CPanelFormulaireSurElement.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="datagrid\CDataGridForFormulaire.resx">
+      <DependentUpon>CDataGridForFormulaire.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CPanelAffectationPropriete.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CPanelAffectationPropriete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CPanelAffectationsProprietes.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CPanelAffectationsProprietes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CPanelEditionFormulaire.resx">
+      <DependentUpon>CPanelEditionFormulaire.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CPanelEditionFullFormulaire.resx">
+      <DependentUpon>CPanelEditionFullFormulaire.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CPanelListe2iWnd.resx">
+      <DependentUpon>CPanelListe2iWnd.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="datagrid\CControlEncapsuleWndControl.resx">
+      <DependentUpon>CControlEncapsuleWndControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="datagrid\CFormFiltreDataGrid.resx">
+      <DependentUpon>CFormFiltreDataGrid.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="datagrid\CGridValueSelector.resx">
+      <DependentUpon>CGridValueSelector.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="datagrid\Filtre\CFormEditFiltreTexte.resx">
+      <DependentUpon>CFormEditFiltreTexte.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="datagrid\Filtre\CFormEditFiltreNumerique.resx">
+      <DependentUpon>CFormEditFiltreNumerique.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="datagrid\Filtre\CFormEditFiltreDate.resx">
+      <DependentUpon>CFormEditFiltreDate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="inspiration\CFormEditParametresInspiration.resx">
+      <DependentUpon>CFormEditParametresInspiration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="inspiration\CPanelEditPArametreInspiration.resx">
+      <DependentUpon>CPanelEditPArametreInspiration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="inspiration\CPanelEditParametresInspiration.resx">
+      <DependentUpon>CPanelEditParametresInspiration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="sc2i.formulaire.win32.editor.fr" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\haut.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bas.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1318381343_hourglass.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\filtre.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\miniplay5x5.png" />
+    <None Include="Resources\minipause5x5.png" />
+    <None Include="Resources\1367499314_accept.png" />
+    <None Include="Resources\1367499344_accept.png" />
+    <None Include="Resources\cancel.png" />
+    <None Include="Resources\check.png" />
+    <Content Include="Resources\FiltreListe.gif" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

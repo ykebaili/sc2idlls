@@ -1,0 +1,633 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="12.0">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6BB133A5-2330-4D0F-AB31-C1F585CD10D7}</ProjectGuid>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>sc2i.data.client</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>sc2i.data</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>bin\Debug\sc2i.data.client.XML</DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'debug structure pda|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE;PDA_DATA</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'debug PDA DATA|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE;PDA_DATA</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'debug avec documentation|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>bin\Debug\sc2i.data.client.XML</DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <Optimize>true</Optimize>
+    <DebugType>
+    </DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'debug structure pda|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\debug structure pda\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;PDA_DATA</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'debug PDA DATA|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\debug PDA DATA\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;PDA_DATA</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'debug avec documentation|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\debug avec documentation\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CarlosAg.ExcelXmlWriter, Version=1.0.0.6, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\dep\CarlosAg.ExcelXmlWriter.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+    <ProjectReference Include="..\sc2i.common\SC2ICommon.csproj">
+      <Name>SC2ICommon</Name>
+      <Project>{500A5948-86F8-4331-8529-BB1109C4E966}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+    </ProjectReference>
+    <ProjectReference Include="..\sc2i.expression\sc2i.expression.csproj">
+      <Project>{BCFA4027-E5DB-40D7-B05B-623E8CAC0CA4}</Project>
+      <Name>sc2i.expression</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\sc2i.multitiers.client\sc2i.multitiers.client.csproj">
+      <Name>sc2i.multitiers.client</Name>
+      <Project>{022AC2FA-0300-4662-BEE5-1C637FECBBB1}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BlobDecoderAttribute.cs" />
+    <Compile Include="C2iChampDeRequete.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="C2iDataRow.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="C2iRequeteAvancee.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CAllocateurComposantFiltre.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CAnalyseurSyntaxiqueFiltre.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CArbreTable.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CComposantFiltre.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CComposantFiltreSousFiltre.cs" />
+    <Compile Include="CCompteurElementsInDb.cs" />
+    <Compile Include="CContexteDonnee.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CDbKeyAddOn.cs" />
+    <Compile Include="CFormulesGlobaleParametrage.cs" />
+    <Compile Include="CFournisseurInventaireObjetDonnee.cs" />
+    <Compile Include="CObjetDonnee.cs" />
+    <Compile Include="CUtilDataRow.cs" />
+    <Compile Include="CUtilUniteObjetDonnee.cs" />
+    <Compile Include="ExternalReferencedEntityDbKeyAttribute.cs" />
+    <Compile Include="IObjetAContexteDonnee.cs" />
+    <Compile Include="NoIdUniverselAttribute.cs" />
+    <Compile Include="Package\CChercheurRelationsTypeId.cs" />
+    <Compile Include="Package\CChercheurRelationsParentes.cs" />
+    <Compile Include="Package\CChercheurRelationsFilles.cs" />
+    <Compile Include="Package\CConfigurationRechercheEntites.cs" />
+    <Compile Include="Package\CEntitiesManager.cs" />
+    <Compile Include="Package\COptionRechercheType.cs" />
+    <Compile Include="RelationsToReadAlwaysAttribute.cs" />
+    <Compile Include="synchronisation\CConfigSynchroTablesAMappageId.cs" />
+    <Compile Include="synchronisation\CContexteDonneeIntegrateurModifsSecondaire.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="synchronisation\CContexteDonneesSynchro.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="synchronisation\CFiltreSynchroFilsAutoreference.cs" />
+    <Compile Include="synchronisation\CFiltreSynchronisationFilsCompositions.cs" />
+    <Compile Include="synchronisation\CFiltreSynchronisationFiltreData.cs" />
+    <Compile Include="synchronisation\CFiltreSynchronisationParentsNecessaires.cs" />
+    <Compile Include="synchronisation\CFiltreSynchronisationFilsDe.cs" />
+    <Compile Include="synchronisation\CMapIdMainToIdSecInDb.cs" />
+    <Compile Include="synchronisation\CMapOldIdToNewId.cs" />
+    <Compile Include="synchronisation\CUtilSynchronisation.cs" />
+    <Compile Include="synchronisation\obsolete\CContexteDonneesSynchroSecondaire.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CContexteDonneeSysteme.cs" />
+    <Compile Include="CContexteSauvegardeObjetsDonnees.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CConversionDataId.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CCreateurStructureContexteDonneeFromObjetsDonnee.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CDataReaderForDataTable.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CDataRecordForDataTable.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CDefinitionChampFiltreAvance.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CDonneeBinaireInRow.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CDonneeDroitForUser.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CDonneeNotificationAjoutEnregistrement.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CDonneeNotificationModificationContexteDonnee.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CDroitDeBaseSC2I.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CDroitUtilisateur.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CEncoding.cs" />
+    <Compile Include="CEntreeLogSynchronisation.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CFiltreData.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CFiltreDataAvance.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CFiltreDataImpossible.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="synchronisation\CFiltresSynchronisation.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CFormatteurFiltreDataToStringDataTable.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CFournisseurFiltreRapide.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CGestionnaireDependanceReader.cs" />
+    <Compile Include="CInfoChampTable.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CInfoIndexTable.cs" />
+    <Compile Include="CInfoRelation.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CInfoRelationBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CListeObjetDonneeGenerique.cs" />
+    <Compile Include="CMappageStringsStrings.cs" />
+    <Compile Include="CMemoObjetDonnee.cs" />
+    <Compile Include="CObjetDonneeAIdNumerique.cs" />
+    <Compile Include="CObjetHierarchique.cs" />
+    <Compile Include="CReaderDependancesListeObjetsDonneesPropriete.cs" />
+    <Compile Include="CReferenceObjetDonneeDragDropData.cs" />
+    <Compile Include="CStructureTable.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="EntitesOrganisationnelles\IElementAEO.cs" />
+    <Compile Include="EntitesOrganisationnelles\IRelationsEOProvider.cs" />
+    <Compile Include="Excel\CFichierExcelOledb.cs" />
+    <Compile Include="Excel\CLecteurFichierExcel.cs" />
+    <Compile Include="Excel\CParametreLectureExcel.cs" />
+    <Compile Include="Excel\CPlageDonneeARecherchePremiereCelluleHautGauche.cs" />
+    <Compile Include="Excel\CUtilExcel.cs" />
+    <Compile Include="Excel\IPlageDonnees.cs" />
+    <Compile Include="InsertEnFinAttribute.cs" />
+    <Compile Include="IObjetDonneeAValeurParDefautOptim.cs" />
+    <Compile Include="IParametreLectureFichier.cs" />
+    <Compile Include="NoTriggerAutoIncrementAttribute.cs" />
+    <Compile Include="OptimizedByCallAttribute.cs" />
+    <Compile Include="synchronisation\CModifSynchronisation.cs" />
+    <Compile Include="version\CChampPourVersionInDb.cs" />
+    <Compile Include="version\CJournaliseurVersionObjetChampsDb.cs" />
+    <Compile Include="version\CDetailOperationSurObjet.cs" />
+    <Compile Include="version\CGestionnaireAChampPourVersion.cs" />
+    <Compile Include="version\CJournaliseurChampDb.cs" />
+    <Compile Include="version\CCategorieVersionDonnees.cs" />
+    <Compile Include="version\IValeurChampSerialisableEnString.cs" />
+    <Compile Include="version\CUtilStockageValeurChamp.cs" />
+    <Compile Include="version\CReferenceChampPourVersion.cs" />
+    <Compile Include="version\IChampPourVersion.cs" />
+    <Compile Include="version\IJournaliseurDonneesChamp.cs" />
+    <Compile Include="version\CTypeOperationSurObjet.cs" />
+    <Compile Include="version\IVersionDonneesObjetServeur.cs" />
+    <Compile Include="version\IJournaliseurDonneesObjet.cs" />
+    <Compile Include="version\RelationVersionDonneesObjetAttribute.cs" />
+    <Compile Include="version\IVersionDonneesServeur.cs" />
+    <Compile Include="version\CValeursHistorique.cs" />
+    <Compile Include="version\CTypeVersion.cs" />
+    <Compile Include="version\IDifferencesBlob.cs" />
+    <Compile Include="version\IElementAChampPourVersion.cs" />
+    <Compile Include="version\CVersionDonneesObjetOperation.cs" />
+    <Compile Include="version\CVersionDonneesObjet.cs" />
+    <Compile Include="version\CVersionDonnees.cs" />
+    <Compile Include="EvenementAttribute.cs" />
+    <Compile Include="CListeObjetsDonnees.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CListeObjetsDonneesContenus.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CMappeurTableToObjectClass.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CObjetDonneeAIdNumeriqueAuto.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CObjetDonneeEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="COleDbTypeConvertor.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Composant filtre recherche avancee\CAllocateurElementRecherche.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Composant filtre recherche avancee\CAnalyseurRequeteIntuitive.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Composant filtre recherche avancee\CComposantFiltreHasWords.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Composant filtre recherche avancee\CElementRechercheEt.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Composant filtre recherche avancee\CElementRechercheIntuitive.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Composant filtre recherche avancee\CElementRechercheOu.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Composant filtre recherche avancee\CElementRecherchePas.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Composant filtre recherche avancee\CElementRechercheTexte.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Composant filtre recherche avancee\CMotRecherche.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CParametreLectureCSV.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CReferenceObjetDonnee.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CRelationElement_Droit.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CSc2iDataConst.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CUtilDataSet.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CValiseImportExport.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CValiseObjetDonnee.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FullTableSyncAttribute.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IContexteDonneeServeur.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IDatabaseRegistre.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IDonneeDroitForUserServer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IElementDefinissantDesDroits.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IFormatteurFiltreDataToString.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IFournisseurContexteDonnees.cs" />
+    <Compile Include="IGestionnaireDroitsUtilisateurs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IndexFieldAttribute.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="version\IObjetABlobAVersionPartielle.cs" />
+    <Compile Include="IObjetDonnee.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IObjetDonneeAutoReference.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IObjetSansVersion.cs" />
+    <Compile Include="IObjetServeur.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="synchronisation\obsolete\IServiceGetFiltresSynchronisation.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="synchronisation\obsolete\IServiceSynchronisationSecondaire.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="synchronisation\obsolete\ISynchroniseurBdd.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="synchronisation\obsolete\ISynchroniseurBddSecondaire.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ObjetServeurURIAttribute.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="RelationAttribute.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="RelationFilleAttribute.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="RelationTypeIdAttribute.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SynchronizedFieldAttribute.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TableAttribute.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TableFieldPropertyAttribute.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UniqueAttribute.cs" />
+    <EmbeddedResource Include="CContexteDonnee.resx">
+      <DependentUpon>CContexteDonnee.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="synchronisation\CContexteDonneesSynchro.resx">
+      <DependentUpon>CContexteDonneesSynchro.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="synchronisation\obsolete\CContexteDonneesSynchroSecondaire.resx">
+      <DependentUpon>CContexteDonneesSynchroSecondaire.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <None Include="Documentation Attributs.txt" />
+    <None Include="sc2i.data.client.fr" />
+    <None Include="sc2i.data.client.snk" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,863 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="12.0">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C7BF3965-C41C-4898-B173-B62FF4C0515D}</ProjectGuid>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>sc2i.win32.process</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>sc2i.win32.process</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'debug structure pda|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'debug avec documentation|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <Optimize>true</Optimize>
+    <DebugType>
+    </DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'debug structure pda|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\debug structure pda\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'debug avec documentation|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\debug avec documentation\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MagicLibrary, Version=1.7.4.0, Culture=neutral, PublicKeyToken=3a6eb82f876a49bc">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\dep\MagicLibrary.DLL</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+    <ProjectReference Include="..\sc2i.common\SC2ICommon.csproj">
+      <Name>SC2ICommon</Name>
+      <Project>{500A5948-86F8-4331-8529-BB1109C4E966}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+    </ProjectReference>
+    <ProjectReference Include="..\sc2i.data.client\sc2i.data.client.csproj">
+      <Name>sc2i.data.client</Name>
+      <Project>{6BB133A5-2330-4D0F-AB31-C1F585CD10D7}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+    </ProjectReference>
+    <ProjectReference Include="..\sc2i.data.dynamic\sc2i.data.dynamic.csproj">
+      <Name>sc2i.data.dynamic</Name>
+      <Project>{557DBF3C-58CA-45D7-867D-162608670072}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+    </ProjectReference>
+    <ProjectReference Include="..\sc2i.documents\sc2i.documents.csproj">
+      <Project>{ED1D5107-458A-4CCA-A161-EA1860692FFE}</Project>
+      <Name>sc2i.documents</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\sc2i.expression\sc2i.expression.csproj">
+      <Name>sc2i.expression</Name>
+      <Project>{BCFA4027-E5DB-40D7-B05B-623E8CAC0CA4}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+    </ProjectReference>
+    <ProjectReference Include="..\sc2i.formulaire.win32.editor\sc2i.formulaire.win32.editor.csproj">
+      <Name>sc2i.formulaire.win32.editor</Name>
+      <Project>{EADFA9F5-2C30-44F6-B8DD-A428FEDC8789}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+    </ProjectReference>
+    <ProjectReference Include="..\sc2i.formulaire\sc2i.formulaire.csproj">
+      <Name>sc2i.formulaire</Name>
+      <Project>{979C5166-D0F2-4F00-8F6B-A39331A8AF61}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+    </ProjectReference>
+    <ProjectReference Include="..\sc2i.multitiers.client\sc2i.multitiers.client.csproj">
+      <Name>sc2i.multitiers.client</Name>
+      <Project>{022AC2FA-0300-4662-BEE5-1C637FECBBB1}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+    </ProjectReference>
+    <ProjectReference Include="..\sc2i.process\sc2i.process.csproj">
+      <Name>sc2i.process</Name>
+      <Project>{D7D70DEB-BFC7-4C89-86D1-8854D3B297DE}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+    </ProjectReference>
+    <ProjectReference Include="..\sc2i.win32.common\sc2i.win32.common.csproj">
+      <Name>sc2i.win32.common</Name>
+      <Project>{ECBC5D80-26BD-41D1-90FF-7B2A84F73339}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+    </ProjectReference>
+    <ProjectReference Include="..\sc2i.win32.data.dynamic\sc2i.win32.data.dynamic.csproj">
+      <Name>sc2i.win32.data.dynamic</Name>
+      <Project>{EDB0D537-0140-4E15-9AF4-C67DBE74855D}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+    </ProjectReference>
+    <ProjectReference Include="..\sc2i.win32.data.navigation\sc2i.win32.data.navigation.csproj">
+      <Name>sc2i.win32.data.navigation</Name>
+      <Project>{7D649731-7A70-4CE9-805B-E2991CEDF8BE}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+    </ProjectReference>
+    <ProjectReference Include="..\sc2i.win32.data\sc2i.win32.data.csproj">
+      <Name>sc2i.win32.data</Name>
+      <Project>{6841AA20-24D6-4534-8685-4483D71A90D8}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+    </ProjectReference>
+    <ProjectReference Include="..\sc2i.win32.expression\sc2i.win32.expression.csproj">
+      <Name>sc2i.win32.expression</Name>
+      <Project>{2363929C-9C42-4450-A347-F8F0FBE989F1}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+    </ProjectReference>
+    <ProjectReference Include="..\sc2i.win32.navigation\sc2i.win32.navigation.csproj">
+      <Project>{39C25ED1-65AF-4137-AB6F-309A75F3B1FF}</Project>
+      <Name>sc2i.win32.navigation</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CControlEditionProcess.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CEditeurActionsEtLiens.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CEditeurFormuleNommee.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="multipledoctoged\CControlGedCategoryForDragFile.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="multipledoctoged\CControlGedCategoryForDragFile.Designer.cs">
+      <DependentUpon>CControlGedCategoryForDragFile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="multipledoctoged\CFormAddMultipleToGed.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="multipledoctoged\CFormAddMultipleToGed.designer.cs">
+      <DependentUpon>CFormAddMultipleToGed.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CFormEditActionAssocierComportement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CFormEditActionAttenteUtilisateur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CFormEditActionChangerOptionsImpression.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CFormEditActionCondition.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CFormEditActionCreerEntite.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CFormEditActionCreerHandlerEvenement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CFormEditActionCreerListeObjetsDonnee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CFormEditActionDeclencherEvenementStatiques.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CFormEditActionDissocierComportement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CFormEditActionAfficheEtapeWorkflow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CFormEditActionErreur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CFormEditActionFonction.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CFormEditActionForEach.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CFormEditActionCopierLocalDansGed.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CFormEditActionLancerActionServeur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CFormEditActionLancerProcess.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CFormEditActionLancerProcessDistant.cs">
+    </Compile>
+    <Compile Include="CFormEditActionMessageBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CFormEditActionModifierPropriete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CFormEditActionModifierRegistre.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CFormEditActionModifierVariable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CFormEditActionModifierVariableSurObjet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CFormEditActionOuvrirFichier.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CFormEditActionSupprimerEntite.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CFormEditActionSupprimerHandlerEvenement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CFormEditActionSynchronisme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CFormEditActionCopierMultipleLocalDansGed.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CPanelEditionComportementGenerique.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CFormEditionEvenementPopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CFormEditionEvenementPopup.Designer.cs">
+      <DependentUpon>CFormEditionEvenementPopup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CFormEditionDefinisseurEvenementPopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CFormEditionDefinisseurEvenementPopup.Designer.cs">
+      <DependentUpon>CFormEditionDefinisseurEvenementPopup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CPanelEditionEvenement.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CFormEditNomVariable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CFormEditObjetDeProcess.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CFormSelectContextesExceptions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CFormSelectContextesExceptions.Designer.cs">
+      <DependentUpon>CFormSelectContextesExceptions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CFormSelectLienSortant.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CFormEditActionAnnulerAttenteUtilisateur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CFormEditActionCopierEntite.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CFormEditActionChangerVersionDonnees.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CFormEditActionEtiquetterBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CFormEditActionPurgeHistoriqueProcess.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CFormEditActionPurgeJournalisation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CFormEditActionSelectionFichierClient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CFormEditActionSetModificationContextuelle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CFormEditActionProcessFils.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CFormEditActionClonerEntite.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CFormEditActionZipGedDansGed.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CPanelDebugProcess.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CPanelDefinisseurEvenements.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CPanelEditParametreDeclencheur.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CProcessEditor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CSc2iProcessRegistre.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="workflow\bloc\CAllocateurEditeurBlocWorkflow.cs" />
+    <Compile Include="workflow\bloc\CFormEditionBlocWorkflowFormulaire.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="workflow\bloc\CFormEditionBlocWorkflowFormulaire.Designer.cs">
+      <DependentUpon>CFormEditionBlocWorkflowFormulaire.cs</DependentUpon>
+    </Compile>
+    <Compile Include="workflow\bloc\CFormEditionBlocWorkflowWorkflow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="workflow\bloc\CFormEditionBlocWorkflowWorkflow.designer.cs">
+      <DependentUpon>CFormEditionBlocWorkflowWorkflow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="workflow\bloc\CFormEditionBlocWorkflowChoix.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="workflow\bloc\CFormEditionBlocWorkflowChoix.designer.cs">
+      <DependentUpon>CFormEditionBlocWorkflowChoix.cs</DependentUpon>
+    </Compile>
+    <Compile Include="workflow\bloc\CFormEditionBlocWorkflowProcess.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="workflow\bloc\CFormEditionBlocWorkflowProcess.Designer.cs">
+      <DependentUpon>CFormEditionBlocWorkflowProcess.cs</DependentUpon>
+    </Compile>
+    <Compile Include="workflow\bloc\CFormEditionBlocWorkflowAttente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="workflow\bloc\CFormEditionBlocWorkflowAttente.Designer.cs">
+      <DependentUpon>CFormEditionBlocWorkflowAttente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="workflow\bloc\CFormEditionBlocWorkflowStop.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="workflow\bloc\CFormEditionBlocWorkflowStop.designer.cs">
+      <DependentUpon>CFormEditionBlocWorkflowStop.cs</DependentUpon>
+    </Compile>
+    <Compile Include="workflow\bloc\CPanelEditeRestrictionsBlocWorkflowFormulaire.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="workflow\bloc\CPanelEditeRestrictionsBlocWorkflowFormulaire.designer.cs">
+      <DependentUpon>CPanelEditeRestrictionsBlocWorkflowFormulaire.cs</DependentUpon>
+    </Compile>
+    <Compile Include="workflow\CControlEditWorkflow.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="workflow\CDummyObjetWorkflowPourCreation.cs" />
+    <Compile Include="workflow\CFormEditeModeleAffectationPopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="workflow\CFormEditeModeleAffectationPopup.Designer.cs">
+      <DependentUpon>CFormEditeModeleAffectationPopup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="workflow\CFormEditeParametresInitialisationEtape.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="workflow\CFormEditeParametresInitialisationEtape.Designer.cs">
+      <DependentUpon>CFormEditeParametresInitialisationEtape.cs</DependentUpon>
+    </Compile>
+    <Compile Include="workflow\CPanelEditeParametresInitialisationEtape.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="workflow\CPanelEditeParametresInitialisationEtape.Designer.cs">
+      <DependentUpon>CPanelEditeParametresInitialisationEtape.cs</DependentUpon>
+    </Compile>
+    <Compile Include="workflow\CPanelEditionWorkflow.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="workflow\CPanelEditionWorkflow.designer.cs">
+      <DependentUpon>CPanelEditionWorkflow.cs</DependentUpon>
+    </Compile>
+    <Content Include="bmpAction.gif" />
+    <Content Include="bmpCondition.gif" />
+    <Content Include="bmpCurseur.gif" />
+    <Content Include="bmpJonction.gif" />
+    <Content Include="bmpLien.gif" />
+    <None Include="Resources\delete.gif" />
+    <None Include="Resources\Suivant.gif" />
+    <None Include="Resources\copy.gif" />
+    <None Include="Resources\paste.gif" />
+    <None Include="Resources\loupe.png" />
+    <None Include="Resources\Shell32 210.ico" />
+    <None Include="Resources\1346459174_group.png" />
+    <None Include="Resources\32px-Crystal_Clear_app_kedit.png" />
+    <None Include="Resources\search.png" />
+    <None Include="Resources\1272872012_emblem-work.png" />
+    <None Include="Resources\icones workflow.png" />
+    <None Include="Resources\Link.png" />
+    <EmbeddedResource Include="multipledoctoged\CControlGedCategoryForDragFile.resx">
+      <DependentUpon>CControlGedCategoryForDragFile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="multipledoctoged\CFormAddMultipleToGed.resx">
+      <DependentUpon>CFormAddMultipleToGed.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CFormEditActionCopierLocalDansGed.resx">
+      <DependentUpon>CFormEditActionCopierLocalDansGed.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CFormEditActionAfficheEtapeWorkflow.resx">
+      <DependentUpon>CFormEditActionAfficheEtapeWorkflow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CFormEditActionSelectionFichierClient.resx">
+      <DependentUpon>CFormEditActionSelectionFichierClient.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CFormEditActionSetModificationContextuelle.resx">
+      <DependentUpon>CFormEditActionSetModificationContextuelle.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CFormEditActionCopierMultipleLocalDansGed.resx">
+      <DependentUpon>CFormEditActionCopierMultipleLocalDansGed.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CPanelEditionComportementGenerique.resx">
+      <DependentUpon>CPanelEditionComportementGenerique.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CFormEditionEvenementPopup.resx">
+      <DependentUpon>CFormEditionEvenementPopup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CFormEditionDefinisseurEvenementPopup.resx">
+      <DependentUpon>CFormEditionDefinisseurEvenementPopup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CPanelEditionEvenement.resx">
+      <DependentUpon>CPanelEditionEvenement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CFormSelectContextesExceptions.resx">
+      <DependentUpon>CFormSelectContextesExceptions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CFormEditActionProcessFils.resx">
+      <DependentUpon>CFormEditActionProcessFils.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CFormEditActionClonerEntite.resx">
+      <DependentUpon>CFormEditActionClonerEntite.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CFormEditActionZipGedDansGed.resx">
+      <DependentUpon>CFormEditActionZipGedDansGed.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CPanelDefinisseurEvenements.resx">
+      <DependentUpon>CPanelDefinisseurEvenements.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="curEntry.cur" />
+    <EmbeddedResource Include="bmpAttente.gif" />
+    <EmbeddedResource Include="CControlEditionProcess.resx">
+      <DependentUpon>CControlEditionProcess.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CEditeurFormuleNommee.resx">
+      <DependentUpon>CEditeurFormuleNommee.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CFormEditActionAssocierComportement.resx">
+      <DependentUpon>CFormEditActionAssocierComportement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CFormEditActionAttenteUtilisateur.resx">
+      <DependentUpon>CFormEditActionAttenteUtilisateur.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CFormEditActionChangerOptionsImpression.resx">
+      <DependentUpon>CFormEditActionChangerOptionsImpression.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CFormEditActionCondition.resx">
+      <DependentUpon>CFormEditActionCondition.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CFormEditActionCreerEntite.resx">
+      <DependentUpon>CFormEditActionCreerEntite.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CFormEditActionCreerHandlerEvenement.resx">
+      <DependentUpon>CFormEditActionCreerHandlerEvenement.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CFormEditActionCreerListeObjetsDonnee.resx">
+      <DependentUpon>CFormEditActionCreerListeObjetsDonnee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CFormEditActionDeclencherEvenementStatiques.resx">
+      <DependentUpon>CFormEditActionDeclencherEvenementStatiques.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CFormEditActionDissocierComportement.resx">
+      <DependentUpon>CFormEditActionDissocierComportement.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CFormEditActionErreur.resx">
+      <DependentUpon>CFormEditActionErreur.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CFormEditActionFonction.resx">
+      <DependentUpon>CFormEditActionFonction.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CFormEditActionForEach.resx">
+      <DependentUpon>CFormEditActionForEach.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CFormEditActionLancerActionServeur.resx">
+      <DependentUpon>CFormEditActionLancerActionServeur.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CFormEditActionLancerProcess.resx">
+      <DependentUpon>CFormEditActionLancerProcess.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CFormEditActionLancerProcessDistant.resx">
+      <DependentUpon>CFormEditActionLancerProcessDistant.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CFormEditActionMessageBox.resx">
+      <DependentUpon>CFormEditActionMessageBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CFormEditActionModifierPropriete.resx">
+      <DependentUpon>CFormEditActionModifierPropriete.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CFormEditActionModifierRegistre.resx">
+      <DependentUpon>CFormEditActionModifierRegistre.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CFormEditActionModifierVariable.resx">
+      <DependentUpon>CFormEditActionModifierVariable.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CFormEditActionModifierVariableSurObjet.resx">
+      <DependentUpon>CFormEditActionModifierVariableSurObjet.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CFormEditActionOuvrirFichier.resx">
+      <DependentUpon>CFormEditActionOuvrirFichier.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CFormEditActionSupprimerEntite.resx">
+      <DependentUpon>CFormEditActionSupprimerEntite.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CFormEditActionSupprimerHandlerEvenement.resx">
+      <DependentUpon>CFormEditActionSupprimerHandlerEvenement.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CFormEditActionSynchronisme.resx">
+      <DependentUpon>CFormEditActionSynchronisme.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CFormEditNomVariable.resx">
+      <DependentUpon>CFormEditNomVariable.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CFormEditObjetDeProcess.resx">
+      <DependentUpon>CFormEditObjetDeProcess.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CFormSelectLienSortant.resx">
+      <DependentUpon>CFormSelectLienSortant.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CFormEditActionAnnulerAttenteUtilisateur.resx">
+      <DependentUpon>CFormEditActionAnnulerAttenteUtilisateur.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CFormEditActionCopierEntite.resx">
+      <DependentUpon>CFormEditActionCopierEntite.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CFormEditActionChangerVersionDonnees.resx">
+      <DependentUpon>CFormEditActionChangerVersionDonnees.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CFormEditActionEtiquetterBase.resx">
+      <DependentUpon>CFormEditActionEtiquetterBase.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CFormEditActionPurgeHistoriqueProcess.resx">
+      <DependentUpon>CFormEditActionPurgeHistoriqueProcess.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CFormEditActionPurgeJournalisation.resx">
+      <DependentUpon>CFormEditActionPurgeJournalisation.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CPanelDebugProcess.resx">
+      <DependentUpon>CPanelDebugProcess.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CPanelEditParametreDeclencheur.resx">
+      <DependentUpon>CPanelEditParametreDeclencheur.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CProcessEditor.resx">
+      <DependentUpon>CProcessEditor.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="curAction.cur" />
+    <EmbeddedResource Include="curAttente.cur" />
+    <EmbeddedResource Include="curCondition.cur" />
+    <EmbeddedResource Include="curJonction.cur" />
+    <EmbeddedResource Include="curLien1.cur" />
+    <EmbeddedResource Include="curLien2.cur" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="workflow\bloc\CFormEditionBlocWorkflowFormulaire.resx">
+      <DependentUpon>CFormEditionBlocWorkflowFormulaire.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="workflow\bloc\CFormEditionBlocWorkflowWorkflow.resx">
+      <DependentUpon>CFormEditionBlocWorkflowWorkflow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="workflow\bloc\CFormEditionBlocWorkflowChoix.resx">
+      <DependentUpon>CFormEditionBlocWorkflowChoix.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="workflow\bloc\CFormEditionBlocWorkflowProcess.resx">
+      <DependentUpon>CFormEditionBlocWorkflowProcess.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="workflow\bloc\CFormEditionBlocWorkflowAttente.resx">
+      <DependentUpon>CFormEditionBlocWorkflowAttente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="workflow\bloc\CFormEditionBlocWorkflowStop.resx">
+      <DependentUpon>CFormEditionBlocWorkflowStop.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="workflow\bloc\CPanelEditeRestrictionsBlocWorkflowFormulaire.resx">
+      <DependentUpon>CPanelEditeRestrictionsBlocWorkflowFormulaire.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="workflow\CControlEditWorkflow.resx">
+      <DependentUpon>CControlEditWorkflow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="workflow\CFormEditeModeleAffectationPopup.resx">
+      <DependentUpon>CFormEditeModeleAffectationPopup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="workflow\CFormEditeParametresInitialisationEtape.resx">
+      <DependentUpon>CFormEditeParametresInitialisationEtape.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="workflow\CPanelEditeParametresInitialisationEtape.resx">
+      <DependentUpon>CPanelEditeParametresInitialisationEtape.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="workflow\CPanelEditionWorkflow.resx">
+      <DependentUpon>CPanelEditionWorkflow.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="sc2i.win32.process.fr" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

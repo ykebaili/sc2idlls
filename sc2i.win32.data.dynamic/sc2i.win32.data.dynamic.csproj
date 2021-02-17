@@ -1,0 +1,1251 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="12.0">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{EDB0D537-0140-4E15-9AF4-C67DBE74855D}</ProjectGuid>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>sc2i.win32.data.dynamic</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>sc2i.win32.data.dynamic</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'debug structure pda|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'debug avec documentation|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <Optimize>true</Optimize>
+    <DebugType>
+    </DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'debug structure pda|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\debug structure pda\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'debug avec documentation|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\debug avec documentation\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MagicLibrary, Version=1.7.4.0, Culture=neutral, PublicKeyToken=3a6eb82f876a49bc">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\dep\MagicLibrary.DLL</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+    <ProjectReference Include="..\futurocom.easyquery\futurocom.easyquery.csproj">
+      <Project>{6EA1E23F-7E62-41C6-AFA1-C317777F3D94}</Project>
+      <Name>futurocom.easyquery</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\futurocom.win32.easyquery\futurocom.win32.easyquery.csproj">
+      <Project>{2443CD6C-33CC-4FE9-AD09-DA4F27F02A69}</Project>
+      <Name>futurocom.win32.easyquery</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\sc2i.common\SC2ICommon.csproj">
+      <Name>SC2ICommon</Name>
+      <Project>{500A5948-86F8-4331-8529-BB1109C4E966}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+    </ProjectReference>
+    <ProjectReference Include="..\sc2i.data.client\sc2i.data.client.csproj">
+      <Project>{6BB133A5-2330-4D0F-AB31-C1F585CD10D7}</Project>
+      <Name>sc2i.data.client</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\sc2i.data.dynamic\sc2i.data.dynamic.csproj">
+      <Name>sc2i.data.dynamic</Name>
+      <Project>{557DBF3C-58CA-45D7-867D-162608670072}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+    </ProjectReference>
+    <ProjectReference Include="..\sc2i.expression\sc2i.expression.csproj">
+      <Name>sc2i.expression</Name>
+      <Project>{BCFA4027-E5DB-40D7-B05B-623E8CAC0CA4}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+    </ProjectReference>
+    <ProjectReference Include="..\sc2i.formulaire.win32.editor\sc2i.formulaire.win32.editor.csproj">
+      <Name>sc2i.formulaire.win32.editor</Name>
+      <Project>{EADFA9F5-2C30-44F6-B8DD-A428FEDC8789}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+    </ProjectReference>
+    <ProjectReference Include="..\sc2i.formulaire\sc2i.formulaire.csproj">
+      <Name>sc2i.formulaire</Name>
+      <Project>{979C5166-D0F2-4F00-8F6B-A39331A8AF61}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+    </ProjectReference>
+    <ProjectReference Include="..\sc2i.multitiers.client\sc2i.multitiers.client.csproj">
+      <Name>sc2i.multitiers.client</Name>
+      <Project>{022AC2FA-0300-4662-BEE5-1C637FECBBB1}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+    </ProjectReference>
+    <ProjectReference Include="..\sc2i.win32.common\sc2i.win32.common.csproj">
+      <Name>sc2i.win32.common</Name>
+      <Project>{ECBC5D80-26BD-41D1-90FF-7B2A84F73339}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+    </ProjectReference>
+    <ProjectReference Include="..\sc2i.win32.data\sc2i.win32.data.csproj">
+      <Name>sc2i.win32.data</Name>
+      <Project>{6841AA20-24D6-4534-8685-4483D71A90D8}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+    </ProjectReference>
+    <ProjectReference Include="..\sc2i.win32.expression\sc2i.win32.expression.csproj">
+      <Name>sc2i.win32.expression</Name>
+      <Project>{2363929C-9C42-4450-A347-F8F0FBE989F1}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="C2iDataGridValeurChampStyle.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="C2iTextBoxFiltreRapide.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CComboBoxArbreObjetDonneesHierarchique.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CControleImageForFormulaire.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CControlListeForFormulaire.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CControlListeForFormulaire.Designer.cs">
+      <DependentUpon>CControlListeForFormulaire.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CControlSelectDefinitionPropriete.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CCreateur2iFormulaire.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CCreateur2iFormulaireObjetDonnee.cs" />
+    <Compile Include="CFormAppliquerFormule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CFormAppliquerFormule.designer.cs">
+      <DependentUpon>CFormAppliquerFormule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CFormArbreObjetDonneeHierarchiquePopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CFormatteurTextBox.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CFormatteurTextBoxMasque.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CFormEditChampCalcule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CFormEditChampDeRequete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CFormEditComposantFiltreRechercheAvancee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CFormEditComposantFiltreSelectionStatique.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CFormEditComposantFiltreTestNull.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CFormEditComposantFiltreValeurChamp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CFormEditeElementDeMultiStructure.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CFormEditFiltreDynamique.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CFormEditProprieteExpression.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CFormEditTableauCroise.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CFormEditVariableDynamiqueCalculee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CFormEditVariableDynamiqueListeObjets.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CFormEditVariableDynamiqueSaisie.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CFormEditVariableDynamiqueSelectionObjetDonnee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CFormFiltreDynamic.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CFormOptionsExport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CFormOptionsFiltreDynamique.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CFormOptionsFiltreDynamique.Designer.cs">
+      <DependentUpon>CFormOptionsFiltreDynamique.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CFormSelectChampPopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CFormSelectChampPourStructure.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CFormSelectionFromVariableSelectionObjetDonnee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CFormSelectStructure.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CFormSelectUnObjetDonnee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CFormSelectVariableDynamiqueAInterfaceUtilisateur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CFormVisualisationDataSet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CFormEditProprieteListeColonnes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CFormEditOrigineChampCustom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="controlesFor2iWnd\C2iWndFor2iWndExpression.cs" />
+    <Compile Include="controlesFor2iWnd\ControlesForChampsCustom\CcontroleForVariableCheckBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="controlesFor2iWnd\ControlesForChampsCustom\CControleForVariableTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="controlesFor2iWnd\ControlesForChampsCustom\CControleForVariableTextBoxAvecUnite.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="controlesFor2iWnd\ControlesForChampsCustom\CControleForVariableTextBoxEntier.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="controlesFor2iWnd\ControlesForChampsCustom\CControleForVariableTextBoxDouble.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="controlesFor2iWnd\ControlesForChampsCustom\CControleForVariableDateTimePicker.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="controlesFor2iWnd\ControlesForChampsCustom\CControleForVariableComboBox.cs">
+    </Compile>
+    <Compile Include="controlesFor2iWnd\ControlesForChampsCustom\CControleForVariableRechercheRapide.cs" />
+    <Compile Include="controlesFor2iWnd\ControlesForChampsCustom\CUtilControlesVariables.cs" />
+    <Compile Include="controlesFor2iWnd\ControlesForChampsCustom\CWndFor2iWndSelectionValeurChamp.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="controlesFor2iWnd\ControlesForChampsCustom\CWndFor2iWndSelectionValeurChamp.designer.cs">
+      <DependentUpon>CWndFor2iWndSelectionValeurChamp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="controlesFor2iWnd\ControlesForChampsCustom\IControleForVariable.cs" />
+    <Compile Include="controlesFor2iWnd\CWndFor2iTextBoxFiltreRapide.cs">
+    </Compile>
+    <Compile Include="controlesFor2iWnd\CWndFor2iWndVariable.cs" />
+    <Compile Include="CFormEditComposantFiltreSousFiltre.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CSelectionneurFiltreDynamique.cs" />
+    <Compile Include="EasyQuery\CControleEditeEasyQueryInDb.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EasyQuery\CControleEditeEasyQueryInDb.Designer.cs">
+      <DependentUpon>CControleEditeEasyQueryInDb.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EasyQuery\CFormEditeProprietesTableFromFramework.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EasyQuery\CFormEditeProprietesTableFromFramework.designer.cs">
+      <DependentUpon>CFormEditeProprietesTableFromFramework.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EasyQuery\CFormEditJeuDeDonneesEasyQuery.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EasyQuery\CFormEditJeuDeDonneesEasyQuery.Designer.cs">
+      <DependentUpon>CFormEditJeuDeDonneesEasyQuery.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EasyQuery\CFormEditeProprietesTableFilleFromFramework.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EasyQuery\CFormEditeProprietesTableFilleFromFramework.designer.cs">
+      <DependentUpon>CFormEditeProprietesTableFilleFromFramework.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formulesglobale\CFormEditeFormulesGlobales.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formulesglobale\CFormEditeFormulesGlobales.Designer.cs">
+      <DependentUpon>CFormEditeFormulesGlobales.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formulesglobale\CPanelEditeFormuleGlobale.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="formulesglobale\CPanelEditeFormuleGlobale.Designer.cs">
+      <DependentUpon>CPanelEditeFormuleGlobale.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formulesglobale\CPanelEditeFormulesGlobales.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="formulesglobale\CPanelEditeFormulesGlobales.Designer.cs">
+      <DependentUpon>CPanelEditeFormulesGlobales.cs</DependentUpon>
+    </Compile>
+    <Compile Include="import\CControleOptionCreation.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="import\CControleOptionCreation.Designer.cs">
+      <DependentUpon>CControleOptionCreation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="import\CControleOptionImport.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="import\CControleOptionImport.Designer.cs">
+      <DependentUpon>CControleOptionImport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="import\CControleSetupSmartImport.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="import\CControleSetupSmartImportField.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="import\CControleSetupSmartImportField.Designer.cs">
+      <DependentUpon>CControleSetupSmartImportField.cs</DependentUpon>
+    </Compile>
+    <Compile Include="import\CFormEditionSessionImport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="import\CFormEditionSessionImport.Designer.cs">
+      <DependentUpon>CFormEditionSessionImport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="import\CFormOptionsImport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="import\CFormOptionsImport.Designer.cs">
+      <DependentUpon>CFormOptionsImport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="import\CFormOptionsValeurNulle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="import\CFormOptionsValeurNulle.Designer.cs">
+      <DependentUpon>CFormOptionsValeurNulle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="import\CFormOptionsSimulation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="import\CFormOptionsSimulation.Designer.cs">
+      <DependentUpon>CFormOptionsSimulation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="import\CFormResultatSmartImport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="import\CFormResultatSmartImport.Designer.cs">
+      <DependentUpon>CFormResultatSmartImport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="import\CFormSetupSmartImport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="import\CFormSetupSmartImport.Designer.cs">
+      <DependentUpon>CFormSetupSmartImport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="import\COptionSimulationSmartImport.cs" />
+    <Compile Include="import\SmartImportItems\CSetupSmartImportChampEntiteItem.cs" />
+    <Compile Include="import\SmartImportItems\CSetupSmartImportChampSimpleItem.cs" />
+    <Compile Include="import\SmartImportItems\CSetupSmartImportEntiteFilleItem.cs" />
+    <Compile Include="import\SmartImportItems\CSetupSmartImportEntiteParentItem.cs" />
+    <Compile Include="import\SmartImportItems\CSetupSmartImportItem.cs" />
+    <Compile Include="import\SmartImportResult\CControleViewSmartImportResult.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="import\SmartImportResult\CControleViewSmartImportResultField.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="import\SmartImportResult\CControleViewSmartImportResultField.Designer.cs">
+      <DependentUpon>CControleViewSmartImportResultField.cs</DependentUpon>
+    </Compile>
+    <Compile Include="import\SmartImportResult\CViewSmartImportResultItem.cs" />
+    <Compile Include="import\sources\CControleEditeSourceImport.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="import\sources\CControleEditeSourceImport.Designer.cs">
+      <DependentUpon>CControleEditeSourceImport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="import\sources\CControleEditeSourceImportObjet_Ref.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="import\sources\CControleEditeSourceImportObjet_Ref.Designer.cs">
+      <DependentUpon>CControleEditeSourceImportObjet_Ref.cs</DependentUpon>
+    </Compile>
+    <Compile Include="import\sources\CControleEditeSourceImportField.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="import\sources\CControleEditeSourceImportField.Designer.cs">
+      <DependentUpon>CControleEditeSourceImportField.cs</DependentUpon>
+    </Compile>
+    <Compile Include="import\sources\CControleEditeSourceImportFixedValue.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="import\sources\CControleEditeSourceImportFixedValue.Designer.cs">
+      <DependentUpon>CControleEditeSourceImportFixedValue.cs</DependentUpon>
+    </Compile>
+    <Compile Include="import\sources\CControleEditeSourceImportFormula.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="import\sources\CControleEditeSourceImportFormula.Designer.cs">
+      <DependentUpon>CControleEditeSourceImportFormula.cs</DependentUpon>
+    </Compile>
+    <Compile Include="import\sources\CControleEditeSourceImportObjet.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="import\sources\CControleEditeSourceImportObjet.Designer.cs">
+      <DependentUpon>CControleEditeSourceImportObjet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="import\sources\IEditeurSourceSmartImport.cs" />
+    <Compile Include="ModuleParametrage\CArbreElementsModule.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ModuleParametrage\CArbreModulesParametrage.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ModuleParametrage\CArbreModulesParametrage.Designer.cs">
+      <DependentUpon>CArbreModulesParametrage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModuleParametrage\CControlEditModuleParametrage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ModuleParametrage\CControlEditModuleParametrage.Designer.cs">
+      <DependentUpon>CControlEditModuleParametrage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModuleParametrage\CFormInfosNouveauModule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuleParametrage\CFormInfosNouveauModule.Designer.cs">
+      <DependentUpon>CFormInfosNouveauModule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModuleParametrage\CPanelEditModulesParametrage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ModuleParametrage\CPanelEditModulesParametrage.Designer.cs">
+      <DependentUpon>CPanelEditModulesParametrage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModuleParametrage\CParametreEditModulesParametrage.cs" />
+    <Compile Include="SmartField\CFormEditeSmartField.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SmartField\CFormEditeSmartField.Designer.cs">
+      <DependentUpon>CFormEditeSmartField.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StructureExport\CPanelEditTableExportTableauCroise.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="StructureExport\CPanelEditTableExportTableauCroise.Designer.cs">
+      <DependentUpon>CPanelEditTableExportTableauCroise.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StructureExport\CPanelEditTableExportVue.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="StructureExport\CPanelEditTableExportVue.Designer.cs">
+      <DependentUpon>CPanelEditTableExportVue.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StructureExport\CPanelEditTableUnion.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="StructureExport\CPanelEditTableUnion.Designer.cs">
+      <DependentUpon>CPanelEditTableUnion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StructureExport\CPanelEditTableExportCumulee.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="StructureExport\CPanelEditTableExportCumulee.Designer.cs">
+    </Compile>
+    <Compile Include="StructureExport\CPanelEditTableCalculee.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="StructureExport\CPanelEditTableCalculee.Designer.cs">
+      <DependentUpon>CPanelEditTableCalculee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CPanelChampsCustom.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CPanelEditFiltreDynamique.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CPanelEditFormatExport.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="StructureExport\CPanelEditionStructureDonnee.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="StructureExport\CPanelEditMultiStructure.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CPanelEditRequete.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="StructureExport\CPanelEditTableExportComplexe.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="StructureExport\CPanelEditTableExportComplexe.Designer.cs">
+      <DependentUpon>CPanelEditTableExportComplexe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CPanelOptionStructure.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CPanelOptionStructureAccess.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CPanelOptionStructureExcel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CPanelOptionStructureTexte.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CPanelSourceDeRequete.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DataGridValeurChampStyle.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="IPanelEditTableExport.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="StructureImport\CAssistantImporterDonnees.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StructureImport\CAssistantImporterDonnees.Designer.cs">
+      <DependentUpon>CAssistantImporterDonnees.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StructureImport\CControlMappageImport.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="StructureImport\CControlMappageImport.Designer.cs">
+      <DependentUpon>CControlMappageImport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StructureImport\CPanelEditStructureImport.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="StructureImport\CPanelEditStructureImport.Designer.cs">
+      <DependentUpon>CPanelEditStructureImport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="unites\CControleGestionUnites.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="unites\CControleGestionUnites.Designer.cs">
+      <DependentUpon>CControleGestionUnites.cs</DependentUpon>
+    </Compile>
+    <Compile Include="unites\CFormEditeUniteInDb.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="unites\CFormEditeUniteInDb.Designer.cs">
+      <DependentUpon>CFormEditeUniteInDb.cs</DependentUpon>
+    </Compile>
+    <Compile Include="unites\CFormEditeClasseUniteInDb.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="unites\CFormEditeClasseUniteInDb.Designer.cs">
+      <DependentUpon>CFormEditeClasseUniteInDb.cs</DependentUpon>
+    </Compile>
+    <Compile Include="unites\CFormGestionUnites.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="unites\CFormGestionUnites.Designer.cs">
+      <DependentUpon>CFormGestionUnites.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VisuDonneeCumulee\CFormEditParametreVisuDonneePrecalculee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VisuDonneeCumulee\CFormEditParametreVisuDonneePrecalculee.designer.cs">
+      <DependentUpon>CFormEditParametreVisuDonneePrecalculee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VisuDonneeCumulee\CFormTestVisuTableauCroise.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VisuDonneeCumulee\CFormTestVisuTableauCroise.designer.cs">
+      <DependentUpon>CFormTestVisuTableauCroise.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VisuDonneeCumulee\CPanelEditParametreVisuDonneePrecalculee.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="VisuDonneeCumulee\CPanelEditParametreVisuDonneePrecalculee.designer.cs">
+      <DependentUpon>CPanelEditParametreVisuDonneePrecalculee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VisuDonneeCumulee\CPanelFiltreDonneePrecalculee.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="VisuDonneeCumulee\CPanelFiltreDonneePrecalculee.designer.cs">
+      <DependentUpon>CPanelFiltreDonneePrecalculee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VisuDonneeCumulee\CPanelFormatChamp.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="VisuDonneeCumulee\CPanelFormatChamp.designer.cs">
+      <DependentUpon>CPanelFormatChamp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VisuDonneeCumulee\CPanelFormattageChamp.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="VisuDonneeCumulee\CPanelFormattageChamp.designer.cs">
+      <DependentUpon>CPanelFormattageChamp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VisuDonneeCumulee\CPanelVisuDonneePrecalculee.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="VisuDonneeCumulee\CPanelVisuDonneePrecalculee.designer.cs">
+      <DependentUpon>CPanelVisuDonneePrecalculee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VisuDonneeCumulee\CWndForDonneePrecalculee.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <EmbeddedResource Include="C2iTextBoxFiltreRapide.resx">
+      <DependentUpon>C2iTextBoxFiltreRapide.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CComboBoxArbreObjetDonneesHierarchique.resx">
+      <DependentUpon>CComboBoxArbreObjetDonneesHierarchique.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CControlListeForFormulaire.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CControlListeForFormulaire.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CControlSelectDefinitionPropriete.resx">
+      <DependentUpon>CControlSelectDefinitionPropriete.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CFormAppliquerFormule.resx">
+      <DependentUpon>CFormAppliquerFormule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CFormArbreObjetDonneeHierarchiquePopup.resx">
+      <DependentUpon>CFormArbreObjetDonneeHierarchiquePopup.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CFormEditChampCalcule.resx">
+      <DependentUpon>CFormEditChampCalcule.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CFormEditChampDeRequete.resx">
+      <DependentUpon>CFormEditChampDeRequete.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CFormEditComposantFiltreRechercheAvancee.resx">
+      <DependentUpon>CFormEditComposantFiltreRechercheAvancee.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CFormEditComposantFiltreSelectionStatique.resx">
+      <DependentUpon>CFormEditComposantFiltreSelectionStatique.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CFormEditComposantFiltreTestNull.resx">
+      <DependentUpon>CFormEditComposantFiltreTestNull.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CFormEditComposantFiltreValeurChamp.resx">
+      <DependentUpon>CFormEditComposantFiltreValeurChamp.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CFormEditeElementDeMultiStructure.resx">
+      <DependentUpon>CFormEditeElementDeMultiStructure.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CFormEditFiltreDynamique.resx">
+      <DependentUpon>CFormEditFiltreDynamique.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CFormEditProprieteExpression.resx">
+      <DependentUpon>CFormEditProprieteExpression.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CFormEditTableauCroise.resx">
+      <DependentUpon>CFormEditTableauCroise.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CFormEditVariableDynamiqueCalculee.resx">
+      <DependentUpon>CFormEditVariableDynamiqueCalculee.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CFormEditVariableDynamiqueListeObjets.resx">
+      <DependentUpon>CFormEditVariableDynamiqueListeObjets.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CFormEditVariableDynamiqueSaisie.resx">
+      <DependentUpon>CFormEditVariableDynamiqueSaisie.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CFormEditVariableDynamiqueSelectionObjetDonnee.resx">
+      <DependentUpon>CFormEditVariableDynamiqueSelectionObjetDonnee.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CFormFiltreDynamic.resx">
+      <DependentUpon>CFormFiltreDynamic.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CFormOptionsExport.resx">
+      <DependentUpon>CFormOptionsExport.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CFormOptionsFiltreDynamique.resx">
+      <DependentUpon>CFormOptionsFiltreDynamique.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CFormSelectChampPopup.resx">
+      <DependentUpon>CFormSelectChampPopup.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CFormSelectChampPourStructure.resx">
+      <DependentUpon>CFormSelectChampPourStructure.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CFormSelectionFromVariableSelectionObjetDonnee.resx">
+      <DependentUpon>CFormSelectionFromVariableSelectionObjetDonnee.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CFormSelectStructure.resx">
+      <DependentUpon>CFormSelectStructure.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CFormSelectUnObjetDonnee.resx">
+      <DependentUpon>CFormSelectUnObjetDonnee.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CFormSelectVariableDynamiqueAInterfaceUtilisateur.resx">
+      <DependentUpon>CFormSelectVariableDynamiqueAInterfaceUtilisateur.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CFormVisualisationDataSet.resx">
+      <DependentUpon>CFormVisualisationDataSet.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CFormEditProprieteListeColonnes.resx">
+      <DependentUpon>CFormEditProprieteListeColonnes.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CFormEditOrigineChampCustom.resx">
+      <DependentUpon>CFormEditOrigineChampCustom.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="controlesFor2iWnd\ControlesForChampsCustom\CcontroleForVariableCheckBox.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CcontroleForVariableCheckBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="controlesFor2iWnd\ControlesForChampsCustom\CControleForVariableDateTimePicker.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CControleForVariableDateTimePicker.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="controlesFor2iWnd\ControlesForChampsCustom\CControleForVariableTextBox.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CControleForVariableTextBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="controlesFor2iWnd\ControlesForChampsCustom\CControleForVariableTextBoxAvecUnite.resx">
+      <DependentUpon>CControleForVariableTextBoxAvecUnite.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="controlesFor2iWnd\ControlesForChampsCustom\CControleForVariableTextBoxDouble.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CControleForVariableTextBoxDouble.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="controlesFor2iWnd\ControlesForChampsCustom\CControleForVariableTextBoxEntier.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CControleForVariableTextBoxEntier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="controlesFor2iWnd\ControlesForChampsCustom\CWndFor2iWndSelectionValeurChamp.resx">
+      <DependentUpon>CWndFor2iWndSelectionValeurChamp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="controlesFor2iWnd\CWndFor2iTextBoxFiltreRapide.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CWndFor2iTextBoxFiltreRapide.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CFormEditComposantFiltreSousFiltre.resx">
+      <DependentUpon>CFormEditComposantFiltreSousFiltre.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EasyQuery\CControleEditeEasyQueryInDb.resx">
+      <DependentUpon>CControleEditeEasyQueryInDb.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EasyQuery\CFormEditeProprietesTableFromFramework.resx">
+      <DependentUpon>CFormEditeProprietesTableFromFramework.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EasyQuery\CFormEditJeuDeDonneesEasyQuery.resx">
+      <DependentUpon>CFormEditJeuDeDonneesEasyQuery.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EasyQuery\CFormEditeProprietesTableFilleFromFramework.resx">
+      <DependentUpon>CFormEditeProprietesTableFilleFromFramework.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formulesglobale\CFormEditeFormulesGlobales.resx">
+      <DependentUpon>CFormEditeFormulesGlobales.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formulesglobale\CPanelEditeFormuleGlobale.resx">
+      <DependentUpon>CPanelEditeFormuleGlobale.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formulesglobale\CPanelEditeFormulesGlobales.resx">
+      <DependentUpon>CPanelEditeFormulesGlobales.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="import\CControleOptionCreation.resx">
+      <DependentUpon>CControleOptionCreation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="import\CControleOptionImport.resx">
+      <DependentUpon>CControleOptionImport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="import\CControleSetupSmartImportField.resx">
+      <DependentUpon>CControleSetupSmartImportField.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="import\CFormEditionSessionImport.resx">
+      <DependentUpon>CFormEditionSessionImport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="import\CFormOptionsImport.resx">
+      <DependentUpon>CFormOptionsImport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="import\CFormOptionsValeurNulle.resx">
+      <DependentUpon>CFormOptionsValeurNulle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="import\CFormOptionsSimulation.resx">
+      <DependentUpon>CFormOptionsSimulation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="import\CFormResultatSmartImport.resx">
+      <DependentUpon>CFormResultatSmartImport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="import\CFormSetupSmartImport.resx">
+      <DependentUpon>CFormSetupSmartImport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="import\SmartImportResult\CControleViewSmartImportResultField.resx">
+      <DependentUpon>CControleViewSmartImportResultField.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="import\sources\CControleEditeSourceImport.resx">
+      <DependentUpon>CControleEditeSourceImport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="import\sources\CControleEditeSourceImportObjet_Ref.resx">
+      <DependentUpon>CControleEditeSourceImportObjet_Ref.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="import\sources\CControleEditeSourceImportField.resx">
+      <DependentUpon>CControleEditeSourceImportField.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="import\sources\CControleEditeSourceImportFixedValue.resx">
+      <DependentUpon>CControleEditeSourceImportFixedValue.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="import\sources\CControleEditeSourceImportFormula.resx">
+      <DependentUpon>CControleEditeSourceImportFormula.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="import\sources\CControleEditeSourceImportObjet.resx">
+      <DependentUpon>CControleEditeSourceImportObjet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuleParametrage\CArbreElementsModule.resx">
+      <DependentUpon>CArbreElementsModule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuleParametrage\CArbreModulesParametrage.resx">
+      <DependentUpon>CArbreModulesParametrage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuleParametrage\CControlEditModuleParametrage.resx">
+      <DependentUpon>CControlEditModuleParametrage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuleParametrage\CFormInfosNouveauModule.resx">
+      <DependentUpon>CFormInfosNouveauModule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuleParametrage\CPanelEditModulesParametrage.resx">
+      <DependentUpon>CPanelEditModulesParametrage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SmartField\CFormEditeSmartField.resx">
+      <DependentUpon>CFormEditeSmartField.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StructureExport\CPanelEditTableExportTableauCroise.resx">
+      <DependentUpon>CPanelEditTableExportTableauCroise.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StructureExport\CPanelEditTableExportVue.resx">
+      <DependentUpon>CPanelEditTableExportVue.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StructureExport\CPanelEditTableUnion.resx">
+      <DependentUpon>CPanelEditTableUnion.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StructureExport\CPanelEditTableExportCumulee.resx">
+      <DependentUpon>CPanelEditTableExportCumulee.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StructureExport\CPanelEditTableCalculee.resx">
+      <DependentUpon>CPanelEditTableCalculee.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CPanelChampsCustom.resx">
+      <DependentUpon>CPanelChampsCustom.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CPanelEditFiltreDynamique.resx">
+      <DependentUpon>CPanelEditFiltreDynamique.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CPanelEditFormatExport.resx">
+      <DependentUpon>CPanelEditFormatExport.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StructureExport\CPanelEditionStructureDonnee.resx">
+      <DependentUpon>CPanelEditionStructureDonnee.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StructureExport\CPanelEditMultiStructure.resx">
+      <DependentUpon>CPanelEditMultiStructure.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CPanelEditRequete.resx">
+      <DependentUpon>CPanelEditRequete.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StructureExport\CPanelEditTableExportComplexe.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CPanelEditTableExportComplexe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CPanelOptionStructure.resx">
+      <DependentUpon>CPanelOptionStructure.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CPanelOptionStructureAccess.resx">
+      <DependentUpon>CPanelOptionStructureAccess.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CPanelOptionStructureExcel.resx">
+      <DependentUpon>CPanelOptionStructureExcel.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CPanelOptionStructureTexte.resx">
+      <DependentUpon>CPanelOptionStructureTexte.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CPanelSourceDeRequete.resx">
+      <DependentUpon>CPanelSourceDeRequete.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StructureImport\CAssistantImporterDonnees.resx">
+      <DependentUpon>CAssistantImporterDonnees.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StructureImport\CControlMappageImport.resx">
+      <DependentUpon>CControlMappageImport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StructureImport\CPanelEditStructureImport.resx">
+      <DependentUpon>CPanelEditStructureImport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="unites\CControleGestionUnites.resx">
+      <DependentUpon>CControleGestionUnites.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="unites\CFormEditeUniteInDb.resx">
+      <DependentUpon>CFormEditeUniteInDb.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="unites\CFormEditeClasseUniteInDb.resx">
+      <DependentUpon>CFormEditeClasseUniteInDb.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="unites\CFormGestionUnites.resx">
+      <DependentUpon>CFormGestionUnites.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VisuDonneeCumulee\CFormEditParametreVisuDonneePrecalculee.resx">
+      <DependentUpon>CFormEditParametreVisuDonneePrecalculee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VisuDonneeCumulee\CFormTestVisuTableauCroise.resx">
+      <DependentUpon>CFormTestVisuTableauCroise.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VisuDonneeCumulee\CPanelEditParametreVisuDonneePrecalculee.resx">
+      <DependentUpon>CPanelEditParametreVisuDonneePrecalculee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VisuDonneeCumulee\CPanelFiltreDonneePrecalculee.resx">
+      <DependentUpon>CPanelFiltreDonneePrecalculee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VisuDonneeCumulee\CPanelFormatChamp.resx">
+      <DependentUpon>CPanelFormatChamp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VisuDonneeCumulee\CPanelFormattageChamp.resx">
+      <DependentUpon>CPanelFormattageChamp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VisuDonneeCumulee\CPanelVisuDonneePrecalculee.resx">
+      <DependentUpon>CPanelVisuDonneePrecalculee.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="sc2i.win32.data.dynamic.fr" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1258730073_application-split.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1258730095_application-split-vertical.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1258732295_layers-stack-arrange.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Snapshot barre édition std.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancelx16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\view_list.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\View_tree.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Simplefolder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GenericObject.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GenericObject16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Autocreate.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SearchKey_No.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SearchKey_Yes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Apply on update yes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\apply on update no.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Formula 16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1402941834_Create.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1402941874_Modify.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1403117670_Check.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1403117728_Check.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

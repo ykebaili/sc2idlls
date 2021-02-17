@@ -1,0 +1,111 @@
+10000;Inconnu
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+90;Consultation
+91;Creation
+92;Modification
+93;Suppression
+94;Option inconnue
+
+
+
+
+
+
+101;C2iFactory n'a pas été initialisé
+102;L'entrée @1 \\General\\FactoryURL n'éxiste pas dans le registre
+103;Suppression suspecte : @1 objets sponsor
+104;La session @1 n'existe pas
+105;Le serveur @1 ne répond pas
+106;Erreur pendant l'initialisation de SC2IClient
+107;Erreur lors de l'allocation du gestionnaire de sessions
+108;Erreur lors de l'ouverture de la session
+109;Session deconnectée
+
+

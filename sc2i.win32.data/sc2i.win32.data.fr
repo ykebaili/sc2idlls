@@ -1,0 +1,76 @@
+10;Ok
+11;Annuler
+12;Fermer
+13;Corriger
+14;Ignorer et valider
+15;Ajouter une ligne
+16;? valeur
+17;Modification
+18;Importer
+19;Aucun
+20;Sélectionner
+21;Suivant >
+22;< Précédent
+23;Terminer
+40;Description
+41;Attention
+100;Importation d'un objet
+101;Objet importé :
+102;Utiliser la résolution automatique de mappage
+103;Mappage
+104;Element à mapper
+105;Element existant proposé
+106;Elements possibles
+107;Options d'import 1/2
+108;Séparateur
+109;Tabulation
+110;Point virgule
+111;Virgule
+112;Espace
+113;Autre
+114;La première ligne contient le nom des champs
+115;Identificateur de texte
+116;Options d'import 2/2
+117;Mettre null dans les champs en cas d'erreur de conversion
+118;Nom de la colonne
+119;Type
+120;Indiquez un séparateur
+121;Indiquez un séparateur de texte
+122;Mapper Null...
+123;Sensible aux majuscules
+124;Valeur du Null
+125;Nom de colonne déjà utilisé
+126;Colonne n°@1
+127;Texte
+128;Nombre Entier
+129;Nombre Decimal
+130;Date
+131;Oui/Non
+132;Colonne @1
+133;Aucune donnée à importer
+134;Le fichier source ne correspond pas à un objet de type @1
+135;Annulation utilisateur
+136;Abandon
+137;Abandonner l'import ?
+138;Impossible de trier sur ce champ
+139;Attention, le tri va décocher tous les éléments cochés. Continuer ?
+140;Mappage des objets
+141;Sélectionner la Feuille Excel à importer
+142;Plage de données
+143;Plage de données non valide
+
+20000;N°
+20001;Type
+20002;Valeur
+20003;Fichier texte (csv, txt)|*.csv;*.txt|Fichier Excel|*.xls;*.xlsx|Tous fichiers|*.*
+20004;Encodage
+20005;Ne pas chercher de références si le type contient plus de
+20006;élements
+20007;Ignorer les éléments de ce type
+20008;Forcer la recherche de références
+20009;Recherche récursive automatique
+20010;Paramètres de recherche
+20011;Configuration de recherche de dépendances|*.depConf|Tous fichiers|*.*
+20012;Interrompre la recherche ?
+20013;Ajout de @1 élément(s)
+20014;Lecture de @1 élément(s)

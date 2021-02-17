@@ -1,0 +1,126 @@
+12;Erreur
+101;HasWords attend un paramètre de type champ et une chaine de recherche
+102;ERREUR DANS VALEUR DE HASWORDS
+103;Erreur pas
+104;Aucune source pour le champ @1
+105;Il y a plusieurs champs ayant le nom \"@1\"
+106;La table de la requête n'est pas définie
+107;Erreur intégration de la relation @1
+108;Erreur dans le champ @1
+109;Syntaxe objet non supportée
+110;-------------Syntaxe SC2I-----------------
+111;-------------Syntaxe SQL--------------
+112;Lien TypeId sur une table qui n'est pas gérée par un identifiant numérique
+113;Nom de champ '' incorrect
+114;La table '@1' n'est pas associé à un type de données
+115;Impossible d'établir un lien Enfant/Parent pour les tables @1 / @2
+116;Le champ '@1' n'existe pas
+117;HasNo attend un paramètre de type champ
+118;Has attend un paramètre de type champ
+119;Le framework sc2i.data ne sait pas donner de valeur à la clé @1 de la table @2
+120;Appel de CommitEdit sur un contexte d'édition qui n'est pas en édition
+121;Erreur lors de la fusion de la table @1
+122;Session Invalide
+123;Impossible d'ouvrir la transaction
+124;Exception sur le serveur
+125;Intégration des sauvegardes : @1
+126;Erreur lors de la sauvegarde des blobs
+127;Contexte de donnée @1
+128;Erreur lors de la lecture de la table @1
+129;Impossible de supprimer un droit
+130;Tentative de supprimer un droit de la base
+131;Impossible d'allouer le gestionnaire de droits
+132;Log de synchronisation @1
+133;Filtre @1 impossible sur deux filtres sur des tables différentes
+134;Erreur lors de l'analyse du filtre @1
+135;CStockeurDonneesListe ne supporte pas la fonction this[] set
+136;Impossible de créer une liste de @1 car cette classe ne possède pas de table liée
+137;CListeObjetDonnee ne supporte pas la fonction this[] set
+138;CListeObjetDonnee ne supporte pas la fonction Remove
+139;CListeObjetDonnee ne supporte pas la fonction RemoveAt
+140;CListeObjetDonnee ne supporte pas la fonction Add
+141;CListeObjetDonnee ne supporte pas la fonction Clear
+142;CListeObjetDonnee ne supporte pas la fonction Insert
+143;La propriété @1 n'existe pas
+144;La propriété @1 ne possède pas l'attribut 'RelationFille'
+145;Pas de clé pour le type @1
+146;Le type @1 ne peut pas être lu avec la fonction 'ReadObjetsAId'
+147;La propriété '@1' n'existe pas
+148;La classe @1 ne possède pas l'attribut table
+149;Erreur initialisation @1 \r\n @2 \r\n stack : @3
+150;La relation @1 n'existe pas (GetDependancesView)
+151;Tentative de définir un parent avec un nombre de clés étrangères différent du nombre de clés de la table parente
+152;L'élement @1 comporte @2
+153;éléments liés
+154;élément lié
+155; de type @1 
+156;dans la table @1
+157;Erreur lors de la suppression
+158;Appel de 'Commit Edit' sur un élement qui n'est pas en édition
+159;Appel de 'Cancel Edit' sur un élement qui n'est pas en édition
+160;Impossible de supprimer les éléments '@1' demandés car des éléments '@2' existent dans la base
+161;Impossible de supprimer les éléments demandés car des éléments @1 existent dans la base
+162;La suppression des éléments est impossible car ceux ci ne sont pas tous du même type
+163;Type de donnée sans conversion OleDb : @1
+164;Le fournisseur de contexte de données de CReferenceObjetDonnee a retourné un contexte null
+165;Le nom de la table n'est pas spécifié dans la Classe @1
+166;La classe @1 possède un Id 'Auto Increment' qui n'est pas la seule clé de la table
+167;La méthode 'get' correspondant au champ identifiant @1 de la table @2 n'a pas été trouvée
+168;L'attribut du champ @1 de la classe @2 ne définit pas de longueur.
+169;La relation entre la table @1 et la table parente @2 ne possède pas le bon nombre de champs de liaison
+170;Le type @1 définit une relation fille sur la propriété fille @2.@3 qui n'existe pas
+171;Le type @1 définit une relation fille sur la propriété fille @2.@3 qui ne définit pas de relation parente
+172;Le type @1 définit une relation fille sur le type @2 qui ne définit pas de table
+173;Impossible de relire l'objet @1
+174;Le fichier d'import ne contient pas la table @1
+175;La version de données @1
+176;La version de données d'objet @1
+177;La donnée de la version d'objet
+178;Ajout
+179;Suppression
+180;Modification
+181;Archive
+182;Version prévisionnelle
+183;Aucune
+184;Le changement de version dans un contexte en édition n'est pas autorisé
+185;Etiquette
+186;Blob
+187;Impossible de supprimer ces éléments car certains sont utilisés dans des versions prévisionnelles
+188;Vous devez annuler les modifications pour pouvoir supprimer cette version
+189;Erreur lors de l'application des valeurs du champ @1
+190;Impossible de supprimer l'élément @1, @2 elements (@3) lui sont liés
+191;Impossible de supprimer un élément détaché
+192;Impossible de sérialiser les différences du blob
+193;Audit
+194;Appel de CommitEdit sur un contexte d'édition qui n'est pas en édition
+195;Droit @1 : @2
+196;La catégorie de version de données
+197;Le libellé de la catégorie doit être unique
+198;Impossible d'utiliser une version en cours d'édition
+199;Erreur
+
+10000;Le lecteur de fichier Excel n'est pas défini
+
+20000;Impossible d'allouer un objet de type @1
+20001;Erreur appel Asynchrone @1
+20002;Une autre programme a modifié les données en même temps que vous. Annulez vos modification et refaites les.
+20003;table de synchronisation manquante
+20004;Erreur d'unicité sur @1
+20008;nécéssite 3 paramètres : type, champ, sous filtre
+20009;Référence de type invalide (@1)
+20010;2nd paramètre invalide (type attendu)
+20011;1er paramètre invalide (champ attendu)
+20012;4ème paramètre invalide (filtre attendu)
+20013;3ème paramètre invalide (champ attendu)
+20014;Le sous filtre est invalide	
+20015;Lecture des références d'entités
+20016;Exploration de @1
+
+
+
+30000;Erreur de déserialisation des différences de blobs
+30001;Données de la version d'objet de données
+30002;Impossible d'appliquer les modifications pour le champ @1 (@2)
+30003;Erreur de conversion ligne @1 colonne @2 : la valeur ne peut pas être convertie en @3
+30004;Déclenchement d'évenement sur un objet qui ne peut pas en contenir
+30005;Impossible d'allouer l'objet @1

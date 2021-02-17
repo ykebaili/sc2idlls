@@ -1,0 +1,343 @@
+10;Ok
+11;Annuler
+12;Fermer
+13;Corriger
+14;Ignorer et valider
+15;Ajouter une ligne
+16;valeur
+17;Modification
+18;Importer
+19;Aucun
+20;Sélectionner
+21;Suivant >
+22;< Précédent
+23;Terminer
+24;Ajouter
+25;Tester
+26;Exporter
+27;Rechercher
+28;Insérer
+50;Libellé
+100;Associer un comportement
+101;Element à associer
+102;Comportement :
+103;Attente d'utilisateur
+104;Message à présenter à l'utilisateur
+105;Changer les options d'impression
+106;Imprimante sur client*
+107;Imprimante sur serveur*
+108;(*)Laisser la zone vide pour utiliser l'imprimante par défaut de l'utilisateur
+109;Condition
+110;Formule de condition
+111;Créer une entité
+112;Stocker le résultat dans
+113;Type de l'entité
+114;Création d'une liste d'objets
+115;Se limiter au comptage des éléments
+116;Appliquer le filtre par défaut
+117;Déclencher les evenements statiques
+118;Element pour lequel déclencher
+119;Cette action déclenche les evenements de création qui n'ont pas été déclenchés et les evenements sur modification dont la valeur initiale n'est pas définie et qui n'ont pas été lancés
+120;Dissocier un comportement
+121;Element à Dissocier
+122;Comportement :
+123;Génération d'erreur
+124;Message
+125;Stocker le résultat dans
+126;Fonction
+127;Nouvelle variable
+128;Propriété du parcours de liste
+129;Liste
+130;Variable de parcours
+131;Démarrer une action sur le serveur
+132;Action à démarrer
+133;Démarrer une Action
+134;Action
+135;Mode asynchrone
+136;Variables
+137;Valeur de la variable
+138;URL
+139;Mise à jour
+140;Boite de dialogue de message
+141;Boutons
+142;Message
+143;Modification de propriété
+144;Objet à modifier
+145;Propriété
+146;Valeur
+147;Modification de Registre
+148;Clé de registre à modifier
+149;Modification de variable
+150;variable à modifier
+151;Modification de variable sur objet
+152;Variable
+153;Ouvrir un fichier ou une URL
+154;Suppression d'une entité
+155;Entité à supprimer
+156;Suppression d'un évenement
+157;Code de l'évenement
+158;Supprimer l'évenement de
+159;Synchronisation
+160;Champ
+161;Condition de synchronisation
+162;Element synchronisé
+163;Element surveillé
+164;Nom
+165;Type
+166;Tableau
+167;Id Initial
+168;Propriétés du lien
+169;Sélectionnez le lien
+170;Pile des appels
+171;Résumé
+172;Variables
+173;Evenements
+174;Création :
+175;Modif. :
+176;Etat :
+177;Utilisateur :
+178;Cible :
+179;Détail
+180;Informations : 
+181;Type d'évenement
+182;Création
+183;Modification
+184;Date
+185;Manuel
+186;Ordre
+187;Code déclencheur
+188;Execution manuelle
+189;Menu
+190;Valeur Surveillée
+191;Groupes autorisés
+192;Valeur avant
+193;Valeur après
+194;Condition de déclenchement
+195;Type des éléments
+196;Tableau
+197;Execution assynchrone
+198;Propriétés
+199;Variables
+200;Libellé
+201;Liens
+202;Sens
+203;Action
+204;Type
+205;Nom
+206;Variable de parcours
+207;Suppression en cascade des entités filles
+208;Entité source
+209;Copier une entité
+210;Propriétés à copier
+211;ATTENTION
+212;Cette action peut être risquée, tous les éléments ayant une relation parente vers l'entité à supprimer seront supprimés. Etes-vous certains de vouloir continuer ?
+213;Entité destination
+214;Filtre Champs Custom
+215;Changer la version de données
+216;à affecter
+217;Lien
+218;Paramètres
+
+10000;Formule couleur
+10001;Voulez-vous remplacer la formule couleur courante ?
+10002;Catégorie
+10003;Date de déclenchement
+10004;Variable saisie
+10005;Variable calculée
+10006;Séléction d'Entités
+10007;Entité
+10008;Variable de retour
+10009;Sélectionner les Formualires spécifiques
+
+20000;Etiqueter la base
+20001;Libellé de l'étiquette
+20002;Détail d'éxecution non disponible
+20003;Attendre la fin de l'application
+20004;Date limite
+20005;Purger l'historique des process
+20006;Purger l'historique de journalisation
+20007;Sur serveur
+20008;Masquer la barre de progression
+20009;Données séparées
+20010;Copie complète
+20011;Point d'entrée
+20012;Par défaut
+20013;Fermeture auto
+20014;Après
+20015;Sec
+20016;Contenu
+20017;Content
+20018;Copie d'un fichier local dans la GED
+20019;Erreur dans la formule de nom de fichier
+20020;Sélection d'un fichier client
+20021;Sélectionner un fichier pour sauvegarde
+20022;Titre
+20023;Filtre
+20024;(ex : fichier texte|*.txt|Tous fichiers*.*)
+20025;Répertoire Initial
+20026;Sans trace
+20027;Suppression
+20028;Changer le contexte de modification
+20029;Contexte
+20030;Contextes d'exception
+20031;Exceptions
+20032;Grouper les actions
+20033;Dégrouper les actions
+20034;Groupe d'actions
+20035;Cloner une entité
+20036;Mode transactionnel
+20037;Tous éléments
+20038;Le contenu est un fichier local (sur poste client)
+20039;Créer un fichier texte à partir du contenu
+20040;Créer un fichier zip à partir de documents GED
+20041;Liste de documents
+20042;Nom de chaque fichier document
+20043;Erreur dans la formule de nom de fichier
+20044;Erreur dans la formule de liste de documents
+20045;Elements non dessinés
+20046;Formulaire
+20047;Element édité
+20048;Formulaire
+20049;Standard
+20050;Spécifique
+20051;Conditions de fin
+20052;La formule d'élément édité n'est pas valide
+20053;Sélectionnez le formulaire à utiliser
+20054;Erreur d'initialisation
+20055;Erreur lors de l'initialisation de l'étape de workflow.
+20056;L'étape @1 ne définit pas l'élément à éditer
+20057;L'élément à éditer pour l'étape @1 n'est pas valide
+20058;Le système ne peut pas éditer un élément @1
+20059;Le formulaire de l'étape @1 est invalide
+20060;Restrictions
+20061;Workflow
+20062;Editer le workflow
+20063;Affectations
+20064;Instructions
+20065;Paramétrage des affectations
+20066;La formule @1 est invalide, est doit retourner un objet qui puisse être affecté à une étape
+20067;Initialisation
+20068;Branche conditionnelle
+20069;Message d'erreur
+20070;Condition (si faux, le message d'erreur s'affiche)
+20071;Formule (si vrai, le code associé sera activé)
+20072;Code de retour
+20073;Ce code sera activé si aucune formule ne retourne la valeur "vrai"
+20074;Définir comme étape de démarrage par défaut
+20075;Etape de démarrage
+20076;Process
+20077;Process à executer
+20078;Démarrage manuel
+20079;Process spécifique
+20080;Affectations
+20081;Modèle d'affectation
+20082;Libelle
+20083;Supprimer le modèle d'affectation @1 ?
+20084;Element principal
+20085;Element secondaire
+20086;Sélectionnez le formulaire secondaire à utiliser
+20087;Masquer l'étape lors du changement de formulaire
+20089;Type cible
+20090;Tableau
+20091;Apparentant à
+20092;Evenement
+20093;Action
+20094;Groupe de paramétrage
+20095;Un seul déclenchement par élément
+20096;Optimiser
+20097;Action
+20098;Execution asynchrone
+20099;Evenement
+20100;L'élément secondaire est modifiable
+20101;Masquer
+20102;Lecture seule
+20103;Lecture/Ecriture
+20104;Création
+20105;Suppression
+20106;Cible
+20107;Page
+20108;Evenement
+20109;Type
+20110;Comportement
+20111;(Aucun)
+20112;Afficher une étape de Workflow
+20113;Etape à afficher
+20114;Afficher dans un nouvel onglet
+20115;Id utilisateur (laisser vide pour utilisateur en cours)
+20116;Element cible
+20117;Attente d'un évenement
+20118;La formule d'élément cible est invalide
+20119;Proposer de terminer l'étape lorsque les conditions sont remplies
+20120;Reinitialiser les affectations lorsque l'étape redémarre
+20121;Réévaluer la formule d'initialisation lorsque l'étape redémarre
+20122;Utiliser la sortie du process comme code de retour
+20123;Vérouiller l'item en fin d'étape
+20124;Masquer l'étape après validation
+20125;Niveau
+20126;Gestion d'erreur
+20127;Si une erreur survient, l'utilisateur peut :
+20128;Purge Admin.
+20129;Ne pas démarrer si aucune erreur au démarrage
+20130;Terminer ou annuler une étape de workflow
+20131;Etape
+20132;Action
+20133;Terminer l'étape
+20134;Annuler l'étape
+20135;Remplacer les affectations (oui) ou en ajouter de nouvelles (non) ?
+20136;Transférer plusieurs documents dans la GED
+20137;Catégories disponibles
+20138;Indiquez les catégories disponibles pour les documents. La formule doit retourner une liste de catégories ou une liste d'identifiants de catégories
+20139;Libellé du document
+20140;Clé du document	
+20141;Associer les documents à
+20142;fichier(s)
+20143;Glissez les fichiers vers les catégories de GED
+20144;Liste de fichiers
+20145;Ajouter des documents
+20146;Contexte de restrictions
+20147;Pour les fichiers FTP (le contenu commence par 'ftp://'), indiquez l'utilisateur et le mot de passe
+20148;Utilisateur
+20149;Mot de passe
+
+30001;Erreur dans l'exécution d'une action de type @1
+30002;Impossible d'ajouter un lien sortant à l'action
+30003;Code d'attente
+30004;ATTENTION : le code d'attente doit être unique sur toute la base. Si une attente \n ayant le même code est trouvée, elle sera supprimée
+30005;Erreur dans la formule d'imprimante client
+30006;Erreur dans la formule d'imprimante serveur
+30007;Annulation d'attente utilisateur
+30008;Attacher l'événement à
+30009;Gestion du code
+30010;Création d'événement
+30011;Stocker le résultat dans
+30012;Sélectionnez une variable pour stocker la valeur de l'action
+30013;Erreur dans la formule 
+30014;Sélectionner une action
+30015;Ok / Annuler
+30016;Oui / Non
+30017;(à affecter)
+30018;(vide)
+30019;Erreur dans la formule de l'élément synchronisé
+30020;Erreur dans la formule de l'élément source
+30021;Erreur dans la formule de condition sur l'élément destination
+30022;Entrez un nom de variable
+30023;Sélectionnez un type de données
+30024;Libellé action
+30025;Non disponible
+30026;Spécifique
+30027;Evenement
+30028;Sélectionnez un évenement
+30029;Erreur dans la formule 'valeur avant'
+30030;Erreur dans la formule 'valeur après'
+30031;Erreur dans la condition
+30032;Erreur dans la formule de date
+30033;(aucun)
+30034; groupe(s)
+30035;Supprimer ces liens ?
+30036;Cette variable est utilisée et ne peut pas être supprimée
+30037;<<Process général>>
+30038;Les données du process en cours eront remplacées,  continuer ?
+30039;Enregistrement réussi
+30040;Les données de l'action seront remplacées, continuer ?
+30041;Libelle
+30042;Affectation

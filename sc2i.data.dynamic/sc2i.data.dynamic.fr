@@ -1,0 +1,302 @@
+10;System
+11;Sélection
+16;Stockage
+20;Entier
+21;Nombre décimal
+22;Texte
+23;Date / Heure
+24;Oui / Non
+25;Entité
+30;Et
+31;Ou
+35;Calculée
+40;Valeur
+45;Clé
+51;Tous
+55;Communs
+56;Autres
+58;Méthodes
+59;Infos complémentaires
+60;Listes
+66;Variable
+70;Liste d'objets
+71;Liste simple
+74;Saisie
+100;Relation entre @1 et @2
+101;Erreur lors de l'export sur le serveur
+102;Impossible d'utiliser un export simple avec autre chose qu'une liste d'objet donnée
+103;Erreur lors de la création de la table principale
+104;Erreur à la création du champ @1
+105;La propriété @1 n'a pas été trouvée dans le type @2
+106;La propriété @1 ne peut pas être integrée à un export simple
+107;Erreur à la création du champ @1
+108;Il y a plusieurs tables ayant le nom \"@1\"
+109;Erreur lors de l'ouverture du fichier
+110;Erreur lors de la lecture du fichier
+111;Le fichier ne contient pas structure valide
+112;Erreur lors de l'écriture du fichier
+113;La structure de données @1
+114;Il y a plusieurs champ ayant le nom \"@1\" dans la table \"@2\"
+115;Table @1
+116;La table @1 n'existe pas
+117;Erreur : Chargement d'une table fille multiple sans connaitre la relation indiquant comment est fait le lien avec les parents
+118;Annulation utilisateur
+119;Erreur dans le filtre de la table @1
+120;Erreur lors de la combinaison du filtre de la table @1
+121;@1\r\n Erreur table @2 champ @3, id=@4
+122;Le type de donnée cumulée @1 n'existe pas
+123;Valeur incrément
+124;Appel de fonction non supporté : C2iTableExportCalculée.InsertDataInDataset
+125;Tentative de table cumulée sur autre chose qu'une liste de données
+126;Erreur dans le filtre de la table cumulée @1
+127;Table @1 (requête)
+128;Table @1 (tableau croisé)
+129;Stockage
+130;Erreur dans le croisement des données
+131;Aucune formule
+132;Aucune propriété
+133;Le champ calculé @1
+134;Champ personnalisé @1
+135;La valeur @1 ne fait pas partie des valeurs possibles
+136;Erreur dans l'élément @1
+137;Erreur dans le composant '@1'
+138;Le composant @1 ne possède pas de sous composants
+139;Rechercher 
+140; dans 
+141;[Pas de valeur]
+142;[champ non défini]
+143;Erreur lors de l'évaluation de @1
+144;Le champ n'est pas défini
+145;La formule de valeur est incorrecte
+146;Champ null dans la formule de valeur
+147;La variable @1 n'existe pas
+148;Sélection @1
+149; sur @1
+150;Impossible d'appliquer une sélection sur le champ @1
+151;Impossible d'appliquer une sélection statique sur le champ @1
+152; est non null
+153; est null
+154; [opérateur non défini] 
+155; [Valeur non définie] 
+156;Opération non supporté : Champ = Champ
+157;La valeur n'est pas définie pour l'élément @1
+158;Opérateur non défini
+159;Fonction de test non supportée : Champ personnalisé = Champ personnalisé
+160;Champ null dans la formule de valeur
+161;Impossible de trouver lien entre @1 et les champs personnalisés
+162;Lien incorrect depuis un champ custom
+163;Données cumulées
+164;Champ de Formule réservé
+165;La donnée cumulée @1
+166;Retourne les données cumulées liées à un objet
+167;Type des données à retourner
+168;Un export Access ne peut se faire que dans un fichier
+169;Erreur création table @1
+170;Date raccourcie
+171;Un export excel ne peut se faire que dans un fichier
+172;Erreur lors de la lecture du filtre dynamique
+173;Le type des éléments filtrés doit être défini
+174;Le type des éléments du filtre n'est pas valide
+175;Aucune table n'est associée à @1
+176;Erreur dans le filtre
+177;Le filtre dynamique @1
+178;Le formulaire @1
+179;Le fournisseur de propriétés pour filtre ne supporte pas la fonction GetValeurPropriete (il n'est pas prévu pour ça)
+180;Le groupe d'utilisateur pour synchronisation @1
+181;La liste des entités @1
+182;Structure d'export
+183;Erreur dans la structure '@1'
+184;Erreur lors de la fusion des structures
+185;Le type @1 n'est pas implémenté dans les tests de valeur
+186;Les tables filles de la table principale doivent être des tables cumulées
+187;Erreur non attendue sur les données exportées
+188;Lien données cumulée sur une table qui n'est pas gerée par un identifiant numérique
+189;Erreur dans la table @1
+190;Le paramètre de synchronisation @1
+191;Le lien entre le formulaire @1 et le champ personnalisé @2
+192;Le lien entre le groupe @1 et l'utilisateur avec l'id @2
+193; et @1
+194;La relation entre la liste @1
+195;Relations listes
+196;L'ID de rôle '@1' n'est pas unique!!! (CRoleChampCustom)
+197;La colonne '@1' n'existe pas
+198;La colonne '@1' ne peut pas être à la fois pivot et clé
+199;La colonne '@1' ne peut pas être à la fois clé et total
+200;La colonne '@1' ne peut pas être à la fois clé et total
+201;La colonne '@1' ne peut pas être à la fois pivot et total
+202;La colonne '@1' n'est pas compatible avec l'opération @2
+203;SqlCalc(Elements, ExpressionSql, filtre, paramètres)\nRetourne un valeur à partir d'une expression Sql.La liste des éléments satisfaisant le filtre Sql
+204;CalculSql ne peut pas être appliqué ici
+205;Erreur dans calculSql
+206;SelectSql : paramètre de filtre
+207;Le premier paramètre de filtre ne doit être composé que de champs directement liés à une table de la base de données
+208;Il n'est pas possible de filtrer en sql les éléments de type @1
+209;Impossible d'analyser les paramètres de la fonction SelectSql
+210;La fonction SelectSql ne peut pas être appliquée sur un élément @1
+211;Erreur dans le paramètre de SelectSql
+212;La propriété @1 n'est pas valide pour SelectSql(*)
+213;La propriété @1 est invalide pour une opération SelectSql
+214;Erreur dans le filtre de SelectSql
+215;Erreur lors de la création du filtre de SelectSql
+216;SetModified(object)\nForce le système à considerer que l'objet à été modifié. Les process de modification seront déclenchés à la sauvegarde
+217;GetCumulatedData([NoReadInDb], Code, nValeur, cle1, cle2, ...)\nRetourne la valeur N°nValeur (indicée sur 0) de la donnée cumulée correspondant au type CODE, pour les valeurs de clé spécifiées. Si [NoReadInDb] est définit à True(), les données seront lues dans le contexte local seulement.
+218;Le type de donnée cumulée @1 n'existe pas
+219;Les données cumulées n'ont pas de valeur @1
+220;GetEntity(Type, Id [Nom])\nRetourne l'entité du type spécifié ayant l'Id ou le Nom indiqué en paramètre. Si l'entité n'existe pas, null est retourné
+221;Le type @1 n'existe pas
+222;Le type @1 ne peut pas être chargé par la fonction 'GetEntite'
+223;GetDisplayedValue(IdChamp, Valeur retournée)\nRetourne la valeur affichée d'un champ à partir de la valeur retournée (pour les champs à choix multiples)
+224;ObjectList(Type, filtre, paramètres)\nCrée une liste d'éléments en appliquant un filtre)
+225;Le type @1 n'est pas associé à une table
+226;Lit une valeur dans le registre SC2I( clé à lire, valeur par défaut )\nRetourne la valeur (texte) de la clé dans le registre. Si la clé n'existe pas, la valeur par défaut est retournée
+227;SqlSelect(Elements, filtre, paramètres)\nRetourne la liste des éléments satisfaisant le filtre Sql)
+228;Erreur dans SelectSql
+229;SelectSql ne peut pas être appliqué ici
+230;L'argument 1 ne retourne pas un objet valide pour cette opération
+231;La propriété '@1' n'est pas trouvée dans le type @2
+232;GetOriginalValue( objet, nom de propriété (texte) )\nRetourne la valeur d'origine de la propriété (indiqué sous forme de chaine) de l'objet demandé. La valeur d'origine est la valeur qu'avait la propriété avant modification. Cette fonction ne fonctionne qu'avec certains objets : il faut que la propriété corresponde à un champ de la base de données
+233;Le type de donnée cumulée @1
+234;Le champ n°@1 n'existe pas
+235;Valeur champ '@1'/'@2'
+236;La valeur de la variable @1
+237;Retourne la valeur d'une variable
+238;Nom de la variable
+240;Erreur lors de la validation de '@1'
+241;La variable '@1'
+242;Toutes les tables filles doivent avoir les même champs de regroupement
+243;Impossible d'appliquer la valeur au champ @1 (mauvaise destination)
+244;Erreur dans la valeur du champ: @1
+245;Date
+246;Texte
+
+286;Une table fille doit avoir la même clause 'group by'
+
+10000;Se produit lorsque l'élement selectionné change
+10001;Module de paramétrage @1
+10002;Module de paramétrage
+10003;Element / Module de Parametrage
+10004;Affecte la valeur d'une variable
+10005;Valeur
+10006;Valeur de la variable
+10007;La valeur du champ '@1' est incorrecte
+10008;Impossible de tester la valeur '@1'
+10009;Total
+10010;Nommage Fort @1 pour l'Entité @2
+10011;Retourne la liste des Noms Forts de l'Entité
+10012;GetCumulatedData([NoReadInDb], Code, nValeur, cle1, cle2, ...)\nRetourne la valeur Date nValeur (indicée sur 0) de la donnée cumulée correspondant au type CODE, pour les valeurs de clé spécifiées. Si [NoReadInDb] est définit à True(), les données seront lues dans le contexte local seulement
+10013;GetCumulatedData([NoReadInDb], Code, nValeur, cle1, cle2, ...)\nRetourne la valeur Texte nValeur (indicée sur 0) de la donnée cumulée correspondant au type CODE, pour les valeurs de clé spécifiées. Si [NoReadInDb] est définit à True(), les données seront lues dans le contexte local seulement
+
+20000;Union @1
+20001;Erreur lors du chargement de la table d'union : table parente nulle
+20004;La table @1 n'existe pas
+20005;La colonne @1 n'existe pas
+20006;Impossible de trouver les clés (champs communs) pour la table d'union @1
+20007;Impossible de trouver le lien entre la table @1 et la table @2
+20008;Impossible de créer le lien pour la table d'union @1
+20009;Vue
+20010;Tableau croisé
+20011;Le Tableau croisé a une source invalide
+20012;Certaines clés ne sont dans aucune table source
+20013;La table @1 n'a aucune clé
+20014;Le type de caractéristique @1
+20015;Caractéristique @1
+20016;Le libellé du type de caractéristique doit être unique
+20017;Caractéristiques
+20018;Type de caractéristique / Définisseur
+20019;@1 : Champ incorrect ou cible incorrecte
+20020;@1 : Cible incorrecte
+20021;Infos complémentaires
+20022;Format de champ calculé incorrect (@1)
+20023;Le champ calculé @1 n'existe pas
+20024;Format de champ personnalisé incorrect (@1)
+20025;Le champ personnalisé @1 n'existe pas
+20026;Format de donnée cumulée incorrect (@1)
+20027;Type de donnée cumulée inconnu (@1)
+20028;Format de propriété liste entité incorrect (@1)
+20029;La liste d'entités @1 n'existe pas
+20030;La relation @1 n'existe pas
+20031;Format de variable dynamique incorrect (@1)
+20032;Variable inconnue (@1)
+20033;Impossible d'évaluer un champ personnalisé sur une entité de type @1
+20034;Affectation interdite
+20035;Crée une nouvelle entité du type spécifié. Si la nouvelle entité ne peut pas être crréée, retourne null
+20036;Supprimer l'élément ?
+20037;Préférence de filtre rapide
+20038;Recherche champ '@1'
+20039;Recherche champ calc. '@1'
+20040;Filtre @1
+20041;Impossible de charger le type de donnée précalculée
+20042;Le fichier ne contient pas des paramètres de visualisation valides
+20043;Erreur d'import : impossible de lire les données sources
+20044;Le champ @1 ne peut pas être utilisé en tant que clé d'import
+20045;Le champ @1 ne peut pas être utilisé comme clé car sa valeur d'import est nulle
+20046;GetModificationContextId\nRetourne l'id de contexte de modification en cours
+20047;SetModificationContexteId\nModifie l'id de contexte de modification en cours
+20048;Vous n'êtes pas autorisé à importer des données
+20049;Caractéristique
+20050;Entités
+20051;La macro @1
+20052;Le champ @1 ne peut pas être utilisé dans une macro
+20053;Classe d'unité @1
+20054;L'unité @1
+20055;Impossible de supprimer la classe d'unité @1
+20056;Groupe de synchronisation @1
+20057;Filtres de synchronisation sur @1
+20058;Smart field @1 de @2
+20059;Format Smart field incorrect (@1)
+20060;Le Smart Field @1 n'existe pas
+20061;La requête @1
+20062;Objets de l'application
+20063;Table d'objets
+20064;In
+20065;Not in
+20066;@1 @2 Sous filtre
+20067;Source table d'objets
+20068;La table d'objet doit être spécifiée
+20069;La requête nécéssite une source pour fournir des données
+20070;Erreur dans la table @1
+20071;Easy query
+20072;Table fille
+20073;Table source introuvable
+20074;Table source incompatible
+20075;Table table source doit référencer le champ 'Id' avec l'opération 'none'
+20076;Impossible de trouver le lien pour la table @1
+20077;Variable saisie
+20078;Sélection
+20079;Calculée
+20080;Retourne les caractéristiques du type demandé
+20081;Type de caractéristique à retourner
+20082;La formule dynamique @1
+20083;Recherche de la fonction @1
+20084;Ne jamais créer
+20085;Création automatique
+20086;Demander confirmation
+20087;Pas de source
+20088;Valeur par défaut
+20089;Champ
+20090;Formule
+20091;Objet
+20092;Impossible de convertir la valeur @1 en @2
+20093;Erreur lors de la recherche d'objet
+20094;Impossible de recherche un objet du type @1
+20095;La ligne n'est pas importée car la création de ce type d'objet n'est pas autorisée
+20096;Erreur inconnue lors de la création d'un objet @1
+20097;Erreur lors de l'affectation de la valeur @1 au champ @2
+20098;Impossible de définir le filtre parent pour la propriété @1
+20099;Importer la donnée en mise à jour et en création
+20100;Importer la donnée uniquement en création
+20101;Ne jamais importer la donnée
+20102;Erreur lors de l'import de la ligne
+20103;Erreur dans la formule de condition '@1'
+20104;La ligne n'a pas été importée du fait des options ou de la condition d'import
+20105;Objet importé
+20106;Import ligne @1
+
+30001;Relation entre le groupe @1 et l'utilisateur d'Id @2
+30002;Le type de données précalculée @1
+30003;Le fichier de destination n'est pas du bon format
+30004;Erreur lors de l'écriture dans le fichier @1
+30005;Erreur lors de l'écriture des lignes de la table @1
+30006;Erreur lors de l'écriture des colonnes de la table @1
+
+200023;Le champ calculé @1 n'existe pas

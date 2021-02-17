@@ -1,0 +1,1269 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="12.0">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{ECBC5D80-26BD-41D1-90FF-7B2A84F73339}</ProjectGuid>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>sc2i.win32.common</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>sc2i.win32.common</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'debug structure pda|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'debug avec documentation|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <Optimize>true</Optimize>
+    <DebugType>
+    </DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'debug structure pda|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\debug structure pda\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'debug avec documentation|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\debug avec documentation\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="GMap.NET.Core, Version=1.5.4.3, Culture=neutral, PublicKeyToken=b85b9027b614afef, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\dep\GMap.NET.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="GMap.NET.WindowsForms, Version=1.7.0.0, Culture=neutral, PublicKeyToken=b85b9027b614afef, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\dep\GMap.NET.WindowsForms.dll</HintPath>
+    </Reference>
+    <Reference Include="MagicLibrary, Version=1.7.4.0, Culture=neutral, PublicKeyToken=3a6eb82f876a49bc">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\dep\MagicLibrary.DLL</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Configuration.Install">
+      <Name>System.Configuration.Install</Name>
+    </Reference>
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Design">
+      <Name>System.Design</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Management">
+      <Name>System.Management</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+    <ProjectReference Include="..\sc2i.common\SC2ICommon.csproj">
+      <Name>SC2ICommon</Name>
+      <Project>{500A5948-86F8-4331-8529-BB1109C4E966}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="C2iColorSelect.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="C2iColorSelect.Designer.cs">
+      <DependentUpon>C2iColorSelect.cs</DependentUpon>
+    </Compile>
+    <Compile Include="C2iComboBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="C2iComboSelectDynamicClass.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="C2iComboSelectDynamicClass.Designer.cs">
+      <DependentUpon>C2iComboSelectDynamicClass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="C2iCursor.cs" />
+    <Compile Include="C2iCursorLoader.cs" />
+    <Compile Include="C2iDataGrid.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="C2iDataGridColumnStyleAControle.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="C2iDateTimeExPicker.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="C2iDateTimePicker.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="C2iDialogResult.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="C2iImageViewer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="C2iLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="C2iLink.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="C2iNumericUpDown.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="C2iPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="C2iPanelFondDegradeStd.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="C2iPanelFondDegradeStd.Designer.cs">
+      <DependentUpon>C2iPanelFondDegradeStd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="C2iPanelOmbre.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="C2iPictureBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="C2iProgressBar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="C2iProgressBar.Designer.cs">
+      <DependentUpon>C2iProgressBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="C2iSelectImage.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="C2iSoundPlayer.cs" />
+    <Compile Include="C2iTabControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="C2iTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="C2iTextBoxNumerique.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="C2iTextBoxNumeriqueAvecUnite.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CAnimatedPictureBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CControlPanorama.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CControlPanorama.Designer.cs">
+      <DependentUpon>CControlPanorama.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CEtatTabControls.cs" />
+    <Compile Include="CLabelProgression.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CLabelProgression.Designer.cs">
+      <DependentUpon>CLabelProgression.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CRoundButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CTabControlFullScreenerPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CTabControlFullScreenerPanel.Designer.cs">
+      <DependentUpon>CTabControlFullScreenerPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="customizableList\CCustomizableListAvecNiveau.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="customizableList\CCustomizableListDragDropData.cs" />
+    <Compile Include="customizableList\IControlADonneesSpecifiquesDansCustomList.cs" />
+    <Compile Include="CVisualiseurReadOnly.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="designmode\CArbreChampsDotNet.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="designmode\CArbreChampsDotNet.Designer.cs">
+      <DependentUpon>CArbreChampsDotNet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CClavier.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CComboboxAutoFilled.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CControlEditeMatriceDonnee.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CDegradeTitleBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="designmode\CFormSelectTypeDotNet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="designmode\CFormSelectTypeDotNet.Designer.cs">
+      <DependentUpon>CFormSelectTypeDotNet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CFormZoomTextFloat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CFormZoomTextFloat.Designer.cs">
+      <DependentUpon>CFormZoomTextFloat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CMenuModal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CMenuModal.designer.cs">
+      <DependentUpon>CMenuModal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CPanelAutoHide.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="customizableList\CCustomizableList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="customizableList\CCustomizableList.designer.cs">
+      <DependentUpon>CCustomizableList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="customizableList\CCustomizableListControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="customizableList\CCustomizableListItem.cs" />
+    <Compile Include="CUtilControl.cs" />
+    <Compile Include="dynamicControls\CFormSetupFenetreDynamique.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dynamicControls\CFormSetupFenetreDynamique.designer.cs">
+      <DependentUpon>CFormSetupFenetreDynamique.cs</DependentUpon>
+    </Compile>
+    <Compile Include="dynamicControls\CSetupVisibiliteControles.cs" />
+    <Compile Include="folderbrowser\CFileExplorer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="folderbrowser\CFileExplorer.Designer.cs">
+      <DependentUpon>CFileExplorer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="folderbrowser\BrowserControls.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="folderbrowser\BrowserWrappers\BrowserContextMenuWrappers.cs" />
+    <Compile Include="folderbrowser\BrowserWrappers\BrowserDragWrappers.cs" />
+    <Compile Include="folderbrowser\BrowserWrappers\BrowserDropWrappers.cs" />
+    <Compile Include="folderbrowser\BrowserWrappers\BrowserPluginWrapper.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="folderbrowser\Shell\Interfaces\IContextMenu.cs" />
+    <Compile Include="folderbrowser\Shell\Interfaces\IDragSourceHelper.cs" />
+    <Compile Include="folderbrowser\Shell\Interfaces\IDropSource.cs" />
+    <Compile Include="folderbrowser\Shell\Interfaces\IDropTarget.cs" />
+    <Compile Include="folderbrowser\Shell\Interfaces\IDropTargetHelper.cs" />
+    <Compile Include="folderbrowser\Shell\Interfaces\IEnumIDList.cs" />
+    <Compile Include="folderbrowser\Shell\Interfaces\IEnumSTATSTG.cs" />
+    <Compile Include="folderbrowser\Shell\Interfaces\IQueryInfo.cs" />
+    <Compile Include="folderbrowser\Shell\Interfaces\IShellExtInit.cs" />
+    <Compile Include="folderbrowser\Shell\Interfaces\IShellFolder.cs" />
+    <Compile Include="folderbrowser\Shell\Interfaces\IStorage.cs" />
+    <Compile Include="folderbrowser\Shell\Interfaces\IStream.cs" />
+    <Compile Include="folderbrowser\Shell\PIDL.cs" />
+    <Compile Include="folderbrowser\Shell\ShellAPI.cs" />
+    <Compile Include="folderbrowser\Shell\ShellBrowser.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="folderbrowser\Shell\ShellBrowserUpdater.cs" />
+    <Compile Include="folderbrowser\Shell\ShellHelper.cs" />
+    <Compile Include="folderbrowser\Shell\ShellImageList.cs" />
+    <Compile Include="folderbrowser\Shell\ShellItem.cs" />
+    <Compile Include="folderbrowser\Shell\StreamStorage.cs" />
+    <Compile Include="MemoryDb\C2iTextBoxSelectionEntiteMemoryDb.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MemoryDb\C2iTextBoxSelectionEntiteMemoryDb.Designer.cs">
+      <DependentUpon>C2iTextBoxSelectionEntiteMemoryDb.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MemoryDb\CFormSelectUneEntiteMemotyDb.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="periodeactivation\CControleEditePeriodeActivation.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="periodeactivation\CControleEditePeriodeActivation.Designer.cs">
+      <DependentUpon>CControleEditePeriodeActivation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="periodeactivation\CControleEditePeriodeDansJour.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="periodeactivation\CControleEditePeriodeDansJour.Designer.cs">
+      <DependentUpon>CControleEditePeriodeDansJour.cs</DependentUpon>
+    </Compile>
+    <Compile Include="periodeactivation\CControleEditePeriodeJoursSemaine.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="periodeactivation\CControleEditePeriodeJoursSemaine.Designer.cs">
+      <DependentUpon>CControleEditePeriodeJoursSemaine.cs</DependentUpon>
+    </Compile>
+    <Compile Include="periodeactivation\CControleEditePeriodeDates.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="periodeactivation\CControleEditePeriodeDates.Designer.cs">
+      <DependentUpon>CControleEditePeriodeDates.cs</DependentUpon>
+    </Compile>
+    <Compile Include="periodeactivation\IEditeurPeriodeActivation.cs" />
+    <Compile Include="restrictions\CApplicateurRestrictions.cs" />
+    <Compile Include="restrictions\CGestionnaireReadOnlySysteme.cs" />
+    <Compile Include="restrictions\IControleAGestionRestrictions.cs" />
+    <Compile Include="tableaucroise\CFormEditColonnePivot.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tableaucroise\CFormEditCumulCroise.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tableaucroise\CPanelEditTableauCroise.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CPictureBoxDraggable.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CSlidingZone.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CSlidingZone.designer.cs">
+      <DependentUpon>CSlidingZone.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CTreeViewNodeKeeper.cs" />
+    <Compile Include="CWndPushPine.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Designer\CRectangleSelectionZone.cs" />
+    <Compile Include="DynamicForm.cs" />
+    <Compile Include="PopupForm\BoutonDialog\CDialogResultBouton.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PopupForm\BoutonDialog\CDialogResultBouton.Designer.cs">
+      <DependentUpon>CDialogResultBouton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PopupForm\BoutonDialog\CDialogResultProviderForBouton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PopupForm\CCtrlShowErreur.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PopupForm\CCtrlShowErreur.Designer.cs">
+      <DependentUpon>CCtrlShowErreur.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PopupForm\CCtrlShowErreurValidation.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PopupForm\CCtrlShowListeErreurs.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PopupForm\CCtrlShowListeErreurs.Designer.cs">
+      <DependentUpon>CCtrlShowListeErreurs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CCtrlUpDownBase.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CCtrlUpDownBase.Designer.cs">
+      <DependentUpon>CCtrlUpDownBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CCtrlUpDownListView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CExAnimateurControle.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CExtLinkField.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CExtModeEdition.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CFolderBrowser.cs" />
+    <Compile Include="CFormAfficheErreur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PopupForm\CFormAlerte.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PopupForm\CFormAlerte.Designer.cs">
+      <DependentUpon>CFormAlerte.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CFormatteurTextBox.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CFormatteurTextBoxMasque.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CFormatteurTextBoxHeure.cs" />
+    <Compile Include="CFormErreurValidation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Designer\CFormMarge.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Designer\CFormMarge.Designer.cs">
+      <DependentUpon>CFormMarge.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Designer\CFormPopUpEditeur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Designer\CFormPopUpEditeur.Designer.cs">
+      <DependentUpon>CFormPopUpEditeur.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CFormProgression.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CFormSelectChampPourListe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Designer\CFormTailleGrille.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Designer\CFormTailleGrille.Designer.cs">
+      <DependentUpon>CFormTailleGrille.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CListLink.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CExtStyle.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CGestionnaireTabControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CReducteurControle.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CReducteurControle.designer.cs">
+      <DependentUpon>CReducteurControle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CScreenCopieur.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CSerializerObjetInClipBoard.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CToolTipTraductible.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CTrieurListView.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CWaitCursor.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CWin32Traducteur.cs" />
+    <Compile Include="CWndLinkStd.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Designer\CDonneeDragDropObjetGraphique.cs" />
+    <Compile Include="Designer\CGrilleEditeurObjetGraphique.cs" />
+    <Compile Include="EffetFondu\CCtrlEditProfilEffetFondu.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EffetFondu\CCtrlEditProfilEffetFondu.Designer.cs">
+      <DependentUpon>CCtrlEditProfilEffetFondu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EffetFondu\CEffetFonduPourForm.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Designer\CPanelEditionObjetGraphique.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Designer\CPoignee.cs" />
+    <Compile Include="Designer\CProfilEditeurObjetGraphique.cs" />
+    <Compile Include="Designer\CSelectionObjetsGraphiques.cs" />
+    <Compile Include="Designer\EFormePoignee.cs" />
+    <Compile Include="Designer\EModeAffichageGrille.cs" />
+    <Compile Include="Designer\ERepresentationGrille.cs" />
+    <Compile Include="EffetFondu\CProfilEffetFondu.cs" />
+    <Compile Include="EffetFondu\EModeFonctionnementEffetFonduPourForm.cs">
+    </Compile>
+    <Compile Include="EffetFondu\CEffetFonduPourFormManager.cs">
+    </Compile>
+    <Compile Include="PopupForm\CFloatingComboButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PopupForm\CFloatingBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PopupForm\CFloatingFormBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PopupForm\EFormAlerteBoutons.cs" />
+    <Compile Include="PopupForm\EFormAlerteType.cs">
+    </Compile>
+    <Compile Include="PopupForm\CDraggeurDeControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PopupForm\CSizerDeControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PopupForm\EModeAffichageErreurs.cs" />
+    <Compile Include="PopupForm\IFloatingPopup.cs" />
+    <Compile Include="GlacList\BorderStrip.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="GlacList\CFormGereColonnesListe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GlacList\ColumnCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GlacList\CPourImagesCheck.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GlacList\GlacialList.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="GlacList\HelperFunctions.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GlacList\ManagedHScrollBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="GlacList\ManagedVScrollBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="I2iControlEditObject.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IControlALockEdition.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IControlTraductible.cs" />
+    <Compile Include="IElementAContexteUtilisation.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="InputBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Intellisense\CArbreVocabulaire.cs" />
+    <Compile Include="Intellisense\IntellisenseTextBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ListViewAutoFilled.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ListViewFilter.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="recherche\CFormResultatRechercheObjet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="recherche\CFormResultatRechercheObjet.Designer.cs">
+      <DependentUpon>CFormResultatRechercheObjet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="recherche\CWndArbreResultatRequete.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ShadowLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CWndSaisieHeure.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CWndSaisieHeure.Designer.cs">
+      <DependentUpon>CWndSaisieHeure.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VEarth\CAllocateurWin32MapItem.cs" />
+    <Compile Include="VEarth\CWin32MapItemPath.cs" />
+    <Compile Include="VEarth\CWin32MapItemImage.cs" />
+    <Compile Include="VEarth\CVEarthCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="VEarth\CVEarthCtrl.designer.cs">
+      <DependentUpon>CVEarthCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VEarth\CWin32MapItemGoogleStd.cs" />
+    <Compile Include="VEarth\IWin32MapItem.cs" />
+    <Compile Include="VidoirDevidoir\CCtrlVidoirDevidoir.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="VidoirDevidoir\CCtrlVidoirDevidoir.Designer.cs">
+      <DependentUpon>CCtrlVidoirDevidoir.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Win32Enum.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Win32Msgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Win32Struct.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WindowsMessages.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <None Include="Resources\NoFullScreen_Icon.png" />
+    <None Include="Resources\FullScreen_Icon.png" />
+    <EmbeddedResource Include="C2iColorSelect.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>C2iColorSelect.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="C2iComboBox.bmp" />
+    <EmbeddedResource Include="C2iComboBox.resx">
+      <DependentUpon>C2iComboBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="C2iComboSelectDynamicClass.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>C2iComboSelectDynamicClass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="C2iDataGrid.bmp" />
+    <EmbeddedResource Include="C2iDataGrid.resx">
+      <DependentUpon>C2iDataGrid.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="C2iDateTimeExPicker.bmp" />
+    <EmbeddedResource Include="C2iDateTimeExPicker.resx">
+      <DependentUpon>C2iDateTimeExPicker.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="C2iDateTimePicker.bmp" />
+    <EmbeddedResource Include="C2iDateTimePicker.resx">
+      <DependentUpon>C2iDateTimePicker.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="C2iImageViewer.resx">
+      <DependentUpon>C2iImageViewer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="C2iLink.resx">
+      <DependentUpon>C2iLink.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="C2iNumericUpDown.bmp" />
+    <EmbeddedResource Include="C2iNumericUpDown.resx">
+      <DependentUpon>C2iNumericUpDown.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="C2iPanel.bmp" />
+    <EmbeddedResource Include="C2iPanel.resx">
+      <DependentUpon>C2iPanel.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="C2iPanelFondDegradeStd.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>C2iPanelFondDegradeStd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="C2iPanelOmbre.bmp" />
+    <EmbeddedResource Include="C2iPanelOmbre.resx">
+      <DependentUpon>C2iPanelOmbre.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="C2iPictureBox.resx">
+      <DependentUpon>C2iPictureBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="C2iProgressBar.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>C2iProgressBar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="C2iSelectImage.resx">
+      <DependentUpon>C2iSelectImage.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="C2iTabControl.resx">
+      <DependentUpon>C2iTabControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="C2iTextBox.bmp" />
+    <EmbeddedResource Include="C2iTextBox.resx">
+      <DependentUpon>C2iTextBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="C2iTextBoxNumerique.bmp" />
+    <EmbeddedResource Include="C2iTextBoxNumerique.resx">
+      <DependentUpon>C2iTextBoxNumerique.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="C2iTextBoxNumeriqueAvecUnite.resx">
+      <DependentUpon>C2iTextBoxNumeriqueAvecUnite.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CAnimatedPictureBox.resx">
+      <DependentUpon>CAnimatedPictureBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CControlPanorama.resx">
+      <DependentUpon>CControlPanorama.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CLabelProgression.resx">
+      <DependentUpon>CLabelProgression.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CRoundButton.resx">
+      <DependentUpon>CRoundButton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CTabControlFullScreenerPanel.resx">
+      <DependentUpon>CTabControlFullScreenerPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="customizableList\CCustomizableListAvecNiveau.resx">
+      <DependentUpon>CCustomizableListAvecNiveau.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CVisualiseurReadOnly.resx">
+      <DependentUpon>CVisualiseurReadOnly.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="designmode\CArbreChampsDotNet.resx">
+      <DependentUpon>CArbreChampsDotNet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CComboboxAutoFilled.bmp" />
+    <EmbeddedResource Include="CComboboxAutoFilled.resx">
+      <DependentUpon>CComboboxAutoFilled.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CControlEditeMatriceDonnee.resx">
+      <DependentUpon>CControlEditeMatriceDonnee.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CCtrlUpDownBase.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CCtrlUpDownBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CDegradeTitleBar.resx">
+      <DependentUpon>CDegradeTitleBar.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CExAnimateurControle.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CExAnimateurControle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CExtLinkField.bmp" />
+    <EmbeddedResource Include="CExtLinkField.resx">
+      <DependentUpon>CExtLinkField.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CExtModeEdition.bmp" />
+    <EmbeddedResource Include="CExtModeEdition.resx">
+      <DependentUpon>CExtModeEdition.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CFolderBrowser.resx">
+      <DependentUpon>CFolderBrowser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CFormAfficheErreur.resx">
+      <DependentUpon>CFormAfficheErreur.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CFormErreurValidation.resx">
+      <DependentUpon>CFormErreurValidation.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="designmode\CFormSelectTypeDotNet.resx">
+      <DependentUpon>CFormSelectTypeDotNet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CFormZoomTextFloat.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CFormZoomTextFloat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CMenuModal.resx">
+      <DependentUpon>CMenuModal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CPanelAutoHide.resx">
+      <DependentUpon>CPanelAutoHide.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="customizableList\CCustomizableList.resx">
+      <DependentUpon>CCustomizableList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="customizableList\CCustomizableListControl.resx">
+      <DependentUpon>CCustomizableListControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dynamicControls\CFormSetupFenetreDynamique.resx">
+      <DependentUpon>CFormSetupFenetreDynamique.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="folderbrowser\CFileExplorer.resx">
+      <DependentUpon>CFileExplorer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MemoryDb\C2iTextBoxSelectionEntiteMemoryDb.resx">
+      <DependentUpon>C2iTextBoxSelectionEntiteMemoryDb.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MemoryDb\CFormSelectUneEntiteMemotyDb.resx">
+      <DependentUpon>CFormSelectUneEntiteMemotyDb.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="periodeactivation\CControleEditePeriodeActivation.resx">
+      <DependentUpon>CControleEditePeriodeActivation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="periodeactivation\CControleEditePeriodeDansJour.resx">
+      <DependentUpon>CControleEditePeriodeDansJour.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="periodeactivation\CControleEditePeriodeJoursSemaine.resx">
+      <DependentUpon>CControleEditePeriodeJoursSemaine.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="periodeactivation\CControleEditePeriodeDates.resx">
+      <DependentUpon>CControleEditePeriodeDates.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tableaucroise\CFormEditColonnePivot.resx">
+      <DependentUpon>CFormEditColonnePivot.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tableaucroise\CFormEditCumulCroise.resx">
+      <DependentUpon>CFormEditCumulCroise.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tableaucroise\CPanelEditTableauCroise.resx">
+      <DependentUpon>CPanelEditTableauCroise.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CPictureBoxDraggable.resx">
+      <DependentUpon>CPictureBoxDraggable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CSlidingZone.resx">
+      <DependentUpon>CSlidingZone.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CWndPushPine.resx">
+      <DependentUpon>CWndPushPine.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Designer\CFormMarge.resx">
+      <DependentUpon>CFormMarge.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Designer\CFormPopUpEditeur.resx">
+      <DependentUpon>CFormPopUpEditeur.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CFormProgression.resx">
+      <DependentUpon>CFormProgression.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CFormSelectChampPourListe.resx">
+      <DependentUpon>CFormSelectChampPourListe.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Designer\CFormTailleGrille.resx">
+      <DependentUpon>CFormTailleGrille.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CListLink.bmp" />
+    <EmbeddedResource Include="CListLink.resx">
+      <DependentUpon>CListLink.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CExtStyle.resx">
+      <DependentUpon>CExtStyle.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CGestionnaireTabControl.resx">
+      <DependentUpon>CGestionnaireTabControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CReducteurControle.resx">
+      <DependentUpon>CReducteurControle.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CurseurLoupe.cur" />
+    <EmbeddedResource Include="CWndLinkStd.bmp" />
+    <EmbeddedResource Include="CWndLinkStd.resx">
+      <DependentUpon>CWndLinkStd.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Designer\CPanelEditionObjetGraphique.resx">
+      <DependentUpon>CPanelEditionObjetGraphique.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EffetFondu\CCtrlEditProfilEffetFondu.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CCtrlEditProfilEffetFondu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PopupForm\BoutonDialog\CDialogResultBouton.resx">
+      <DependentUpon>CDialogResultBouton.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PopupForm\CFloatingComboButton.resx">
+      <DependentUpon>CFloatingComboButton.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PopupForm\CFloatingBox.resx">
+      <DependentUpon>CFloatingBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PopupForm\CFloatingFormBase.resx">
+      <DependentUpon>CFloatingFormBase.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PopupForm\CFormAlerte.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CFormAlerte.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GlacList\BorderStrip.resx">
+      <DependentUpon>BorderStrip.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GlacList\CFormGereColonnesListe.resx">
+      <DependentUpon>CFormGereColonnesListe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GlacList\GlacialList.resx">
+      <DependentUpon>GlacialList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GlacList\ManagedHScrollBar.resx">
+      <DependentUpon>ManagedHScrollBar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GlacList\ManagedVScrollBar.resx">
+      <DependentUpon>ManagedVScrollBar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GlacList\Win32Check.bmp" />
+    <EmbeddedResource Include="GlacList\Win32Uncheck.bmp" />
+    <EmbeddedResource Include="InputBox.resx">
+      <DependentUpon>InputBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Intellisense\IntellisenseTextBox.resx">
+      <DependentUpon>IntellisenseTextBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListViewAutoFilled.bmp" />
+    <EmbeddedResource Include="ListViewAutoFilled.resx">
+      <DependentUpon>ListViewAutoFilled.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListViewFilter.resx">
+      <DependentUpon>ListViewFilter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CExtStyle.bmp" />
+    <EmbeddedResource Include="CWndSaisieHeure.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CWndSaisieHeure.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="recherche\CFormResultatRechercheObjet.resx">
+      <DependentUpon>CFormResultatRechercheObjet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="recherche\CWndArbreResultatRequete.resx">
+      <DependentUpon>CWndArbreResultatRequete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VEarth\CVEarthCtrl.resx">
+      <DependentUpon>CVEarthCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VidoirDevidoir\CCtrlVidoirDevidoir.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CCtrlVidoirDevidoir.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="folderbrowser\Images\BrowseFolders.png" />
+    <None Include="folderbrowser\Images\BrowserBack.png" />
+    <None Include="folderbrowser\Images\BrowserForward.png" />
+    <None Include="folderbrowser\Images\BrowserUp.png" />
+    <Content Include="GlacList\CurInsertLeft.cur" />
+    <Content Include="Icones\aligner.bmp" />
+    <Content Include="Icones\aligner_correspondre_sur_grille.bmp" />
+    <Content Include="Icones\aligner_etendre_sur_grille.bmp" />
+    <Content Include="Icones\aligner_positionner_sur_grille.bmp" />
+    <Content Include="Icones\aligner_sur_grille.bmp" />
+    <Content Include="Icones\aligner_sur_X.bmp" />
+    <Content Include="Icones\aligner_sur_X_au_centre.bmp" />
+    <Content Include="Icones\aligner_sur_X_en_bas.bmp" />
+    <Content Include="Icones\aligner_sur_X_en_haut.bmp" />
+    <Content Include="Icones\aligner_sur_Y.bmp" />
+    <Content Include="Icones\aligner_sur_Y_au_centre.bmp" />
+    <Content Include="Icones\aligner_sur_Y_a_droite.bmp" />
+    <Content Include="Icones\aligner_sur_Y_a_gauche.bmp" />
+    <Content Include="Icones\bringtofront.bmp" />
+    <Content Include="Icones\bring_to_front.bmp" />
+    <Content Include="Icones\delete.gif" />
+    <Content Include="Icones\Delete.ico" />
+    <None Include="Icones\down_blue.gif" />
+    <None Include="Icones\down_red.gif" />
+    <None Include="Icones\down_vert.gif" />
+    <Content Include="Icones\Erreur.png" />
+    <Content Include="Icones\Exclam.png" />
+    <Content Include="Icones\fronttoback.bmp" />
+    <Content Include="Icones\front_to_back.bmp" />
+    <Content Include="Icones\generaliser_hauteur.bmp" />
+    <Content Include="Icones\generaliser_largeur.bmp" />
+    <Content Include="Icones\generaliser_taille.bmp" />
+    <Content Include="Icones\grille.bmp" />
+    <Content Include="Icones\grille_affichage.bmp" />
+    <Content Include="Icones\grille_angles.bmp" />
+    <Content Include="Icones\grille_color.bmp" />
+    <Content Include="Icones\grille_deplacement.bmp" />
+    <Content Include="Icones\grille_discontinue.bmp" />
+    <Content Include="Icones\grille_jamais.bmp" />
+    <Content Include="Icones\grille_lignes.bmp" />
+    <Content Include="Icones\grille_pointillet.bmp" />
+    <Content Include="Icones\grille_points.bmp" />
+    <Content Include="Icones\grille_representation.bmp" />
+    <Content Include="Icones\grille_taille.bmp" />
+    <Content Include="Icones\grille_toujours.bmp" />
+    <Content Include="Icones\Ico_Erreur.ico" />
+    <Content Include="Icones\Ico_Exclam.ico" />
+    <Content Include="Icones\Ico_Info.ico" />
+    <Content Include="Icones\Ico_Question.ico" />
+    <Content Include="Icones\Info.bmp" />
+    <Content Include="Icones\lock.bmp" />
+    <Content Include="Icones\Lock.ico" />
+    <Content Include="Icones\marge.bmp" />
+    <Content Include="Icones\Question.jpg" />
+    <Content Include="Icones\repartir.bmp" />
+    <Content Include="Icones\repartir_sur_grille.bmp" />
+    <Content Include="Icones\repartir_sur_X.bmp" />
+    <Content Include="Icones\repartir_sur_X_auto.bmp" />
+    <Content Include="Icones\repartir_sur_X_a_droite.bmp" />
+    <Content Include="Icones\repartir_sur_X_a_gauche.bmp" />
+    <Content Include="Icones\repartir_sur_Y.bmp" />
+    <Content Include="Icones\repartir_sur_Y_auto.bmp" />
+    <Content Include="Icones\repartir_sur_Y_en_bas.bmp" />
+    <Content Include="Icones\repartir_sur_Y_en_haut.bmp" />
+    <Content Include="Icones\vidoirDevidoir.bmp" />
+    <None Include="Resources\BrowserUp.png" />
+    <None Include="Resources\BrowserForward.png" />
+    <None Include="Resources\BrowserBack.png" />
+    <None Include="Resources\BrowseFolders.png" />
+    <None Include="Resources\curLoupePlus1.cur" />
+    <None Include="Resources\MarkerMouse.png" />
+    <None Include="Resources\LockEnCoin.png" />
+    <None Include="Resources\1364501755_locked.png" />
+    <None Include="Resources\check_noir_simple_25x25.png" />
+    <None Include="Resources\search.png" />
+    <None Include="Resources\Shell32 110.ico" />
+    <None Include="Resources\pusphpinOuverte.png" />
+    <None Include="Resources\pushpinFermee.png" />
+    <None Include="Resources\cancelx16.png" />
+    <EmbeddedResource Include="Resources\curLoupePlus.cur" />
+    <None Include="Resources\couper.bmp" />
+    <EmbeddedResource Include="Resources\loupe.png" />
+    <None Include="Resources\fond_menu_liste_3.jpg" />
+    <None Include="Resources\document_edit.png" />
+    <None Include="Resources\document_delete.png" />
+    <None Include="Resources\document_add.png" />
+    <None Include="Resources\document_filter.png" />
+    <None Include="Resources\help.png" />
+    <None Include="Resources\info.png" />
+    <None Include="Resources\close.png" />
+    <EmbeddedResource Include="VidoirDevidoir\CCtrlvidoirDevidoir.bmp" />
+    <None Include="Resources\ImgInfo.png" />
+    <None Include="Resources\IcoErreur.ico" />
+    <None Include="Resources\IcoQuestion.ico" />
+    <None Include="Resources\IcoInfo.ico" />
+    <None Include="Resources\IcoExclam.ico" />
+    <None Include="Resources\ImgErreur.png" />
+    <None Include="Resources\ImgExclam.png" />
+    <None Include="Resources\ImgQuestion.jpg" />
+    <None Include="Icones\up_vert.gif" />
+    <None Include="Icones\up_red.gif" />
+    <None Include="Icones\up_blue.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="sc2i.win32.common.fr" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Shell32">
+      <Guid>{50A7E9B0-70EF-11D1-B75A-00A0C90564FE}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

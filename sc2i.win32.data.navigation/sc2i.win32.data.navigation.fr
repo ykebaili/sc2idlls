@@ -1,0 +1,145 @@
+10;Ok
+11;Annuler
+12;Fermer
+13;Corriger
+14;Ignorer et valider
+15;Ajouter une ligne
+16;? valeur
+17;Modification
+18;Importer
+19;Aucun
+20;Sélectionner
+21;Suivant >
+22;< Précédent
+23;Terminer
+24;Ajouter
+25;Tester
+26;Exporter
+27;Rechercher
+100;Lien
+101;Les données de cette page ne sont pas/plus disponibles
+102;Filtrer sur
+103;Vous n'avez pas les droits nécessaires pour visualiser cette page
+104;Export
+105;Liste des archives
+106;Détail de la version
+107;Aucune valeur
+108;A été ajouté depuis cette version
+109;A été modifié depuis cette version
+110;A été supprimé depuis cette version
+111;N'a pas changé depuis cette version
+112;Est la valeur actuelle
+113;Est la valeur pour cette version
+114;A été ajouté à la liste
+115;A été supprimé de la liste
+116;Options
+117;Uniquement pour l'élément
+118;Voir tout
+119;Inclure les etiquettes
+120;Champ
+121;Historique
+122;Referentiel
+123;Version
+124;Ce filtre sera appliqué par défaut dés que vous ouvrirez cette fenêtre. Etes-vous sûr ?
+125;Confirmation
+126;Supprimer la préférence ?
+127;Stocker comme filtre favori
+128;Sélectionner le filtre
+129;Appliquer le filtre
+130;Chargement en cours...
+131;Filtre temporaire
+132;élément
+133;Voulez-vous supprimer définitivement
+134;Exporter tous les éléments (Oui) ou uniquement les éléments cochés(Non)
+135;Corrigez les erreurs avant de valider
+136;Export terminé
+137;Vous n'êtes pas autorisé à créer cet objet
+138;Vous n'êtes pas autorisé à modifier cet objet
+139;Titre
+140;Champ
+141;Largeur
+
+10000;Filtre Standard
+10001;Simple...
+10002;Avancé...
+10003;Entité nommée
+
+10110;Copier l'identifiant dans le presse-papier
+10111;Nommer l'Entité
+10112;Nommage Entité
+10113;Objet null
+10114;Nom Fort @1
+10115;Chaine vide non autorisée
+10116;Vous n'avez pas les droits pour modifier les Noms Forts de l'entité
+10117;Le Nom Fort @1 sera réaffecté de @2 à @3. Continuer ?
+10118;Le Nom Fort @1 existe déjà sur @2
+
+20000;Erreur durant l'initialisation
+20001;Récuperer les valeurs sélectionnées
+20002;Impossible d'exporter cette liste
+20003;Copier
+20004;Listes
+20005;Liste
+20006;Toujours visible
+20007;Création annulée
+20008;Exporter la liste
+20009;Extraire la liste
+20010;Sauvegarder les éléments cochés dans une liste
+20011;Nouvelle liste
+20012;Cochez les éléments à ajouter à la liste
+20013;Ajouter @1 éléments à la liste '@2' ?
+20014;Cochez les éléments à enlever de la liste
+20015;Créer une liste
+20016;Nom de la liste
+20017;Liste créée par @1 à @2
+20018;Ajouter les éléments à '@1'
+20019;Enlever les éléments de '@1'
+20020;Enlever @1 éléments de la liste '@2' ?
+20021;Formulaire conditionnel
+20022;Formulaire standard
+20023;Formulaire par défaut
+20024;Formulaires conditionnels
+20025;Formulaire
+20026;Condition
+20027;Vous devez sélectionner un formulaire pour la condition @1
+20028;Supprimer l'élément @1 ?
+
+30001;Fonction non autorisée
+30002;Voulez-vous supprimer définitivement @1
+30003;Impossible de copier cet objet 
+30004;Aucun enregistrement ne correspond au filtre
+30005; est en cours d'édition.\r\nVoulez-vous enregistrer les modifications ?
+30006;Erreur de chargement de la liste : 
+30007;Filtrer les enregistrements
+30008;Impossible d'ajouter car le type de forme d'édition n'est pas défini
+30009;La propriété @1 n'a pas été trouvée dans la classe @2
+30010;Impossible d'ajouter un élément
+30011;Erreur lors de la suppression
+30012;Impossible de modifier l'élément
+30013;sc2i.win32.data.navigation n'a pas été initialisé 
+30014;Historique
+30015;[Id]
+30016;Key
+30017;Ajouter un nouvel élément (F4, Ctrl-F4 pour dupliquer)
+30018;Modifier l'élement (F8)
+30019;Supprimer l'élément
+30020;Valider les modifications (F10)
+30021;Annuler les modifications
+30022;Elément suivant
+30023;Elément précédent
+30024;Vous n'avez pas les droits nécessaires pour visualiser cette page
+30025;Filtrer sur ...
+30026;Filtrer sur sélection
+30027;Filter out of selection
+30028;Annuler les filtres
+30029;Créer un nouvel élément
+30030;Créer une copie
+30031; (Aucun)
+30032;Erreur lors de la suppression
+30033;Impossible de modifier l'élément
+30034;Supprimer la colonne @1 ?
+30035;Indiquer la formule source avant d'éditer les colonnes 
+30061;Atteignez la feuille de l'élément sélectionné
+30062;Atteignez la feuille de l'élément sélectionné
+30063;Réaffectez
+30115;Le système ne peut pas réaffecter l'élément

@@ -1,0 +1,22 @@
+﻿20000;La requête doit connaitre une source pour fournir des données
+20001;La table n'est pas spécifiée
+20002;Erreur dans la table @1
+20003;Filtre par formule
+20004;Table depuis la source
+20005;Jointure
+20006;Pas de source @1
+20007;Erreur dans les données de la table @1
+20008;Tableau croisé
+20010;Requête CAML
+20011;Impossible d'appliquer une requête CAML sur la table @1
+20012;Table calculée
+20013;Tri et ordre des colonnes
+20014;Données statiques
+20015;Table manuelle
+20016;Filter depuis une table
+20017;Impossible de trouver la table @1
+20018;La table de remplacement doit contenir la colonne @1
+20019;Paramètre invalides pour le remplacement de source
+20020;Impossible de remplacer la source sur cette table
+20021;Table n°@1
+20021;Vous devez ajouter les sources précédentes avant d'ajouter celle ci

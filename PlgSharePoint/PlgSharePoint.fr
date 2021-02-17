@@ -1,0 +1,4 @@
+﻿10000;Retourne une liste d'enregistrements de la Liste SharePoint basée sur la requête spécifiée
+10001;L'URL du Servic Web SharePoint est vide
+10002;Le nom de la liste SharePoint est vide
+10003;

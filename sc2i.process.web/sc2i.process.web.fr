@@ -1,0 +1,7 @@
+30001;Session Web @1
+30002;Erreur de session
+30003;Les paramètres ne sont pas passés correctement
+30004;L'action @1 n'existe pas
+30005;@1 n'est pas un id de variable valide
+30006;La variable @1 n'existe pas ou n'est pas valide
+30007;Erreur lors de l'affectation de la variable @1

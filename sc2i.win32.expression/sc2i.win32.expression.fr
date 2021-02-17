@@ -1,0 +1,83 @@
+10;Ok
+11;Annuler
+12;Fermer
+13;Corriger
+14;Ignorer et valider
+15;Ajouter une ligne
+16;? valeur
+17;Modification
+18;Importer
+19;Aucun
+20;Sélectionner
+21;Suivant >
+22;< Précédent
+23;Terminer
+24;Ajouter
+25;Tester
+26;Exporter
+27;Rechercher
+28;Insérer
+100;Noms complets
+101;Edition de formule
+102;Formule
+103;Résultat
+104;Analyse
+105;Evaluer
+106;Element
+107;Evaluation de formule instantanée
+108;Effacer
+109;
+110;
+111;
+112;
+113;
+114;
+115;
+116;
+
+
+
+10000;Formule de couleur
+10001;Remplacer la Formule de Couleur actuelle
+
+20000;Parametre @1
+20001;Ajouter
+20002;Suivant
+20003;Définir comme point de départ
+20004;Formule graphique|*.grafexp|Tous fichiers|*.*
+20005;La formule va être remplacée. Continuer ?
+20006;Formule graphique
+20007;Cette action vous permettra d'éditer directement la formule mais perdra sa représentation graphique. Continuer ?
+20008;Attention
+20009;Vous ne pouvez pas éditer directement cette formule car il s'agit d'une formule graphique. Faites un clic droit sur le bouton 'graphique' pour autoriser l'édition de la formule
+20010;Ajouter un bloc
+20011;Ajouter une constante
+20012;Ajouter une affectation
+20013;Ajouter une condition
+20014;Activer le debogage
+20015;Attention, cette action va désactiver le debugger. Continuer ?
+20016;Stocker dans une variable
+20017;Attention
+20018;La variable @1 existe déjà
+20019;Edition de variable
+20020;Nom
+20021;Type
+20022;Tableau
+20023;Type invalide
+20024;Variable
+20025;Nom
+20026;Type de données
+20027;Indiquez un type de données
+20028;Type unité
+20029;Format aff.
+20030;Valeur def.
+20031;Fonction dynamique
+20032;Nom de la fonction
+20033;Variable
+20034;Paramètre
+20035;Fonctions
+20036;Supprimer la fonction @1 ?
+
+
+
+30001;Expression analysée nulle

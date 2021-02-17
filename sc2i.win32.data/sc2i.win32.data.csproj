@@ -1,0 +1,484 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="12.0">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6841AA20-24D6-4534-8685-4483D71A90D8}</ProjectGuid>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>sc2i.win32.data</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>sc2i.win32.data</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'debug structure pda|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'debug avec documentation|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <Optimize>true</Optimize>
+    <DebugType>
+    </DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'debug structure pda|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\debug structure pda\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'debug avec documentation|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\debug avec documentation\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CarlosAg.ExcelXmlWriter, Version=1.0.0.6, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\dep\CarlosAg.ExcelXmlWriter.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Design">
+      <Name>System.Design</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+    <ProjectReference Include="..\sc2i.common\SC2ICommon.csproj">
+      <Name>SC2ICommon</Name>
+      <Project>{500A5948-86F8-4331-8529-BB1109C4E966}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+    </ProjectReference>
+    <ProjectReference Include="..\sc2i.data.client\sc2i.data.client.csproj">
+      <Name>sc2i.data.client</Name>
+      <Project>{6BB133A5-2330-4D0F-AB31-C1F585CD10D7}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+    </ProjectReference>
+    <ProjectReference Include="..\sc2i.expression\sc2i.expression.csproj">
+      <Project>{BCFA4027-E5DB-40D7-B05B-623E8CAC0CA4}</Project>
+      <Name>sc2i.expression</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\sc2i.multitiers.client\sc2i.multitiers.client.csproj">
+      <Name>sc2i.multitiers.client</Name>
+      <Project>{022AC2FA-0300-4662-BEE5-1C637FECBBB1}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+    </ProjectReference>
+    <ProjectReference Include="..\sc2i.win32.common\sc2i.win32.common.csproj">
+      <Name>sc2i.win32.common</Name>
+      <Project>{ECBC5D80-26BD-41D1-90FF-7B2A84F73339}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Package\CArbreDependancesObjet.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Package\CArbreDependancesObjet.Designer.cs">
+      <DependentUpon>CArbreDependancesObjet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CArbreObjetsDonneesHierarchiques.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CAssistantLectureFichier.cs" />
+    <Compile Include="CComboBoxListeObjetsDonnees.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CFiltreInterfaceExterne.cs" />
+    <Compile Include="Package\CControleOptionsForType.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Package\CControleOptionsForType.Designer.cs">
+      <DependentUpon>CControleOptionsForType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Package\CFormDependancesObjet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Package\CFormDependancesObjet.Designer.cs">
+      <DependentUpon>CFormDependancesObjet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditionFiltreData\CControlEditeParametreDeFiltreData.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EditionFiltreData\CControlEditeParametreDeFiltreData.Designer.cs">
+      <DependentUpon>CControlEditeParametreDeFiltreData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CFormImportObjetDonnee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CFormMappageStringsStrings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CFormMappageStringsStrings.Designer.cs">
+      <DependentUpon>CFormMappageStringsStrings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CFormMapRowToObjetDonnee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CSV\CFormOptionsCSV1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CSV\CFormOptionsCSV2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CSc2iWin32DataClient.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CWndListeObjetsDonnees.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="EditionFiltreData\CControlEditeParametresFiltre.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EditionFiltreData\CControlEditeParametresFiltre.Designer.cs">
+      <DependentUpon>CControlEditeParametresFiltre.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Excel\CFormOptionsImportExcel2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Excel\CFormOptionsImportExcel1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Excel\CSelectionneurEditeurParametreLectureExcel.cs" />
+    <Compile Include="IFormEditObjetDonnee.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ISelectionneurElementListeObjetsDonnees.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Package\CFormParametresRecherche.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Package\CFormParametresRecherche.Designer.cs">
+      <DependentUpon>CFormParametresRecherche.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Package\CPanelOptionRechercheDependances.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Package\CPanelOptionRechercheDependances.Designer.cs">
+      <DependentUpon>CPanelOptionRechercheDependances.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Package\CArbreDependancesObjet.resx">
+      <DependentUpon>CArbreDependancesObjet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CArbreObjetsDonneesHierarchiques.bmp" />
+    <EmbeddedResource Include="CArbreObjetsDonneesHierarchiques.resx">
+      <DependentUpon>CArbreObjetsDonneesHierarchiques.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CComboBoxListeObjetsDonnees.bmp" />
+    <EmbeddedResource Include="CComboBoxListeObjetsDonnees.resx">
+      <DependentUpon>CComboBoxListeObjetsDonnees.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Package\CControleOptionsForType.resx">
+      <DependentUpon>CControleOptionsForType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Package\CFormDependancesObjet.resx">
+      <DependentUpon>CFormDependancesObjet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditionFiltreData\CControlEditeParametreDeFiltreData.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CControlEditeParametreDeFiltreData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CFormImportObjetDonnee.resx">
+      <DependentUpon>CFormImportObjetDonnee.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CFormMappageStringsStrings.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CFormMappageStringsStrings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CFormMapRowToObjetDonnee.resx">
+      <DependentUpon>CFormMapRowToObjetDonnee.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CSV\CFormOptionsCSV1.resx">
+      <DependentUpon>CFormOptionsCSV1.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CSV\CFormOptionsCSV2.resx">
+      <DependentUpon>CFormOptionsCSV2.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditionFiltreData\CControlEditeParametresFiltre.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CControlEditeParametresFiltre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Excel\CFormOptionsImportExcel2.resx">
+      <DependentUpon>CFormOptionsImportExcel2.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Excel\CFormOptionsImportExcel1.resx">
+      <DependentUpon>CFormOptionsImportExcel1.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Package\CFormParametresRecherche.resx">
+      <DependentUpon>CFormParametresRecherche.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Package\CPanelOptionRechercheDependances.resx">
+      <DependentUpon>CPanelOptionRechercheDependances.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="sc2i.win32.data.fr" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Excel\Resources\1286911494_reminders.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GenericObject16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Simplefolder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spinner_white.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GenericObject16 green.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Refresh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ignorer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Forcer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Recursif.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Parametres.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1421185988_Open_file.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1421186002_save.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1421186080_save-24.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

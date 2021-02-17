@@ -1,0 +1,5 @@
+﻿20000;Formule
+20001;Champ de table
+20002;Formule
+20003;Query
+20004;Se produit avant le calcul du graph

@@ -1,0 +1,14 @@
+
+101;Impossible d'allouer un objet @1 car la classe n'existe pas
+102;Erreur dans la configuration des restrictions
+103;Erreur serveur secondaire @1\r\n@2
+104;Erreur envoi notifications à la session @1
+105;Impossible d'allouer la session sur le serveur
+106;Connexion session n° @1
+107;Type
+109;Deconnexion auto session n°
+110;Fermeture de la session @1
+111;Reconnexion session n°
+
+20000;Erreur d'accès
+20001;Serveur

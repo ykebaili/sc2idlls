@@ -1,0 +1,725 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="12.0">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{BCFA4027-E5DB-40D7-B05B-623E8CAC0CA4}</ProjectGuid>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>sc2i.expression</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>sc2i.expression</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'debug structure pda|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'debug PDA DATA|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE;PDA_DATA</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'debug avec documentation|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <Optimize>true</Optimize>
+    <DebugType>
+    </DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'debug structure pda|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\debug structure pda\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'debug PDA DATA|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\debug PDA DATA\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;PDA_DATA</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'debug avec documentation|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\debug avec documentation\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+    <ProjectReference Include="..\sc2i.common\SC2ICommon.csproj">
+      <Name>SC2ICommon</Name>
+      <Project>{500A5948-86F8-4331-8529-BB1109C4E966}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CDefinitionMultiSourceForExpression.cs" />
+    <Compile Include="CArbreDefinitionsDynamiques.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CAssociationsObjetsSupplementairesPourChamps.cs" />
+    <Compile Include="CCacheValeursProprietes.cs" />
+    <Compile Include="CDefinitionProprieteDynamiqueAjoutee.cs" />
+    <Compile Include="CDefinitionProprieteDynamiqueVariableDynamique.cs" />
+    <Compile Include="CFormuleNommee.cs" />
+    <Compile Include="CFournisseurGeneriqueProprietesDynamiques.cs" />
+    <Compile Include="CGestionnaireProprietesAjoutees.cs" />
+    <Compile Include="CGestionnaireVariablesDynamiques.cs" />
+    <Compile Include="CInterpreteurProprieteDynamique.cs" />
+    <Compile Include="Classes de base\C2iExpressionSleep.cs" />
+    <Compile Include="Classes de base\C2iExpressionCreateEntity.cs" />
+    <Compile Include="Classes de base\CDefinitionProprieteDynamiqueDotNet.cs" />
+    <Compile Include="Classes de base\CDefinitionProprieteDynamiqueInstance.cs" />
+    <Compile Include="Classes de base\C2iExpressionRoot.cs" />
+    <Compile Include="Classes de base\C2iExpressionBackground.cs" />
+    <Compile Include="Classes de base\IFournisseurConstantesDynamiques.cs" />
+    <Compile Include="Classes de base\CFournisseurProprieteDynamiqueInverse.cs" />
+    <Compile Include="Classes de base\C2iExpressionConstanteDynamique.cs" />
+    <Compile Include="Classes de base\I2iObjetType.cs" />
+    <Compile Include="compilation\C2iExpressionCompile.cs" />
+    <Compile Include="Conversion\C2iExpressionDateTime.cs" />
+    <Compile Include="Conversion\C2iExpressionTypesDynamics.cs" />
+    <Compile Include="COptimiseurGetValueDynamicMultiple.cs" />
+    <Compile Include="CTypeChampBasique.cs" />
+    <Compile Include="CValeurTypeChampBasique.cs" />
+    <Compile Include="CVariableDynamique.cs" />
+    <Compile Include="CVariableDynamiqueSaisieSimple.cs" />
+    <Compile Include="CVariableDynamiqueSysteme.cs" />
+    <Compile Include="datatable\CDefinitionProprieteDataTableCell.cs" />
+    <Compile Include="datatable\CDefinitionProprieteDynamiqueDataTableRow.cs" />
+    <Compile Include="datatable\CDefinitionProprieteDynamiqueDataTableTable.cs" />
+    <Compile Include="datatable\CDynamicDataTableRow.cs" />
+    <Compile Include="datatable\CDynamicDataTableRowDef.cs" />
+    <Compile Include="datatable\CDynamicDataTable.cs" />
+    <Compile Include="datatable\CDynamicDataTableDef.cs" />
+    <Compile Include="Date\C2iExpressionSetSecondes.cs" />
+    <Compile Include="Date\C2iExpressionToUTC.cs" />
+    <Compile Include="Date\C2iExpressionToLocal.cs" />
+    <Compile Include="Debug\C2iExpressionDebug.cs" />
+    <Compile Include="Debug\CDebuggerFormule.cs" />
+    <Compile Include="FonctionsDynamiques\CDefinitionFonctionDynamique.cs" />
+    <Compile Include="FonctionsDynamiques\CFonctionDynamique.cs" />
+    <Compile Include="FonctionsDynamiques\CFonctionDynamiqueEditor.cs" />
+    <Compile Include="FonctionsDynamiques\CListeFonctionsDynamiques.cs" />
+    <Compile Include="FonctionsDynamiques\CParametreFonctionDynamique.cs" />
+    <Compile Include="FonctionsDynamiques\IElementAFonctionsDynamiques.cs" />
+    <Compile Include="graphic\CDessineurForEach.cs" />
+    <Compile Include="graphic\CDessineurExpressionObjet.cs" />
+    <Compile Include="graphic\CRepresentationExpressionGraphique.cs" />
+    <Compile Include="graphic\CDessineurExpressionGraphique.cs" />
+    <Compile Include="graphic\CDessineurIf.cs" />
+    <Compile Include="graphic\C2iExpressionGraphique.cs" />
+    <Compile Include="IApplatisseurProprietes.cs" />
+    <Compile Include="IAttacheurObjetsAContexteEvaluationExpression.cs" />
+    <Compile Include="IElementAVariableInstance.cs" />
+    <Compile Include="CObjetPourSousProprietes.cs" />
+    <Compile Include="IElementAVariables.cs" />
+    <Compile Include="IInterpreteurMethodeDynamique.cs" />
+    <Compile Include="IPreloadableFromArbreProprietesDynamiques.cs" />
+    <Compile Include="IVariableDynamique.cs" />
+    <Compile Include="Listes\C2iExpressionForEach.cs" />
+    <Compile Include="Listes\C2iExpressionConcatList.cs" />
+    <Compile Include="Listes\C2iExpressionTri.cs" />
+    <Compile Include="Listes\CHashtable.cs" />
+    <Compile Include="Listes\CObjectList.cs" />
+    <Compile Include="Mathématiques\C2iExpressionLog.cs" />
+    <Compile Include="Mathématiques\C2iExpressionSqr.cs" />
+    <Compile Include="Mathématiques\C2iExpressionSqrt.cs" />
+    <Compile Include="Mathématiques\C2iExpressionLattitudeToString.cs" />
+    <Compile Include="Mathématiques\C2iExpressionLongitudeToString.cs" />
+    <Compile Include="Proprietes pour datatable\CDefinitionProprieteDynamiqueDataColumn.cs" />
+    <Compile Include="Proprietes pour datatable\CFournisseurPropDynForDataTable.cs" />
+    <Compile Include="Classes de base\C2iExpression.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes de base\C2iExpressionAnalysable.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes de base\C2iExpressionBegin.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes de base\C2iExpressionChamp.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes de base\C2iExpressionConstante.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes de base\C2iExpressionFaux.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes de base\C2iExpressionIndexeur.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes de base\C2iExpressionListe.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes de base\C2iExpressionMethodeAnalysable.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes de base\C2iExpressionMethodeDynamique.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes de base\C2iExpressionMethodeOuPropriete.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes de base\C2iExpressionNull.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes de base\C2iExpressionNullSiZero.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes de base\C2iExpressionObjet.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes de base\C2iExpressionSetVar.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes de base\C2iExpressionThis.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes de base\C2iExpressionVar.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes de base\C2iExpressionVrai.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes de base\CAllocateur2iExpression.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes de base\CAnalyseurSyntaxique2iExpression.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes de base\CContexteAnalyse2iExpression.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes de base\CContexteEvaluationExpression.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes de base\CDefinitionMethodeDynamique.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes de base\CDefinitionProprieteDynamique.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes de base\CDefinitionProprieteDynamiqueThis.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes de base\CDefinitionProprieteDynamiqueVariableFormule.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes de base\CInfo2iDefinitionParametres.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes de base\CInfo2iExpression.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes de base\C2iExpressionGetGUID.cs" />
+    <Compile Include="Classes de base\CTypeResultatExpression.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes de base\IFournisseurProprietesDynamiques.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Comparaison\C2iExpressionComparaison.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Comparaison\C2iExpressionDans.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Comparaison\C2iExpressionEstNull.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Conversion\C2iExpressionAscii.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Conversion\C2iExpressionBool.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Conversion\C2iExpressionCar.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Conversion\C2iExpressionCast.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Conversion\C2iExpressionDate.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Conversion\C2iExpressionDecimal.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Conversion\C2iExpressionSafeValue.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Conversion\C2iExpressionTexte.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Conversion\C2iExpressionToInt.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Conversion\GetTypeInterne.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Date\C2iExpression.AddHeure.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Date\C2iExpression.AddMinutes.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Date\C2iExpressionAddAnnees.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Date\C2iExpressionAddJours.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Date\C2iExpressionAddMois.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Date\C2iExpressionAnnee.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Date\C2iExpressionAnneeDeSemaine.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Date\C2iExpressionAnneeEtSemaine.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Date\C2iExpressionDateDiff.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Date\C2iExpressionDernierDuMois.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Date\C2iExpressionJour.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Date\C2iExpressionJourDeSemaine.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Date\C2iExpressionLundiDeSemaine.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Date\C2iExpressionMaintenant.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Date\C2iExpressionMois.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Date\C2iExpressionNbJoursMois.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Date\C2iExpressionNumSemaine.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Date\C2iExpressionPremierDuMois.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Date\C2iExpressionSetAnnee.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Date\C2iExpressionSetHeure.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Date\C2iExpressionSetJours.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Date\C2iExpressionSetMinutes.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Date\C2iExpressionSetMois.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Date\C2iExpressionHeure.cs" />
+    <Compile Include="Date\C2iExpressionMinute.cs" />
+    <Compile Include="Date\C2iExpressionHoursToString.cs" />
+    <Compile Include="Fonctions de base\C2iExpressionParentheses.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Listes\C2iExpressionCalcule.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Listes\C2iExpressionDistinct.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Listes\C2iExpressionIndexs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Listes\C2iExpressionListeEnTexte.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Listes\C2iExpressionMax.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Listes\C2iExpressionMin.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Listes\C2iExpressionMoyenne.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Listes\C2iExpressionNombre.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Listes\C2iExpressionObjetNeedTypeParent.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Listes\C2iExpressionSelect.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Listes\C2iExpressionSelectFirst.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Listes\C2iExpressionSomme.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Logique\C2iExpressionET.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Logique\C2iExpressionNon.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Logique\C2iExpressionOU.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Logique\C2iExpressionSi.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Mathématiques\C2iExpressionAbs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Mathématiques\C2iExpressionArrondi.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Operateurs\C2iExpressionDivision.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Operateurs\C2iExpressionModulo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Operateurs\C2iExpressionMoins.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Operateurs\C2iExpressionMultiplie.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Operateurs\C2iExpressionPlus.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="recherche\CTesteurUtilisationDefinitionChampInExpression.cs" />
+    <Compile Include="Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Texte\C2iExpressionRemoveCharsExcept.cs" />
+    <Compile Include="Texte\C2iExpressionDroite.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Texte\C2iExpressionGauche.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Texte\C2iExpressionIndexOf.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Texte\C2iExpressionLastIndexOf.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Texte\C2iExpressionLongueur.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Texte\C2iExpressionMajuscule.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Texte\C2iExpressionMatchRegex.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Texte\C2iExpressionMilieu.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Texte\C2iExpressionMinuscule.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Texte\C2iExpressionPadLeft.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Texte\C2iExpressionRemplacer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Texte\C2iExpressionRetourLigne.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Texte\C2iExpressionSplit.cs" />
+    <Compile Include="Texte\C2iExpressionTrim.cs" />
+    <Compile Include="Texte\C2iExpressionPadRight.cs" />
+    <Compile Include="Texte\C2iExpressionContient.cs" />
+    <Compile Include="unites\C2iExpressionChangeUnit.cs" />
+    <Compile Include="unites\C2iExpressionValeurUnite.cs" />
+    <Compile Include="unites\C2iExpressionConvertUnit.cs" />
+    <Compile Include="VariableAutoAlloueeAttribute.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="sc2i.expression.fr" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Start.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CActionForEach.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Image1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconTypeBasiqueEntier.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconTypeBasiqueDecimal.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconTypeBasiqueTexte.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconTypeBaseDate.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconTypeBooleen.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="futurocom.win32.chart.fr" />
+    <None Include="Resources\iconTypeInconnu.bmp" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

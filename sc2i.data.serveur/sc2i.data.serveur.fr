@@ -1,0 +1,161 @@
+20;Aucun
+60;Administration
+61;Interface
+62;Système
+63;Interface
+80;Réussi
+101;Erreur récupération IdAuto Access97
+102;Les tables autoreferencées sur plusieurs clés ne sont pas admises
+103;Violation d'accès concurentiel. Cet enregistrement a été modifié
+104;Connexion base : @1
+105;Erreur dans le requête '@1'
+106;Erreur dans le filtre
+107;Erreur lors de l'ouverture de la connexion
+108;'Select' n'a pas été trouvé dans la requete @1
+109;Erreur lors de la lecture du BLOB
+110;Save blob appelé avec un filtre qui nécessite distinct ou plusieurs tables
+111;Erreur lors de la sauvegarde du BLOB @1 de la table @2
+112;Type de donnée sans conversion Sql : @1
+113;Appel de 'SetValeurChamp' sans filtre défini
+114;Fonction 'SetValeurChamp' non implémentée avec filtre avancé
+115;Tables multiples dans une requête 'SetValeurChamp'
+116;Tentative de 'SetValeurChamps' sur une table dans clause where
+117;La commande Delete n'est pas une commande Oracle valide
+118;La commande Insert n'est pas une commande Oracle valide
+119;La commande Select n'est pas une commande Oracle valide
+120;La commande Update n'est pas une commande Oracle valide
+121;Impossible de déterminer le type associé à @1
+122;Impossible de trouver le paramètre correspondant à l'id dans la requête de suppression
+123;Impossible de déterminer le nom de la base
+124;Fonction 'CreateDatabase' non  valide pour la connexion @1
+125;Erreur lors de la création de la table @1
+126;Erreur lors de la création de la clé primaire de @1
+127;Erreur lors de la création de la clé étrangère de @1 (@2)
+128;Erreur lors de la création de l'index dans la table @1
+129;Erreur lors de la suppression de la table @1
+130;Erreur lors de la suppression de l'index @1 de la table @2
+131;Erreur lors de la mise à jour des champs de la table @1
+132;Erreur lors de la suppression de la colonne @1 de la table @2
+133;Erreur lors de la suppression de la contrainte @1 de la table @2
+134;Recherche @1
+135;Erreur lors de la lecture de la table @1
+136;Erreur lors de la récupération des blobs
+137;Erreur lors de l'ouverture de la session de synchronisation
+138;Interrogation @1
+139;Annulation utilisateur
+140;Erreur lors de la récupération des données de la table 
+141;Ajouts @1
+142;Modification @1
+143;Integration @1 (@2)
+144;Sauvegarde @1
+145;Sauvegarde : @1
+146;Récupération des suppressions
+147;Changement de la version vue
+148;Fermeture de la session de synchronisation
+149;Erreur lors de la synchronisation Main->sec\r\n@1
+150;Commit de la transaction
+151;Fin de la synchronisation
+152;Suppression @2
+153;Erreur lors de la récupération des tables à supprimer
+154;Erreur lors de la récupération des ids à supprimer
+155;Modification de la version de base
+156;Lecture des données à transferer
+157;Ouverture de session de synchronisation
+158;Transfert des données
+159;Erreur sur le serveur
+160;Erreur : impossible de créer l'élément (id = @1)
+161;Session invalide
+162;Erreur lors du traitement avant sauvegarde
+163;Erreur lors du traitement apres sauvegarde
+164;Donne tous les droits d'administration sur l'application
+165;Administration des éléments systèmes
+166;Droit de l'utilisateur concernant l'interface de l'application
+167;'From' n'a pas été trouvé dans la requete @1
+168;Erreur lors de l'analyse de la requête @1
+169;La table '@1' n'a pas été trouvée
+170;Aucun mappage pour la table @1
+171;La table '@1' n'existe pas dans le dataset destination
+172;La colonne @1 n'a pas été trouvée dans la table @2
+173;Fonction 'RunStatement' non supportée par @1
+174;Fonction 'ExecuteScalar' non supportée par @1
+175;Erreur SetValeurChamp(@1)
+176;Count record non implémenté
+177;Fonction non implémentée
+178;Objet serveur avec session -1
+179;Erreur de lecture dans la base filtre : @1
+180;Erreur : table @1 nulle \r\nfiltre : @2
+181;Vous n'êtes pas autorisé à modifier les éléments du type @1
+182;Erreur dans 'CountRecords' : @1
+183;Tentative de désactiver les Id auto d'une base en dehors d'une transaction
+184;Tentative de désactiver les contraintes d'une base en dehors d'une transaction
+185;Erreur lors de la création de la base
+186;Fonction 'CreateDatabase' non valide pour la connexion @1
+187;Le nom de table '@1' ne doit pas dépasser 25 caractères
+188;Erreur lors de la création du systeme de numérotation automatique de la colonne @1 de la table @2
+189;Le nom du champ '@1' ne doit pas dépasser 25 caractères
+190;Le nom du champ '@1' ne peut pas être identique au nom de la table
+191;Erreur lors de la suppression de la séquence SQ@1 de la table @2
+192;Erreur lors de la création de la séquence SQ@1 de la table @2
+193;Erreur lors de la suppression du trigger de numérotation du champ @1 de la table @2
+194;Erreur lors de la suppression de la référence de champ autoincrémenté pour le champ @1 de la table @2 dans SYS_CHAMP_AUTO
+195;Erreur lors de la création de la séquence de la table @1
+196;Impossible de référencer l'automatisation du champ @1 de la table @2|196
+197;Type de donnée sans conversion Oracle : @1
+198;La session a été fermée
+199;ERREUR LORS d'UNE FERMETURE DE TRANSACTION \r\nConnexion : @1\r\nSession @2\r\nNombre de connexions pour cette session : @3
+200;CSc2iDataServer n'a pas été initialisé
+201;La session @1 a été fermée
+202;Aucun service n'a été définit pour la synchronisation
+203;Impossible de se connecter au process @1
+204;Erreur de récupération de la synchronisation pour la table @1\r\n@2
+205;Intégration @1
+206;Ligne refusée dans la table @1
+207;Suppressions @1
+208;Erreur lors de la synchronisation des données
+209;La synchronisation secondaire->principal doit être faite avant cette opération
+210;Utilisateur : @1
+211;Utilisateur inconnu
+212;Erreur lors de la suppression de la clé étrangère de la table @1 (@2)
+213;Impossible de récupérer les cles etrangeres de la table '@1' pour les mettre à jour
+214;Impossible de récupérer les champs de la table '@1' concerné par la relation '@2'
+215;Impossible de récupérer les champs de la table parente de la relation '@1' avec la table '@2'
+216;Impossible de récupérer les champs de la table parente '@1' concerné par la relation '@2' avec la table '@3'
+217;Impossible de récupérer le nom de la table liée à la table '@1' par la relation '@2'
+218;La version prévisionnelle @1 n'existe pas
+219;La version d'objet @1 n'existe pas
+220;Impossible d'annuler les modifications d'une version d'archive
+221;Impossible de sauvegarder un blob dans cette version
+222;La version de données @1 n'existe pas
+223;Application de la version 
+224;Erreur de session
+225;L'objet @1 n'existe pas
+
+10000;Vous devez appliquer les modifications de la Version @1 avant d'appliquer les modifications de la Version @2
+
+20000;La version @1 n'existe pas
+20001;Impossible de créer une version prévisionnelle à partir de cette version
+20002;A partir de @1
+20003;Erreur lors de la création de la version
+20004;Erreur sur @1
+20005;Impossible d'allouer un élément de type @1 car il n'a pas d'identifier auto.
+20006;Suppression de la table @1 de la base de données
+20007;Annulation utilisateur
+20008;Import de données
+20009;Autorise l'utilisateur à importer des données dans l'application
+20010;Sauvegarde en cours
+
+30000;Suppression de la table @1
+30001;Mise à jour de la table @1
+30002;inconnu ou masqué
+30003;Execution de la fonction @1
+30004;Bloquage de la mise à jour de la version de la base
+30005;Mise à Jour de la DataBase
+30006;Erreur lors de la mise à jour de la base de données
+30007;Erreur dans le dataset
+30008;Vous devez appliquer les modifications à la version @1 avant de les appliquer à la version @2
+30009;Erreur dans la suppression de la clé primaire @1 de la table @2
+30010;Erreur dans la suppression de la clé étrangère @1 attachée à la table @2
+30011;Vous n'êtes pas autorisé à créer des éléments de type @1
+30012;Erreur lors de la sauvegarde @1
+30013;Impossible de supprimer la table @1 car elle n'éxiste pas dans la base
+30111;Vous n'êtes pas autorisé à créer des éléments du type @1

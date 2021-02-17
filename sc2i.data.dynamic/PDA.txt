@@ -1,0 +1,6 @@
+C2iStructureExportInDb : Suppression
+
+CFormulaire : 
+	Suppression de c_champData ( blob contenant le formulaire )
+	
+	

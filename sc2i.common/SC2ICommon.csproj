@@ -1,0 +1,652 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="12.0">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{500A5948-86F8-4331-8529-BB1109C4E966}</ProjectGuid>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>sc2i.common</AssemblyName>
+    <AssemblyOriginatorKeyFile>sc2i.common.snk</AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>sc2i.common</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <SignAssembly>true</SignAssembly>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>bin\Debug\sc2i.common.XML</DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'debug structure pda|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'debug PDA DATA|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE;PDA_DATA</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'debug avec documentation|AnyCPU' ">
+    <OutputPath>bin\Debug avec doc\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>bin\Debug\sc2i.common.XML</DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <Optimize>true</Optimize>
+    <DebugType>
+    </DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'debug structure pda|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\debug structure pda\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'debug PDA DATA|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\debug PDA DATA\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;PDA_DATA</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'debug avec documentation|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\debug avec documentation\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AutoExecAttribute.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="C2iConvert.cs" />
+    <Compile Include="C2iCrypto.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="C2iEventLog.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="C2iObjetPersistant.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="C2iRegistre.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="C2iSponsor.cs" />
+    <Compile Include="C2iStopApp.cs" />
+    <Compile Include="CActivatorSurChaine.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CAnalyseurChaineConnexion.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CAnalyseurSyntaxique.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CAppeleurFonctionAvecDelai.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CAppelleurFonctionAsynchrone.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CAutoexecuteurClasses.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CCloner2iSerializable.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CConvertisseurDoubleString.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CDateTimeEx.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CDbKey.cs" />
+    <Compile Include="CDbKeyReaderTracker.cs" />
+    <Compile Include="CDescripteurObjetAHashCode.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CDonneeAgregation.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CErreurException.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CErreurSimple.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CErreurValidation.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CExceptionErreur.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CFichierLocalTemporaire.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CGenerateurStringUnique.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CGenericObjectConverter.cs" />
+    <Compile Include="CGestionnaireAssemblies.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CGestionnairePlugins.cs" />
+    <Compile Include="CGestionnaireSegmentsProgression.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CHashtableATailleLimitee.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CInfoStructureDynamique.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CInterpreteurTextePropriete.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CListe2iSerializable.cs" />
+    <Compile Include="CTableauCroise.cs" />
+    <Compile Include="CThreadSemaphore.cs" />
+    <Compile Include="CUniqueIdentifier.cs" />
+    <Compile Include="CUtilBool.cs" />
+    <Compile Include="CUtilHtml.cs" />
+    <Compile Include="CUtilRepertoire.cs" />
+    <Compile Include="Dataset Serialization\AdoNetHelper.cs" />
+    <Compile Include="Dataset Serialization\CDataSetFastSerialize.cs" />
+    <Compile Include="Dataset Serialization\CDataTableFastSerialize.cs" />
+    <Compile Include="Dataset Serialization\FastSerializer.cs" />
+    <Compile Include="data\IContexteDonnee.cs" />
+    <Compile Include="data\IObjetAIContexteDonnee.cs" />
+    <Compile Include="DonneeCumulee\CChampDonneeCumulee.cs" />
+    <Compile Include="DonneeCumulee\CDonneeCumuleeTransportable.cs" />
+    <Compile Include="DonneeCumulee\ITypeDonneeCumulee.cs" />
+    <Compile Include="drawing\C2iObjetGraphique.cs" />
+    <Compile Include="drawing\C2iObjetGraphiqueComparer.cs" />
+    <Compile Include="drawing\C2iObjetGraphiqueSansChilds.cs" />
+    <Compile Include="drawing\CContextDessinObjetGraphique.cs" />
+    <Compile Include="drawing\CProgressiveColor.cs" />
+    <Compile Include="drawing\CUtilCouleur.cs" />
+    <Compile Include="drawing\CUtilFont.cs" />
+    <Compile Include="drawing\I2iObjetGraphiqueConteneurAFilsChoisis.cs" />
+    <Compile Include="drawing\CLienTracable.cs" />
+    <Compile Include="drawing\CSegmentDroite.cs" />
+    <Compile Include="drawing\CTraceurLienDroit.cs" />
+    <Compile Include="drawing\CUtilImage.cs" />
+    <Compile Include="drawing\CUtilRect.cs" />
+    <Compile Include="drawing\EDimentionDessin.cs" />
+    <Compile Include="drawing\I2iObjetGraphique.cs" />
+    <Compile Include="DynamicIconAttribute.cs" />
+    <Compile Include="I2iMarshalObject.cs" />
+    <Compile Include="IdSessionUtilisateurData.cs" />
+    <Compile Include="inventaire\CChercheurDeTypesQuiUtilisentUnType.cs" />
+    <Compile Include="inventaire\CFournisseurInventaireObjetGenerique.cs" />
+    <Compile Include="inventaire\CInventaire.cs" />
+    <Compile Include="memorydb\CEntiteDeMemoryDb.cs" />
+    <Compile Include="memorydb\CEntiteDeMemoryDbAIdAuto.cs" />
+    <Compile Include="memorydb\CFiltreMemoryDb.cs" />
+    <Compile Include="memorydb\CFiltreMemoryDBImpossible.cs" />
+    <Compile Include="memorydb\CListeEntitesDeMemoryDb.cs" />
+    <Compile Include="memorydb\CMemoryDataRow.cs" />
+    <Compile Include="memorydb\CMemoryDb.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="memorydb\CFiltreMemoryDbAvance.cs" />
+    <Compile Include="memorydb\CMemoryDbIndex.cs" />
+    <Compile Include="memorydb\CReferenceEntiteMemoryDb.cs" />
+    <Compile Include="memorydb\CValiseEntiteDeMemoryDb.cs" />
+    <Compile Include="memorydb\IEntiteDeMemoryDb.cs" />
+    <Compile Include="memorydb\IFournisseurElementsManquantsPourMemoryDb.cs" />
+    <Compile Include="memorydb\MemoryChildAttribute.cs" />
+    <Compile Include="memorydb\MemoryFieldAttribute.cs" />
+    <Compile Include="memorydb\MemoryParentAttribute.cs" />
+    <Compile Include="memorydb\MemoryTableAttribute.cs" />
+    <Compile Include="periodes\CPeriodeActivationDansJour.cs" />
+    <Compile Include="periodes\CPeriodeActivationDansSemaine.cs" />
+    <Compile Include="periodes\CPeriodeActivationDates.cs" />
+    <Compile Include="periodes\CPeriodeActivationEt.cs" />
+    <Compile Include="periodes\CPeriodeActivationOU.cs" />
+    <Compile Include="periodes\IPeriodeActivation.cs" />
+    <Compile Include="Referencement\CContexteGetReferenceExterne.cs" />
+    <Compile Include="Referencement\ExternalReferencedEntity.cs" />
+    <Compile Include="Referencement\IElementAReferenceExterneExplicite.cs" />
+    <Compile Include="RefillAfterCloneAttribute.cs" />
+    <Compile Include="CMatriceDonnee.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CMethodeSupplementaire.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CNombreRomain.cs" />
+    <Compile Include="COperateurAnalysable.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CErreurChamp.cs" />
+    <Compile Include="CEnumALibelle.cs" />
+    <Compile Include="CUtilDrives.cs" />
+    <Compile Include="CUtilType.cs" />
+    <Compile Include="IAllocateurSupprimeurElements.cs" />
+    <Compile Include="IEnumALibelle.cs" />
+    <Compile Include="CPileErreur.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CResultAErreur.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CSerializerObjetInFile.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CSerializerReadBinaire.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CSerializerSaveBinaire.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CStockeurObjetPersistant.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CStreamCopieur.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CStringSerializer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CStringSerializerCompresseur.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CTraducteur.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CUtilDate.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CUtilDouble.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CUtilSurEnum.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CUtilTelephone.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CUtilTexte.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CValise2iSerializable.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DefaultFormatAttribute.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DescriptionFieldAttribute.cs" />
+    <Compile Include="DocumentationAttribute.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DynamicChildsAttribute.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DynamicClassAttribute.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DynamicFieldAttribute.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DynamicMethod.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="E2iDialogResult.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="I2iSerializable.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IAllocateurExpression.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IDefinitionChampExpression.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IEnumeratorBiSens.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IErreur.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IExpression.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IFactory.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IIndicateurProgression.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="NonCloneableAttribute.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="planification\CPlanificationTacheFrequente.cs" />
+    <Compile Include="planification\CParametrePlanificationTache.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="planification\CPlanificationTache.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="planification\CPlanificationTacheHebdomadaire.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="planification\CPlanificationTacheMensuelleJourMois.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="planification\CPlanificationTacheMensuelleJourSemaine.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="planification\CPlanificationTacheQuotidienne.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="recherche\CMoteurRechercheObjetCherchable.cs" />
+    <Compile Include="recherche\CRequeteRechercheObjet.cs" />
+    <Compile Include="recherche\CResultatRequeteRechercheObjet.cs" />
+    <Compile Include="recherche\CTesteurUtilisationObjet.cs" />
+    <Compile Include="recherche\CTesteurUtilisationObjetInPropriete.cs" />
+    <Compile Include="recherche\IChercheurObjetsCherchables.cs" />
+    <Compile Include="recherche\INoeudCheminResultatRechercheObjet.cs" />
+    <Compile Include="recherche\IObjetCherchable.cs" />
+    <Compile Include="ReplaceClassAttribute.cs" />
+    <Compile Include="ReplaceFieldAttribute.cs" />
+    <Compile Include="Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Restrictions\CListeRestrictionsUtilisateurSurType.cs" />
+    <Compile Include="Restrictions\CRestrictionUtilisateurSurType.cs" />
+    <Compile Include="Restrictions\ERestriction.cs" />
+    <Compile Include="Restrictions\IGestionnaireReadOnlySysteme.cs" />
+    <Compile Include="Restrictions\IObjetAModificationContextuelle.cs" />
+    <Compile Include="Restrictions\IObjetARestrictionSurEntite.cs" />
+    <Compile Include="Restrictions\RestrictionHeriteeAttribute.cs" />
+    <Compile Include="Sc2iMath.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="sig\CMapDatabase.cs" />
+    <Compile Include="sig\CMapItemImage.cs" />
+    <Compile Include="sig\CMapItemPath.cs" />
+    <Compile Include="sig\CMapItemPoint.cs" />
+    <Compile Include="sig\CMapItemSimple.cs" />
+    <Compile Include="sig\CMapLayer.cs" />
+    <Compile Include="sig\EMapMarkerType.cs" />
+    <Compile Include="sig\IMapItem.cs" />
+    <Compile Include="sig\SLatLong.cs" />
+    <Compile Include="SimpleMatch\CSimpleMatch.cs" />
+    <Compile Include="SimpleMatch\CSimpleMatchEquals.cs" />
+    <Compile Include="SimpleMatch\CSimpleMatchEqualsAvecJoker.cs" />
+    <Compile Include="SimpleMatch\CSimpleMatchPlageMinMax.cs" />
+    <Compile Include="trace\CFuturocomTrace.cs" />
+    <Compile Include="trace\CFuturocomTraceListenerAMessage.cs" />
+    <Compile Include="trace\CProxyListener.cs" />
+    <Compile Include="TypeIdAttribute.cs" />
+    <Compile Include="unites\CClasseUniteCustom.cs" />
+    <Compile Include="unites\CGestionnaireUnites.cs" />
+    <Compile Include="unites\standard\CClasseUniteTemps.cs" />
+    <Compile Include="unites\standard\CClasseUniteVolume.cs" />
+    <Compile Include="unites\standard\CClasseUnitePoids.cs" />
+    <Compile Include="unites\standard\CClasseUniteAngle.cs" />
+    <Compile Include="unites\standard\CClasseUniteUnite.cs" />
+    <Compile Include="unites\standard\CUniteStandard.cs" />
+    <Compile Include="unites\CUniteCustom.cs" />
+    <Compile Include="unites\CUtilUnite.cs" />
+    <Compile Include="unites\CValeurUnite.cs" />
+    <Compile Include="unites\IClasseUnite.cs" />
+    <Compile Include="unites\IUnite.cs" />
+    <Compile Include="unites\standard\CClasseUniteDistance.cs" />
+    <None Include="sc2i.common.fr" />
+    <None Include="sc2i.common.snk" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Column16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\filtre.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Folder16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Jointure.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\table16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ImagePourIconeDeType.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

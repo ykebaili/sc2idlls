@@ -1,0 +1,22 @@
+﻿
+20000;Table Data hotel
+20001;La table @1 a besoin d'une source pour fournir des données
+20002;La table @1 ne peut pas être calulée. Une table DataHotel doit être définie comme source.
+20003;Erreur dans la formule de date de début de la table @1
+20004;Erreur dans la formule de date de fin de la table @1
+20005;La date de début et la date de fin doivent être définies pour la table @1
+20006;Aucune connexion pour la table @1
+20007;Et
+20008:Ou
+20009;Date
+20010;SetBigData(IpServer, PortServer, Table, Champ, Entité, Date, Valeur)\nStock une valeur pour l'entité dans une base BigData
+20011;IpServeur
+20012;PortServeur
+20013;Table
+20014;Champ;
+20015;IdEntite
+20016;Date
+20017;Valeur
+20018;Erreur dans la fonction 'SetBigData'
+20019;Table entités DataHotel
+20020;@1 (entités)

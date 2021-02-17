@@ -1,0 +1,499 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="12.0">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2363929C-9C42-4450-A347-F8F0FBE989F1}</ProjectGuid>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>sc2i.win32.expression</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>sc2i.win32.expression</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'debug structure pda|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'debug avec documentation|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <Optimize>true</Optimize>
+    <DebugType>
+    </DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'debug structure pda|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\debug structure pda\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'debug avec documentation|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\debug avec documentation\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MagicLibrary, Version=1.7.4.0, Culture=neutral, PublicKeyToken=3a6eb82f876a49bc">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\dep\MagicLibrary.DLL</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Design">
+      <Name>System.Design</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+    <ProjectReference Include="..\sc2i.common\SC2ICommon.csproj">
+      <Name>SC2ICommon</Name>
+      <Project>{500A5948-86F8-4331-8529-BB1109C4E966}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+    </ProjectReference>
+    <ProjectReference Include="..\sc2i.expression\sc2i.expression.csproj">
+      <Name>sc2i.expression</Name>
+      <Project>{BCFA4027-E5DB-40D7-B05B-623E8CAC0CA4}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+    </ProjectReference>
+    <ProjectReference Include="..\sc2i.formulaire\sc2i.formulaire.csproj">
+      <Project>{979C5166-D0F2-4F00-8F6B-A39331A8AF61}</Project>
+      <Name>sc2i.formulaire</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\sc2i.win32.common\sc2i.win32.common.csproj">
+      <Name>sc2i.win32.common</Name>
+      <Project>{ECBC5D80-26BD-41D1-90FF-7B2A84F73339}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CControlAideFormule.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CControleEditeFormule.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CExplorateurObjets.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CFormEditeListeFonctionsDynamiques.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CFormEditeListeFonctionsDynamiques.Designer.cs">
+      <DependentUpon>CFormEditeListeFonctionsDynamiques.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CFormEditionFonctionDynamique.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CFormEditionFonctionDynamique.Designer.cs">
+      <DependentUpon>CFormEditionFonctionDynamique.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CPanelEditeFonctionDynamique.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CPanelEditeFonctionDynamique.Designer.cs">
+      <DependentUpon>CPanelEditeFonctionDynamique.cs</DependentUpon>
+    </Compile>
+    <Compile Include="variablesDynamiques\CFormEditVariableDynamiqueSaisieSimple.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CFormFormuleRapide.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CFormFormuleRapide.designer.cs">
+      <DependentUpon>CFormFormuleRapide.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControleEditeFormuleNommee.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CFormStdEditeFormule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CFormTestExpression.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CControlEditListeFormulesNommees.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CControlEditListeFormulesNommees.Designer.cs">
+      <DependentUpon>CControlEditListeFormulesNommees.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CControlSelectColorByFormule.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CTextBoxZoomFormule.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="debug\CControleDebugFormule.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="debug\CControleDebugFormule.Designer.cs">
+      <DependentUpon>CControleDebugFormule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="debug\CFormDebuggerFormules.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="debug\CFormDebuggerFormules.Designer.cs">
+      <DependentUpon>CFormDebuggerFormules.cs</DependentUpon>
+    </Compile>
+    <Compile Include="graphic\CEditeurExpressionGraphique.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="graphic\CEditeurExpressionGraphique.Designer.cs">
+      <DependentUpon>CEditeurExpressionGraphique.cs</DependentUpon>
+    </Compile>
+    <Compile Include="graphic\CEditeurParametreFormule.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="graphic\CEditeurParametreFormule.Designer.cs">
+      <DependentUpon>CEditeurParametreFormule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="graphic\CEditeurParametresFormule.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="graphic\CEditeurParametresFormule.Designer.cs">
+      <DependentUpon>CEditeurParametresFormule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="graphic\CPanelEditionRepresentationExpressionGraphique.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="graphic\CFormEditVariableFormule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="graphic\CFormEditVariableFormule.Designer.cs">
+      <DependentUpon>CFormEditVariableFormule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="graphic\CFormEditionExpressionGraphique.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="graphic\CFormEditionExpressionGraphique.Designer.cs">
+      <DependentUpon>CFormEditionExpressionGraphique.cs</DependentUpon>
+    </Compile>
+    <Compile Include="graphic\IEditeurParametresFormule.cs" />
+    <Compile Include="Resource1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource1.resx</DependentUpon>
+    </Compile>
+    <Compile Include="variablesDynamiques\CControleVariablesDynamiques.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="variablesDynamiques\CControleVariablesDynamiques.Designer.cs">
+      <DependentUpon>CControleVariablesDynamiques.cs</DependentUpon>
+    </Compile>
+    <Compile Include="variablesDynamiques\CGestionnaireEditeursVariablesDynamiques.cs" />
+    <Content Include="Bitmap1.bmp" />
+    <None Include="Resources\formule.png" />
+    <None Include="Resources\debug.png" />
+    <None Include="Resources\copy.gif" />
+    <None Include="Resources\check.png" />
+    <None Include="Resources\cancel.png" />
+    <Content Include="Resources\if.ico" />
+    <Content Include="Resources\if.bmp" />
+    <None Include="Resources\paste.gif" />
+    <None Include="Resources\runto.png" />
+    <None Include="Resources\Step over.png" />
+    <None Include="Resources\run.png" />
+    <None Include="Resources\StepInto.png" />
+    <None Include="Resources\SetVar.png" />
+    <None Include="Resources\Constante.png" />
+    <None Include="Resources\if.png" />
+    <None Include="Resources\binary-tree.png" />
+    <None Include="Resources\source.bmp" />
+    <None Include="Resources\sequence.bmp" />
+    <EmbeddedResource Include="CControlAideFormule.bmp" />
+    <EmbeddedResource Include="CControlAideFormule.resx">
+      <DependentUpon>CControlAideFormule.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CControleEditeFormule.resx">
+      <DependentUpon>CControleEditeFormule.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CExplorateurObjets.resx">
+      <DependentUpon>CExplorateurObjets.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CFormEditeListeFonctionsDynamiques.resx">
+      <DependentUpon>CFormEditeListeFonctionsDynamiques.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CFormEditionFonctionDynamique.resx">
+      <DependentUpon>CFormEditionFonctionDynamique.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CPanelEditeFonctionDynamique.resx">
+      <DependentUpon>CPanelEditeFonctionDynamique.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="variablesDynamiques\CFormEditVariableDynamiqueSaisieSimple.resx">
+      <DependentUpon>CFormEditVariableDynamiqueSaisieSimple.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CFormFormuleRapide.resx">
+      <DependentUpon>CFormFormuleRapide.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControleEditeFormuleNommee.resx">
+      <DependentUpon>ControleEditeFormuleNommee.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CFormStdEditeFormule.resx">
+      <DependentUpon>CFormStdEditeFormule.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CFormTestExpression.resx">
+      <DependentUpon>CFormTestExpression.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CControlEditListeFormulesNommees.resx">
+      <DependentUpon>CControlEditListeFormulesNommees.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CControlSelectColorByFormule.resx">
+      <DependentUpon>CControlSelectColorByFormule.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CTextBoxZoomFormule.resx">
+      <DependentUpon>CTextBoxZoomFormule.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="debug\CControleDebugFormule.resx">
+      <DependentUpon>CControleDebugFormule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="debug\CFormDebuggerFormules.resx">
+      <DependentUpon>CFormDebuggerFormules.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="graphic\CEditeurExpressionGraphique.resx">
+      <DependentUpon>CEditeurExpressionGraphique.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="graphic\CEditeurParametreFormule.resx">
+      <DependentUpon>CEditeurParametreFormule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="graphic\CEditeurParametresFormule.resx">
+      <DependentUpon>CEditeurParametresFormule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="graphic\CPanelEditionRepresentationExpressionGraphique.resx">
+      <DependentUpon>CPanelEditionRepresentationExpressionGraphique.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="graphic\CFormEditVariableFormule.resx">
+      <DependentUpon>CFormEditVariableFormule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="graphic\CFormEditionExpressionGraphique.resx">
+      <DependentUpon>CFormEditionExpressionGraphique.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource1.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource1.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="variablesDynamiques\CControleVariablesDynamiques.resx">
+      <DependentUpon>CControleVariablesDynamiques.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="sc2i.win32.expression.fr" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

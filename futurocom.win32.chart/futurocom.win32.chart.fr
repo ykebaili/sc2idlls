@@ -1,0 +1,57 @@
+﻿1;OK
+2;Annuler
+
+20000;Sources de graphique
+20001;Source de graphique formule
+20002;Nom de la source
+20003;Paramètres du graphe
+20004;Données du graphe
+20005;Séries
+20006;Nom série
+20007;Valeurs de série
+20008;Source
+20009;Extracteur
+20010;Voir les données
+20011;Formule invalide
+20012;Aperçu
+20013;Evaluer pour chaque élément de la source
+20014;Zones
+20015;Supprimer la série sélectionnée ?
+20016;Supprimer la zone sélectionnée ?
+20017;Requête
+20018;Table
+20019;Champ
+20020;Sélectionnez une table
+20021;Source invalide
+20022;Nom de table invalide (@1)
+20023;Nom de colonne invalide (@1)
+20024;Appliquer la configuration 3D au modèle
+20025;Certains paramètres empêchent le graphique de se dessiner normallement.
+20026;Legendes
+20027;Variables
+20028;Filtre avancé
+20029;Saisie
+20030;Calculée
+20031;Sélection
+20032;Paramètres du graphique
+20033;Formule
+20034;Sélectionnez un champ ou une formule
+20035;Supprimer la source '@1' ?
+20036;Filtrer
+20037;Modifier 3D (Click droit pour 2D)
+20038;Zoom
+20039;Mode sélection
+20040;Visualiseur
+20041;Séries à afficher :
+20042;Sélection de séries :
+20043;Haut
+20044;Gauche
+20045;Droite
+20046;Bas
+20047;@1 n'a pas de données 
+20048;Autoriser le zoom
+20049;Autoriser la configuration 3D
+20050;Formulaire de filtre simple
+20051;Copier
+20052;Coller
+20053;(copie)

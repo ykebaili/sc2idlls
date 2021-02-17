@@ -1,0 +1,27 @@
+sc2i.data.client : Les attributs
+
+l'assembly sc2i.data.client est l'assembly de base pour lier des objets à une base de données.
+
+TableAttribute : 
+	Attribut de la classe
+	Indique à quelle table est liée une classe.
+	Dans le constructeur de l'attribut, passer le 
+		nom de la table,
+		le nom du champ identifiant,
+		l'indicateur si la table est ou non synchronisable (true ou false) optionnel
+
+RelationAttribute : 
+	Attribut de la classe
+	Permet d'indiquer une relation parente de la table d'une classe
+	PAramètres
+		Nom de la table parente
+		Nom du champ parent
+		Nom du champ fils ( dans la table de l'objet )
+		Obligatoire : Indique si l'existence d'une relation est obligatoire ou non (bool)
+		Composition : Indique si la relation est une composition, cad si le fils est un composant du père
+			(par exemple les roues d'une voiture : si on détruit la voiture, on détruit les roues).
+
+TableFieldAttribute:			
+	Attribut des propriétés
+	Permet d'indiquer qu'une propriété correspond à un champ de la table
+	Seules les propr

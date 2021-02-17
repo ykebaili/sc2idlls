@@ -1,0 +1,340 @@
+10;L'opérande de gauche est Null
+11;L'opérande de droite est Null
+58;Méthodes
+101;Le nombre de paramètres n'est pas correct (@1) attendu(s))
+102;Erreur lors de l'évaluation du paramètre @1
+103;Erreur lors de l'évaluation de la formule '@1'
+104;Erreur lors de l'évaluation de l'expression @1
+105;Le paramètre @1 est null
+106;Aucune surcharge de la fonction '@1' ne correspond aux paramètres
+107;Le champ @1 n'existe pas
+108;Définition de champ manquante
+109;Erreur lors de l'évaluation du champ '@1'
+110;Type de constante non geré : @1
+111;False() Retourne la valeur 'faux'
+112;GetGUID()Retourne une valeur texte unique
+113;#ERREUR INDEXEUR#
+114;Erreur dans les paramètres de l'indexeur
+115;L'index de l'indexeur doit être entier ou une liste d'entiers
+116;@1 n'est pas un tableau
+117;L'indexeur doit posséder deux paramètres non nulls
+118;Indexeur de '@1' non trouvé
+119;@1 ne peut pas s'appliquer au type @2
+120;La méthode @1 n'existe pas dans le type @2
+121;Le nombre de paramètres de la méthode @1 est incorrect
+122;Les paramètres de la méthode @1 ne correspondent pas
+123;Erreur lors de l'évaluation de la méthode @1
+124;Impossible de trouver la méthode @1
+125;Null() Retourne la valeur nulle
+126;NullSiZero(valeur) Retourne null si 'valeur' est égal à 0, sinon, retourne 'valeur'
+127;Expression source incorrecte
+128;Méthode ou propriété incorrecte
+129;Erreur lors de l'évaluation d'une expression objet @1
+130;La source objet est nulle
+131;Champ:=valeur Affecte une valeur à un champ ou à une variable
+132;Erreur lors de la création de variable
+133;Impossible d'affecter une valeur à @1
+134;Le premier paramètre de 'Set' doit être une variable
+135;Var ( Nom, type [,tableau] ) Déclare la variable Nom du type 'type'. si Tableau est <> 0, le type est un tableau
+136;Le type @1 n'existe pas
+137;Erreur lors de la création de variable
+138;Les paramètres de la fonction Var sont incorrects (deux constantes chaines attendues, et éventuellement un booléen pour le tableau)
+139;True()\nRetourne la valeur 'vrai'
+140;L'expression d'id '@1' a été enregistrée plusieurs fois avec deux types différents
+141;L'un des champs de la formule n'existe pas
+142;Le champ @1 n'existe pas
+143;Le fournisseur de proprieté de l'analyseur syntaxique ne sait pas reconnaitre les champs
+144;Le fournisseur de proprieté de l'analyseur syntaxique ne sait pas reconnaitre les méthodes
+145;'@1' ne peut pas être situé à droite d'un '.'
+146;Aucune surcharge de la fonction @1 n'accepte les paramètres indiqués
+147;Opérateur de comparaison égalité
+148;Opérateur de comparaison inférieur ou égal
+149;Opérateur de comparaison supérieur ou égal
+150;Opérateur de comparaison inférieur
+151;Opérateur de comparaison supérieur
+152;Opérateur de comparaison différence
+153;Aucune surcharge de la fonction 'dans' n'accepte les paramètres indiqués
+154;opérateur IN : Retourne vrai si l'élément de gauche se trouve dans la liste de droite
+155;Fonction IsNull : Retourne vrai si l'élément est null
+156;Ascii(texte) Retourne le code Ascii du premier caractère de la chaine
+157;Bool(formule) Convertit une formule en booléen.
+158;Char(Valeur) Retourne le caractère dont le code correspond à la valeur
+159;Erreur lors de l'évaluation de la fonction 'car'
+160;Cast(objet, type, tableau) Convertit un objet dans le type demandé (si possible). type est une chaine qui identifie le type, tableau indique si l'élément retourné est un tableau d'éléments
+161;Nombre de paramètres incorrect
+162;Le type @1 n'existe pas
+163;Le troisième paramètre dôit être 'vrai()' ou 'faux()'
+164;Impossible de convertir la valeur dans le type @1
+165;Date(texte)\nConvertit un texte en date. Le texte peut être au format AAAA/MM/JJ. Si le paramètre est un type date, renvoie la date (sans heure) correspondant
+166;Erreur lors de la conversion en date : le texte '@1' n'est pas convertible en date
+167;Decimal(valeur)\nConvertit l'argument en type 'Numérique flottant'. La valeur est 0 si la conversion échoue. Si la valeur est 'Non numérique', la valeur est 0
+168;SaveValue(formule, valeurParDefaut) Tente de retourner la valeur de 'formule'. Si une erreur survient ou que la valeur est 'non numérique', retourne la valeur par défaut
+169;SafeValue attend deux paramètres
+170;SafeValue attend deux paramètres non nulls
+171;Les deux paramètres de SafeValue doivent être du même type
+172;Le nombre de paramètres n'est pas correct (@1 attendu(s))
+173;MyEval de C2iExpresisonSafeValue ne doit jamais être appellé
+174;Text(valeur[,format])\nConvertit l'argument en type 'texte' avec un éventuel formattage
+175;Int(valeur)\nConvertit l'argument en type 'entier'. La valeur est 0 si la conversion échoue
+176;InternalType(valeur) Retourne le nom système du type d'un objet ou convertit un nom de type convivial en nom de type système
+177;AddHours(Date, Nb) Ajoute un nombre d'heures à une date
+178;Les paramètres de la fonction 'AddHeures' sont incorrects
+179;AddMinutes(Date, Nb) Ajoute un nombre de minutes à une date
+180;Les paramètres de la fonction 'AddMinutes' sont incorrects
+181;AddYears(Date, Nb) Ajoute un nombre d'années à une date
+182;Les paramètres de la fonction 'AddAnnees' sont incorrects
+183;AddDays(Date, Nb) Ajoute un nombre de jours à une date
+184;Les paramètres de la fonction 'AddJours' sont incorrects
+185;AddMonths(Date, Nb) Ajoute un nombre de mois à une date
+186;Les paramètres de la fonction 'AddMois' sont incorrects
+187;Year(Date)\nRetourne l'année de la date
+188;Les paramètres de la fonction 'Année' sont incorrects
+189;YearOfWeek(Date) Renvoie L'année de la semaine de la date
+190;Les paramètres de la fonction 'AnneeDeSemaine' sont incorrects
+191;YearAndWeek(Date) Renvoie l'année et la semaine de la date séparés par un slash
+192;Les paramètres de la fonction 'AnneeEtSemaine' sont incorrects
+193;DateDiff(Date1, Date2, typeRetour) Soustrait date2 de date1 et retourne la différence.\nLa valeur retournée dépend de typeRetour :\n0 : Semaines\n1 : Jours\n2 : Heures\n3 : Minutes\n4 : secondes
+194;Les paramètres de la fonction 'AddJours' sont incorrects
+195;LastOfMonth(Mois, annee) DernierDuMois(date) Retourne le dernier jour du mois donné
+196;Erreur lors de la conversion en date : le texte '@1' n'est pas convertible en date
+197;Hour(Date) Retourne l'heure de la donnée date/Heure
+198;Les paramètres de la fonction 'Heure' sont incorrects
+199;Day(Date) Retourne le jour de la date
+200;Le paramètre de la fonction 'Jour' est incorrect
+201;WeekDay(Date) Retourne le jour de la semaine (lundi = 0)
+202;Le paramètre de la fonction 'WeekDay' est incorrect
+203;WeekMonday(semaine, annee) Retourne le date du lundi de la semaine demandée
+204;Minute(Date) Retourne les minutes de la donnée Date/Heure
+205;Now() Retourne la date actuelle
+206;Le paramètre de la fonction 'Minute' est incorrect
+207;Month(Date) Retourne le mois de la date
+208;Le paramètre de la fonction 'Mois' est incorrect
+209;MonthDaysNumbers(Mois, annee) NbJoursMois(date) Retourne le nombre de jours du mois donné
+210;Le paramètre de la fonction 'NumSemaine' est incorrect
+211;Les paramètres de la fonction 'SetAnnee' sont incorrects
+212;Les paramètres de la fonction 'SetHeure' sont incorrects
+213;Les paramètres de la fonction 'SetJours' sont incorrects
+214;Les paramètres de la fonction 'SetMinutes' sont incorrects
+215;Les paramètres de la fonction 'SetMois' sont incorrects
+216;WeekNum(Date) Renvoie le numéro de semaine de la date
+217;FirstOfMonth(Mois, annee) PremierDuMois(date)\nRetourne le premier jour du mois donné
+218;SetYear(Date, Annee) Redefinit l'année d'une date
+219;SetHour(Date, Heure) Redefinit l'heure d'une date
+220;SetDay(Date, Jours) Redefinit le jours d'une date
+221;SetMinutes(Date, Minutes) Redefinit les minutes d'une date
+222;SetMonth(Date, Mois) Redefinit le mois d'une date
+223;Sum(liste) Retourne la somme des éléments de la liste
+224;SelectFirst(Condition) Retourne le premier élement de la liste satisfaisant la condition
+225;La fonction selectFirst ne peut pas s'appliquer au type @1
+226;Select(liste) Retourne la liste des éléments dont les indices font partie de la liste
+227;La fonction select ne peut pas s'appliquer au type @1
+228;La fonction select possède des paramètres incorrects (liste)
+229;Erreur dans la liste du select : L'un des paramètres n'est pas un entier
+230;Number(liste) Retourne le nombre d'élements de la liste
+231;Average(liste) Retourne la moyenne des éléments de la liste
+232;Min(liste) Retourne le plus petit élément de la liste
+233;Les paramètres de la formule min ne peuvent pas être comparés
+234;Max(liste) Retourne le plus grand élément de la liste
+235;Les paramètres de la formule max ne peuvent pas être comparés
+236;Erreur dans le séparateur
+237;La fonction ListeEnTexte ne peut pas s'appliquer au type @1
+238;ListToText(Formule;séparateur) Convertit la liste en texte. Pour chaque valeur de la liste, le format est évalué. et ajouté à la chaine résultante. Chaque élément est séparé par le séparateur
+239;Indexs(Condition) Retourne la liste des indexs des éléments satisfaisant la condition
+240;La fonction indexs ne peut pas s'appliquer au type @1
+241;Erreur lors de l'évaluation de 'distinct'
+242;Distinct(liste) Retourne la liste en enlevant ses doublons
+243;Calc(formule) Calcule pour chaque élément d'une liste la formule et retourne une liste du résultat
+244;La fonction Calcule ne peut pas s'appliquer au type @1
+245;If(condition;alors;sinon) Branchement conditionnel SI
+246;Le nombre de paramètres n'est pas correct (@1) attendu(s))
+247;Aucune surcharge de la fonction 'si' n'accepte les paramètres indiqués
+248;Erreur impossible
+249;Opérateur logique OU
+250;Erreur lors de l'évaluation de l'expression @1
+251;MyEval de C2iExpresisonOu ne doit jamais être appellé
+252;Impossible de convertir le paramètre en booléen pour la fonction NON
+253;Not(valeur) Fonction NON logique
+254;Opérateur logique ET
+255;Le paramètre de la fonction 'Abs' est incorrects
+256;Abs(Valeur) Retourne la valeur absolue de la valeur
+257;Round(Valeur, précision) Retourne l'arrondi de la valeur avec 'precision' chiffres après la virgule
+258;Les paramètres de la fonction 'Arrondi' sont incorrects
+259;Opérateur division
+260;Erreur : Division par 0 impossible
+261;Aucune surcharge de la fonction n'accepte les paramètres indiqués
+262;Opérateur modulo
+263;Opérateur addition
+264;Opérateur multiplication
+265;Opérateur soustraction
+266;Split(Chaine, Séparateur)\nRetourne un tableau de texte, en séparant chaque élément après le séparateur, ou sur le nombre de caractères donnés
+267;Le séparateur de l'opération split est incorrect
+268;Le nombre de caractères à splitter est incorrect
+269;Erreur lors du split
+270;LineFeed() Retourne un caractère de retour ligne
+271;Replace(Chaine, Recherche, Remplacement) Remplace la valeur 'Recherche' par 'remplace' dans la chaîne
+272;Erreur dans la fonction 'Remplacer'
+273;Aucune surcharge de la fonction 'Remplacer' n'accepte les paramètres indiqués
+274;PadRight(Chaine, Caractère, longueur) Complète la chaine à droite par le caractère indiqué
+275;Aucune surcharge de la fonction 'PadRight' n'accepte les paramètres indiqués
+276;Erreur dans la fonction 'PadRight'
+277;Erreur dans la fonction 'PadLeft'
+278;Aucune surcharge de la fonction 'PadLeft' n'accepte les paramètres indiqués
+279;PadLeft(Chaine, Caractère, longueur)\nComplète la chaine à gauche par le caractère indiqué
+280;LowerCase(Chaine)\nRetourne le texte en Minuscules
+281;Substring(Chaine, debut, longueur)\nRetourne la partie de la chaine à partir du caractère de début sur la longueur indiquée
+282;Erreur dans la fonction 'Substring'
+283;Aucune surcharge de la fonction 'Milieu' n'accepte les paramètres indiqués
+284;MatchRegEx(Texte, ExpReg)\nRetourne vrai si le texte passé en paramètre vérifie l'expression régulière ExpReg
+285;Erreur dans l'expression régulière '@1'
+286;L'expression régulière '@1' est incorrecte
+287;UpperCase(Chaine)\nRetourne le texte en majuscules
+288;Length(Chaine)\nRetourne le nombre de caractères dans le texte
+289;Trim(Chaine)\nSupprime les espaces et retours ligne en début et fin de chaine
+290;Aucune surcharge de la fonction 'LastIndexOf' n'accepte les paramètres indiqués
+291;Erreur dans la fonction 'LastIndexOf'
+292;LastIndexOf(Chaine, Chaine recherchee)\nRetourne l'index de la dernière occurence de la chaine recherchée dans la chaîne
+293;Aucune surcharge de la fonction 'IndexOf' n'accepte les paramètres indiqués
+294;Erreur dans la fonction 'IndexOf'
+295;IndexOf(Chaine, Chaine recherchee)\nRetourne l'index de la première occurence de la chaine recherchée dans la chaîne
+296;Left(Chaine, longueur)\nRetourne la partie gauche de la chaine sur la longueur indiquée
+297;Right(Chaine, longueur)\nRetourne la partie droite de la chaine sur la longueur indiquée
+298;Aucune surcharge de la fonction 'Right' n'accepte les paramètres indiqués
+299;Aucune surcharge de la fonction 'Left' n'accepte les paramètres indiqués
+300;Erreur dans la fonction 'Left'
+301;Erreur dans la fonction 'Right'
+302;HoursToTime(Hours, Format, NbDecimals)\nRetourne une chaine formatée représentant l'heure correspondante à la valeur du paramètre Hours.\nHours est une valeur de type double.\nNbDecimal est un paramètre optionel qui spécifie le nombre de décimales à afficher
+303;Les arguments de la fonction 'HoursToString' sont incorrecte
+304;Si le resultat de la formule est null: retourne FALSE\n
+305;Si le resultat de la formule est un booléen: retourne la valeur du booléen\n
+306;Si le resultat de la formule est un entier: retourne TRUE si l'entier = 1, sinon FALSE\n
+307;Si le resultat de la formule est une chaine: retourn TRUE pour les valeurs 'vrai' 'true' oui' ou 'yes', FALSE pour les autres
+308;Erreur lors de l'évaluation du begin
+309;La propriété @1 n'a pas pu être trouvée
+310;La propriété @1 est en lecture seule
+311;Impossible d'affecter la valeur @1
+312;.Foreach(action)\nExecute l'action pour chaque élément de la liste
+313;Retourne l'élément racine de l'évaluation de fonction
+314;Erreur durant l'execution du split
+
+20000;Proprieté invalide (@1)
+20001;Impossible de trouver un interpreteur pour @1
+20002;Tentative d'affecter une valeur à un objet null 
+20003;Erreur lors de l'affectation
+20004;Affectation non autorisée
+20005;Paramètre incorrect pour la fonction VAR
+20006;Convertit un texte en Date/heure. Le texte doit être au format yyyy/MM/dd HH:mm:ss
+20007;Concactène deux listes (ou des éléments)
+20008;Contains(Chaine, Recherche)\nRetourne vrai si la chaine contient la valeur recherchée
+20009;Aucune surchage de la fonction 'Contains' ne correspond aux paramètres indiqués
+20010;Erreur dans la fonction 'contains'
+20011;Impossible d'utiliser cet opérateur dans les filtres
+20012;Operateur IN\nValeur IN liste, Retourne VRAI si la valeur fait partie de la liste	
+20035;CreateEntity(Type)\n Retourne la nouvelle entité du type specifié. Retourne null si l'entité ne peut être créée.
+20036;Paramètre @1
+20037;Action
+20038;Type
+20039;Valeur
+20040;Variable
+20041;Type tableau
+20042;Opérande gauche
+20043;Opérande droite
+20044;Valeur testée
+20045;Liste
+20046;Texte
+20047;Index ascii
+20048;Valeur si erreur
+20049;Format
+20050;Date
+20051;Heures
+20052;Minutes
+20053;Années
+20054;Jours
+20055;Mois
+20056;Date 1
+20057;Date 2
+20058;Type de retour
+20059;Mois
+20060;Année
+20061;Nb décimales
+20062;Semaine
+20063;Heure
+20064;Liste 1
+20065;Liste 2
+20066;Liste
+20067;Condition
+20068;Action si oui
+20069;Action si non
+20070;Longueur
+20071;Expression régulière
+20072;Début
+20073;Caractère
+20074;Texte remplacé
+20075;Texte remplaçant
+20076;Séparateur
+20077;Alpha
+20078;Composante rouge
+20079;Composante vert
+20080;Composante bleue
+20081;Paramètre
+20082;Oui
+20083;Non
+20084;Fin si
+20085;Variables
+20086;Impossible de créer la formule depuis sa représentation graphique
+20087;Action de boucle
+20088;Texte
+20089;Entier
+20090;Decimal
+20091;Date
+20092;Booléen
+20093;LongitudeToString(valeur, [nb décimales])\nConvertit une longitude en décimal en longitude exprimée en ° min sec
+20094;Erreur dans les paramètres de la fonction 'LongitudeToString'
+20095;Nombre de décimales
+20096;O
+20097;E
+20098;S
+20099;N
+20100;LatitudeToString(valeur, [nb décimales])\nConvertit une latitude en décimal en latitude exprimée en ° min sec
+20101;Erreur dans les paramètres de la fonction 'LatitudeToString'
+20102;Debug()\nActive le debugger
+20103;La formule n'a pas de point de départ
+20104;Paramètre incorrect @1
+20105;SQL(valeur)\nRetourne le carré de la valeur
+20106;Paramètre invalide pour la fonction carré
+20107;SQRT(valeur)\nretour la racine carrée de la valeur
+20108;Paramètre invalide pour la fonction Racine carrée
+20109;U(valeur;unité)\nCrée une valeur avec unité
+20110;Valeur
+20111;Unité (texte)
+20112;Paramètre incorrect pour la fonction U, le premier paramètre doit être un nombre 
+20113;Les paramètres de la fonction U sont incorrects
+20114;Convertit la valeur avec unité dans une autre unité
+20115;Erreur durant la conversion d'unité
+20116;@1(valeur)\nConvertit la valeur en @1
+20117;Format d'unité
+20118;Saisie
+20119;Valeur de tri
+20120;Croissant (true) ou décroissant (false)
+20121;Variable simple
+20122;SetSeconds(Date, Seconds)\nRedéfinit les secondes d'une date
+20123;Les paramètres de la fonction SetSeconds sont invalides
+20124;Retourne la ligne précédente dans la table
+20125;Le paramètre @1 de la méthode @2 est invalide
+20126;Méthode inconnue @1
+20127;Erreur lors de l'évaluation de la méthode @1
+20128;Paramètres
+20129;Compile(source, formula)\nCompile la formule basée sur l'objet source et retourne la formule (utile en paramétrage)
+20139;ToUtcDateTime(date)\nConverts local date time to UTC date time
+20140;ToLocalDateTime(date)\nConverts UTC date time to local date time
+20141;Le paramètre de la fonction ToUtcDateTime est incorrect
+20142;Le paramètre de la fonction ToLocalDateTime est incorrect
+20143;Met l'execution en pause pendant une durée déterminée (en ms)
+20144;Durée(ms)
+20145;@1 formules
+20146;Système
+20147;RemoveCharsExcept(String, caractères valides)\nRetourne la chaine dans laquelle tous les caractères n'appartenant pas à 'caractères valides' ont été supprimés
+20148;Caractères valides
+20149;Aucune surcharge de la fonction RemoveCharsExcept ne correspond aux paramètres
+20150;Erreur dans la fonction RemoveCharsExcept
+20151;Retourne le logarithme néperien de la valeur
+20152;Les paramètres de la fonction log sont incorrects

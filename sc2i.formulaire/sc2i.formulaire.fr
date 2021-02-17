@@ -1,0 +1,73 @@
+100;Total
+101;CActionSur2iLinkEditor n'a pas été initialisé
+131;Pas de formule
+
+10000;Se produit lorsque le lien est cliqué
+10001;Se produit lorsque l'élement édité est défini
+10002;Supprimer l'élément ?
+
+20000;Se produit lorsque le texte dans le formule est modifié
+20001;Color([A;] R; V; B) routroune une couleur.\nA est la comsante Alpha (optionel). R, V et B sont les composants Rouge, Verte et Bleue de la couleur
+20002;Erreur dans les paramètres de la couleur
+20003;Affectation non autorisée
+20004;Se produit lorsque l'état du contrôle change
+20005;Se produit lorsque la période du timer est écoulée
+20006;Indique une erreur sur le contrôle
+20007;Texte de l'erreur
+20008;Marque un point sur la carte
+20009;Latitude
+20010;Longitude
+20011;Supprime les points marqués
+20012;Se produit lorsque l'utilisateur clique sur la carte
+20013;Element @1
+20014;Dessine une ligne sur la carte
+20015;Latitude 1
+20016;Longitude 1
+20017;Latitude 2
+20018;Longitude 2
+20019;Couleur de la ligne
+20020;Supprime les lignes de la carte
+20021;Affectations
+20022;Cherche l'élément fils avec le nom spécifié
+20023;Nom de l'élément fils à chercher
+20024;Oui
+20025;Non
+20026;Se produit lorsque l'élément actif change
+20027;Nom du paramètre
+20028;Récupère la valeur d'un paramètre en remontant les parents successifs
+20029;Le type d'élément doit être défini sur le paramètre d'inspiration
+20030;Le champ d'inspiration doit être défini sur le paramètre d'inspiration
+20031;Se produit lorsqu'un item est coché ou décoché
+20032;Coché
+20033;Non coché
+20034;Non défini
+20035;Egal à
+20036;Différent de
+20037;Supérieur à
+20038;Supérieur ou égal à
+20039;Inférieur à
+20040;Inférieur ou égal à
+20041;Commence par
+20042;Ne commence pas par
+20043;Se termine par
+20044;Ne se termine pas par
+20045;Contient
+20046;Ne contient pas
+20047;Postérieur
+20048;Postérieur ou égal
+20049;Antérieur
+20050;Antérieur ou égal
+20051;Entre
+20052;Valeurs sélectionnées
+20053;Se produit lorsque l'utilisateur clique sur le bouton, ou quand le délai expire
+20054;Se produit lorsque l'utilisateur clique sur le bouton
+
+
+
+
+30001;Se produit lorsque la valeur de la date a changé
+30002;Se produit lorsque la valeur numérique a changé
+30003;Se produit lorsque le lien a été cliqué
+30004;se produit lorsque le contrôle change d'apparence
+30005;se produit lorsque un élément est ajouté
+30006;se produit lorsque un élément est supprimé

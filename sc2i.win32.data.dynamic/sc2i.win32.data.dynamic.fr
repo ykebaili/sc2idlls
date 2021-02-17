@@ -1,0 +1,477 @@
+10;Ok
+11;Annuler
+12;Fermer
+13;Corriger
+14;Ignorer et valider
+15;Ajouter une ligne
+16;? valeur
+17;Modification
+18;Importer
+19;Aucun
+20;Sélectionner
+21;Suivant >
+22;< Précédent
+23;Terminer
+24;Ajouter
+25;Tester
+26;Exporter
+50;Libellé
+60;Champ
+61;Valeur
+100;Champ calculé
+101;Nom du champ
+102;Formule
+103;Champ cumulé
+104;Sources
+105;Fonction SQL
+106;Grouper les données sur ce champ
+107;Colonne pivot
+108;Champs source
+109;Préfixe champ
+110;Valeurs systématiques
+111;Recherche avancée
+112;Champ testé
+113;Recherche avancée
+114;Créer une nouvelle variable
+115;Condition d'application
+116;Sélection
+117;Sélection directe
+118;Inclure les éléments sélectionnés
+119;Exclure les éléments sélectionnés
+120;Entités disponibles
+121;Entités sélectionnées
+122;Opération de sélection impossible pour ce champ
+123;Test de nullité
+124;Champ testé
+125;Type de test
+126;Est null
+127;Est non null
+128;Opérateur
+129;Valeur attendue
+130;Créer une nouvelle variable
+131;Champ cumulé
+132;Champs source
+133;Opération
+134;Préfixe champ
+135;Cumuler hors des colonnes pivot
+136;Libellé
+137;Préfixe des tables
+138;Type d'objet 
+139;Filtre
+140;Formule
+141;Variable Dynamique Calculée
+142;Variable calculée
+143;Nom de la variable
+144;Variable liste d'objets
+145;Variable de filtre
+146;Variable saisie par l'utilisateur
+147;Type de donnée
+148;Formule de validation
+149;Valeurs possibles
+150;Message sur erreur de format
+151;Zone de test
+152;Valeur par défaut
+153;Variable de sélection dans une liste d'objets
+154;Valeur affichée
+155;Valeur stockée
+156;Autoriser NULL
+157;Utiliser la recherche rapide
+158;Filtre Dynamic
+159;Indiquez ici la formule retournant la valeur attendue pour le test de comparaison
+160;Ce test ne sera integré au filtre que si l'évaluation de la formule de condition vaut 1
+161;Indiquez ici le champ à tester
+162;Opérateur de comparaison choisi
+163;Click gauche pour filtrer, click droit pour annuler le filtre
+164;Ajouter des champs
+165;Table
+166;nom de la table
+167;Valeur sélectionnée
+168;Sélection de structure
+169;Structure :
+170;Sélection d'un objet
+171;Rechercher
+172;Sélection d'une variable
+173;Visualisation des données
+174;Elements filtrés
+175;Filtre
+176;Champs du filtre
+177;Formulaire
+178;Export XML
+179;Export Texte
+180;Export MS-Access
+181;Export Excel
+182;Tables
+183;Type:
+184;Structure simple
+185;Structure complexe
+186;Champs de la table
+187;Tableau croisé
+188;Structures
+189;Champs du Filtre
+190;Formulaire
+191;Recalculer le jeu d'éssai
+192;Voir le résultat
+193;Requête
+194;Table croisée
+195;Champs
+196;Utiliser la requête pour créer un tableau croisé
+197;Champs d'origine
+198;Champs clé (lignes)
+199;Champs colonne
+200;Cumuls
+201;Options d'export
+202;Fichier de destination :
+203;Séparateur de champs :
+204;Séparateur décimal
+205;Indicateur de texte :
+206;Encodage :
+207;Masquer les ids auto
+208;Export multi-tables
+209;Exporter dans un seul fichier
+210;Exporter dans plusieurs fichiers
+211;Masquer les identifiants automatiques
+212;Format
+213;Titre
+214;Contenu
+215;Largeur
+216;Grouper les données
+217;Action sur clic
+218;Colonnes
+219;La méthode d'execution n'est pas définie
+220;Couleur fond
+221;Couleur texte
+222;Police
+223;Agrégation
+224;Lib. total
+225;Export des données réussie
+226;Erreur lors de l'export
+227;La destination d'export est incorrecte
+228;Structure incorrecte
+229;Export des données
+230;Structure
+231;Options
+232;Génération des données
+233;Exporter uniquement la structure (sans les enregistrements)
+234;Table Indépendante
+235;Table Fusionnée
+236;Ajouter de tables à fusionner
+237;Tables à fusionner
+238;Nombre d'enregistrements
+239;Valeur
+240;Annuler le filtre ?
+241;Supprimer le champ sélectionné ?
+242;CLIQUEZ POUR AFFICHER LE CONTENU
+243;LIEN
+244;ERREUR LORS DU REMPLISSAGE DE LA LISTE
+245;Insérer
+246;Entités
+247;Condition
+248;Test de champ
+249;Options d'export
+250;Description
+251;Variable
+252:Propriété
+253;Nom
+254;Type
+255;Utiliser la première ligne pour le nom des colonnes
+256;Champ
+257;Préfixe
+258;Infos source
+259;Les données de la structure actuelle seront remplacée, continuer ?
+260;Enregistrement réussi
+261;Impossible de supprimer la table principale
+262;Supprimer la table 
+263;et ses dépendances ? 
+264;Impossible de supprimer cette variable car elle est utilisée
+265;Ne plus utiliser la colonne 
+266;Structure multiple (*.2imultiStruct)|*.2imultiStruct|Tous fichiers (*.*)|*.*
+267;Supprimer la stucture
+268;Données de l'état
+269;Erreur ou annulation dans le formulaire
+270;Calcul du jeu de test
+271;Groupe ET
+272:Groupe OU
+273;Condition simple
+274;Test de nullité
+275;Sélection
+276;Supprimer
+277;L'élement et ses fils
+278;Décaler les fils vers le haut
+279;Propriétés
+280;Copier
+281;Coller
+282;Groupe XOR
+283;Couper
+284;Condition d'application
+285;Saisie
+286;Calculée
+287;Sélection d'Eléments
+
+10000;L'objet à coller n'est pas un composant de filtre dynamique
+10001;Tous les Modules de Paramétrage
+10002;Ajouter un Module de Paramétrage
+10003;Nouveau Module
+10004;Supprimer l'Element de la liste
+10005;Nouveau Module
+10006;Supprimer ?
+10007;Supprimer le Module et tous ses Modules fils ?
+10008;La relation vers l'élément : '@1' existe déjà dans ce Module
+10009;Ajouter
+10010;A partir d'un champ
+10011;A partir d'une formule
+10012;Table cumulée
+10013;Union
+10014;Tableau croisé
+10015;Vue
+10016;Inserer
+10017;Ajouter une table Calculée Indépendantes
+10018;Supprimer la table
+10019;Ajouter une Table
+10020;Ajouter à partir d'une formule
+10021;Ajouter une table cumulée
+10022;Ajouter une table calculée
+10023;Supprimer
+10024;Champ de donnée
+10025;Champ calculé
+10026;Champs personnalisés
+10027;Entête de colonne
+10028;Décroissant
+10029;Ordre de tri
+10030;Couleur arrière plan
+10031;Couleur premier plan
+10032;Largeur colonne
+
+20000;Champs personnalisés
+20001;Cochez les champs personnalisés à ajouter à la table
+20002;Annuler le filtre ?
+20003;Type de table incorrect
+20004;Supprimer les tables de travail
+20005;Source
+20006;Type donnée
+20007;Défaut
+20008;Structure d'export
+20009;Table cumulée
+20010;Requête
+20011;Options de visualisation (*.2IVisu)|*.2iVisu|Tous fichiers (*.*)|*.*
+20012;Le paramètre de visualisation va être remplacé. Continuer ?
+20013;Taille
+20014;Police
+20015;Alignement
+20016;Gras
+20017;Entêtes de colonnes
+20018;Texte
+20019;Données
+20020;Action
+20021;Elements filtrés
+20022;Description
+20023;(Aucun)
+20024;Type de données
+20025;Filtres
+20026;Filtres de base
+20027;Filtres utilisateurs
+20028;Données croisées
+20029;Format standard
+20030;Lignes
+20031;Format d'affichage
+20032;Mise à jour
+20033;Test de visualisation
+20034;Tester
+20035;Paramètres de visualisation
+20036;Options
+20037;Inclure les parents
+20038;Ne conserver que les éléments racines
+20039;Données sources
+20040;Définir les paramètres
+20041;Pour commencer, définissez la source des données ainsi que le type des données à importer.
+20042;Données cibles
+20043;Options d'import
+20044;Mettre à jour les éléments existants
+20045;Créer les nouveaux éléments
+20046;Importer des données
+20047;Démarrer l'import
+20048;Utiliser comme champ de correspondance
+20049;Commencez par définir les paramètres source.
+20050;Cette opération va créer @1 et modifier @2 éléments. Confirmez-vous ?
+20051;L'import s'est terminé avec succès
+20052;Vous n'avez sélectionner aucun champ de correspondance. Continuer ?
+20053;Intégrer les éléments fils
+20054;Options de filtre
+20055;La formule 'Ne conserver que les éléments racines' est incorrecte
+20056;La formule 'Inclure les parents' est incorrecte
+20057;le formule 'Intégrer les éléments fils' est incorrecte
+20058;Précharger la cible
+20059;Filtre gobal
+20060;Ne conserver que les racines
+20061;Erreur dans la formule @1
+20062;Formules globales
+20063;Classe
+20064;Id
+20065;Unité de base
+20066;Classe
+20067;Libellé court
+20068;Libellé long
+20069;Facteur
+20070;Nouvelle classe d'unité
+20071;Nouvelle unité
+20072;Edition d'unité
+20073;Sélectionnez une classe d'unité
+20074;Impossible de supprimer cette unité
+20075;Supprimer l'unité @1 ?
+20076;Impossible de supprimer cette classe d'unité
+20077;Supprimer la classe @1 ?
+20078;Gestion des unités
+20079;Smart field
+20080;Nom du champ
+20081;Champ original
+20082;Créer un SmartField
+20083;Editer le SmartField
+20084;Supprimer le SmartField
+20085;Supprimer le SmartField @1
+20086;Catégorie
+20087;Type d'unité
+20088;Format d'unité
+20089;Selection
+20090;Bouton d'export
+20091;Appliquer une formule
+20092;Appliquer à @1 @2
+20093;Erreur lors de l'application de la formule à @1
+20094;Appliquer la formule
+20095;In
+20096;Not in
+20097;Sélectionnez le type du sous filtre
+20098;Sous filtre
+20099;Valeur sous filtre
+20100;Sous filtre
+20101;Indiquez un nom de table
+20102;Supprimer la(es) colonne(s) @1 ?
+20103;Table source
+20104;Nom
+20105;Nom
+20106;Colonne
+20107;Colonnes calculées
+20108;Options
+20109;Filtre
+20110;Propriétés de la table
+20111;Table source
+20112;Nom de la table
+20113;Easy query
+20114;Tables à exporter
+20115;Lier depuis
+20116;Ajouter le champ requis à la table parente
+20117;Ne pas recherche l'entité sur ce champ
+20118;Utiliser ce champ pour chercher l'entité
+20119;Appliquer en création et en mise à jour
+20120;Appliquer uniquement en création
+20121;Impossible de calculer la configuration d'import
+20122;Structure d'import(*.futimp)|*.futimp|Tous fichiers|*.*
+20213;La structure d'import sera remplacée. Continuer ?
+20214;Structure d'import
+20215;Configurer la source
+20216;Colonne
+20217;Importer
+20218;Condition
+20219;Aperçu du résultat d'import
+20220;Résumé de l'import
+20221;Log
+20222;Entités
+20223;Entité (total / modifiés / ajoutés)
+20224;Fermer
+20225;Sauvegarder la configuration ?
+20226;Ligne
+20227;dest.
+20228;source
+20229;Message
+20230;Aucun
+20231;N° ligne
+20232;Colonne
+20233;Source
+20234;Comparaison
+20235;Import
+20236;Masquer les différences sur la colonne @1
+20237;Simulation
+20238;Options de simulation
+20239;Commencer ligne
+20240;Nb ligne à importer
+20241;Simuler la sauvegarde
+20242;Options d'import
+20243;Mode Best effort
+20244;Taille des paquets
+20245;Import des données
+20246;Test de l'import
+20247;Session d'import
+20148;Session d'import(*.futimpses)|*.futimpses|Tous fichiers|*.*
+20149;Sauvegarde la session
+20150;L'import est terminé. Consultez le log
+20151;Table source
+20152;Lignes traitées
+20153;Logs de la ligne n°@1
+20154;Logs de @1 lignes
+20155;Lignes importées
+20156;Lignes non importées
+20157;Enregistrements marqués
+20158;Remplacer la table source par la table des enregistrements marqués
+20159;Créer une version de données
+20160;Valeur null si erreur de conversion
+20161;Valeurs nulles
+20162;Options pour valeurs nulles
+20163;@1 Lignes
+20164;Post filtre
+20165;Colonnes parentes
+20166;Nom
+20167;Source
+
+30001;Ne plus utiliser la colonne @1 comme pivot ?
+30002;Supprimer le cumul sur @1 ?
+30003;Formule de valeur incorrecte
+30004;Erreur dans la formule du nombre d'enregistrements
+30005;Impossible de modifier le type de valeur retournée par la formule
+30006;Annuler le filtre ?
+30007;Supprimer le champ ?
+30008;Indiquer un nom de champ
+30009;Sélectionnez une opération
+30010;Saisie
+30011;Calculée
+30012;Sélection d'éléments
+30013;[NON DEFINI]
+30014;Sélectionner un champ à tester
+30015;Erreur dans la formule de valeur
+30016;Erreur dans la formule de condition
+30017;Sélection de @1
+30018;Sélectionnez un champ de valeur
+30019;Sélectionnez une opération
+30020;Supprimer la colonne @1 ?
+30021;Indiquez la formule source avant d'éditer les colonnes
+30022;Indiquez un nom de variable
+30023;Indiquez un type de donnée
+30024;La valeur @1 n'est pas du type @2
+30025;Erreur dans la formule de valeur par défaut
+30026;Sélectionnez un type de données
+30027;Erreur lors de l'évaluation de la formule de validation
+30028;Valeur acceptée
+30029;Valeur refusée
+30030;Le nom de la variable est incorrect
+30031;Erreur dans le filtre
+30032;Erreur dans la formule de valeur affichee
+30033;Erreur dans la formule de valeur retournée
+30034;Options d'export incorrectes
+30035;Impossible de sélectionner un élément de ce type
+30036;Fonction non utilisable avec ce jeu de données
+30037;Export terminé
+30038;Infos complémentaires
+30039;Impossible d'ajouter à ce niveau
+30040;Impossible d'ajouter
+30041;Insertion impossible
+30042;Etes-vous sûr ?
+30043;Impossible de décaler plusieurs fils vers le haut
+30044;Impossible de décaler les éléments vers le haut
+30045;Les données du filtre actuel seront remplacées, continuer ?
+30046;Pas de données du filtre
+30047;Les données de la requête actuelle seront remplacées, continuer ?
+30048;Aucun
+30049;Filtre dynamique(*.2iFilter)|*.2iFilter|Tout fichier (*.*)|*.*
+30050;Requête (*.2iQuery)|*.2iQuery|Tout fichier (*.*)|*.*
+30051;Structure de données (*.2IStruct)|*.2iStruct|Tout fichier (*.*)|*.*
+30052;Structure multiple(*.2imultiStruct)|*.2imultiStruct|Tout fichier(*.*)|*.*
+30053;Process (*.2iProcess)|*.2iProcess|Tout fichier (*.*)|*.*
+30054;Liste d'objets
+30055; Supprimer la table @1 et ses dépendances ?

@@ -1,0 +1,54 @@
+﻿1;OK
+2;Annuler
+
+20000;Date début
+20001;Date fin
+20002;Entités à lire
+20003;Une source d'entités à lire doit être sélectionnée
+20004;Options de requête DataHotel
+20005;Propriétés de la table
+20006;Table source
+20007;Nom de la table
+20008;Utiliser le cache de données
+20009;Colonnes;
+20010;Colonnes calculées
+20011;Options de requête
+20012;Colonne
+20013;Source
+20014;Erreur dans la formule de date de début
+20015;Erreur dans la formule de date de fin
+20016;Formule (indiquant une liste ou un seul identifiant d'entité)
+20017;Formule
+20018;Add
+20019;Insert
+20020;Delete
+20021;Properties
+20022;And group
+20023;Or group
+20024;Simple condition
+20025;L'élément et ses fils
+20026;,Décaller les fils vers le haut
+20027;Comparaison
+20028;Champ
+20029;Operateur
+20030;Valeur
+20031;Condition
+20032;Sélectionnez un opérateur de comparaison
+20033;Sélectionnez un champ
+20034;formule de valeur invalide
+20035;Formule de condition invalide
+20036;Filtre
+20037;Table
+20038;Table source
+20039;Champ source
+20040;Sélectionnez une table source
+20041;Sélectionnez une colonne source
+20042;Supprimer
+20043;Propriétés
+20044;Colonne calculée (Hotel)
+20045;Nom
+20046;Calcul
+20047;Durée
+20048;Aucun
+20049;Le nom de la colonne ne doit pas être vide
+20050;Calcul

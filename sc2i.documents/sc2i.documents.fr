@@ -1,0 +1,23 @@
+
+20000;Fichier geré par Timos
+20001;Lien au fichier
+30001;La catégorie de rapports Crystal Reports 
+30002;Document GED @1
+
+
+101;La catégorie de rapport @1
+102;Le rapport @1
+103;Erreur dans la structure : pas de données
+104;La structure n'est pas définie
+105;Le rapport n'est pas lié à un modèle crystal
+106;Erreur lors de la génération du rapport @1
+107;Le rapport n'est pas lié à un modèle crystal
+108;Erreur lors de la création du fichier @1
+109;La catégorie de GED @1
+110;Document GED
+111;Le document @1
+112;Erreur lors de la mise à jour de la GED
+113;Erreur lors du transfert du document vers la GED
+114;La relation entre le document @1 et la catégorie GED @2
+115; et @1
+116;La relation entre le document @1

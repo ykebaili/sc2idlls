@@ -1,0 +1,130 @@
+5;Oui
+6;Non
+10;Ok
+11;Annuler
+12;Fermer
+13;Corriger
+14;Ignorer et valider
+15;Ajouter une ligne
+16;Valeur ?
+17;Modification
+18;Ajouter
+19;Détail
+20;Supprimer
+21;Filtrer
+100;Axes
+101;Données
+102;Résultat
+103;Erreur d'execution
+104;Plus d'informations >>
+105;Erreurs dans les données
+106;Traitement
+107;Traitement en cours ...
+108;Ajouter des champs
+109;Table
+110;Nom de la table
+111;Valeur par défaut
+112;Ligne
+113;Colonne
+114;Type
+115;Recherche
+116;Tester ligne
+117;Aucune
+118;Réessayer
+119;Abandonner
+120;Ignorer
+121;Non selectionnés
+122;Selectionnés
+123;Colonnes
+124;Numérique
+125;Texte
+126;Erreurs...
+127;Continuer
+
+10000;Ordonner les champs
+10001;Utiliser les cases à cocher
+10002;Sélection
+10003;Tout sélectionner
+10004;Tout désélectionner
+10005;Inverser la sélection
+10006;Plus de champs
+10007;Marge
+10008;(Erreurs)
+10009;Largeur
+10010;Hauteur
+10011;Taille de la Gille
+10012;Gérer les colonnes
+10013;Valeur inconnue
+10014;Elements non sélectionnés
+10015;Elements sélectionnés
+
+20000;Fichiers image|*.bmp;*.gif;*.ico;*.jpg;.tif;*.png|Tous fichiers|*.*
+20001;Résultat de la recherche
+20002;Recherche en cours...
+20003;Ajouter
+20004;Insérer
+20005;Supprimer
+20006;De
+20007;à
+20008;L'élément et ses fils
+20009;Déplacer les fils vers le haut
+20010;Champ source
+20011;Préfixe
+20012;Valeurs systématiques
+20013;Entrez une valeur en utilisant le format : @1
+20014;Entrez un valeur en utilisant les unités @1
+20015;Supprimer
+20016;Sélectionner tout
+20017;Convertir
+
+30000;Mettre au premier plan
+30001;Mettre au dernier plan
+30002;Aligner
+30003;Horizontalement
+30004;En Haut
+30005;Au Centre
+30006;En Bas
+30007;Verticalement
+30008;A Gauche
+30009;A Droite
+30010;Correspondre sur Grille
+30011;Positionner sur Grille
+30012;Etendre sur Grille
+30013;Répartir
+30014;En respectant l'écartement
+30015;Vers la Droite
+30016;Vers la Gauche
+30017;Vers le Bas
+30018;Vers le Haut
+30019;Marge...
+30020;Généraliser la taille
+30021;Généraliser la largeur
+30022;Généraliser la hauteur
+30023;Verrouiller
+30024;Supprimer
+30025;Grille
+30026;Toujours aligner sur la grille
+30027;Affichage Grille
+30028;Jamais
+30029;Toujours
+30030;Au déplacement
+30031;Type Grille
+30032;Lignes
+30033;Lignes Pointillées
+30034;Lignes discontinues
+30035;Angles
+30036;Points
+30037;Taille...
+30038;Couleur...
+30039;Agrandir
+30040;Réduire
+30041;Ajuster le zoom
+30042;Couper
+30043;Copier
+30044;Coller
+30045;Taille originale
+30046;Erreur lors du chargement du contrôle @1 par @2
+30047;Erreur lors du remplissage de l'objet @1 avec @2
+30048;Rien à copier
+30049;Rien à coller
+30050;Résultat : @1

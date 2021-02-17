@@ -1,0 +1,11 @@
+100;Impossible de fermer l'unique onglet de l'application
+101;Nouvel onglet
+102;Orienter les nouvelles pages sur cet onglet
+103;&Fermer
+104;Entrer dans le groupe &Suivant
+105;Entrer dans le groupe &Précédent
+106;Nouveau groupe &Horizontal
+107;Nouveau groupe &Vertical
+108;En &Avant
+109;&Reéquiliber les pages
+110;Accueil

@@ -105,8 +105,9 @@ namespace sc2i.data.serveur
 
                 IObjetHierarchiqueACodeHierarchique objet = (IObjetHierarchiqueACodeHierarchique)Activator.CreateInstance(CContexteDonnee.GetTypeForTable(strNomTable), new object[] { contexte });
 
-                //*** START DEBUG :  ajout d'une trace pour analyser le bug chez OOREDOO
-                string strInfosDebug = "DEBUG_TODO" + Environment.NewLine;
+                string strInfosDebug = "";
+                /*/*** START DEBUG :  ajout d'une trace pour analyser le bug chez OOREDOO
+                strInfosDebug = "DEBUG_TIMOS" + Environment.NewLine;
                 strInfosDebug += "Nom de la table : " + strNomTable + Environment.NewLine;
                 strInfosDebug += "Contenu des rows : " + Environment.NewLine;
                 foreach (DataColumn col in table.Columns)
@@ -128,15 +129,15 @@ namespace sc2i.data.serveur
 
                 try
                 {
-                    C2iEventLog.WriteInfo("DEBUG_TODO - TraitementAvantSauvegarde() objet hiérarchique - before Sort");
+                    //C2iEventLog.WriteInfo("DEBUG_TIMOS - TraitementAvantSauvegarde() objet hiérarchique - before Sort");
                     lstRows.Sort(new CRowSorterSurParent(objet.ChampIdParent));
-                    C2iEventLog.WriteInfo("DEBUG_TODO - TraitementAvantSauvegarde() objet hiérarchique - after Sort");
+                    //C2iEventLog.WriteInfo("DEBUG_TIMOS - TraitementAvantSauvegarde() objet hiérarchique - after Sort");
                 }
                 catch (Exception ex)
                 {
                     //*** START DEBUG 02/11/2020 :  ajout d'une trace pour analyser le bug chez OOREDOO
                     // Cause problème de tri sur table objets hiérarchiques sur champ idParent
-                    strInfosDebug = "DEBUG_TODO ERROR" + Environment.NewLine;
+                    strInfosDebug = "DEBUG_TIMOS" + Environment.NewLine;
                     strInfosDebug += "ERROR MESSAGE : " + ex.Message + Environment.NewLine;
                     C2iEventLog.WriteErreur(strInfosDebug);
                     /*** END DEBUG ***/

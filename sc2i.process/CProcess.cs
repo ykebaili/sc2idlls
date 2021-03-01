@@ -214,7 +214,7 @@ namespace sc2i.process
 		}	
 
 		/// ////////////////////////////////////////////////////////
-		private ArrayList ListeActions 
+		public ArrayList ListeActions 
 		{
 			get
 			{

@@ -15,6 +15,7 @@ using sc2i.formulaire;
 using sc2i.expression;
 using System.ComponentModel;
 using sc2i.formulaire.inspiration;
+using sc2i.formulaire.web;
 
 namespace sc2i.data.dynamic
 {
@@ -22,8 +23,8 @@ namespace sc2i.data.dynamic
 	/// Description résumée de C2iChampCustomTextBox.
 	/// </summary>
 	[WndName("Variable")]
-	public abstract class C2iWndVariable : C2iWndComposantFenetre
-	{
+	public abstract class C2iWndVariable : C2iWndComposantFenetre, I2iWebControl
+    {
 		public enum TypeAlignement
 		{
 			Gauche = 0,
@@ -39,8 +40,11 @@ namespace sc2i.data.dynamic
 		private bool m_bMultiLine = false;
         private string m_strSeparateurMilliers = "";
         private CListeParametresInspiration m_parametresInspiration = new CListeParametresInspiration();
+        // Paramètres pour le web
+        private string m_strLibelleWeb = "";
+        private int m_nNumWeb = 0;
 
-		public C2iWndVariable()
+        public C2iWndVariable()
 		{
 			//Size = new Size ( Size.Width, 22 );
 			Size = new Size ( Size.Width, 22 );
@@ -52,7 +56,8 @@ namespace sc2i.data.dynamic
             //return 1; //1 : Ajout de multiligne
             //2 Ajout de séparateur milliers
             //3 Inspiration
-            return 3; 
+            //4 Ajout des paramètres pour le web
+            return 4; 
 		}
 
 		/// //////////////////////////////////////////////////
@@ -109,22 +114,51 @@ namespace sc2i.data.dynamic
             {
                 result = serializer.TraiteObject<CListeParametresInspiration>(ref m_parametresInspiration);
             }
+            if (nVersion >= 4)
+            {
+                serializer.TraiteString(ref m_strLibelleWeb);
+                serializer.TraiteInt(ref m_nNumWeb);
+            }
 
-			return result;
+            return result;
 		}
 
 		/// //////////////////////////////////////////////////
 		public abstract IVariableDynamique Variable{get;}
 
-		/// //////////////////////////////////////////////////
-#if PDA
-#else
+        /// //////////////////////////////////////////////////
+        public string WebLabel
+        {
+            get
+            {
+                return m_strLibelleWeb;
+            }
+            set
+            {
+                m_strLibelleWeb = value;
+            }
+        }
+
+        /// //////////////////////////////////////////////////
+        public int WebNumOrder
+        {
+            get
+            {
+                return m_nNumWeb;
+            }
+            set
+            {
+                m_nNumWeb = value;
+            }
+        }
+
+        /// ////////////////////////////////////////////////
 		[System.ComponentModel.Description(@"Edition Mask :
 # for a number
 $ for any character
 > for an upperase letter
 < for a lowercase letter")]
-#endif
+
 		public string EditMask
 		{
 			get

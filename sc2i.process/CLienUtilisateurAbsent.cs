@@ -18,7 +18,7 @@ namespace sc2i.process
 		}
 
 		/// //////////////////////////////////////////////////////////////
-		private string m_strLibelle = I.T("User absent|279");
+		private string m_strLibelle = I.T("User web|279");
 		public override string Libelle
 		{
 			get

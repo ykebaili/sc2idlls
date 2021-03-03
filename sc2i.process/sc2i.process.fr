@@ -185,7 +185,7 @@
 276;sur erreur
 277;sur évenement
 278;Fin de boucle
-279;Utilisateur absent
+279;Utilisateur Web
 280;A implémenter : Récup valeur cible de process
 281;Le process en execution @1
 282;Impossible de relire les données de l'action

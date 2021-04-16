@@ -95,23 +95,23 @@ namespace sc2i.win32.data.dynamic
 		private void InitializeComponent()
 		{
             this.components = new System.ComponentModel.Container();
-            sc2i.win32.common.CGrilleEditeurObjetGraphique cGrilleEditeurObjetGraphique2 = new sc2i.win32.common.CGrilleEditeurObjetGraphique();
-            sc2i.win32.common.CProfilEditeurObjetGraphique cProfilEditeurObjetGraphique2 = new sc2i.win32.common.CProfilEditeurObjetGraphique();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CPanelEditMultiStructure));
+            sc2i.win32.common.CGrilleEditeurObjetGraphique cGrilleEditeurObjetGraphique1 = new sc2i.win32.common.CGrilleEditeurObjetGraphique();
+            sc2i.win32.common.CProfilEditeurObjetGraphique cProfilEditeurObjetGraphique1 = new sc2i.win32.common.CProfilEditeurObjetGraphique();
             this.m_gestionnaireModeEdition = new sc2i.win32.common.CExtModeEdition();
             this.m_tab = new sc2i.win32.common.C2iTabControl(this.components);
             this.m_pageFiltre = new Crownwood.Magic.Controls.TabPage();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.m_lnkVoirResultat = new System.Windows.Forms.LinkLabel();
             this.m_wndListeStructures = new sc2i.win32.common.ListViewAutoFilled();
-            this.listViewAutoFilledColumn1 = new sc2i.win32.common.ListViewAutoFilledColumn();
+            this.listViewAutoFilledColumn1 = ((sc2i.win32.common.ListViewAutoFilledColumn)(new sc2i.win32.common.ListViewAutoFilledColumn()));
             this.m_lnkSupprimerStructure = new sc2i.win32.common.CWndLinkStd();
             this.m_lnkModifierStructure = new sc2i.win32.common.CWndLinkStd();
             this.m_lnkAjouterStructure = new sc2i.win32.common.CWndLinkStd();
             this.m_pageChamps = new Crownwood.Magic.Controls.TabPage();
             this.m_wndListeVariables = new sc2i.win32.common.ListViewAutoFilled();
-            this.colNomChamp = new sc2i.win32.common.ListViewAutoFilledColumn();
-            this.m_colType = new sc2i.win32.common.ListViewAutoFilledColumn();
+            this.colNomChamp = ((sc2i.win32.common.ListViewAutoFilledColumn)(new sc2i.win32.common.ListViewAutoFilledColumn()));
+            this.m_colType = ((sc2i.win32.common.ListViewAutoFilledColumn)(new sc2i.win32.common.ListViewAutoFilledColumn()));
             this.m_btnSupprimerChamp = new sc2i.win32.common.CWndLinkStd();
             this.m_btnModifierChamp = new sc2i.win32.common.CWndLinkStd();
             this.m_btnAjouterChamp = new sc2i.win32.common.CWndLinkStd();
@@ -131,8 +131,8 @@ namespace sc2i.win32.data.dynamic
             this.m_menuNewStructure = new System.Windows.Forms.ContextMenu();
             this.m_menuAddStructureExport = new System.Windows.Forms.MenuItem();
             this.m_menuAddRequete = new System.Windows.Forms.MenuItem();
-            this.cExtStyle1 = new sc2i.win32.common.CExtStyle();
             this.m_menuAddEasyQuery = new System.Windows.Forms.MenuItem();
+            this.cExtStyle1 = new sc2i.win32.common.CExtStyle();
             this.m_tab.SuspendLayout();
             this.m_pageFiltre.SuspendLayout();
             this.m_pageChamps.SuspendLayout();
@@ -141,22 +141,20 @@ namespace sc2i.win32.data.dynamic
             // 
             // m_tab
             // 
-            this.m_tab.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.m_tab.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.m_tab.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(189)))), ((int)(((byte)(189)))), ((int)(((byte)(255)))));
             this.m_tab.BoldSelectedPage = true;
-            this.m_tab.ControlBottomOffset = 16;
-            this.m_tab.ControlRightOffset = 16;
             this.m_tab.IDEPixelArea = false;
             this.m_tab.Location = new System.Drawing.Point(0, 0);
             this.m_gestionnaireModeEdition.SetModeEdition(this.m_tab, sc2i.win32.common.TypeModeEdition.Autonome);
             this.m_tab.Name = "m_tab";
-            this.m_tab.Ombre = true;
+            this.m_tab.Ombre = false;
             this.m_tab.PositionTop = true;
             this.m_tab.SelectedIndex = 0;
             this.m_tab.SelectedTab = this.m_pageFiltre;
-            this.m_tab.Size = new System.Drawing.Size(712, 355);
+            this.m_tab.Size = new System.Drawing.Size(712, 348);
             this.cExtStyle1.SetStyleBackColor(this.m_tab, sc2i.win32.common.CExtStyle.EnumCouleurs.ColorFondPanel);
             this.cExtStyle1.SetStyleForeColor(this.m_tab, sc2i.win32.common.CExtStyle.EnumCouleurs.None);
             this.m_tab.TabIndex = 2;
@@ -168,9 +166,9 @@ namespace sc2i.win32.data.dynamic
             // 
             // m_pageFiltre
             // 
-            this.m_pageFiltre.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.m_pageFiltre.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.m_pageFiltre.Controls.Add(this.linkLabel1);
             this.m_pageFiltre.Controls.Add(this.m_lnkVoirResultat);
             this.m_pageFiltre.Controls.Add(this.m_wndListeStructures);
@@ -180,7 +178,7 @@ namespace sc2i.win32.data.dynamic
             this.m_pageFiltre.Location = new System.Drawing.Point(0, 25);
             this.m_gestionnaireModeEdition.SetModeEdition(this.m_pageFiltre, sc2i.win32.common.TypeModeEdition.Autonome);
             this.m_pageFiltre.Name = "m_pageFiltre";
-            this.m_pageFiltre.Size = new System.Drawing.Size(696, 314);
+            this.m_pageFiltre.Size = new System.Drawing.Size(712, 323);
             this.cExtStyle1.SetStyleBackColor(this.m_pageFiltre, sc2i.win32.common.CExtStyle.EnumCouleurs.None);
             this.cExtStyle1.SetStyleForeColor(this.m_pageFiltre, sc2i.win32.common.CExtStyle.EnumCouleurs.None);
             this.m_pageFiltre.TabIndex = 0;
@@ -189,7 +187,7 @@ namespace sc2i.win32.data.dynamic
             // linkLabel1
             // 
             this.linkLabel1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.linkLabel1.Location = new System.Drawing.Point(416, 8);
+            this.linkLabel1.Location = new System.Drawing.Point(432, 8);
             this.m_gestionnaireModeEdition.SetModeEdition(this.linkLabel1, sc2i.win32.common.TypeModeEdition.Autonome);
             this.linkLabel1.Name = "linkLabel1";
             this.linkLabel1.Size = new System.Drawing.Size(153, 16);
@@ -203,7 +201,7 @@ namespace sc2i.win32.data.dynamic
             // m_lnkVoirResultat
             // 
             this.m_lnkVoirResultat.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.m_lnkVoirResultat.Location = new System.Drawing.Point(592, 8);
+            this.m_lnkVoirResultat.Location = new System.Drawing.Point(608, 8);
             this.m_gestionnaireModeEdition.SetModeEdition(this.m_lnkVoirResultat, sc2i.win32.common.TypeModeEdition.Autonome);
             this.m_lnkVoirResultat.Name = "m_lnkVoirResultat";
             this.m_lnkVoirResultat.Size = new System.Drawing.Size(100, 16);
@@ -216,9 +214,9 @@ namespace sc2i.win32.data.dynamic
             // 
             // m_wndListeStructures
             // 
-            this.m_wndListeStructures.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.m_wndListeStructures.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.m_wndListeStructures.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.listViewAutoFilledColumn1});
             this.m_wndListeStructures.EnableCustomisation = true;
@@ -228,7 +226,7 @@ namespace sc2i.win32.data.dynamic
             this.m_gestionnaireModeEdition.SetModeEdition(this.m_wndListeStructures, sc2i.win32.common.TypeModeEdition.EnableSurEdition);
             this.m_wndListeStructures.MultiSelect = false;
             this.m_wndListeStructures.Name = "m_wndListeStructures";
-            this.m_wndListeStructures.Size = new System.Drawing.Size(680, 275);
+            this.m_wndListeStructures.Size = new System.Drawing.Size(696, 284);
             this.cExtStyle1.SetStyleBackColor(this.m_wndListeStructures, sc2i.win32.common.CExtStyle.EnumCouleurs.None);
             this.cExtStyle1.SetStyleForeColor(this.m_wndListeStructures, sc2i.win32.common.CExtStyle.EnumCouleurs.None);
             this.m_wndListeStructures.TabIndex = 5;
@@ -239,7 +237,7 @@ namespace sc2i.win32.data.dynamic
             // listViewAutoFilledColumn1
             // 
             this.listViewAutoFilledColumn1.Field = "Libelle";
-            this.listViewAutoFilledColumn1.PrecisionWidth = 0;
+            this.listViewAutoFilledColumn1.PrecisionWidth = 0D;
             this.listViewAutoFilledColumn1.ProportionnalSize = false;
             this.listViewAutoFilledColumn1.Text = "Label|50";
             this.listViewAutoFilledColumn1.Visible = true;
@@ -248,6 +246,8 @@ namespace sc2i.win32.data.dynamic
             // m_lnkSupprimerStructure
             // 
             this.m_lnkSupprimerStructure.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.m_lnkSupprimerStructure.CustomImage = ((System.Drawing.Image)(resources.GetObject("m_lnkSupprimerStructure.CustomImage")));
+            this.m_lnkSupprimerStructure.CustomText = "Remove";
             this.m_lnkSupprimerStructure.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(255)))));
             this.m_lnkSupprimerStructure.Location = new System.Drawing.Point(192, 8);
             this.m_gestionnaireModeEdition.SetModeEdition(this.m_lnkSupprimerStructure, sc2i.win32.common.TypeModeEdition.EnableSurEdition);
@@ -263,6 +263,8 @@ namespace sc2i.win32.data.dynamic
             // m_lnkModifierStructure
             // 
             this.m_lnkModifierStructure.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.m_lnkModifierStructure.CustomImage = ((System.Drawing.Image)(resources.GetObject("m_lnkModifierStructure.CustomImage")));
+            this.m_lnkModifierStructure.CustomText = "Detail";
             this.m_lnkModifierStructure.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(255)))));
             this.m_lnkModifierStructure.Location = new System.Drawing.Point(104, 8);
             this.m_gestionnaireModeEdition.SetModeEdition(this.m_lnkModifierStructure, sc2i.win32.common.TypeModeEdition.EnableSurEdition);
@@ -278,6 +280,8 @@ namespace sc2i.win32.data.dynamic
             // m_lnkAjouterStructure
             // 
             this.m_lnkAjouterStructure.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.m_lnkAjouterStructure.CustomImage = ((System.Drawing.Image)(resources.GetObject("m_lnkAjouterStructure.CustomImage")));
+            this.m_lnkAjouterStructure.CustomText = "Add";
             this.m_lnkAjouterStructure.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(255)))));
             this.m_lnkAjouterStructure.Location = new System.Drawing.Point(16, 8);
             this.m_gestionnaireModeEdition.SetModeEdition(this.m_lnkAjouterStructure, sc2i.win32.common.TypeModeEdition.EnableSurEdition);
@@ -300,7 +304,7 @@ namespace sc2i.win32.data.dynamic
             this.m_gestionnaireModeEdition.SetModeEdition(this.m_pageChamps, sc2i.win32.common.TypeModeEdition.Autonome);
             this.m_pageChamps.Name = "m_pageChamps";
             this.m_pageChamps.Selected = false;
-            this.m_pageChamps.Size = new System.Drawing.Size(696, 314);
+            this.m_pageChamps.Size = new System.Drawing.Size(712, 323);
             this.cExtStyle1.SetStyleBackColor(this.m_pageChamps, sc2i.win32.common.CExtStyle.EnumCouleurs.None);
             this.cExtStyle1.SetStyleForeColor(this.m_pageChamps, sc2i.win32.common.CExtStyle.EnumCouleurs.None);
             this.m_pageChamps.TabIndex = 1;
@@ -308,9 +312,9 @@ namespace sc2i.win32.data.dynamic
             // 
             // m_wndListeVariables
             // 
-            this.m_wndListeVariables.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.m_wndListeVariables.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.m_wndListeVariables.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.colNomChamp,
             this.m_colType});
@@ -319,7 +323,7 @@ namespace sc2i.win32.data.dynamic
             this.m_wndListeVariables.Location = new System.Drawing.Point(8, 32);
             this.m_gestionnaireModeEdition.SetModeEdition(this.m_wndListeVariables, sc2i.win32.common.TypeModeEdition.EnableSurEdition);
             this.m_wndListeVariables.Name = "m_wndListeVariables";
-            this.m_wndListeVariables.Size = new System.Drawing.Size(680, 275);
+            this.m_wndListeVariables.Size = new System.Drawing.Size(696, 284);
             this.cExtStyle1.SetStyleBackColor(this.m_wndListeVariables, sc2i.win32.common.CExtStyle.EnumCouleurs.None);
             this.cExtStyle1.SetStyleForeColor(this.m_wndListeVariables, sc2i.win32.common.CExtStyle.EnumCouleurs.None);
             this.m_wndListeVariables.TabIndex = 4;
@@ -330,7 +334,7 @@ namespace sc2i.win32.data.dynamic
             // colNomChamp
             // 
             this.colNomChamp.Field = "Nom";
-            this.colNomChamp.PrecisionWidth = 0;
+            this.colNomChamp.PrecisionWidth = 0D;
             this.colNomChamp.ProportionnalSize = false;
             this.colNomChamp.Text = "Name|253";
             this.colNomChamp.Visible = true;
@@ -339,7 +343,7 @@ namespace sc2i.win32.data.dynamic
             // m_colType
             // 
             this.m_colType.Field = "LibelleType";
-            this.m_colType.PrecisionWidth = 0;
+            this.m_colType.PrecisionWidth = 0D;
             this.m_colType.ProportionnalSize = false;
             this.m_colType.Text = "Type|254";
             this.m_colType.Visible = true;
@@ -348,6 +352,8 @@ namespace sc2i.win32.data.dynamic
             // m_btnSupprimerChamp
             // 
             this.m_btnSupprimerChamp.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.m_btnSupprimerChamp.CustomImage = ((System.Drawing.Image)(resources.GetObject("m_btnSupprimerChamp.CustomImage")));
+            this.m_btnSupprimerChamp.CustomText = "Remove";
             this.m_btnSupprimerChamp.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(255)))));
             this.m_btnSupprimerChamp.Location = new System.Drawing.Point(168, 8);
             this.m_gestionnaireModeEdition.SetModeEdition(this.m_btnSupprimerChamp, sc2i.win32.common.TypeModeEdition.EnableSurEdition);
@@ -363,6 +369,8 @@ namespace sc2i.win32.data.dynamic
             // m_btnModifierChamp
             // 
             this.m_btnModifierChamp.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.m_btnModifierChamp.CustomImage = ((System.Drawing.Image)(resources.GetObject("m_btnModifierChamp.CustomImage")));
+            this.m_btnModifierChamp.CustomText = "Detail";
             this.m_btnModifierChamp.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(255)))));
             this.m_btnModifierChamp.Location = new System.Drawing.Point(88, 8);
             this.m_gestionnaireModeEdition.SetModeEdition(this.m_btnModifierChamp, sc2i.win32.common.TypeModeEdition.EnableSurEdition);
@@ -378,6 +386,8 @@ namespace sc2i.win32.data.dynamic
             // m_btnAjouterChamp
             // 
             this.m_btnAjouterChamp.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.m_btnAjouterChamp.CustomImage = ((System.Drawing.Image)(resources.GetObject("m_btnAjouterChamp.CustomImage")));
+            this.m_btnAjouterChamp.CustomText = "Add";
             this.m_btnAjouterChamp.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(255)))));
             this.m_btnAjouterChamp.Location = new System.Drawing.Point(8, 8);
             this.m_gestionnaireModeEdition.SetModeEdition(this.m_btnAjouterChamp, sc2i.win32.common.TypeModeEdition.EnableSurEdition);
@@ -400,7 +410,7 @@ namespace sc2i.win32.data.dynamic
             this.m_gestionnaireModeEdition.SetModeEdition(this.m_pageFormulaire, sc2i.win32.common.TypeModeEdition.Autonome);
             this.m_pageFormulaire.Name = "m_pageFormulaire";
             this.m_pageFormulaire.Selected = false;
-            this.m_pageFormulaire.Size = new System.Drawing.Size(696, 314);
+            this.m_pageFormulaire.Size = new System.Drawing.Size(712, 323);
             this.cExtStyle1.SetStyleBackColor(this.m_pageFormulaire, sc2i.win32.common.CExtStyle.EnumCouleurs.None);
             this.cExtStyle1.SetStyleForeColor(this.m_pageFormulaire, sc2i.win32.common.CExtStyle.EnumCouleurs.None);
             this.m_pageFormulaire.TabIndex = 2;
@@ -422,12 +432,12 @@ namespace sc2i.win32.data.dynamic
             this.m_panelEditionFormulaire.ForeColor = System.Drawing.Color.Black;
             this.m_panelEditionFormulaire.FormesDesPoignees = sc2i.win32.common.EFormePoignee.Carre;
             this.m_panelEditionFormulaire.FournisseurProprietes = null;
-            cGrilleEditeurObjetGraphique2.Couleur = System.Drawing.Color.LightGray;
-            cGrilleEditeurObjetGraphique2.HauteurCarreau = 20;
-            cGrilleEditeurObjetGraphique2.LargeurCarreau = 20;
-            cGrilleEditeurObjetGraphique2.Representation = sc2i.win32.common.ERepresentationGrille.LignesContinues;
-            cGrilleEditeurObjetGraphique2.TailleCarreau = new System.Drawing.Size(20, 20);
-            this.m_panelEditionFormulaire.GrilleAlignement = cGrilleEditeurObjetGraphique2;
+            cGrilleEditeurObjetGraphique1.Couleur = System.Drawing.Color.LightGray;
+            cGrilleEditeurObjetGraphique1.HauteurCarreau = 20;
+            cGrilleEditeurObjetGraphique1.LargeurCarreau = 20;
+            cGrilleEditeurObjetGraphique1.Representation = sc2i.win32.common.ERepresentationGrille.LignesContinues;
+            cGrilleEditeurObjetGraphique1.TailleCarreau = new System.Drawing.Size(20, 20);
+            this.m_panelEditionFormulaire.GrilleAlignement = cGrilleEditeurObjetGraphique1;
             this.m_panelEditionFormulaire.HauteurMinimaleDesObjets = 10;
             this.m_panelEditionFormulaire.HistorisationActive = false;
             this.m_panelEditionFormulaire.LargeurMinimaleDesObjets = 10;
@@ -447,17 +457,17 @@ namespace sc2i.win32.data.dynamic
             this.m_panelEditionFormulaire.NombreHistorisation = 10;
             this.m_panelEditionFormulaire.NoMenu = false;
             this.m_panelEditionFormulaire.ObjetEdite = null;
-            cProfilEditeurObjetGraphique2.FormeDesPoignees = sc2i.win32.common.EFormePoignee.Carre;
-            cProfilEditeurObjetGraphique2.Grille = cGrilleEditeurObjetGraphique2;
-            cProfilEditeurObjetGraphique2.HistorisationActive = false;
-            cProfilEditeurObjetGraphique2.Marge = 10;
-            cProfilEditeurObjetGraphique2.ModeAffichageGrille = sc2i.win32.common.EModeAffichageGrille.AuDeplacement;
-            cProfilEditeurObjetGraphique2.NombreHistorisation = 10;
-            cProfilEditeurObjetGraphique2.ToujoursAlignerSurLaGrille = false;
-            this.m_panelEditionFormulaire.Profil = cProfilEditeurObjetGraphique2;
+            cProfilEditeurObjetGraphique1.FormeDesPoignees = sc2i.win32.common.EFormePoignee.Carre;
+            cProfilEditeurObjetGraphique1.Grille = cGrilleEditeurObjetGraphique1;
+            cProfilEditeurObjetGraphique1.HistorisationActive = false;
+            cProfilEditeurObjetGraphique1.Marge = 10;
+            cProfilEditeurObjetGraphique1.ModeAffichageGrille = sc2i.win32.common.EModeAffichageGrille.AuDeplacement;
+            cProfilEditeurObjetGraphique1.NombreHistorisation = 10;
+            cProfilEditeurObjetGraphique1.ToujoursAlignerSurLaGrille = false;
+            this.m_panelEditionFormulaire.Profil = cProfilEditeurObjetGraphique1;
             this.m_panelEditionFormulaire.RefreshSelectionChanged = true;
             this.m_panelEditionFormulaire.SelectionVisible = true;
-            this.m_panelEditionFormulaire.Size = new System.Drawing.Size(373, 314);
+            this.m_panelEditionFormulaire.Size = new System.Drawing.Size(389, 323);
             this.cExtStyle1.SetStyleBackColor(this.m_panelEditionFormulaire, sc2i.win32.common.CExtStyle.EnumCouleurs.ColorFondPanel);
             this.cExtStyle1.SetStyleForeColor(this.m_panelEditionFormulaire, sc2i.win32.common.CExtStyle.EnumCouleurs.ColorTexteFenetre);
             this.m_panelEditionFormulaire.TabIndex = 3;
@@ -468,10 +478,10 @@ namespace sc2i.win32.data.dynamic
             // splitter1
             // 
             this.splitter1.Dock = System.Windows.Forms.DockStyle.Right;
-            this.splitter1.Location = new System.Drawing.Point(517, 0);
+            this.splitter1.Location = new System.Drawing.Point(533, 0);
             this.m_gestionnaireModeEdition.SetModeEdition(this.splitter1, sc2i.win32.common.TypeModeEdition.Autonome);
             this.splitter1.Name = "splitter1";
-            this.splitter1.Size = new System.Drawing.Size(3, 314);
+            this.splitter1.Size = new System.Drawing.Size(3, 323);
             this.cExtStyle1.SetStyleBackColor(this.splitter1, sc2i.win32.common.CExtStyle.EnumCouleurs.None);
             this.cExtStyle1.SetStyleForeColor(this.splitter1, sc2i.win32.common.CExtStyle.EnumCouleurs.None);
             this.splitter1.TabIndex = 6;
@@ -485,10 +495,10 @@ namespace sc2i.win32.data.dynamic
             this.m_propertyGrid.Font = new System.Drawing.Font("Tahoma", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.World);
             this.m_propertyGrid.HelpVisible = false;
             this.m_propertyGrid.LineColor = System.Drawing.SystemColors.ScrollBar;
-            this.m_propertyGrid.Location = new System.Drawing.Point(520, 0);
+            this.m_propertyGrid.Location = new System.Drawing.Point(536, 0);
             this.m_gestionnaireModeEdition.SetModeEdition(this.m_propertyGrid, sc2i.win32.common.TypeModeEdition.Autonome);
             this.m_propertyGrid.Name = "m_propertyGrid";
-            this.m_propertyGrid.Size = new System.Drawing.Size(176, 314);
+            this.m_propertyGrid.Size = new System.Drawing.Size(176, 323);
             this.cExtStyle1.SetStyleBackColor(this.m_propertyGrid, sc2i.win32.common.CExtStyle.EnumCouleurs.None);
             this.cExtStyle1.SetStyleForeColor(this.m_propertyGrid, sc2i.win32.common.CExtStyle.EnumCouleurs.None);
             this.m_propertyGrid.TabIndex = 5;
@@ -504,17 +514,17 @@ namespace sc2i.win32.data.dynamic
             this.m_listeControles.Location = new System.Drawing.Point(0, 0);
             this.m_gestionnaireModeEdition.SetModeEdition(this.m_listeControles, sc2i.win32.common.TypeModeEdition.Autonome);
             this.m_listeControles.Name = "m_listeControles";
-            this.m_listeControles.Size = new System.Drawing.Size(144, 314);
+            this.m_listeControles.Size = new System.Drawing.Size(144, 323);
             this.cExtStyle1.SetStyleBackColor(this.m_listeControles, sc2i.win32.common.CExtStyle.EnumCouleurs.ColorFondPanel);
             this.cExtStyle1.SetStyleForeColor(this.m_listeControles, sc2i.win32.common.CExtStyle.EnumCouleurs.None);
             this.m_listeControles.TabIndex = 4;
             // 
             // m_btnOpen
             // 
-            this.m_btnOpen.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.m_btnOpen.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.m_btnOpen.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.m_btnOpen.Image = ((System.Drawing.Image)(resources.GetObject("m_btnOpen.Image")));
-            this.m_btnOpen.Location = new System.Drawing.Point(672, 361);
+            this.m_btnOpen.Location = new System.Drawing.Point(88, 354);
             this.m_gestionnaireModeEdition.SetModeEdition(this.m_btnOpen, sc2i.win32.common.TypeModeEdition.EnableSurEdition);
             this.m_btnOpen.Name = "m_btnOpen";
             this.m_btnOpen.Size = new System.Drawing.Size(24, 23);
@@ -525,10 +535,10 @@ namespace sc2i.win32.data.dynamic
             // 
             // m_btnSave
             // 
-            this.m_btnSave.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.m_btnSave.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.m_btnSave.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.m_btnSave.Image = ((System.Drawing.Image)(resources.GetObject("m_btnSave.Image")));
-            this.m_btnSave.Location = new System.Drawing.Point(648, 361);
+            this.m_btnSave.Location = new System.Drawing.Point(64, 354);
             this.m_gestionnaireModeEdition.SetModeEdition(this.m_btnSave, sc2i.win32.common.TypeModeEdition.Autonome);
             this.m_btnSave.Name = "m_btnSave";
             this.m_btnSave.Size = new System.Drawing.Size(24, 23);
@@ -539,10 +549,10 @@ namespace sc2i.win32.data.dynamic
             // 
             // m_btnPaste
             // 
-            this.m_btnPaste.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.m_btnPaste.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.m_btnPaste.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.m_btnPaste.Image = ((System.Drawing.Image)(resources.GetObject("m_btnPaste.Image")));
-            this.m_btnPaste.Location = new System.Drawing.Point(616, 361);
+            this.m_btnPaste.Location = new System.Drawing.Point(32, 354);
             this.m_gestionnaireModeEdition.SetModeEdition(this.m_btnPaste, sc2i.win32.common.TypeModeEdition.EnableSurEdition);
             this.m_btnPaste.Name = "m_btnPaste";
             this.m_btnPaste.Size = new System.Drawing.Size(24, 23);
@@ -553,10 +563,10 @@ namespace sc2i.win32.data.dynamic
             // 
             // m_btnCopy
             // 
-            this.m_btnCopy.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.m_btnCopy.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.m_btnCopy.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.m_btnCopy.Image = ((System.Drawing.Image)(resources.GetObject("m_btnCopy.Image")));
-            this.m_btnCopy.Location = new System.Drawing.Point(592, 361);
+            this.m_btnCopy.Location = new System.Drawing.Point(8, 354);
             this.m_gestionnaireModeEdition.SetModeEdition(this.m_btnCopy, sc2i.win32.common.TypeModeEdition.Autonome);
             this.m_btnCopy.Name = "m_btnCopy";
             this.m_btnCopy.Size = new System.Drawing.Size(24, 23);
@@ -625,7 +635,7 @@ namespace sc2i.win32.data.dynamic
             this.Controls.Add(this.m_btnCopy);
             this.m_gestionnaireModeEdition.SetModeEdition(this, sc2i.win32.common.TypeModeEdition.Autonome);
             this.Name = "CPanelEditMultiStructure";
-            this.Size = new System.Drawing.Size(712, 385);
+            this.Size = new System.Drawing.Size(712, 391);
             this.cExtStyle1.SetStyleBackColor(this, sc2i.win32.common.CExtStyle.EnumCouleurs.None);
             this.cExtStyle1.SetStyleForeColor(this, sc2i.win32.common.CExtStyle.EnumCouleurs.None);
             this.Load += new System.EventHandler(this.CPanelEditMultiStructure_Load);

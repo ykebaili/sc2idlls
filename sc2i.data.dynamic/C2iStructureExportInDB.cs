@@ -6,7 +6,6 @@ using System.Collections;
 using sc2i.common;
 using sc2i.data;
 
-#if !PDA_DATA
 
 namespace sc2i.data.dynamic
 {
@@ -28,7 +27,9 @@ namespace sc2i.data.dynamic
 
 		public const string c_champId = "EXPSTR_ID";
 		public const string c_champLibelle = "EXPSTR_LABEL";
-		public const string c_champData = "STREXP_DATA";
+		public const string c_champDescription = "EXPSTR_DESCRIPTION";
+		public const string c_champWebVisible = "EXPSTR_WEB_VISIBLE";
+        public const string c_champData = "STREXP_DATA";
 		public const string c_champTypeElements = "EXPSPR_ELEMENT_TYPE";
 
 		/// ///////////////////////////////////////////////////////
@@ -82,8 +83,44 @@ namespace sc2i.data.dynamic
 			}
 		}
 
-		/// ///////////////////////////////////////////////////////
-		[TableFieldProperty(c_champData,NullAutorise=true)]
+        //------------------------------------------------------
+        /// <summary>
+        /// Donne ou définit la description de la structure d'export
+        /// </summary>
+        [TableFieldProperty(c_champDescription, 1024)]
+        [DynamicField("Description")]
+        public string Description
+        {
+            get
+            {
+                return (string)Row[c_champDescription];
+            }
+            set
+            {
+                Row[c_champDescription] = value;
+            }
+        }
+        
+        /// /////////////////////////////////////////////////////////////
+        /// <summary>
+        /// Indique que l'export peut être appellée à partir d'un service web
+        /// </summary>
+        [TableFieldProperty(c_champWebVisible)]
+        [DynamicField("Web visible")]
+        public bool WebVisible
+        {
+            get
+            {
+                return (bool)Row[c_champWebVisible];
+            }
+            set
+            {
+                Row[c_champWebVisible] = value;
+            }
+        }
+
+        /// ///////////////////////////////////////////////////////
+        [TableFieldProperty(c_champData,NullAutorise=true)]
 		public CDonneeBinaireInRow Data
 		{
 			get
@@ -275,4 +312,3 @@ namespace sc2i.data.dynamic
 		
 	}
 }
-#endif

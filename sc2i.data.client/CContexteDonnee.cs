@@ -708,10 +708,7 @@ namespace sc2i.data
 			nouvelObjet.PointeSurLigne(objet.GetValeursCles());
 			return nouvelObjet;
 		}
-
-
-
-
+        
 		////////////////////////////////////////////////////////////////////////////
 		private void Init( bool bAvecNotifications )
 		{
@@ -728,8 +725,7 @@ namespace sc2i.data
                 table.RowDeleting += new DataRowChangeEventHandler(OnDeletingRow);
             }
 		}
-
-        
+               
 
 		////////////////////////////////////////////////////////////////////////////
 		protected void StartRecepteurNotifications()

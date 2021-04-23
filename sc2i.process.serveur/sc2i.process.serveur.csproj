@@ -277,9 +277,6 @@
     <Compile Include="CGestionnaireEvenements.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="CGroupeParametrageServeur.cs">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Include="CHandlerEvenementDateServeur.cs">
       <SubType>Code</SubType>
     </Compile>

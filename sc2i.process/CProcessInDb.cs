@@ -4,11 +4,9 @@ using System.IO;
 
 using sc2i.data;
 using sc2i.common;
-using sc2i.process;
-using sc2i.multitiers.client;
 using sc2i.common.recherche;
-using sc2i.process.recherche;
 using sc2i.data.dynamic.recherche;
+using sc2i.data.dynamic;
 
 namespace sc2i.process
 {
@@ -33,12 +31,7 @@ namespace sc2i.process
 		public const string c_champSurTableauDeTypeCible = "PROCESS_ON_ARRAY";
         public const string c_champWebVisible = "PROCESS_WEB_VISIBLE";
 		
-#if PDA
-		public CProcessInDb( )
-		:base()
-		{
-		}
-#endif
+
 		/// ////////////////////////////////////////////////
 		public CProcessInDb ( CContexteDonnee contexte )
 			:base ( contexte )

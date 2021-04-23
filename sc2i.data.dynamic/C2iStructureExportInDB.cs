@@ -306,9 +306,29 @@ namespace sc2i.data.dynamic
 			}
 		}
 
+        //--------------------------------------------------------------------------------------------------------
+        /// <summary>
+        /// Donne ou définit le Groupe de paramétrage auquel appartient cette strusture d'export
+        /// </summary>
+        [Relation(CGroupeParametrage.c_nomTable, CGroupeParametrage.c_champId,
+             CGroupeParametrage.c_champId,
+             false,
+             false,
+             false)]
+        [DynamicField("Parameter setting group")]
+        public CGroupeParametrage GroupeParametrage
+        {
+            get
+            {
+                return (CGroupeParametrage)GetParent(CGroupeParametrage.c_champId, typeof(CGroupeParametrage));
+            }
+            set
+            {
+                SetParent(CGroupeParametrage.c_champId, value);
+            }
+        }
+        //*/
 
-		
-		
-		
-	}
+
+    }
 }

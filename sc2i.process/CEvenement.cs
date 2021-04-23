@@ -4,17 +4,14 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Reflection;
 using System.IO;
-
+using System.Text;
 
 using sc2i.expression;
 using sc2i.common;
 using sc2i.data;
 using sc2i.data.dynamic;
-using sc2i.multitiers.client;
-using sc2i.process.recherche;
 using sc2i.common.recherche;
 using sc2i.data.dynamic.recherche;
-using System.Text;
 
 
 namespace sc2i.process

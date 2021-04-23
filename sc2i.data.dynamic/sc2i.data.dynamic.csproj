@@ -296,6 +296,7 @@
     <Compile Include="CComposantFiltreDynamiqueSousFiltre.cs" />
     <Compile Include="CDefinisseurChampsPourTypeSansDefinisseur.cs" />
     <Compile Include="CElementAVariablesDynamiquesAvecContexteFromIElementAVariablesDynamiques.cs" />
+    <Compile Include="CGroupeParametrage.cs" />
     <Compile Include="CInterpreteurOldProprieteDynamique.cs" />
     <Compile Include="CDefinitionProprieteDynamiqueRelationTypeIdToParent.cs" />
     <Compile Include="CDefinitionProprieteDynamiqueChampCustomDisplayValue.cs" />

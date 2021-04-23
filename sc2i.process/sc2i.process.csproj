@@ -418,9 +418,6 @@
     <Compile Include="CGestionnaireActionsDisponibles.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="CGroupeParametrage.cs">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Include="CHandlerEvenement.cs">
       <SubType>Code</SubType>
     </Compile>

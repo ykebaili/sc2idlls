@@ -276,6 +276,7 @@
     <Compile Include="CFournisseurFiltresForSynchronisation.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="CGroupeParametrageServeur.cs" />
     <Compile Include="CGroupeUtilisateursSynchronisationServeur.cs">
       <SubType>Code</SubType>
     </Compile>

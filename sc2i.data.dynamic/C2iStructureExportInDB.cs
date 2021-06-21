@@ -29,6 +29,7 @@ namespace sc2i.data.dynamic
 		public const string c_champLibelle = "EXPSTR_LABEL";
 		public const string c_champDescription = "EXPSTR_DESCRIPTION";
 		public const string c_champWebVisible = "EXPSTR_WEB_VISIBLE";
+		public const string c_champUpdatePeriod = "EXPSTR_UPDATE_PERIOD";
         public const string c_champData = "STREXP_DATA";
 		public const string c_champTypeElements = "EXPSPR_ELEMENT_TYPE";
 
@@ -118,6 +119,25 @@ namespace sc2i.data.dynamic
                 Row[c_champWebVisible] = value;
             }
         }
+
+        /// /////////////////////////////////////////////////////////////
+        /// <summary>
+        /// Indique la période de rafraichissement de l'export vers l'application web
+        /// </summary>
+        [TableFieldProperty(c_champUpdatePeriod)]
+        [DynamicField("Update period")]
+        public int UpdatePeriod
+        {
+            get
+            {
+                return (int)Row[c_champUpdatePeriod];
+            }
+            set
+            {
+                Row[c_champUpdatePeriod] = value;
+            }
+        }
+
 
         /// ///////////////////////////////////////////////////////
         [TableFieldProperty(c_champData,NullAutorise=true)]

@@ -28,7 +28,8 @@ namespace sc2i.data.dynamic.NommageEntite
     [Unique(false, "The Strong Name field must be unique", CNommageEntite.c_champNomFort)]
     public class CNommageEntite : CObjetDonneeAIdNumeriqueAuto,
         IObjetALectureTableComplete,
-        IElementAReferenceExterneExplicite
+        IElementAReferenceExterneExplicite,
+        IObjetSansVersion
     {
         public const string c_nomTable = "ENTITY_NAMING";
         public const string c_champId = "ENTITYNAM_ID";

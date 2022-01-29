@@ -18,7 +18,7 @@ namespace sc2i.process.Mail
     [Table(C2iMail.c_nomTable, C2iMail.c_champId, true)]
     [ObjetServeurURI("C2iMailServeur")]
     [DynamicClass("Mail")]
-    public class C2iMail : CObjetDonneeAIdNumeriqueAuto, IElementAEvenementsDefinis
+    public class C2iMail : CObjetDonneeAIdNumeriqueAuto, IElementAEvenementsDefinis, IObjetSansVersion
     {
         public const string c_nomTable = "MAIL";
         public const string c_champId = "MAIL_ID";

@@ -27,7 +27,7 @@ namespace sc2i.process.workflow
 	[ObjetServeurURI("CWorkflowServeur")]
 	[DynamicClass("Workflow")]
     [AutoExec("Autoexec")]
-	public class CWorkflow : CElementAChamp, IElementAEvenementsDefinis
+	public class CWorkflow : CElementAChamp, IElementAEvenementsDefinis, IObjetSansVersion
 	{
         public const string c_roleChampCustom = "RUN_WKF";
 

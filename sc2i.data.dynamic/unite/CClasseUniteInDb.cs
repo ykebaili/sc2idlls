@@ -30,7 +30,7 @@ namespace sc2i.data.dynamic.unite
 	[Table(CClasseUniteInDb.c_nomTable,CClasseUniteInDb.c_champId,true)]
 	[FullTableSync]
 	[DynamicClass("Unity class")]
-	public class CClasseUniteInDb : CObjetDonneeAIdNumeriqueAuto, IClasseUnite
+	public class CClasseUniteInDb : CObjetDonneeAIdNumeriqueAuto, IClasseUnite, IObjetSansVersion
 	{
 		#region Déclaration des constantes
 		public const string c_nomTable = "UNIT_CLASS";

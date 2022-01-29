@@ -2071,6 +2071,7 @@ namespace sc2i.data.serveur
                     //vider le garbage collector
                     int nNb = 0;
                     int nNbRetry = 3;
+                    
                     while (nNbRetry > 0)
                     {
                         try

@@ -29,7 +29,7 @@ namespace sc2i.process.workflow
 	[FullTableSync]
     [ObjetServeurURI("CEtapeWorkflowHistoriqueServeur")]
 	[DynamicClass("Workflow step history")]
-	public class CEtapeWorkflowHistorique :CObjetDonneeAIdNumeriqueAuto
+	public class CEtapeWorkflowHistorique :CObjetDonneeAIdNumeriqueAuto, IObjetSansVersion
 	{
 		public const string c_nomTable = "WORKFLOW_STEP_HIST";
 		public const string c_champId = "WKFSTPHST_ID";

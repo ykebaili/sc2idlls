@@ -15,7 +15,7 @@ namespace sc2i.process.workflow
 	[ObjetServeurURI("CRelationEtapeWorkflow_ChampCustomServeur")]
 	[Table(CRelationEtapeWorkflow_ChampCustom.c_nomTable, CRelationEtapeWorkflow_ChampCustom.c_champId, true)]
 	[FullTableSync]
-    public class CRelationEtapeWorkflow_ChampCustom : CRelationElementAChamp_ChampCustom
+    public class CRelationEtapeWorkflow_ChampCustom : CRelationElementAChamp_ChampCustom, IObjetSansVersion
 	{
 		public const string c_nomTable = "WKFSTP_CUSTOM_FIELD";
 		public const string c_champId = "WKFSTP_CUSTFLD_ID";

@@ -29,8 +29,7 @@ namespace sc2i.data.dynamic
     [Table(CModuleParametrage.c_nomTable, CModuleParametrage.c_champId, true)]
     [FullTableSync]
     [ObjetServeurURI("CModuleParametrageServeur")]
-    public class CModuleParametrage :   CObjetHierarchique,
-                                        IObjetALectureTableComplete
+    public class CModuleParametrage :   CObjetHierarchique, IObjetALectureTableComplete, IObjetSansVersion
     {
         public const string c_nomTable = "SETTING_MODULE";
 

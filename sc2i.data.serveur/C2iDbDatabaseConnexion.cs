@@ -251,7 +251,7 @@ namespace sc2i.data.serveur
                         m_transaction = connexion.BeginTransaction(isolationLevel);
 					}
 					m_nNbTransaction++;
-				}
+                }
 				catch ( Exception e )
 				{
 					result.EmpileErreur ( new CErreurException ( e ) );
@@ -266,7 +266,7 @@ namespace sc2i.data.serveur
 		{
 			CResultAErreur result = CResultAErreur.True;
 			m_nNbTransaction--;
-			if ( m_transaction != null && m_nNbTransaction<1)
+            if ( m_transaction != null && m_nNbTransaction<1)
 			{
 				try
 				{

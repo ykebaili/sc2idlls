@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Data;
 using System.Data.SqlClient;
+using sc2i.common;
 
 namespace sc2i.data.serveur.SQLServeur
 {

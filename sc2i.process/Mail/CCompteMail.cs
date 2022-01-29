@@ -16,8 +16,7 @@ namespace sc2i.process.Mail
     [DynamicClass("Mail Account")]
     [Evenement(CCompteMail.c_strIdEvenementBeforeRetrieve, "Before Retrieve", "Triggered before retrieving all Mails")]
     [Evenement(CCompteMail.c_strIdEvenementAfterRetrieve, "After Retrieve", "Triggered after retrieving all Mails")]
-    public class CCompteMail : CObjetDonneeAIdNumeriqueAuto,
-                                IDefinisseurEvenements
+    public class CCompteMail : CObjetDonneeAIdNumeriqueAuto, IDefinisseurEvenements, IObjetSansVersion
     {
         public const string c_nomTable = "MAIL_ACCOUNT";
         public const string c_champId = "MAILACCNT_ID";

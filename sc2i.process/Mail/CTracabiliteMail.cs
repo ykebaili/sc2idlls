@@ -10,7 +10,7 @@ namespace sc2i.process.Mail
 {
     [Table(CTracabiliteMail.c_nomTable, CTracabiliteMail.c_champId, true)]
     [ObjetServeurURI("CTracabiliteMailServeur")]
-    public class CTracabiliteMail : CObjetDonneeAIdNumeriqueAuto
+    public class CTracabiliteMail : CObjetDonneeAIdNumeriqueAuto, IObjetSansVersion
     {
         public const string c_nomTable = "MAIL_TRACKING";
         public const string c_champId = "MAILTRACK_ID";

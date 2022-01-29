@@ -154,101 +154,99 @@ namespace sc2i.data.serveur
 			m_nIdVersionDeTravail = contexteToSave.IdVersionDeTravail;
 			
 			DateTime dtTrace = DateTime.Now;
-			
-			//ATTENTION : ne surtout pas mettre la gestion par tables complètes à vrai
-			//car le contexte contient déjà des données des tables qui sont gerées
-			//par tables complètes. Donc lorsqu'on y accède, la table est
-			//là, donc on considère qu'elle est chargée entierement, mais ce
-			//n'est pas le cas car elle ne contient que des données partielles !!!
-			//contexteToSave.GestionParTabless = true;
 
-			//Sauvegarde les modifs
-			if ( contexteToSave.HasChanges() )
-			{
-				CSessionClient session = CSessionClient.GetSessionForIdSession(IdSession);
-				//Par la suite, on considère que la session n'est pas nulle
-				if ( session == null )
-				{
-					result.EmpileErreur(I.T("Invalid session|161"));
-					return result;
-				}
+            //ATTENTION : ne surtout pas mettre la gestion par tables complètes à vrai
+            //car le contexte contient déjà des données des tables qui sont gerées
+            //par tables complètes. Donc lorsqu'on y accède, la table est
+            //là, donc on considère qu'elle est chargée entierement, mais ce
+            //n'est pas le cas car elle ne contient que des données partielles !!!
+            //contexteToSave.GestionParTabless = true;
+
+            //Sauvegarde les modifs
+            if (contexteToSave.HasChanges())
+            {
+                CSessionClient session = CSessionClient.GetSessionForIdSession(IdSession);
+                //Par la suite, on considère que la session n'est pas nulle
+                if (session == null)
+                {
+                    result.EmpileErreur(I.T("Invalid session|161"));
+                    return result;
+                }
                 session.DateHeureDerniereActivite = DateTime.Now;
 
-
-				result = session.BeginTrans();
-
-				try
-				{
+                result = session.BeginTrans();
+                try
+                {
                     Hashtable tableData = new Hashtable();
-					if ( result && bShouldTraiteAvantSauvegarde)
-					{
-						bool bHasStartModeDeconnecte = contexteToSave.BeginModeDeconnecte();
-						//Fait les traitements avant sauvegarde
-						m_listeTablesARetraiterAvantSauvegarde = contexteToSave.GetTablesOrderDelete();
-						DataRowChangeEventHandler changeHandler = new DataRowChangeEventHandler ( OnChangeRowSurTableTraiteeAvantSauvegarde );
-						contexteToSave.Tables.CollectionChanged += new System.ComponentModel.CollectionChangeEventHandler(OnAddTableInContexteDuringTraitementAvantSauvegarde);
-						//Faut bien s'arreter à un moment
-						int nLimiteurBoucle = 5;
-						contexteToSave.AlwaysPreserveChange = true;
-						while ( result && m_listeTablesARetraiterAvantSauvegarde.Count != 0 && nLimiteurBoucle > 0)
-						{
-							nLimiteurBoucle--;
-							ArrayList listeTables = new ArrayList(m_listeTablesARetraiterAvantSauvegarde );
-							m_listeTablesARetraiterAvantSauvegarde.Clear();
-							foreach ( DataTable table in listeTables )
-							{
-								if ( table.Rows.Count > 0 )
-								{
-									table.RowChanged -= changeHandler;
+                    if (result && bShouldTraiteAvantSauvegarde)
+                    {
+                        bool bHasStartModeDeconnecte = contexteToSave.BeginModeDeconnecte();
+                        //Fait les traitements avant sauvegarde
+                        m_listeTablesARetraiterAvantSauvegarde = contexteToSave.GetTablesOrderDelete();
+                        DataRowChangeEventHandler changeHandler = new DataRowChangeEventHandler(OnChangeRowSurTableTraiteeAvantSauvegarde);
+                        contexteToSave.Tables.CollectionChanged += new System.ComponentModel.CollectionChangeEventHandler(OnAddTableInContexteDuringTraitementAvantSauvegarde);
+                        //Faut bien s'arreter à un moment
+                        int nLimiteurBoucle = 5;
+                        contexteToSave.AlwaysPreserveChange = true;
+                        while (result && m_listeTablesARetraiterAvantSauvegarde.Count != 0 && nLimiteurBoucle > 0)
+                        {
+                            nLimiteurBoucle--;
+                            ArrayList listeTables = new ArrayList(m_listeTablesARetraiterAvantSauvegarde);
+                            m_listeTablesARetraiterAvantSauvegarde.Clear();
+                            foreach (DataTable table in listeTables)
+                            {
+                                if (table.Rows.Count > 0)
+                                {
+                                    table.RowChanged -= changeHandler;
                                     result = CGestionnaireHookTraitementAvantSauvegarde.DoTraitementAvantSauvegarde(contexteToSave, table.TableName, tableData);
                                     if (result)
                                     {
                                         CObjetServeur objServeur = (CObjetServeur)contexteToSave.GetTableLoader(table.TableName);
                                         result = objServeur.TraitementTotalAvantSauvegarde(contexteToSave);
                                     }
-									if ( !result )
-									{
-										result.EmpileErreur(I.T("Error while checking data|162"));
-										break;
-									}
-								}
-								table.RowChanged += changeHandler;
-							}
-						}
-						contexteToSave.AlwaysPreserveChange = false;
-                        if ( bHasStartModeDeconnecte )
-						    contexteToSave.EndModeDeconnecteSansSauvegardeEtSansReject();
-					}
-					if ( !result )
-						return result;
+                                    if (!result)
+                                    {
+                                        result.EmpileErreur(I.T("Error while checking data|162"));
+                                        break;
+                                    }
+                                }
+                                table.RowChanged += changeHandler;
+                            }
+                        }
+                        contexteToSave.AlwaysPreserveChange = false;
+                        if (bHasStartModeDeconnecte)
+                            contexteToSave.EndModeDeconnecteSansSauvegardeEtSansReject();
+                    }
+                    if (!result)
+                        return result;
 
-					CDonneeNotificationModificationContexteDonnee donneeNotification = new CDonneeNotificationModificationContexteDonnee(IdSession );
-					CListeRestrictionsUtilisateurSurType restrictionsUtilisateur = new CListeRestrictionsUtilisateurSurType();
-					
-					///Stef 08/04/2008 : supprimé : la session est déjà récuperée plus haut
-					//session = CSessionClient.GetSessionForIdSession ( IdSession );
+                    CDonneeNotificationModificationContexteDonnee donneeNotification = new CDonneeNotificationModificationContexteDonnee(IdSession);
+                    CListeRestrictionsUtilisateurSurType restrictionsUtilisateur = new CListeRestrictionsUtilisateurSurType();
 
-					//La session ne peut pas être null (testé plus haut)
-					IInfoUtilisateur infoUtilisateur = session.GetInfoUtilisateur();
-					if ( infoUtilisateur != null )
-						restrictionsUtilisateur = infoUtilisateur.GetListeRestrictions(contexteToSave.IdVersionDeTravail);
-			
+                    ///Stef 08/04/2008 : supprimé : la session est déjà récuperée plus haut
+                    //session = CSessionClient.GetSessionForIdSession ( IdSession );
+
+                    //La session ne peut pas être null (testé plus haut)
+                    IInfoUtilisateur infoUtilisateur = session.GetInfoUtilisateur();
+                    if (infoUtilisateur != null)
+                        restrictionsUtilisateur = infoUtilisateur.GetListeRestrictions(contexteToSave.IdVersionDeTravail);
 
 
-					CContexteSauvegardeObjetsDonnees contexteSauvegarde = new CContexteSauvegardeObjetsDonnees ( 
-						contexteToSave,
-						donneeNotification,
-						restrictionsUtilisateur
-						);
-					
-					///Indique si cet appel à SaveAll a créé une version d'archive
+
+                    CContexteSauvegardeObjetsDonnees contexteSauvegarde = new CContexteSauvegardeObjetsDonnees(
+                        contexteToSave,
+                        donneeNotification,
+                        restrictionsUtilisateur
+                        );
+
+                    ///Indique si cet appel à SaveAll a créé une version d'archive
                     if (!contexteToSave.DisableHistorisation && CVersionDonneesObjet.EnableJournalisation && contexteToSave.IdVersionDeTravail == null)
-					{
-						CVersionDonnees version = GetVersionArchive(contexteToSave, infoUtilisateur);
-						contexteSauvegarde.VersionDonneesAssociee = version;
-					}
+                    {
+                        CVersionDonnees version = GetVersionArchive(contexteToSave, infoUtilisateur);
+                        contexteSauvegarde.VersionDonneesAssociee = version;
+                    }
 
-					//Sauvegarde les modifs ( ajouts et update )
+                    //Sauvegarde les modifs ( ajouts et update )
                     if (result && bShouldTraiteAvantSauvegarde && contexteToSave.EnableTraitementsExternes)
                     {
                         foreach (TraitementSauvegardeExterne traitement in m_listeTraitementsAvantSauvegarde)
@@ -264,12 +262,12 @@ namespace sc2i.data.serveur
                         contexteToSave.EnableTraitementsExternes)
 						DoTraitementExterneAvantSauvegarde(contexteToSave, tableData, ref result);*/
 
-					if ( result )
-						result += MySaveAll( contexteSauvegarde );
-					
-					//Récupère l'id de la version associée
-					if (contexteSauvegarde.VersionDonneesAssociee != null)
-						m_nIdVersionArchive = contexteSauvegarde.VersionDonneesAssociee.Id;
+                    if (result)
+                        result += MySaveAll(contexteSauvegarde);
+
+                    //Récupère l'id de la version associée
+                    if (contexteSauvegarde.VersionDonneesAssociee != null)
+                        m_nIdVersionArchive = contexteSauvegarde.VersionDonneesAssociee.Id;
 
                     if (result && bShouldTraiteAvantSauvegarde && contexteToSave.EnableTraitementsExternes)
                     {
@@ -280,53 +278,56 @@ namespace sc2i.data.serveur
                                 break;
                         }
                     }
-					/*if (result && DoTraitementExterneApresSauvegarde != null && 
+                    /*if (result && DoTraitementExterneApresSauvegarde != null && 
                         bShouldTraiteAvantSauvegarde && 
                         contexteToSave.EnableTraitementsExternes)
 						DoTraitementExterneApresSauvegarde ( contexteToSave, tableData, ref result );*/
-					
 
-					if ( result )
-					{
-						//traitement après sauvegarde
+
+                    if (result)
+                    {
+                        //traitement après sauvegarde
                         ArrayList lstTables = new ArrayList(contexteSauvegarde.ContexteDonnee.Tables);
-						foreach ( DataTable table in lstTables )
-						{
-							if ( table.Rows.Count > 0 )
-							{
-								CObjetServeur objServeur = (CObjetServeur)contexteToSave.GetTableLoader ( table.TableName );
-								result = objServeur.TraitementTotalApresSauvegarde(contexteToSave, result.Result);
-								if ( !result )
-								{
-									result.EmpileErreur(I.T("Error after the data checking|163"));
-									break;
-								}
-							}
-						}
-					}
+                        foreach (DataTable table in lstTables)
+                        {
+                            if (table.Rows.Count > 0)
+                            {
+                                CObjetServeur objServeur = (CObjetServeur)contexteToSave.GetTableLoader(table.TableName);
+                                result = objServeur.TraitementTotalApresSauvegarde(contexteToSave, result.Result);
+                                if (!result)
+                                {
+                                    result.EmpileErreur(I.T("Error after the data checking|163"));
+                                    break;
+                                }
+                            }
+                        }
+                    }
 
-					if ( result )
-					{
-						if ( donneeNotification.ListeModifications.Count != 0 )
-							CEnvoyeurNotification.EnvoieNotifications(new IDonneeNotification[] { donneeNotification });
-					}
-				}
-				catch ( Exception e )
-				{
-					result.EmpileErreur ( new CErreurException ( e ) );
-					result.EmpileErreur(I.T("Server Error|159"));
+                    if (result)
+                    {
+                        if (donneeNotification.ListeModifications.Count != 0)
+                            CEnvoyeurNotification.EnvoieNotifications(new IDonneeNotification[] { donneeNotification });
+                    }
+                }
+                catch (Exception e)
+                {
+                    result.EmpileErreur(new CErreurException(e));
+                    result.EmpileErreur(I.T("Server Error|159"));
                     C2iEventLog.WriteErreur("Save all error\r\n" + result.Erreur.ToString());
-				}
-				finally
-				{
-					if ( result )
-						result = session.CommitTrans();
-					else
-						session.RollbackTrans();
-				}
+                }
+                finally
+                {
+                    if (result)
+                    {
+                        result = session.CommitTrans();
+                    }
+                    else
+                    {
+                        session.RollbackTrans();
+                    }
+                }
 
-				
-			}
+            }
             //Cherche les éléments non serializable dans les extendedProperties des tables
             foreach (DataTable table in contexteToSave.Tables)
             {

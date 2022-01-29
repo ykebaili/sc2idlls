@@ -635,7 +635,7 @@ namespace sc2i.data.serveur
 		/// /////////////////////////////////////////////////////////////////
 		public int Update(DataSet dataSet)
 		{
-			int nbLigneAffectes = 0;
+            int nbLigneAffectes = 0;
 			if (m_adapter.TableMappings.Count > 0 && m_adapter.TableMappings[0].DataSetTable != "")
 				nbLigneAffectes = ExecuteCommande(dataSet.Tables[m_adapter.TableMappings[0].DataSetTable]);
 			else

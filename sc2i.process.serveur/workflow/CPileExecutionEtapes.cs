@@ -81,7 +81,7 @@ namespace sc2i.process.serveur.workflow
         //------------------------------------------------------------------------
         private void m_timerSecours_Elapsed(object sender, ElapsedEventArgs e)
         {
-            C2iEventLog.WriteInfo("DEBUG_TODO - m_timerSecours_Elapsed - m_bLoopEtapesEnCours" + m_bLoopEtapesEnCours);
+            //C2iEventLog.WriteInfo("DEBUG_TODO - m_timerSecours_Elapsed - m_bLoopEtapesEnCours" + m_bLoopEtapesEnCours);
             if (!m_bLoopEtapesEnCours)
                 LoopEtapes();
         }
@@ -126,7 +126,7 @@ namespace sc2i.process.serveur.workflow
         //Démarre la prochaine étape de la liste
         private void StartNextEtape()
         {
-            C2iEventLog.WriteInfo("DEBUG_TODO - StartNextEtape()");
+            //C2iEventLog.WriteInfo("DEBUG_TODO - StartNextEtape()");
             CParametresStartEtapeInPile parametreToRun = null;
             lock (typeof(CLockerEtapes))
             {
@@ -159,12 +159,12 @@ namespace sc2i.process.serveur.workflow
                             true));
                         req.FiltreAAppliquer = new CFiltreData(CEtapeWorkflow.c_champId + "=@1",
                             parametre.IdEtape);
-                        C2iEventLog.WriteInfo("DEBUG_TODO - StartNextEtape() - Vérifie que l'étape existe Id = " + parametre.IdEtape);
+                        //C2iEventLog.WriteInfo("DEBUG_TODO - StartNextEtape() - Vérifie que l'étape existe Id = " + parametre.IdEtape);
 
                         CResultAErreur result = req.ExecuteRequete(m_session.IdSession);
                         if (result && result.Data is DataTable && ((DataTable)result.Data).Rows.Count > 0)
                         {
-                            C2iEventLog.WriteInfo("DEBUG_TODO - StartNextEtape() - OK l'étape existe Id = " + parametre.IdEtape);
+                            //C2iEventLog.WriteInfo("DEBUG_TODO - StartNextEtape() - OK l'étape existe Id = " + parametre.IdEtape);
                             parametreToRun = parametre;
                             break;
                         }
@@ -180,7 +180,7 @@ namespace sc2i.process.serveur.workflow
         //------------------------------------------------------------------------
         private void ExecuteEtape(CParametresStartEtapeInPile parametreStart)
         {
-            C2iEventLog.WriteInfo("DEBUG_TODO - ExecuteEtape()");
+            //C2iEventLog.WriteInfo("DEBUG_TODO - ExecuteEtape()");
             List<CDonneeNotificationWorkflow> lstNotifications = new List<CDonneeNotificationWorkflow>();
 
             //TESTDBKEYTODO
@@ -192,25 +192,26 @@ namespace sc2i.process.serveur.workflow
                 {
                     CResultAErreur result = CResultAErreur.True;
                     CEtapeWorkflow etape = new CEtapeWorkflow(ctx);
-                    C2iEventLog.WriteInfo("DEBUG_TODO - ExecuteEtape() - etape.ReadIfExists(" + parametreStart.IdEtape + ")");
+                    //C2iEventLog.WriteInfo("DEBUG_TODO - ExecuteEtape() - etape.ReadIfExists(" + parametreStart.IdEtape + ")");
                     if (etape.ReadIfExists(parametreStart.IdEtape))
                     {
-                        C2iEventLog.WriteInfo("DEBUG_TODO - ExecuteEtape() OK étape existe Id = " + parametreStart.IdEtape);
+                        //C2iEventLog.WriteInfo("DEBUG_TODO - ExecuteEtape() OK étape existe Id = " + parametreStart.IdEtape);
                         result = etape.InternalSetInfosDemarrageInCurrentContext();
-                        C2iEventLog.WriteInfo("DEBUG_TODO - etape.InternalSetInfosDemarrageInCurrentContext() Id = " + parametreStart.IdEtape);
+                        //C2iEventLog.WriteInfo("DEBUG_TODO - etape.InternalSetInfosDemarrageInCurrentContext() Id = " + parametreStart.IdEtape);
                         etape.EtatCode = (int)EEtatEtapeWorkflow.Démarrée;
                         result = ctx.SaveAll(true);
-                        C2iEventLog.WriteInfo("DEBUG_TODO - ctx.SaveAll(true) Id = " + parametreStart.IdEtape + " - result = " + result.Result);
+                        //C2iEventLog.WriteInfo("DEBUG_TODO - ctx.SaveAll(true) Id = " + parametreStart.IdEtape + " - result = " + result.Result);
 
                         if (result)
                         {
-                            C2iEventLog.WriteInfo("DEBUG_TODO - before InternalRunAndSaveifOk() Id = " + parametreStart.IdEtape);
+                            //C2iEventLog.WriteInfo("DEBUG_TODO - before InternalRunAndSaveifOk() Id = " + parametreStart.IdEtape);
                             result = etape.InternalRunAndSaveifOk();
-                            C2iEventLog.WriteInfo("DEBUG_TODO - after InternalRunAndSaveifOk() Id = " + parametreStart.IdEtape);
+                            //C2iEventLog.WriteInfo("DEBUG_TODO - after InternalRunAndSaveifOk() Id = " + parametreStart.IdEtape);
                         }
                         else
+                        {
                             C2iEventLog.WriteInfo("DEBUG_TODO - InternalRunAndSaveifOk() - Erreur : " + result.MessageErreur);
-
+                        }
                         if (result && etape.CodeAffectations.Length > 0 && etape.DateFin == null)
                         {
                             CDonneeNotificationWorkflow donneeWorkflow = new CDonneeNotificationWorkflow(
@@ -222,14 +223,14 @@ namespace sc2i.process.serveur.workflow
                             lstNotifications.Add(donneeWorkflow);
                             // Déclenche l'evenement spécifique au démarrage de l'étape
                             result = etape.EnregistreEvenement(CEtapeWorkflow.c_codeEvenementOnRunStep, true);
-                            C2iEventLog.WriteInfo("DEBUG_TODO - ExecuteEtape() - etape.EnregistreEvenement()");
+                            //C2iEventLog.WriteInfo("DEBUG_TODO - ExecuteEtape() - etape.EnregistreEvenement()");
                         }
                         if (!result)
                         {
                             NoteErreurSurEtape(etape, result.MessageErreur);
                             return;
                         }
-                        C2iEventLog.WriteInfo("DEBUG_TODO - ExecuteEtape() - Fin traitement étape Id = " + parametreStart.IdEtape);
+                        //C2iEventLog.WriteInfo("DEBUG_TODO - ExecuteEtape() - Fin traitement étape Id = " + parametreStart.IdEtape);
                     }
                 }
             }
@@ -257,7 +258,7 @@ namespace sc2i.process.serveur.workflow
         //------------------------------------------------------------------------
         private void LoopEtapes()
         {
-            C2iEventLog.WriteInfo("DEBUG_TODO - LoopEtapes() - m_bLoopEtapesEnCours = " + m_bLoopEtapesEnCours);
+            //C2iEventLog.WriteInfo("DEBUG_TODO - LoopEtapes() - m_bLoopEtapesEnCours = " + m_bLoopEtapesEnCours);
             if (m_bLoopEtapesEnCours)
                 return;
 
@@ -267,7 +268,7 @@ namespace sc2i.process.serveur.workflow
             {
                 m_bLoopEtapesEnCours = true;
                 m_timerLooper.Stop();
-                C2iEventLog.WriteInfo("DEBUG_TODO - LoopEtapes() - m_timerLooper.Stop()");
+                //C2iEventLog.WriteInfo("DEBUG_TODO - LoopEtapes() - m_timerLooper.Stop()");
                 nNbEtapes = m_listeEtapes.Count;
             }
             try
@@ -297,7 +298,7 @@ namespace sc2i.process.serveur.workflow
                 m_bLoopEtapesEnCours = false;
                 m_timerLooper.Interval = c_nDelaiTimerLooper;
                 m_timerLooper.Start();
-                C2iEventLog.WriteInfo("DEBUG_TODO - LoopEtapes() - m_timerLooper.Start()");
+                //C2iEventLog.WriteInfo("DEBUG_TODO - LoopEtapes() - m_timerLooper.Start()");
             }
 
         }
@@ -319,7 +320,7 @@ namespace sc2i.process.serveur.workflow
                     ETypeApplicationCliente.Service);
                 if (!result)
                 {
-                    C2iEventLog.WriteErreur("DEBUG_TODO - AssureSession() - Failed to create Step session looper" + Environment.NewLine + result.MessageErreur);
+                    //C2iEventLog.WriteErreur("DEBUG_TODO - AssureSession() - Failed to create Step session looper" + Environment.NewLine + result.MessageErreur);
                     m_session = null;
                 }
             }
@@ -382,7 +383,7 @@ namespace sc2i.process.serveur.workflow
                 Instance.m_timerLooper.Stop();
                 Instance.m_timerLooper.Interval = c_nDelaiTimerLooper;
                 Instance.m_timerLooper.Start();
-                C2iEventLog.WriteInfo("DEBUG_TODO - AddEtapesADemarrer() - m_timerLooper.Start()");
+                //C2iEventLog.WriteInfo("DEBUG_TODO - AddEtapesADemarrer() - m_timerLooper.Start()");
             }
 
         }

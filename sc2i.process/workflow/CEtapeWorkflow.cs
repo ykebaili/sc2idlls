@@ -39,7 +39,7 @@ namespace sc2i.process.workflow
         CElementAChamp,
         IElementAEvenementsDefinis,
         IObjetDonneeAutoReferenceNavigable,
-        IElementGelable
+        IElementGelable, IObjetSansVersion
     {
         public const string c_roleChampCustom = "RUN_WKF_STEP";
 
